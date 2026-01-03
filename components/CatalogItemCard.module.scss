@@ -1,0 +1,248 @@
+.itemTop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+}
+
+.titleRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+.idLine {
+    opacity: 0.85;
+}
+
+.unlockLine {
+    margin-top: 8px;
+}
+
+.costLine {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.costLabel {
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    opacity: 0.9;
+}
+
+.costTokens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.costToken {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+}
+
+.coinIcon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: -4px;
+}
+
+.coinIcon::before,
+.coinIcon::after {
+content: "";
+content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 2px solid #0b0b0b;
+    background: rgb(255, 239, 0);
+}
+.costRow {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+  min-width: 0;
+}
+
+.currencyToken {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.value {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.num,
+.numPlain {
+  font-family: var(--num-font), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  white-space: pre;
+  font-size: 0.95rem;
+}
+
+.mutedDigit {
+  color: var(--muted);
+  opacity: 0.55;
+}
+
+.sep {
+    display: inline-block;
+    width: 10px;
+    opacity: 0.85;
+}
+
+.coinIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: -3px;
+}
+
+.coinIcon::before,
+.coinIcon::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border: 2px solid #0b0b0b;
+  background: rgb(255, 239, 0);
+}
+
+.coinIcon::before {
+  left: 2px;
+  top: 1px;
+}
+
+.coinIcon::after {
+  left: -3px;
+}
+
+.gemCircle {
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 12px;
+  color: #0b0b0b;
+  border: 1px solid #0b0b0b;
+}
+
+.gemYellow { background: #efe139; }
+.gemRed { background: #f32200; }
+.gemBlue { background: #478de4; }
+
+.dense .num,
+.dense .numPlain {
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.dense.coinIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.dense.gemCircle {
+  width: 20px;
+  height: 20px;
+  font-size: 11px;
+}
+
+@media (max-width: 420px) {
+  .costRow {
+    gap: 10px;
+  }
+
+  .num,
+  .numPlain {
+    font-size: 0.88rem;
+  }
+}
+
+.coinIcon::before {
+    left: 2px;
+    top: 1px;
+}
+
+.coinIcon::after {
+    left: -3px;
+}
+
+.gemCircle {
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+    font-size: 12px;
+    color: #0b0b0b;
+    border: 1px solid #0b0b0b;
+}
+
+.rarityBadge {
+    width: 34px;
+    height: 26px;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.rarityAA {
+    background: #F4D525;
+    color: #000;
+}
+
+.rarityA {
+    background: #141308;
+    color: #D0BE28;
+}
+
+.rarityB {
+    background: #100511;
+    color: #9E08B0;
+}
+
+.rarityC {
+    background: #050D16;
+    color: #1D8A9A;
+}
+
+.rarityD {
+    background: #041102;
+    color: #145C0B;
+}
+
+.rarityE {
+    background: #131313;
+    color: #636363;
+}

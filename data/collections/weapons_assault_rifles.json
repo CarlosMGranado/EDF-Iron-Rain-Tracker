@@ -1,0 +1,485 @@
+{
+  "id": "weapons_assault_rifles",
+  "label": "Assault rifles",
+  "icon": "assets/png/assault-rifle.png",
+  "items": [
+    {
+    "rank": "AA",
+      "id": "assault:AE-2038",
+      "name": "AE-2038",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+
+      "unlock": "Starter"
+    },
+    {
+      "id": "assault:AE-2032-ghost-bdn",
+      "name": "AE-2032-ゴーストBDN",
+      "cost": {
+        "credits": 800,
+        "yellow": 0,
+        "red": 0,
+        "blue": 5
+      },
+      "rank": "A",
+      "unlock": "M4 (NORMAL)"
+    },
+    {
+      "id": "assault:AE-2032GD-I",
+      "name": "AE-2032GD-I",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 10
+      },
+            "rank": "B",
+      "unlock": "M8 (NORMAL)"
+    },
+    {
+      "id": "assault:AE-2032-ghost-stl",
+      "name": "AE-2032-ゴーストSTL",
+      "cost": {
+        "credits": 8000,
+        "yellow": 10,
+        "red": 0,
+        "blue": 70
+      },
+      "unlock": "M18 (NORMAL)"
+    },
+    {
+      "id": "assault:AE-2040A",
+      "name": "AE-2040A",
+      "cost": {
+        "credits": 8000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 80
+      },
+      "unlock": "M15 (NORMAL)"
+    },
+    {
+      "id": "assault:AE-20NN",
+      "name": "AE-20NN",
+      "cost": {
+        "credits": 10000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 100
+      },
+      "unlock": "M23 (NORMAL)"
+    },
+    {
+      "id": "assault:AE-2040",
+      "name": "AE-2040",
+      "cost": {
+        "credits": 14000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 140
+      },
+      "unlock": "M31 (NORMAL)"
+    },
+    {
+      "id": "assault:AE-2032-ghost-pnt",
+      "name": "AE-2032-ゴーストPNT",
+      "cost": {
+        "credits": 48000,
+        "yellow": 100,
+        "red": 0,
+        "blue": 700
+      },
+      "unlock": "M4 (HARD)"
+    },
+    {
+      "id": "assault:AE-2040Ex",
+      "name": "AE-2040Ex",
+      "cost": {
+        "credits": 48000,
+        "yellow": 300,
+        "red": 0,
+        "blue": 500
+      },
+      "unlock": "M36 (NORMAL)"
+    },
+    {
+      "id": "assault:AE-2032GD-II",
+      "name": "AE-2032GD-II",
+      "cost": {
+        "credits": 53000,
+        "yellow": 400,
+        "red": 0,
+        "blue": 800
+      },
+      "rank": "D",
+      "unlock": "M13 (HARD)"
+    },
+    {
+      "id": "assault:AE-la-marseillaise",
+      "name": "AE-ラ・マルセイエーズ",
+      "cost": {
+        "credits": 59000,
+        "yellow": 800,
+        "red": 0,
+        "blue": 1100
+      },
+      "unlock": "M19 (HARD)"
+    },
+    {
+      "id": "assault:AE-2032-santa",
+      "name": "AE-2032-サンタクロース",
+      "cost": {
+        "credits": 180000,
+        "yellow": 1000,
+        "red": 0,
+        "blue": 1800
+      },
+      "unlock": "M10 (HARDEST)"
+    },
+    {
+      "id": "assault:AE-2041",
+      "name": "AE-2041",
+      "cost": {
+        "credits": 180000,
+        "yellow": 1000,
+        "red": 0,
+        "blue": 1800
+      },
+      "unlock": "M31 (HARD)"
+    },
+    {
+      "id": "assault:AE-20XX",
+      "name": "AE-20XX",
+      "cost": {
+        "credits": 200000,
+        "yellow": 1200,
+        "red": 0,
+        "blue": 2000
+      },
+      "unlock": "M31 (HARDEST)"
+    },
+    {
+      "id": "assault:AE-2041FJ",
+      "name": "AE-2041FJ",
+      "cost": {
+        "credits": 220000,
+        "yellow": 1400,
+        "red": 0,
+        "blue": 2200
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "assault:AE-2040GD-III",
+      "name": "AE-2040GD-III",
+      "cost": {
+        "credits": 480000,
+        "yellow": 1000,
+        "red": 0,
+        "blue": 4000
+      },
+      "unlock": "M34 (HARDEST)"
+    },
+    {
+      "id": "assault:AE-2032-ghost-silver",
+      "name": "AE-2032-ゴースト[銀鷲勲章]",
+      "cost": {
+        "credits": 100,
+        "yellow": 10,
+        "red": 10,
+        "blue": 10
+      },
+      "unlock": "M6 (DISASTER)"
+    },
+    {
+      "id": "assault:AE-2030",
+      "name": "AE-2030",
+      "cost": {
+        "credits": 850000,
+        "yellow": 2000,
+        "red": 0,
+        "blue": 5000
+      },
+      "unlock": "DLC Golden Storm: kill 2,500 Storm Ants"
+    },
+    {
+      "id": "assault:AW-outrage",
+      "name": "AW-アウトレイジ",
+      "cost": {
+        "credits": 800,
+        "yellow": 0,
+        "red": 0,
+        "blue": 5
+      },
+      "unlock": "M2 (NORMAL)"
+    },
+    {
+      "id": "assault:AW-rampage",
+      "name": "AW-ランページ",
+      "cost": {
+        "credits": 8000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 80
+      },
+      "unlock": "M13 (NORMAL)"
+    },
+    {
+      "id": "assault:AW-furious",
+      "name": "AW-フューリアス",
+      "cost": {
+        "credits": 8000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 80
+      },
+      "unlock": "M21 (NORMAL)"
+    },
+    {
+      "id": "assault:AW-wrath-proto",
+      "name": "AW-ラス試作型",
+      "cost": {
+        "credits": 8000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 80
+      },
+      "unlock": "M25 (NORMAL)"
+    },
+    {
+      "id": "assault:AW-furious-kai",
+      "name": "AW-フューリアス改",
+      "cost": {
+        "credits": 10000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 100
+      },
+      "unlock": "M30 (NORMAL)"
+    },
+    {
+      "id": "assault:AW-outrage-ghost",
+      "name": "AW-アウトレイジ・ゴースト",
+      "cost": {
+        "credits": 48000,
+        "yellow": 0,
+        "red": 400,
+        "blue": 400
+      },
+      "unlock": "M47 (NORMAL)"
+    },
+    {
+      "id": "assault:AW-furious2",
+      "name": "AW-フューリアス2",
+      "cost": {
+        "credits": 48000,
+        "yellow": 0,
+        "red": 400,
+        "blue": 400
+      },
+      "unlock": "M1 (HARD)"
+    },
+    {
+      "id": "assault:AW-wrath",
+      "name": "AW-ラス",
+      "cost": {
+        "credits": 48000,
+        "yellow": 0,
+        "red": 400,
+        "blue": 400
+      },
+      "unlock": "M16 (HARD)"
+    },
+    {
+      "id": "assault:AW-doppeladler",
+      "name": "AW-ドッペルアドラー",
+      "cost": {
+        "credits": 53000,
+        "yellow": 0,
+        "red": 600,
+        "blue": 600
+      },
+      "unlock": "M8 (HARD)"
+    },
+    {
+      "id": "assault:AW-furious-gd",
+      "name": "AW-フューリアスGD",
+      "cost": {
+        "credits": 53000,
+        "yellow": 0,
+        "red": 600,
+        "blue": 600
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "assault:AW-gekido",
+      "name": "AW-ゲキド",
+      "cost": {
+        "credits": 180000,
+        "yellow": 0,
+        "red": 1400,
+        "blue": 1400
+      },
+      "unlock": "M48 (HARD)"
+    },
+    {
+      "id": "assault:AW-wrath-ss",
+      "name": "AW-ラスSS",
+      "cost": {
+        "credits": 180000,
+        "yellow": 0,
+        "red": 1400,
+        "blue": 1400
+      },
+      "unlock": "M48 (HARD)"
+    },
+    {
+      "id": "assault:AW-rampage-lmi",
+      "name": "AW-ランページL.M.I.",
+      "cost": {
+        "credits": 180000,
+        "yellow": 0,
+        "red": 1400,
+        "blue": 1400
+      },
+      "unlock": "M45 (HARD)"
+    },
+    {
+      "id": "assault:AW-outrage-cruel",
+      "name": "AW-アウトレイジ・クルーエル",
+      "cost": {
+        "credits": 480000,
+        "yellow": 0,
+        "red": 2500,
+        "blue": 2500
+      },
+      "unlock": "M35 (HARDEST)"
+    },
+    {
+      "id": "assault:AW-madness",
+      "name": "AW-マッドネス",
+      "cost": {
+        "credits": 480000,
+        "yellow": 0,
+        "red": 2500,
+        "blue": 2500
+      },
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "assault:AW-wrath-artemis",
+      "name": "AW-ラス・アルテミス",
+      "cost": {
+        "credits": 480000,
+        "yellow": 0,
+        "red": 2500,
+        "blue": 2500
+      },
+      "unlock": "M42 (HARDEST)"
+    },
+    {
+      "id": "assault:AW-furious-ares",
+      "name": "AW-フューリアス・アレス",
+      "cost": {
+        "credits": 850000,
+        "yellow": 0,
+        "red": 3500,
+        "blue": 3500
+      },
+      "unlock": "DLC Golden Storm: kill 1,200 Crazy Ants"
+    },
+    {
+      "id": "assault:PG-victory",
+      "name": "PG-ヴィクトリー",
+      "cost": {
+        "credits": 8000,
+        "yellow": 80,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (NORMAL)"
+    },
+    {
+      "id": "assault:PG-jester",
+      "name": "PG-道化師",
+      "cost": {
+        "credits": 8000,
+        "yellow": 80,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M28 (NORMAL)"
+    },
+    {
+      "id": "assault:PG-puppeteer",
+      "name": "PG-傀儡師",
+      "cost": {
+        "credits": 48000,
+        "yellow": 600,
+        "red": 200,
+        "blue": 0
+      },
+      "unlock": "M44 (NORMAL)"
+    },
+    {
+      "id": "assault:PG-double-victory",
+      "name": "PG-ダブル・ビクトリー",
+      "cost": {
+        "credits": 180000,
+        "yellow": 2000,
+        "red": 800,
+        "blue": 0
+      },
+      "unlock": "M13 (HARDEST)"
+    },
+    {
+      "id": "assault:PG-puppeteer-fray",
+      "name": "PG-傀儡師・ほつれ",
+      "cost": {
+        "credits": 180000,
+        "yellow": 2000,
+        "red": 800,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "assault:PG-pinocchio",
+      "name": "PG-ピノッキオ",
+      "cost": {
+        "credits": 480000,
+        "yellow": 4000,
+        "red": 1000,
+        "blue": 0
+      },
+      "unlock": "M25 (HARDEST)"
+    },
+    {
+      "id": "assault:PG-victory-silver",
+      "name": "PG-ヴィクトリー[銀鷲勲章]",
+      "cost": {
+        "credits": 100,
+        "yellow": 10,
+        "red": 10,
+        "blue": 10
+      },
+      "unlock": "M13 (DISASTER)"
+    },
+    {
+      "id": "assault:PG-V3-GD",
+      "name": "PG-V3-GD",
+      "cost": {
+        "credits": 900000,
+        "yellow": 6000,
+        "red": 2000,
+        "blue": 0
+      },
+      "unlock": "DLC Golden Storm: kill 1,000 Silver Ants"
+    }
+  ]
+}

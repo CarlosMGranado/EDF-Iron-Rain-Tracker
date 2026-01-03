@@ -1,0 +1,369 @@
+{
+  "id": "items_revival_and_vehicles",
+  "label": "Items: Revival devices and vehicles",
+  "items": [
+    {
+      "id": "revive:PE-amor",
+      "name": "PE-アモル",
+      "cost": {
+        "credits": 0,
+        "yellow": 300,
+        "red": 0,
+        "blue": 100
+      },
+      "unlock": "M45 (EASY)"
+    },
+    {
+      "id": "revive:PE-mythical-amor",
+      "name": "PE-ミシカル・アモル",
+      "cost": {
+        "credits": 0,
+        "yellow": 1050,
+        "red": 0,
+        "blue": 350
+      },
+      "unlock": "M49 (HARD)"
+    },
+    {
+      "id": "revive:PE-amor-mass-x3",
+      "name": "PE-アモル量産型x3",
+      "cost": {
+        "credits": 0,
+        "yellow": 1875,
+        "red": 0,
+        "blue": 625
+      },
+      "unlock": "M44 (HARDEST)"
+    },
+    {
+      "id": "revive:PE-psyche",
+      "name": "PE-プシュケ",
+      "cost": {
+        "credits": 0,
+        "yellow": 300,
+        "red": 100,
+        "blue": 0
+      },
+      "unlock": "M45 (EASY)"
+    },
+    {
+      "id": "revive:PE-mythical-psyche",
+      "name": "PE-ミシカル・プシュケ",
+      "cost": {
+        "credits": 0,
+        "yellow": 1050,
+        "red": 350,
+        "blue": 0
+      },
+      "unlock": "M49 (HARD)"
+    },
+    {
+      "id": "revive:PE-psyche-mass-x3",
+      "name": "PE-プシュケ量産x3",
+      "cost": {
+        "credits": 0,
+        "yellow": 1875,
+        "red": 625,
+        "blue": 0
+      },
+      "unlock": "M44 (HARDEST)"
+    },
+    {
+      "id": "revive:PE-psyche-silver",
+      "name": "PE-プシュケ[銀鷲勲章]",
+      "cost": {
+        "credits": 0,
+        "yellow": 10,
+        "red": 10,
+        "blue": 10
+      },
+      "unlock": "Ex14 (DISASTER)"
+    },
+    {
+      "id": "revive:rebouter",
+      "name": "リブーター",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 30
+      },
+      "unlock": "M1 (EASY)"
+    },
+    {
+      "id": "revive:rebouter-x2",
+      "name": "リブーター×2",
+      "cost": {
+        "credits": 0,
+        "yellow": 350,
+        "red": 350,
+        "blue": 700
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "revive:rebouter-x3",
+      "name": "リブーター×3",
+      "cost": {
+        "credits": 0,
+        "yellow": 625,
+        "red": 625,
+        "blue": 1250
+      },
+      "unlock": "M1 (HARDEST)"
+    },
+    {
+      "id": "revive:rebouter-silver",
+      "name": "リブーター[銀鷲勲章]",
+      "cost": {
+        "credits": 0,
+        "yellow": 10,
+        "red": 10,
+        "blue": 10
+      },
+      "unlock": "(unlock not listed in snippet)"
+    },
+    {
+      "id": "revive:rebouter-III",
+      "name": "リブーターIII",
+      "cost": {
+        "credits": 0,
+        "yellow": 300,
+        "red": 300,
+        "blue": 300
+      },
+      "unlock": "M1 (EASY)"
+    },
+    {
+      "id": "revive:rebouter-IV",
+      "name": "リブーターIV",
+      "cost": {
+        "credits": 0,
+        "yellow": 900,
+        "red": 900,
+        "blue": 900
+      },
+      "unlock": "M11 (HARD)"
+    },
+    {
+      "id": "revive:rebouter-V",
+      "name": "リブーターV",
+      "cost": {
+        "credits": 0,
+        "yellow": 1600,
+        "red": 1600,
+        "blue": 1600
+      },
+      "unlock": "M3 (HARDEST)"
+    },
+    {
+      "id": "revive:illegal-rebouter-III",
+      "name": "不正リブーターIII",
+      "cost": {
+        "credits": 0,
+        "yellow": 300,
+        "red": 300,
+        "blue": 300
+      },
+      "unlock": "M1 (EASY)"
+    },
+    {
+      "id": "revive:illegal-rebouter-IV",
+      "name": "不正リブーターIV",
+      "cost": {
+        "credits": 0,
+        "yellow": 900,
+        "red": 900,
+        "blue": 900
+      },
+      "unlock": "M26 (HARD)"
+    },
+    {
+      "id": "revive:illegal-rebouter-V",
+      "name": "不正リブーターV",
+      "cost": {
+        "credits": 0,
+        "yellow": 1600,
+        "red": 1600,
+        "blue": 1600
+      },
+      "unlock": "M7 (HARDEST)"
+    },
+    {
+      "id": "revive:quick-rebouter",
+      "name": "クイック・リブーター",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 50
+      },
+      "unlock": "M4 (EASY)"
+    },
+    {
+      "id": "revive:quick-rebouter-x2",
+      "name": "クイック・リブーター×2",
+      "cost": {
+        "credits": 0,
+        "yellow": 350,
+        "red": 700,
+        "blue": 350
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "revive:quick-rebouter-x3",
+      "name": "クイック・リブーター×3",
+      "cost": {
+        "credits": 0,
+        "yellow": 625,
+        "red": 1250,
+        "blue": 625
+      },
+      "unlock": "M1 (HARDEST)"
+    },
+    {
+      "id": "revive:quick-rebouter-III",
+      "name": "クイック・リブーターIII",
+      "cost": {
+        "credits": 0,
+        "yellow": 300,
+        "red": 300,
+        "blue": 300
+      },
+      "unlock": "M4 (EASY)"
+    },
+    {
+      "id": "revive:quick-rebouter-IV",
+      "name": "クイック・リブーターIV",
+      "cost": {
+        "credits": 0,
+        "yellow": 900,
+        "red": 900,
+        "blue": 900
+      },
+      "unlock": "M11 (HARD)"
+    },
+    {
+      "id": "revive:quick-rebouter-V",
+      "name": "クイック・リブーターV",
+      "cost": {
+        "credits": 0,
+        "yellow": 1600,
+        "red": 1600,
+        "blue": 1600
+      },
+      "unlock": "M3 (HARDEST)"
+    },
+    {
+      "id": "revive:illegal-quick-rebouter-III",
+      "name": "不正クイック・リブーターIII",
+      "cost": {
+        "credits": 0,
+        "yellow": 300,
+        "red": 300,
+        "blue": 300
+      },
+      "unlock": "M4 (EASY)"
+    },
+    {
+      "id": "revive:illegal-quick-rebouter-IV",
+      "name": "不正クイック・リブーターIV",
+      "cost": {
+        "credits": 0,
+        "yellow": 900,
+        "red": 900,
+        "blue": 900
+      },
+      "unlock": "M26 (HARD)"
+    },
+    {
+      "id": "revive:illegal-quick-rebouter-V",
+      "name": "不正クイック・リブーターV",
+      "cost": {
+        "credits": 0,
+        "yellow": 1600,
+        "red": 1600,
+        "blue": 1600
+      },
+      "unlock": "M7 (HARDEST)"
+    },
+    {
+      "id": "vehicle:passenger-car",
+      "name": "乗用車 (Passenger car)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "(not listed)"
+    },
+    {
+      "id": "vehicle:truck",
+      "name": "トラック (Truck)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "(not listed)"
+    },
+    {
+      "id": "vehicle:bus",
+      "name": "バス (Bus)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "(not listed)"
+    },
+    {
+      "id": "vehicle:4wd-edf",
+      "name": "四輪駆動車(EDF仕様)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M7 (NORMAL)"
+    },
+    {
+      "id": "vehicle:wrap-car",
+      "name": "ラッピングカー",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Ultimate Edition bonus"
+    },
+    {
+      "id": "vehicle:wrap-pickup",
+      "name": "ラッピングピックアップ",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Ultimate Edition bonus"
+    },
+    {
+      "id": "vehicle:wrap-bus",
+      "name": "ラッピングバス",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Ultimate Edition bonus"
+    }
+  ]
+}
