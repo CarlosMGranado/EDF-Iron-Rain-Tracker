@@ -5,6 +5,7 @@ resources:
 - repo: self
 
 variables:
+  imageName: 'edf-ir'
   tag: '$(Build.BuildId)'
 
 stages:
@@ -19,10 +20,27 @@ stages:
     - checkout: self
 
     - task: Docker@2
-      displayName: Build an image
+      displayName: Build Docker image
       inputs:
         command: build
+        repository: $(imageName)
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: |
           $(tag)
           latest
+
+    - task: Bash@3
+      displayName: Create release metadata artifact
+      inputs:
+        targetType: inline
+        script: |
+          set -e
+          mkdir -p "$(Build.ArtifactStagingDirectory)"
+          echo "IMAGE=$(imageName)" > "$(Build.ArtifactStagingDirectory)/deploy.env"
+          echo "TAG=$(tag)" >> "$(Build.ArtifactStagingDirectory)/deploy.env"
+
+    - task: PublishBuildArtifacts@1
+      displayName: Publish artifact
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: drop
