@@ -5,41 +5,24 @@ resources:
 - repo: self
 
 variables:
-  imageName: 'myapp'
   tag: '$(Build.BuildId)'
 
 stages:
 - stage: Build
   displayName: Build image
-  jobs: 
+  jobs:
   - job: Build
     displayName: Build
     pool:
-      vmImage: ubuntu-latest
+      name: Ubuntu
     steps:
     - checkout: self
 
     - task: Docker@2
-      displayName: Build Docker image
+      displayName: Build an image
       inputs:
         command: build
-        repository: $(imageName)
-        Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
+        dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: |
           $(tag)
           latest
-
-    - task: Bash@3
-      displayName: Save image to tar
-      inputs:
-        targetType: inline
-        script: |
-          set -e
-          mkdir -p "$(Build.ArtifactStagingDirectory)"
-          docker save "$(imageName):latest" -o "$(Build.ArtifactStagingDirectory)/myapp-image.tar"
-
-    - task: PublishBuildArtifacts@1
-      displayName: Publish image artifact
-      inputs:
-        PathtoPublish: '$(Build.ArtifactStagingDirectory)/myapp-image.tar'
-        ArtifactName: drop
