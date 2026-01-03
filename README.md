@@ -19,7 +19,6 @@ npm run dev
 
 ```bash
 npm run build
-# static output ends up in ./out
 ```
 
 ## Docker (for a VPS)

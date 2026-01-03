@@ -19,10 +19,6 @@ function sumCurrency(a: Currency, b: Currency): Currency {
   };
 }
 
-function fmtCurrency(c: Currency): string {
-  return `${c.credits.toLocaleString()}c · Y ${c.yellow} · R ${c.red} · B ${c.blue}`;
-}
-
 function downloadJson(filename: string, data: unknown) {
   const text = JSON.stringify(data, null, 2);
   const blob = new Blob([text], { type: "application/json;charset=utf-8" });

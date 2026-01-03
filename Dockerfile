@@ -1,16 +1,16 @@
-FROM node:20-alpine
-
+# Build stage
+FROM node:20-alpine AS builder
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+COPY package*.json ./
 RUN npm ci
 
 COPY . .
-ENV NEXT_TELEMETRY_DISABLED=1
-
 RUN npm run build
 
-EXPOSE 3000
-ENV PORT=3000
+# Runtime stage
+FROM nginx:alpine
+COPY --from=builder /app/out /usr/share/nginx/html
 
-CMD ["npm", "run", "start"]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
