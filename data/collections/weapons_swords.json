@@ -1,7 +1,84 @@
 {
   "id": "weapons_swords",
   "label": "Swords",
-    "icon": "assets/png/sword.png",
-
-  "items": []
+  "icon": "assets/png/sword.png",
+  "items": [
+    {
+      "id": "sword-01",
+      "name": "MC Proto Arc Sword",
+      "cost": { "credits": 800, "yellow": 0, "red": 0, "blue": 5 },
+      "rank": "E",
+      "unlock": "M7 (NORMAL)"
+    },
+    {
+      "id": "sword-02",
+      "name": "MC Arc Sword Type W",
+      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
+      "rank": "E",
+      "unlock": "M14 (NORMAL)"
+    },
+    {
+      "id": "sword-03",
+      "name": "MC Arc Sword",
+      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
+      "rank": "D",
+      "unlock": "M20 (NORMAL)"
+    },
+    {
+      "id": "sword-04",
+      "name": "MC Arc Sword Type R",
+      "cost": { "credits": 10000, "yellow": 0, "red": 0, "blue": 100 },
+      "rank": "D",
+      "unlock": "M26 (NORMAL)"
+    },
+    {
+      "id": "sword-05",
+      "name": "MC Arc Sword Kai",
+      "cost": { "credits": 53000, "yellow": 0, "red": 0, "blue": 1200 },
+      "rank": "C",
+      "unlock": "M13 (HARD)"
+    },
+    {
+      "id": "sword-06",
+      "name": "MC Arc Sword Type WX",
+      "cost": { "credits": 59000, "yellow": 0, "red": 0, "blue": 1600 },
+      "rank": "C",
+      "unlock": "M47 (NORMAL)"
+    },
+    {
+      "id": "sword-07",
+      "name": "MC Arc Sword Type S",
+      "cost": { "credits": 53000, "yellow": 0, "red": 0, "blue": 1200 },
+      "rank": "C",
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "sword-08",
+      "name": "MC Arc Sword Type SX",
+      "cost": { "credits": 200000, "yellow": 0, "red": 0, "blue": 3200 },
+      "rank": "B",
+      "unlock": "M41 (HARD)"
+    },
+    {
+      "id": "sword-09",
+      "name": "MC Arc Sword Type RX",
+      "cost": { "credits": 220000, "yellow": 0, "red": 0, "blue": 3600 },
+      "rank": "B",
+      "unlock": "M40 (HARD)"
+    },
+    {
+      "id": "sword-10",
+      "name": "MC Arc Sword Type SXS",
+      "cost": { "credits": 520000, "yellow": 0, "red": 0, "blue": 5500 },
+      "rank": "A",
+      "unlock": "M24 (HARDEST)"
+    },
+    {
+      "id": "sword-11",
+      "name": "AM True Arc Saber",
+      "cost": { "credits": 1000000, "yellow": 5000, "red": 0, "blue": 5000 },
+      "rank": "AA",
+      "unlock": "Defeat 425 Sidilos"
+    }
+  ]
 }

@@ -1,7 +1,196 @@
 {
   "id": "weapons_rocket_launchers",
   "label": "Rocket launchers",
-    "icon": "assets/png/rocket-launcher.png",
-
-  "items": []
+  "icon": "assets/png/rocket-launcher.png",
+  "items": [
+    {
+      "id": "rocket-launcher-01",
+      "name": "FX Cyrus II",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 0 },
+      "rank": "E",
+      "unlock": "Starting Weapon"
+    },
+    {
+      "id": "rocket-launcher-02",
+      "name": "FX Naughty Boy",
+      "cost": { "credits": 1200, "yellow": 0, "red": 0, "blue": 10 },
+      "rank": "E",
+      "unlock": "M3 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-03",
+      "name": "FX Darius I",
+      "cost": { "credits": 10000, "yellow": 0, "red": 0, "blue": 100 },
+      "rank": "D",
+      "unlock": "M12 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-04",
+      "name": "FX Xerxes",
+      "cost": { "credits": 10000, "yellow": 0, "red": 50, "blue": 50 },
+      "rank": "D",
+      "unlock": "M21 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-05",
+      "name": "FX Naughty Boy FJ",
+      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M49 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-06",
+      "name": "FX Xerxes Largo",
+      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M40 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-07",
+      "name": "FX Hail Stinger",
+      "cost": { "credits": 48000, "yellow": 600, "red": 0, "blue": 600 },
+      "rank": "C",
+      "unlock": "M42 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-08",
+      "name": "FX Lucky Girl",
+      "cost": { "credits": 48000, "yellow": 600, "red": 0, "blue": 600 },
+      "rank": "C",
+      "unlock": "M5 (HARD)"
+    },
+    {
+      "id": "rocket-launcher-09",
+      "name": "FX Lucky Girl SB",
+      "cost": { "credits": 200000, "yellow": 1600, "red": 0, "blue": 1600 },
+      "rank": "B",
+      "unlock": "M49 (HARD)"
+    },
+    {
+      "id": "rocket-launcher-10",
+      "name": "FX Hail Buster",
+      "cost": { "credits": 220000, "yellow": 1800, "red": 0, "blue": 1800 },
+      "rank": "B",
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-11",
+      "name": "FX Xerxes Ambition",
+      "cost": { "credits": 200000, "yellow": 0, "red": 1600, "blue": 1600 },
+      "rank": "B",
+      "unlock": "M51 (HARD)"
+    },
+    {
+      "id": "rocket-launcher-12",
+      "name": "FX Cyrus II Conquest",
+      "cost": { "credits": 520000, "yellow": 0, "red": 3500, "blue": 2000 },
+      "rank": "A",
+      "unlock": "M35 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-13",
+      "name": "FX Naughty Boy Jr.",
+      "cost": { "credits": 560000, "yellow": 0, "red": 3000, "blue": 3000 },
+      "rank": "A",
+      "unlock": "M37 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-14",
+      "name": "FX Xerxes Fate",
+      "cost": { "credits": 520000, "yellow": 0, "red": 2250, "blue": 2250 },
+      "rank": "A",
+      "unlock": "Ex02 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-15",
+      "name": "FX Hail Stinger Duo",
+      "cost": { "credits": 560000, "yellow": 3000, "red": 0, "blue": 3000 },
+      "rank": "A",
+      "unlock": "M42 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-16",
+      "name": "FX Darius III",
+      "cost": { "credits": 900000, "yellow": 0, "red": 5000, "blue": 3000 },
+      "rank": "AA",
+      "unlock": "Defeat 400 Scourgers"
+    },
+    {
+      "id": "rocket-launcher-17",
+      "name": "RC Fermi",
+      "cost": { "credits": 2400, "yellow": 10, "red": 0, "blue": 10 },
+      "rank": "E",
+      "unlock": "M9 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-18",
+      "name": "RC Fermi Coda",
+      "cost": { "credits": 14000, "yellow": 70, "red": 0, "blue": 70 },
+      "rank": "D",
+      "unlock": "M26 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-19",
+      "name": "RC Gauss",
+      "cost": { "credits": 14000, "yellow": 70, "red": 0, "blue": 70 },
+      "rank": "D",
+      "unlock": "M31 (NORMAL)"
+    },
+    {
+      "id": "rocket-launcher-20",
+      "name": "RC Fermi Fine",
+      "cost": { "credits": 59000, "yellow": 800, "red": 0, "blue": 800 },
+      "rank": "C",
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "rocket-launcher-21",
+      "name": "RC Maxwell",
+      "cost": { "credits": 59000, "yellow": 800, "red": 0, "blue": 800 },
+      "rank": "C",
+      "unlock": "M28 (HARD)"
+    },
+    {
+      "id": "rocket-launcher-22",
+      "name": "RC Gauss L.M.I.",
+      "cost": { "credits": 59000, "yellow": 800, "red": 0, "blue": 800 },
+      "rank": "C",
+      "unlock": "M23 (HARD)"
+    },
+    {
+      "id": "rocket-launcher-23",
+      "name": "RC Italia Turita",
+      "cost": { "credits": 220000, "yellow": 1800, "red": 0, "blue": 1800 },
+      "rank": "B",
+      "unlock": "M2 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-24",
+      "name": "RC Faraday",
+      "cost": { "credits": 220000, "yellow": 1800, "red": 0, "blue": 1800 },
+      "rank": "B",
+      "unlock": "M7 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-25",
+      "name": "RC Gennai",
+      "cost": { "credits": 200000, "yellow": 1600, "red": 0, "blue": 1600 },
+      "rank": "B",
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-26",
+      "name": "RC Maxwell Demon",
+      "cost": { "credits": 560000, "yellow": 3000, "red": 0, "blue": 3000 },
+      "rank": "A",
+      "unlock": "M30 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-27",
+      "name": "RC Gennai II",
+      "cost": { "credits": 560000, "yellow": 3000, "red": 0, "blue": 3000 },
+      "rank": "A",
+      "unlock": "M38 (HARDEST)"
+    }
+  ]
 }

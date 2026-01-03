@@ -1,7 +1,35 @@
 {
   "id": "weapons_special_and_heavy",
-  "label": "Special and heavy",
-    "icon": "assets/png/special-weapon.png",
-
-  "items": []
+  "label": "Special Weapons",
+  "icon": "assets/png/special-weapon.png",
+  "items": [
+    {
+      "id": "special-weapon-01",
+      "name": "ER Super Chainsaw",
+      "cost": { "credits": 48000, "yellow": 500, "red": 0, "blue": 500 },
+      "rank": "C",
+      "unlock": "M.I.A. Drones 42 collected"
+    },
+    {
+      "id": "special-weapon-02",
+      "name": "ER Super Chainsaw EDF Spec",
+      "cost": { "credits": 480000, "yellow": 2500, "red": 0, "blue": 2500 },
+      "rank": "A",
+      "unlock": "M.I.A. Drones 55 collected"
+    },
+    {
+      "id": "special-weapon-03",
+      "name": "MR Glue Launcher",
+      "cost": { "credits": 8000, "yellow": 0, "red": 50, "blue": 50 },
+      "rank": "D",
+      "unlock": "M.I.A. Drones 25 collected"
+    },
+    {
+      "id": "special-weapon-04",
+      "name": "MR Glue Launcher Ultra",
+      "cost": { "credits": 180000, "yellow": 0, "red": 1600, "blue": 1600 },
+      "rank": "B",
+      "unlock": "M.I.A. Drones 52 collected"
+    }
+  ]
 }

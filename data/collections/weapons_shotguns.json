@@ -1,7 +1,175 @@
 {
   "id": "weapons_shotguns",
   "label": "Shotguns",
-    "icon": "assets/png/shotgun.png",
-
-  "items": []
+  "icon": "assets/png/shotgun.png",
+  "items": [
+    {
+      "id": "shotgun-01",
+      "name": "SP-20X",
+      "cost": { "credits": 800, "yellow": 0, "red": 0, "blue": 5 },
+      "rank": "E",
+      "unlock": "Starting Weapon"
+    },
+    {
+      "id": "shotgun-02",
+      "name": "SP Cornet",
+      "cost": { "credits": 1200, "yellow": 0, "red": 5, "blue": 5 },
+      "rank": "E",
+      "unlock": "M6 (NORMAL)"
+    },
+    {
+      "id": "shotgun-03",
+      "name": "SP 30Y DA",
+      "cost": { "credits": 8000, "yellow": 0, "red": 40, "blue": 40 },
+      "rank": "D",
+      "unlock": "M13 (NORMAL)"
+    },
+    {
+      "id": "shotgun-04",
+      "name": "SP Cornet Ex",
+      "cost": { "credits": 10000, "yellow": 0, "red": 50, "blue": 50 },
+      "rank": "D",
+      "unlock": "M20 (NORMAL)"
+    },
+    {
+      "id": "shotgun-05",
+      "name": "SP Sarsan",
+      "cost": { "credits": 10000, "yellow": 0, "red": 50, "blue": 50 },
+      "rank": "D",
+      "unlock": "M16 (NORMAL)"
+    },
+    {
+      "id": "shotgun-06",
+      "name": "SP Kalahari",
+      "cost": { "credits": 10000, "yellow": 0, "red": 50, "blue": 50 },
+      "rank": "D",
+      "unlock": "M14 (NORMAL)"
+    },
+    {
+      "id": "shotgun-07",
+      "name": "SP 20X SS",
+      "cost": { "credits": 48000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M37 (NORMAL)"
+    },
+    {
+      "id": "shotgun-08",
+      "name": "SP Euphonium GD",
+      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M14 (HARD)"
+    },
+    {
+      "id": "shotgun-09",
+      "name": "SP 70X",
+      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "shotgun-10",
+      "name": "SP Sahara",
+      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "shotgun-11",
+      "name": "AE 50Y GD",
+      "cost": { "credits": 200000, "yellow": 0, "red": 1600, "blue": 1600 },
+      "rank": "B",
+      "unlock": "M43 (HARD)"
+    },
+    {
+      "id": "shotgun-12",
+      "name": "SP Trumpet",
+      "cost": { "credits": 200000, "yellow": 0, "red": 1600, "blue": 1600 },
+      "rank": "B",
+      "unlock": "M50 (HARD)"
+    },
+    {
+      "id": "shotgun-13",
+      "name": "SP Sarsan Late Model",
+      "cost": { "credits": 200000, "yellow": 0, "red": 1600, "blue": 1600 },
+      "rank": "B",
+      "unlock": "M47 (HARD)"
+    },
+    {
+      "id": "shotgun-14",
+      "name": "SP Sahara Modified",
+      "cost": { "credits": 200000, "yellow": 0, "red": 1600, "blue": 1600 },
+      "rank": "B",
+      "unlock": "M8 (HARDEST)"
+    },
+    {
+      "id": "shotgun-15",
+      "name": "PC Hurricane",
+      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
+      "rank": "D",
+      "unlock": "M23 (NORMAL)"
+    },
+    {
+      "id": "shotgun-16",
+      "name": "PC Puncher",
+      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
+      "rank": "D",
+      "unlock": "M27 (NORMAL)"
+    },
+    {
+      "id": "shotgun-17",
+      "name": "PC Green Cross",
+      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
+      "rank": "D",
+      "unlock": "M32 (NORMAL)"
+    },
+    {
+      "id": "shotgun-18",
+      "name": "PC Tornado",
+      "cost": { "credits": 48000, "yellow": 600, "red": 600, "blue": 0 },
+      "rank": "C",
+      "unlock": "M39 (NORMAL)"
+    },
+    {
+      "id": "shotgun-19",
+      "name": "PC Hard Puncher",
+      "cost": { "credits": 53000, "yellow": 600, "red": 600, "blue": 0 },
+      "rank": "C",
+      "unlock": "M29 (HARD)"
+    },
+    {
+      "id": "shotgun-20",
+      "name": "PC Green Mega Cross",
+      "cost": { "credits": 53000, "yellow": 600, "red": 600, "blue": 0 },
+      "rank": "C",
+      "unlock": "M30 (HARD)"
+    },
+    {
+      "id": "shotgun-21",
+      "name": "PC Tornado Millionaire",
+      "cost": { "credits": 200000, "yellow": 1600, "red": 1600, "blue": 0 },
+      "rank": "B",
+      "unlock": "M3 (HARDEST)"
+    },
+    {
+      "id": "shotgun-22",
+      "name": "PC Soccer Punch",
+      "cost": { "credits": 200000, "yellow": 1600, "red": 1600, "blue": 0 },
+      "rank": "B",
+      "unlock": "M12 (HARDEST)"
+    },
+    {
+      "id": "shotgun-23",
+      "name": "PC Typhoon",
+      "cost": { "credits": 520000, "yellow": 2750, "red": 2750, "blue": 0 },
+      "rank": "A",
+      "unlock": "M31 (HARDEST)"
+    },
+    {
+      "id": "shotgun-24",
+      "name": "PC Hurricane L.M.I.",
+      "cost": { "credits": 950000, "yellow": 4500, "red": 4500, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 110 Queen Ants"
+    }
+  ]
 }

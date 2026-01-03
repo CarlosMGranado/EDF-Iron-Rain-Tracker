@@ -1,7 +1,231 @@
 {
   "id": "weapons_missile_launchers",
   "label": "Missile launchers",
-    "icon": "assets/png/missile-launcher.png",
-
-  "items": []
+  "icon": "assets/png/missile-launcher.png",
+  "items": [
+    {
+      "id": "missile-launcher-01",
+      "name": "SQ Sky Waltz",
+      "cost": { "credits": 2400, "yellow": 0, "red": 20, "blue": 0 },
+      "rank": "E",
+      "unlock": "M10 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-02",
+      "name": "SQ Sky Tango",
+      "cost": { "credits": 800, "yellow": 0, "red": 5, "blue": 0 },
+      "rank": "E",
+      "unlock": "M1 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-03",
+      "name": "6 Rack Multiple Missile",
+      "cost": { "credits": 2400, "yellow": 0, "red": 20, "blue": 0 },
+      "rank": "E",
+      "unlock": "M11 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-04",
+      "name": "SQ Sky Rumba",
+      "cost": { "credits": 14000, "yellow": 0, "red": 140, "blue": 0 },
+      "rank": "D",
+      "unlock": "M27 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-05",
+      "name": "SQ Sky Waltz GD",
+      "cost": { "credits": 14000, "yellow": 0, "red": 140, "blue": 0 },
+      "rank": "D",
+      "unlock": "M29 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-06",
+      "name": "SQ 6 Rack Multiple Missile Type A",
+      "cost": { "credits": 20000, "yellow": 0, "red": 200, "blue": 0 },
+      "rank": "D",
+      "unlock": "M34 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-07",
+      "name": "SQ Mauna Kea",
+      "cost": { "credits": 14000, "yellow": 140, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "M40 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-08",
+      "name": "SQ Sky Salsa",
+      "cost": { "credits": 59000, "yellow": 0, "red": 1600, "blue": 0 },
+      "rank": "C",
+      "unlock": "M22 (HARD)"
+    },
+    {
+      "id": "missile-launcher-09",
+      "name": "SQ Sky Tango Second Heat",
+      "cost": { "credits": 48000, "yellow": 0, "red": 800, "blue": 0 },
+      "rank": "C",
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "missile-launcher-10",
+      "name": "SQ 6 Rack Multiple Missile FJ",
+      "cost": { "credits": 53000, "yellow": 0, "red": 1200, "blue": 0 },
+      "rank": "C",
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "missile-launcher-11",
+      "name": "SQ Mauna Kea Kai",
+      "cost": { "credits": 59000, "yellow": 1600, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "M25 (HARD)"
+    },
+    {
+      "id": "missile-launcher-12",
+      "name": "SQ Sky Waltz Encore",
+      "cost": { "credits": 240000, "yellow": 0, "red": 4000, "blue": 0 },
+      "rank": "B",
+      "unlock": "M29 (HARD)"
+    },
+    {
+      "id": "missile-launcher-13",
+      "name": "SQ Sky Rumba Re",
+      "cost": { "credits": 200000, "yellow": 0, "red": 3200, "blue": 0 },
+      "rank": "B",
+      "unlock": "M32 (HARD)"
+    },
+    {
+      "id": "missile-launcher-14",
+      "name": "SQ Sky Tango Final Heat",
+      "cost": { "credits": 480000, "yellow": 0, "red": 5000, "blue": 0 },
+      "rank": "A",
+      "unlock": "M37 (HARDEST)"
+    },
+    {
+      "id": "missile-launcher-15",
+      "name": "SQ Sky Salsa GD",
+      "cost": { "credits": 580000, "yellow": 0, "red": 6400, "blue": 0 },
+      "rank": "A",
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "missile-launcher-16",
+      "name": "SQ 6 Rack Multiple Missile Type A Type II",
+      "cost": { "credits": 560000, "yellow": 0, "red": 6000, "blue": 0 },
+      "rank": "A",
+      "unlock": "M41 (HARDEST)"
+    },
+    {
+      "id": "missile-launcher-17",
+      "name": "SQ Volcano",
+      "cost": { "credits": 560000, "yellow": 6000, "red": 0, "blue": 0 },
+      "rank": "A",
+      "unlock": "M46 (HARDEST)"
+    },
+    {
+      "id": "missile-launcher-18",
+      "name": "WS Napier Laser",
+      "cost": { "credits": 2400, "yellow": 20, "red": 0, "blue": 0 },
+      "rank": "E",
+      "unlock": "M22 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-19",
+      "name": "WS Integral Ray",
+      "cost": { "credits": 14000, "yellow": 140, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "M38 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-20",
+      "name": "WS Sigma Sphere",
+      "cost": { "credits": 20000, "yellow": 200, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "M33 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-21",
+      "name": "WS Napier Laser S",
+      "cost": { "credits": 20000, "yellow": 200, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "M42 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-22",
+      "name": "WS Integral Ray F",
+      "cost": { "credits": 53000, "yellow": 1200, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "M50 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-23",
+      "name": "WS Sigma Sphere Xi",
+      "cost": { "credits": 59000, "yellow": 1600, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "M48 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-24",
+      "name": "WS Napier Laser SC",
+      "cost": { "credits": 59000, "yellow": 1600, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "M20 (HARD)"
+    },
+    {
+      "id": "missile-launcher-25",
+      "name": "WS Antiproton Cloud",
+      "cost": { "credits": 48000, "yellow": 2000, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "Recover 45 M.I.A. Drones"
+    },
+    {
+      "id": "missile-launcher-26",
+      "name": "WS Integral FdX",
+      "cost": { "credits": 220000, "yellow": 3600, "red": 0, "blue": 0 },
+      "rank": "B",
+      "unlock": "M37 (HARD)"
+    },
+    {
+      "id": "missile-launcher-27",
+      "name": "WS Sigma Sphere Limit",
+      "cost": { "credits": 200000, "yellow": 3200, "red": 0, "blue": 0 },
+      "rank": "B",
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "missile-launcher-28",
+      "name": "WS Integral Ray Divergence",
+      "cost": { "credits": 560000, "yellow": 6000, "red": 0, "blue": 0 },
+      "rank": "A",
+      "unlock": "M46 (HARDEST)"
+    },
+    {
+      "id": "missile-launcher-29",
+      "name": "WS Sigma Sphere Nabla",
+      "cost": { "credits": 520000, "yellow": 5500, "red": 0, "blue": 0 },
+      "rank": "A",
+      "unlock": "Ex11 (NORMAL)"
+    },
+    {
+      "id": "missile-launcher-30",
+      "name": "WS Napier Laser Hyperbolic",
+      "cost": { "credits": 560000, "yellow": 6000, "red": 0, "blue": 0 },
+      "rank": "A",
+      "unlock": "M48 (HARDEST)"
+    },
+    {
+      "id": "missile-launcher-31",
+      "name": "WS Antiproton Cloud 2 mol",
+      "cost": { "credits": 580000, "yellow": 6400, "red": 0, "blue": 0 },
+      "rank": "A",
+      "unlock": "M50 (HARDEST)"
+    },
+    {
+      "id": "missile-launcher-32",
+      "name": "WS Godfried",
+      "cost": { "credits": 900000, "yellow": 8000, "red": 0, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 90 Super Harvesters"
+    }
+  ]
 }

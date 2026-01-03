@@ -2,6 +2,211 @@
   "id": "weapons_laser_rifles",
   "label": "Laser rifles",
   "icon": "assets/png/laser-rifle.png",
+  "items": [
+    {
+      "id": "laser-rifle-01",
+      "name": "BS Opx.A1 \"Alice\"",
+      "cost": { "credits": 1800, "yellow": 5, "red": 10, "blue": 0 },
+      "rank": "E",
+      "unlock": "M10 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-02",
+      "name": "BS Opx.C1 \"Celia\"",
+      "cost": { "credits": 1800, "yellow": 5, "red": 0, "blue": 10 },
+      "rank": "E",
+      "unlock": "M24 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-03",
+      "name": "BS Opx.A3 \"Aisha\"",
+      "cost": { "credits": 8000, "yellow": 0, "red": 25, "blue": 75 },
+      "rank": "D",
+      "unlock": "Recover 21 M.I.A. Drones"
+    },
+    {
+      "id": "laser-rifle-04",
+      "name": "BS Opx.C2 \"Charlotte\"",
+      "cost": { "credits": 8000, "yellow": 0, "red": 25, "blue": 75 },
+      "rank": "D",
+      "unlock": "Recover 23 M.I.A. Drones"
+    },
+    {
+      "id": "laser-rifle-05",
+      "name": "BS Blaster Gun",
+      "cost": { "credits": 8000, "yellow": 0, "red": 25, "blue": 75 },
+      "rank": "D",
+      "unlock": "Recover 27 M.I.A. Drones"
+    },
+    {
+      "id": "laser-rifle-06",
+      "name": "BS Opx.A3 \"Abigail\"",
+      "cost": { "credits": 48000, "yellow": 0, "red": 200, "blue": 600 },
+      "rank": "C",
+      "unlock": "M10 (HARD)"
+    },
+    {
+      "id": "laser-rifle-07",
+      "name": "BS Opx.E1 \"Elizabeth\"",
+      "cost": { "credits": 59000, "yellow": 0, "red": 400, "blue": 1200 },
+      "rank": "C",
+      "unlock": "M16 (HARD)"
+    },
+    {
+      "id": "laser-rifle-08",
+      "name": "BS Opx.G1 \"Gabriela\"",
+      "cost": { "credits": 53000, "yellow": 0, "red": 300, "blue": 900 },
+      "rank": "C",
+      "unlock": "M19 (HARD)"
+    },
+    {
+      "id": "laser-rifle-09",
+      "name": "BS Blaster Gun III",
+      "cost": { "credits": 53000, "yellow": 0, "red": 300, "blue": 900 },
+      "rank": "C",
+      "unlock": "M22 (HARD)"
+    },
+    {
+      "id": "laser-rifle-10",
+      "name": "BS Opx.A4 \"Aya\"",
+      "cost": { "credits": 180000, "yellow": 0, "red": 700, "blue": 2100 },
+      "rank": "B",
+      "unlock": "M34 (HARD)"
+    },
+    {
+      "id": "laser-rifle-11",
+      "name": "BS Opx.G2 \"Grace\"",
+      "cost": { "credits": 220000, "yellow": 0, "red": 900, "blue": 2700 },
+      "rank": "B",
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "laser-rifle-12",
+      "name": "BS Opx.A5 \"Anastasia\"",
+      "cost": { "credits": 480000, "yellow": 0, "red": 1250, "blue": 3750 },
+      "rank": "A",
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "laser-rifle-13",
+      "name": "BS Opx.E2 \"Emma\"",
+      "cost": { "credits": 520000, "yellow": 0, "red": 2250, "blue": 2250 },
+      "rank": "A",
+      "unlock": "Ex05 (HARDEST)"
+    },
+    {
+      "id": "laser-rifle-14",
+      "name": "BS Blaster Gun V",
+      "cost": { "credits": 520000, "yellow": 0, "red": 1000, "blue": 4500 },
+      "rank": "A",
+      "unlock": "M50 (HARDEST)"
+    },
+    {
+      "id": "laser-rifle-15",
+      "name": "BS Opx.N1 \"Natsuko\"",
+      "cost": { "credits": 950000, "yellow": 0, "red": 2250, "blue": 6750 },
+      "rank": "AA",
+      "unlock": "Defeat 200 Super Attack Pods"
+    },
 
-  "items": []
+    {
+      "id": "laser-rifle-16",
+      "name": "GK Assault Chaser",
+      "cost": { "credits": 1800, "yellow": 5, "red": 10, "blue": 0 },
+      "rank": "E",
+      "unlock": "M8 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-17",
+      "name": "GK Exotic Ray",
+      "cost": { "credits": 14000, "yellow": 40, "red": 100, "blue": 0 },
+      "rank": "D",
+      "unlock": "M35 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-18",
+      "name": "GK Mass Produced Chaser",
+      "cost": { "credits": 20000, "yellow": 50, "red": 150, "blue": 0 },
+      "rank": "D",
+      "unlock": "M36 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-19",
+      "name": "GK High Low Beam",
+      "cost": { "credits": 20000, "yellow": 50, "red": 150, "blue": 0 },
+      "rank": "D",
+      "unlock": "M37 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-20",
+      "name": "GK Anti Air Chaser",
+      "cost": { "credits": 59000, "yellow": 400, "red": 1200, "blue": 0 },
+      "rank": "C",
+      "unlock": "M48 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-21",
+      "name": "GK High Low Beam Kai",
+      "cost": { "credits": 240000, "yellow": 1000, "red": 3000, "blue": 0 },
+      "rank": "B",
+      "unlock": "M34 (HARD)"
+    },
+    {
+      "id": "laser-rifle-22",
+      "name": "GK Chaser Rifle",
+      "cost": { "credits": 240000, "yellow": 1000, "red": 3000, "blue": 0 },
+      "rank": "B",
+      "unlock": "M35 (HARD)"
+    },
+
+    {
+      "id": "laser-rifle-23",
+      "name": "CM Baryon",
+      "cost": { "credits": 2400, "yellow": 0, "red": 5, "blue": 15 },
+      "rank": "E",
+      "unlock": "M15 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-24",
+      "name": "CM Maser Rifle Prototype",
+      "cost": { "credits": 20000, "yellow": 50, "red": 0, "blue": 150 },
+      "rank": "D",
+      "unlock": "M25 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-25",
+      "name": "CM Baryon D",
+      "cost": { "credits": 4800, "yellow": 0, "red": 200, "blue": 600 },
+      "rank": "C",
+      "unlock": "M35 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-26",
+      "name": "CM Maser Rifle Mass Production Prototype",
+      "cost": { "credits": 48000, "yellow": 1000, "red": 0, "blue": 1000 },
+      "rank": "C",
+      "unlock": "M39 (NORMAL)"
+    },
+    {
+      "id": "laser-rifle-27",
+      "name": "CM Maser Rifle Power Test Model",
+      "cost": { "credits": 220000, "yellow": 900, "red": 0, "blue": 2700 },
+      "rank": "B",
+      "unlock": "M32 (HARD)"
+    },
+    {
+      "id": "laser-rifle-28",
+      "name": "CM Baryon S",
+      "cost": { "credits": 560000, "yellow": 0, "red": 1500, "blue": 4500 },
+      "rank": "A",
+      "unlock": "M29 (HARDEST)"
+    },
+    {
+      "id": "laser-rifle-29",
+      "name": "CM Maser Rifle",
+      "cost": { "credits": 950000, "yellow": 2250, "red": 0, "blue": 6750 },
+      "rank": "AA",
+      "unlock": "Defeat 2000 Attack Pods"
+    }
+  ]
 }

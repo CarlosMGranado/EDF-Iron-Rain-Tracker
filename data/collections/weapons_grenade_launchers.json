@@ -1,6 +1,197 @@
 {
   "id": "weapons_grenade_launchers",
   "label": "Grenade launchers",
-    "icon": "assets/png/granade-launcher.png",
-  "items": []
+  "icon": "assets/png/granade-launcher.png",
+  "items": [
+    {
+      "id": "grenade-launcher-01",
+      "name": "TF Anger",
+      "cost": { "credits": 1200, "yellow": 0, "red": 10, "blue": 0 },
+      "rank": "E",
+      "unlock": "M5 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-02",
+      "name": "TF Grudge",
+      "cost": { "credits": 1800, "yellow": 0, "red": 15, "blue": 0 },
+      "rank": "E",
+      "unlock": "M7 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-03",
+      "name": "TF Anger 3 Way",
+      "cost": { "credits": 10000, "yellow": 0, "red": 100, "blue": 0 },
+      "rank": "D",
+      "unlock": "M14 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-04",
+      "name": "TF Grudge P",
+      "cost": { "credits": 14000, "yellow": 0, "red": 140, "blue": 0 },
+      "rank": "D",
+      "unlock": "M17 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-05",
+      "name": "TF Flame Anger",
+      "cost": { "credits": 14000, "yellow": 0, "red": 140, "blue": 0 },
+      "rank": "D",
+      "unlock": "M18 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-06",
+      "name": "TF Anger GD",
+      "cost": { "credits": 48000, "yellow": 0, "red": 800, "blue": 0 },
+      "rank": "C",
+      "unlock": "M2 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-07",
+      "name": "TF Grudge P 3 Way",
+      "cost": { "credits": 53000, "yellow": 0, "red": 1200, "blue": 0 },
+      "rank": "C",
+      "unlock": "M14 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-08",
+      "name": "TF Flame Anger Kai",
+      "cost": { "credits": 59000, "yellow": 0, "red": 1600, "blue": 0 },
+      "rank": "C",
+      "unlock": "M11 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-09",
+      "name": "TF Assault Type Anger",
+      "cost": { "credits": 180000, "yellow": 0, "red": 2800, "blue": 0 },
+      "rank": "B",
+      "unlock": "M46 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-10",
+      "name": "TF Grudge Epimetheus",
+      "cost": { "credits": 220000, "yellow": 0, "red": 3600, "blue": 0 },
+      "rank": "B",
+      "unlock": "M49 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-11",
+      "name": "TF Flame Anger Persephone",
+      "cost": { "credits": 200000, "yellow": 0, "red": 3200, "blue": 0 },
+      "rank": "B",
+      "unlock": "M45 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-12",
+      "name": "TF Anger Prometheus",
+      "cost": { "credits": 480000, "yellow": 0, "red": 5000, "blue": 0 },
+      "rank": "A",
+      "unlock": "M49 (HARDEST)"
+    },
+    {
+      "id": "grenade-launcher-13",
+      "name": "TF Grudge P X",
+      "cost": { "credits": 560000, "yellow": 0, "red": 6000, "blue": 0 },
+      "rank": "A",
+      "unlock": "M25 (HARDEST)"
+    },
+    {
+      "id": "grenade-launcher-14",
+      "name": "TF Flame Anger Kai II",
+      "cost": { "credits": 520000, "yellow": 0, "red": 5600, "blue": 0 },
+      "rank": "A",
+      "unlock": "Ex07 (HARDEST)"
+    },
+    {
+      "id": "grenade-launcher-15",
+      "name": "TF Anger GD II",
+      "cost": { "credits": 900000, "yellow": 0, "red": 8000, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 600 Bomb Beetles"
+    },
+
+    {
+      "id": "grenade-launcher-16",
+      "name": "DD Aetherite",
+      "cost": { "credits": 14000, "yellow": 140, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "M29 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-17",
+      "name": "DD Tesla Type I",
+      "cost": { "credits": 14000, "yellow": 140, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "M19 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-18",
+      "name": "DD Aetherite II",
+      "cost": { "credits": 53000, "yellow": 1200, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "M38 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-19",
+      "name": "DD Tesla Type R",
+      "cost": { "credits": 53000, "yellow": 1200, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "M43 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-20",
+      "name": "DD Grand Jive",
+      "cost": { "credits": 53000, "yellow": 1200, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "M41 (NORMAL)"
+    },
+    {
+      "id": "grenade-launcher-21",
+      "name": "DD Aetherite L.M.I.",
+      "cost": { "credits": 220000, "yellow": 3600, "red": 0, "blue": 0 },
+      "rank": "B",
+      "unlock": "M36 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-22",
+      "name": "DD Tesla Type V",
+      "cost": { "credits": 220000, "yellow": 3600, "red": 0, "blue": 0 },
+      "rank": "B",
+      "unlock": "M38 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-23",
+      "name": "DD Grand Jive Q",
+      "cost": { "credits": 240000, "yellow": 4000, "red": 0, "blue": 0 },
+      "rank": "B",
+      "unlock": "M39 (HARD)"
+    },
+    {
+      "id": "grenade-launcher-24",
+      "name": "DD Aetherite FJ",
+      "cost": { "credits": 520000, "yellow": 5500, "red": 0, "blue": 0 },
+      "rank": "A",
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "grenade-launcher-25",
+      "name": "DD Tesla Illusion",
+      "cost": { "credits": 560000, "yellow": 6000, "red": 0, "blue": 0 },
+      "rank": "A",
+      "unlock": "M44 (HARDEST)"
+    },
+    {
+      "id": "grenade-launcher-26",
+      "name": "DD Grand Jive Pair",
+      "cost": { "credits": 580000, "yellow": 6400, "red": 0, "blue": 0 },
+      "rank": "A",
+      "unlock": "M45 (HARDEST)"
+    },
+    {
+      "id": "grenade-launcher-27",
+      "name": "DD Aetherite III",
+      "cost": { "credits": 900000, "yellow": 8000, "red": 0, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 500 Green Bomb Beetles"
+    }
+  ]
 }

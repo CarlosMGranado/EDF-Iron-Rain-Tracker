@@ -1,0 +1,119 @@
+{
+  "id": "weapons_laser_cannon",
+  "label": "Laser Cannon",
+  "icon": "assets/png/laser-cannon.png",
+  "items": [
+    {
+      "id": "lasercannon-01",
+      "name": "SN-Nile 1",
+      "cost": { "credits": 2500, "yellow": 5, "red": 15, "blue": 5 },
+      "rank": "E",
+      "unlock": "Collect 7 M.I.A. Drones"
+    },
+    {
+      "id": "lasercannon-02",
+      "name": "SN-Iguazu 1",
+      "cost": { "credits": 14000, "yellow": 45, "red": 50, "blue": 45 },
+      "rank": "D",
+      "unlock": "M45 (NORMAL)"
+    },
+    {
+      "id": "lasercannon-03",
+      "name": "SN-Nile 2",
+      "cost": { "credits": 14000, "yellow": 40, "red": 60, "blue": 40 },
+      "rank": "D",
+      "unlock": "M51 (NORMAL)"
+    },
+    {
+      "id": "lasercannon-04",
+      "name": "SN-Apocalypse",
+      "cost": { "credits": 14000, "yellow": 45, "red": 50, "blue": 45 },
+      "rank": "D",
+      "unlock": "M46 (NORMAL)"
+    },
+    {
+      "id": "lasercannon-05",
+      "name": "SN-Ragnarok",
+      "cost": { "credits": 8000, "yellow": 30, "red": 40, "blue": 30 },
+      "rank": "D",
+      "unlock": "Collect 29 M.I.A. Drones"
+    },
+    {
+      "id": "lasercannon-06",
+      "name": "SN-Iguazu 2",
+      "cost": { "credits": 66000, "yellow": 600, "red": 800, "blue": 600 },
+      "rank": "C",
+      "unlock": "M17 (HARD)"
+    },
+    {
+      "id": "lasercannon-07",
+      "name": "SN-Nile 3",
+      "cost": { "credits": 66000, "yellow": 600, "red": 800, "blue": 600 },
+      "rank": "C",
+      "unlock": "M26 (HARD)"
+    },
+    {
+      "id": "lasercannon-08",
+      "name": "SN-Armageddon",
+      "cost": { "credits": 66000, "yellow": 600, "red": 800, "blue": 600 },
+      "rank": "C",
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "lasercannon-09",
+      "name": "SN-Iguazu 3",
+      "cost": { "credits": 240000, "yellow": 1250, "red": 1500, "blue": 1250 },
+      "rank": "B",
+      "unlock": "M18 (HARDEST)"
+    },
+    {
+      "id": "lasercannon-10",
+      "name": "SN-Nile Jet Pulsar",
+      "cost": { "credits": 240000, "yellow": 1250, "red": 1500, "blue": 1250 },
+      "rank": "B",
+      "unlock": "M16 (HARDEST)"
+    },
+    {
+      "id": "lasercannon-11",
+      "name": "SN-Apocalypse II",
+      "cost": { "credits": 220000, "yellow": 1400, "red": 1100, "blue": 1100 },
+      "rank": "B",
+      "unlock": "M14 (HARDEST)"
+    },
+    {
+      "id": "lasercannon-12",
+      "name": "SN-Armageddon II",
+      "cost": { "credits": 240000, "yellow": 1250, "red": 1500, "blue": 1250 },
+      "rank": "B",
+      "unlock": "M21 (HARDEST)"
+    },
+    {
+      "id": "lasercannon-13",
+      "name": "SN-Iguazu Singularity",
+      "cost": { "credits": 580000, "yellow": 2000, "red": 2400, "blue": 2000 },
+      "rank": "A",
+      "unlock": "M50 (HARDEST)"
+    },
+    {
+      "id": "lasercannon-14",
+      "name": "SN-Armageddon Judgment",
+      "cost": { "credits": 580000, "yellow": 2000, "red": 2400, "blue": 2000 },
+      "rank": "A",
+      "unlock": "M44 (HARDEST)"
+    },
+    {
+      "id": "lasercannon-15",
+      "name": "SN-Ragnarok Banishment",
+      "cost": { "credits": 580000, "yellow": 2000, "red": 2400, "blue": 2000 },
+      "rank": "A",
+      "unlock": "M34 (HARDEST)"
+    },
+    {
+      "id": "lasercannon-16",
+      "name": "SN-Apocalypse Tempest",
+      "cost": { "credits": 1000000, "yellow": 4000, "red": 3000, "blue": 3000 },
+      "rank": "AA",
+      "unlock": "Defeat 2000 Raznid Larvae"
+    }
+  ]
+}

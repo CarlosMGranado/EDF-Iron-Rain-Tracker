@@ -1,0 +1,147 @@
+{
+  "id": "weapons_miniguns",
+  "label": "Miniguns",
+  "icon": "assets/png/minigun.png",
+  "items": [
+    {
+      "id": "minigun-01",
+      "name": "EC Rodeo",
+      "cost": { "credits": 1200, "yellow": 0, "red": 5, "blue": 5 },
+      "rank": "E",
+      "unlock": "M9 (NORMAL)"
+    },
+    {
+      "id": "minigun-02",
+      "name": "EC Rodeo SS",
+      "cost": { "credits": 8000, "yellow": 0, "red": 20, "blue": 60 },
+      "rank": "D",
+      "unlock": "M32 (NORMAL)"
+    },
+    {
+      "id": "minigun-03",
+      "name": "EC Exterminator",
+      "cost": { "credits": 10000, "yellow": 0, "red": 25, "blue": 75 },
+      "rank": "D",
+      "unlock": "M22 (NORMAL)"
+    },
+    {
+      "id": "minigun-04",
+      "name": "EC Rodeo Powered",
+      "cost": { "credits": 48000, "yellow": 0, "red": 200, "blue": 600 },
+      "rank": "C",
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "minigun-05",
+      "name": "EC Exterminator Mk.II",
+      "cost": { "credits": 53000, "yellow": 0, "red": 300, "blue": 900 },
+      "rank": "C",
+      "unlock": "M7 (HARD)"
+    },
+    {
+      "id": "minigun-06",
+      "name": "EC Rodeo II",
+      "cost": { "credits": 180000, "yellow": 0, "red": 700, "blue": 2100 },
+      "rank": "B",
+      "unlock": "M47 (HARD)"
+    },
+    {
+      "id": "minigun-07",
+      "name": "EC Exterminator Shogun",
+      "cost": { "credits": 200000, "yellow": 0, "red": 800, "blue": 2400 },
+      "rank": "B",
+      "unlock": "M1 (HARDEST)"
+    },
+    {
+      "id": "minigun-08",
+      "name": "EC Exterminator Mk.III",
+      "cost": { "credits": 560000, "yellow": 0, "red": 1500, "blue": 4500 },
+      "rank": "A",
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "minigun-09",
+      "name": "EC Matador",
+      "cost": { "credits": 480000, "yellow": 0, "red": 1250, "blue": 3750 },
+      "rank": "A",
+      "unlock": "M23 (HARDEST)"
+    },
+    {
+      "id": "minigun-10",
+      "name": "EC Reconquista",
+      "cost": { "credits": 900000, "yellow": 8000, "red": 0, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 280 Zombie Scorpions"
+    },
+    {
+      "id": "minigun-11",
+      "name": "EC Opx.A1 \"Ahmed\"",
+      "cost": { "credits": 14000, "yellow": 40, "red": 0, "blue": 100 },
+      "rank": "D",
+      "unlock": "M43 (NORMAL)"
+    },
+    {
+      "id": "minigun-12",
+      "name": "EC Opx.A2 \"Adam\"",
+      "cost": { "credits": 59000, "yellow": 400, "red": 0, "blue": 1200 },
+      "rank": "C",
+      "unlock": "M51 (NORMAL)"
+    },
+    {
+      "id": "minigun-13",
+      "name": "EC Opx.D1 \"David\"",
+      "cost": { "credits": 59000, "yellow": 400, "red": 0, "blue": 1200 },
+      "rank": "C",
+      "unlock": "M23 (HARD)"
+    },
+    {
+      "id": "minigun-14",
+      "name": "EC Photon Javelin",
+      "cost": { "credits": 48000, "yellow": 250, "red": 0, "blue": 750 },
+      "rank": "C",
+      "unlock": "Collect 39 M.I.A. Drones"
+    },
+    {
+      "id": "minigun-15",
+      "name": "EC Opx.A3 \"Arthur\"",
+      "cost": { "credits": 220000, "yellow": 1200, "red": 0, "blue": 2400 },
+      "rank": "B",
+      "unlock": "M41 (HARD)"
+    },
+    {
+      "id": "minigun-16",
+      "name": "EC Opx.D2 \"Diego\"",
+      "cost": { "credits": 220000, "yellow": 900, "red": 0, "blue": 2700 },
+      "rank": "B",
+      "unlock": "M43 (HARD)"
+    },
+    {
+      "id": "minigun-17",
+      "name": "EC Photon Javelin λ",
+      "cost": { "credits": 180000, "yellow": 800, "red": 0, "blue": 2400 },
+      "rank": "B",
+      "unlock": "Collect 48 M.I.A. Drones"
+    },
+    {
+      "id": "minigun-18",
+      "name": "EC Opx.A4 \"Ali\"",
+      "cost": { "credits": 520000, "yellow": 1375, "red": 0, "blue": 4125 },
+      "rank": "A",
+      "unlock": "M49 (HARDEST)"
+    },
+    {
+      "id": "minigun-19",
+      "name": "EC Opx.D3 \"Dolph\"",
+      "cost": { "credits": 560000, "yellow": 1500, "red": 0, "blue": 4500 },
+      "rank": "A",
+      "unlock": "M28 (HARDEST)"
+    },
+    {
+      "id": "minigun-20",
+      "name": "EC Photon Javelin ν",
+      "cost": { "credits": 480000, "yellow": 1250, "red": 0, "blue": 3750 },
+      "rank": "A",
+      "unlock": "Collect 54 M.I.A. Drones"
+    }
+  ]
+}

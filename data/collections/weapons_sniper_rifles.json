@@ -1,7 +1,196 @@
 {
   "id": "weapons_sniper_rifles",
   "label": "Sniper rifles",
-    "icon": "assets/png/sniper-rifle.png",
-
-  "items": []
+  "icon": "assets/png/sniper-rifle.png",
+  "items": [
+    {
+      "id": "sniper-rifle-01",
+      "name": "SH-2033",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 0 },
+      "rank": "E",
+      "unlock": "Starting Weapon"
+    },
+    {
+      "id": "sniper-rifle-02",
+      "name": "SH-2033GD",
+      "cost": { "credits": 10000, "yellow": 0, "red": 80, "blue": 20 },
+      "rank": "D",
+      "unlock": "M19 (NORMAL)"
+    },
+    {
+      "id": "sniper-rifle-03",
+      "name": "SH Allegretto",
+      "cost": { "credits": 10000, "yellow": 0, "red": 80, "blue": 20 },
+      "rank": "D",
+      "unlock": "M15 (NORMAL)"
+    },
+    {
+      "id": "sniper-rifle-04",
+      "name": "SH Sonatine",
+      "cost": { "credits": 10000, "yellow": 0, "red": 80, "blue": 20 },
+      "rank": "D",
+      "unlock": "M16 (NORMAL)"
+    },
+    {
+      "id": "sniper-rifle-05",
+      "name": "SH-2039SS",
+      "cost": { "credits": 53000, "yellow": 0, "red": 960, "blue": 240 },
+      "rank": "C",
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-06",
+      "name": "SH Allegro",
+      "cost": { "credits": 53000, "yellow": 0, "red": 960, "blue": 240 },
+      "rank": "C",
+      "unlock": "M17 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-07",
+      "name": "SH-2040",
+      "cost": { "credits": 200000, "yellow": 0, "red": 2560, "blue": 640 },
+      "rank": "B",
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-08",
+      "name": "SH Presto",
+      "cost": { "credits": 200000, "yellow": 0, "red": 2560, "blue": 640 },
+      "rank": "B",
+      "unlock": "M9 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-09",
+      "name": "SH Requiem",
+      "cost": { "credits": 200000, "yellow": 0, "red": 2560, "blue": 640 },
+      "rank": "B",
+      "unlock": "M46 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-10",
+      "name": "SH Strategic Self Destruct Decisive Battle Cannon",
+      "cost": { "credits": 220000, "yellow": 0, "red": 2880, "blue": 720 },
+      "rank": "B",
+      "unlock": "M5 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-11",
+      "name": "SH-2041A",
+      "cost": { "credits": 520000, "yellow": 0, "red": 4400, "blue": 1100 },
+      "rank": "A",
+      "unlock": "M40 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-12",
+      "name": "SH Allegrissimo",
+      "cost": { "credits": 520000, "yellow": 0, "red": 4400, "blue": 1100 },
+      "rank": "A",
+      "unlock": "M23 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-13",
+      "name": "SH Strategic Self Destruct Final Decisive Battle Cannon",
+      "cost": { "credits": 520000, "yellow": 0, "red": 4400, "blue": 1100 },
+      "rank": "A",
+      "unlock": "M26 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-14",
+      "name": "PT Angstrom Alpha",
+      "cost": { "credits": 2400, "yellow": 15, "red": 0, "blue": 5 },
+      "rank": "E",
+      "unlock": "M11 (NORMAL)"
+    },
+    {
+      "id": "sniper-rifle-15",
+      "name": "PT Dark Sniper",
+      "cost": { "credits": 14000, "yellow": 100, "red": 0, "blue": 40 },
+      "rank": "D",
+      "unlock": "M28 (NORMAL)"
+    },
+    {
+      "id": "sniper-rifle-16",
+      "name": "PT Angstrom Beta",
+      "cost": { "credits": 14000, "yellow": 100, "red": 0, "blue": 40 },
+      "rank": "D",
+      "unlock": "M33 (NORMAL)"
+    },
+    {
+      "id": "sniper-rifle-17",
+      "name": "PT Shadow Sniper GD",
+      "cost": { "credits": 59000, "yellow": 1000, "red": 0, "blue": 600 },
+      "rank": "C",
+      "unlock": "M26 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-18",
+      "name": "PT Angstrom Gamma",
+      "cost": { "credits": 59000, "yellow": 1000, "red": 0, "blue": 600 },
+      "rank": "C",
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-19",
+      "name": "PT Photon Supplier",
+      "cost": { "credits": 59000, "yellow": 1000, "red": 0, "blue": 600 },
+      "rank": "C",
+      "unlock": "M41 (NORMAL)"
+    },
+    {
+      "id": "sniper-rifle-20",
+      "name": "PT Euclid",
+      "cost": { "credits": 53000, "yellow": 1400, "red": 0, "blue": 600 },
+      "rank": "C",
+      "unlock": "M50 (NORMAL)"
+    },
+    {
+      "id": "sniper-rifle-21",
+      "name": "PT Night Sniper",
+      "cost": { "credits": 220000, "yellow": 3000, "red": 0, "blue": 600 },
+      "rank": "B",
+      "unlock": "M20 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-22",
+      "name": "PT Photon Supplier Helios",
+      "cost": { "credits": 220000, "yellow": 3000, "red": 0, "blue": 600 },
+      "rank": "B",
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-23",
+      "name": "PT PA Gear Direct Coupled Electromagnetic Radiation Gun",
+      "cost": { "credits": 220000, "yellow": 3000, "red": 0, "blue": 600 },
+      "rank": "B",
+      "unlock": "M28 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-24",
+      "name": "PT Euclid Theta",
+      "cost": { "credits": 240000, "yellow": 3300, "red": 0, "blue": 700 },
+      "rank": "B",
+      "unlock": "M30 (HARD)"
+    },
+    {
+      "id": "sniper-rifle-25",
+      "name": "PT Dark Sniper L.M.I.",
+      "cost": { "credits": 520000, "yellow": 5000, "red": 0, "blue": 500 },
+      "rank": "A",
+      "unlock": "M32 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-26",
+      "name": "PT PA Gear Direct Coupled Super Electromagnetic Radiation Gun",
+      "cost": { "credits": 560000, "yellow": 5200, "red": 0, "blue": 800 },
+      "rank": "A",
+      "unlock": "M36 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-27",
+      "name": "PT Euclid Phi",
+      "cost": { "credits": 580000, "yellow": 5400, "red": 0, "blue": 1000 },
+      "rank": "A",
+      "unlock": "M33 (HARDEST)"
+    }
+  ]
 }

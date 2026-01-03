@@ -1,6 +1,84 @@
 {
   "id": "weapons_orbital",
   "label": "Orbital",
-    "icon": "assets/png/satelite.png",
-  "items": []
+  "icon": "assets/png/satelite.png",
+  "items": [
+    {
+      "id": "orbital-01",
+      "name": "MR Twin Laser Chandra",
+      "cost": { "credits": 2500, "yellow": 15, "red": 10, "blue": 0 },
+      "rank": "E",
+      "unlock": "Collect 13 M.I.A. Drones"
+    },
+    {
+      "id": "orbital-02",
+      "name": "MR Twin Laser Chandra A",
+      "cost": { "credits": 20000, "yellow": 100, "red": 100, "blue": 0 },
+      "rank": "D",
+      "unlock": "M45 (NORMAL)"
+    },
+    {
+      "id": "orbital-03",
+      "name": "MR Twin Missile Kepler",
+      "cost": { "credits": 20000, "yellow": 100, "red": 100, "blue": 0 },
+      "rank": "D",
+      "unlock": "M49 (NORMAL)"
+    },
+    {
+      "id": "orbital-04",
+      "name": "MR Twin Laser Chandra B",
+      "cost": { "credits": 66000, "yellow": 1000, "red": 1000, "blue": 0 },
+      "rank": "C",
+      "unlock": "M11 (HARD)"
+    },
+    {
+      "id": "orbital-05",
+      "name": "MR Beam Laser Hubble",
+      "cost": { "credits": 66000, "yellow": 1000, "red": 1000, "blue": 0 },
+      "rank": "C",
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "orbital-06",
+      "name": "MR Twin Laser Chandra A*",
+      "cost": { "credits": 240000, "yellow": 2000, "red": 2000, "blue": 0 },
+      "rank": "B",
+      "unlock": "M17 (HARDEST)"
+    },
+    {
+      "id": "orbital-07",
+      "name": "MR Twin Missile Kepler II",
+      "cost": { "credits": 240000, "yellow": 2000, "red": 2000, "blue": 0 },
+      "rank": "B",
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "orbital-08",
+      "name": "MR Super Large Missile Galileo",
+      "cost": { "credits": 240000, "yellow": 2000, "red": 2000, "blue": 0 },
+      "rank": "B",
+      "unlock": "M37 (HARD)"
+    },
+    {
+      "id": "orbital-09",
+      "name": "MR Twin Laser Chandra B*",
+      "cost": { "credits": 580000, "yellow": 3200, "red": 3200, "blue": 0 },
+      "rank": "A",
+      "unlock": "M33 (HARDEST)"
+    },
+    {
+      "id": "orbital-10",
+      "name": "MR Beam Laser Hubble X",
+      "cost": { "credits": 580000, "yellow": 3200, "red": 3200, "blue": 0 },
+      "rank": "A",
+      "unlock": "M45 (HARDEST)"
+    },
+    {
+      "id": "orbital-11",
+      "name": "MR Super Large Missile Galileo II",
+      "cost": { "credits": 1000000, "yellow": 5000, "red": 5000, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 200 Mystic Spiders"
+    }
+  ]
 }
