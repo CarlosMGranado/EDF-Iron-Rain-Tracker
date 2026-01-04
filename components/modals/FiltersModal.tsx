@@ -67,7 +67,7 @@ export default function FiltersModal({ open, onClose, value, onChange }: Props) 
         </div>
 
         <div className="small">Sort</div>
-        <div className="modalRow">
+        <div className="modalRow">F
           <div className="modalField">
             <div className="modalFieldLabel small">Sort By</div>
             <select value={value.sortBy} onChange={(e) => onChange({ ...value, sortBy: e.target.value as SortBy })}>

@@ -462,7 +462,7 @@ export default function Home() {
             <div className="topHeader">
               <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
                 <div className="brandMain" data-text="EDF IRON RAIN">
-                  EDF: IRON RAIN
+                  Earth Defense Force: IRON RAIN
                 </div>
                 <div className="brandSub" data-text="TRACKER">
                   TRACKER
@@ -483,7 +483,7 @@ export default function Home() {
           <div className="topHeader">
             <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
               <div className="brandMain" data-text="EDF IRON RAIN">
-                EDF: IRON RAIN
+                Earth Defense Force: IRON RAIN
               </div>
               <div className="brandSub" data-text="TRACKER">
                 TRACKER

@@ -73,6 +73,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 4px;
+    max-width: 96vw;
 }
 
 .topHeader {
@@ -140,7 +141,11 @@ a {
     -webkit-text-stroke: 4px rgba(0, 0, 0, 0.85);
     z-index: -1;
 }
-
+@media (max-width: 800px) {
+    .brandMain {
+        font-size: 1rem;
+    }
+}
 @media (max-width: 420px) {
     .bentoIcon {
         width: 16px;
@@ -158,11 +163,11 @@ a {
     }
 
     .brandMain {
-        font-size: 1.25rem;
+        font-size: 0.8rem;
     }
 
     .brandSub {
-        font-size: 0.78rem;
+        font-size: 0.6rem;
     }
 }
 
