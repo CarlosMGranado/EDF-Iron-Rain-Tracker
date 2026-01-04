@@ -54,12 +54,19 @@ export const COLLECTIONS: Collection[] = [
   upper
 ] as unknown as Collection[];
 
+export const GAME_ID_ORDER: string[] = COLLECTIONS.flatMap((c) => c.items.map((it) => it.id));
+
+const GAME_INDEX_BY_ID: Record<string, number> = {};
+for (let i = 0; i < GAME_ID_ORDER.length; i++) {
+  GAME_INDEX_BY_ID[GAME_ID_ORDER[i]] = i;
+}
+
 export const CATALOG: CatalogEntry[] = COLLECTIONS.flatMap((c) =>
   c.items.map((item) => ({
     ...item,
     collectionId: c.id,
     collectionLabel: c.label
   }))
-).sort((a, b) => a.id.localeCompare(b.id));
+).sort((a, b) => (GAME_INDEX_BY_ID[a.id] ?? 9_000_000_000) - (GAME_INDEX_BY_ID[b.id] ?? 9_000_000_000));
 
-export const CATALOG_ID_ORDER: string[] = CATALOG.map((i) => i.id);
+export const CATALOG_ID_ORDER: string[] = [...GAME_ID_ORDER];

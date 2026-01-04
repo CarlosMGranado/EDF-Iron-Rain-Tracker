@@ -1,0 +1,44 @@
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: auto;
+    z-index: 1000;
+}
+
+.modalPanel {
+    width: min(720px, calc(100vw - 24px));
+margin: auto;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+}
+
+.modalTitle {
+    font-weight: 760;
+    margin-bottom: 10px;
+}
+
+.modalRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.modalRow button {
+    flex: 1 1 160px;
+}
+
+.modalField {
+    flex: 1 1 220px;
+    min-width: 220px;
+}
+
+.modalFieldLabel {
+    margin-bottom: 6px;
+}

@@ -7,17 +7,17 @@
     --border: rgba(255, 255, 255, 0.09);
 
     --neutral-bg: rgb(121, 135, 151);
-    --type-bg:rgb(55, 58, 62);
-    --type-active-bg: rgb(82,87,93);
+    --type-bg: rgb(55, 58, 62);
+    --type-active-bg: rgb(82, 87, 93);
 
     --locked-bg: rgb(121, 135, 151);
     --locked-border: rgb(121, 135, 151);
 
     --unlocked-bg: rgb(198, 108, 12);
-    --unlocked-border: rgb(198,108,12);
+    --unlocked-border: rgb(198, 108, 12);
 
-    --bought-bg: rgb(120,222,165);
-    --bought-border: rgb(120,222,165);
+    --bought-bg: rgb(120, 222, 165);
+    --bought-border: rgb(120, 222, 165);
 }
 
 * {
@@ -143,19 +143,20 @@ a {
 
 @media (max-width: 420px) {
     .bentoIcon {
-
-            width: 16px;
-            height: 16px;
-        }
-
-        .bentoTile .bentoTitleRow .bentoTitle{
-            font-weight: 500;
-            font-size: 0.7rem; 
-            margin-bottom: 4px;
+        width: 16px;
+        height: 16px;
     }
+
+    .bentoTile .bentoTitleRow .bentoTitle {
+        font-weight: 500;
+        font-size: 0.7rem;
+        margin-bottom: 4px;
+    }
+
     .bentoTitleRow {
         gap: 2px;
     }
+
     .brandMain {
         font-size: 1.25rem;
     }
@@ -364,7 +365,7 @@ a {
 .listPanel::before {
     top: 0;
     z-index: 1;
-    background: linear-gradient(to top,  rgba(255, 255, 255, 0),rgba(0, 0, 0, 1))
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1))
 }
 
 .listPanel::after {
@@ -425,59 +426,6 @@ button:disabled {
     cursor: not-allowed;
 }
 
-.footerBar {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-
-    .OptionsButton {
-        width: 100%;
-    }
-
-    .ResetButton {
-        width: 50%;
-    }
-
-    button {
-        height: 100%;
-    }
-}
-
-.ioDialog {
-    border: 0;
-    padding: 0;
-    background: transparent;
-}
-
-.ioDialog::backdrop {
-    background: rgba(0, 0, 0, 0.55);
-}
-
-.ioDialogInner {
-    width: min(720px, calc(100vw - 24px));
-    margin: 10vh auto;
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 14px;
-}
-
-.ioDialogTitle {
-    font-weight: 760;
-    margin-bottom: 10px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 10px;
-
-    button {
-        flex: 1 1 160px;
-    }
-}
-
 .item {
     position: relative;
     border-radius: 6px;
@@ -511,22 +459,4 @@ button:disabled {
 
 .item.bought::before {
     background: var(--bought-bg);
-}
-
-.footerBar {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-
-    .OptionsButton {
-        width: 100%;
-    }
-
-    .ResetButton {
-        width: 50%;
-    }
-
-    button {
-        height: 100%;
-    }
 }

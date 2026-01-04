@@ -5,10 +5,15 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { COLLECTIONS, CATALOG, CATALOG_ID_ORDER } from "../lib/catalog";
 import type { AppState, Currency, ItemStatus } from "../lib/types";
 import { createEmptyState, ensureItemStatus, loadState, saveState } from "../lib/storage";
+
 import CatalogItemCard from "../components/CatalogItemCard";
 import Cost from "../components/currency/Cost";
 
+import OptionsModal from "../components/modals/OptionsModal";
+import FiltersModal, { type FiltersState, type SortBy, type SortDir } from "../components/modals/FiltersModal";
+
 type Category = "weapons" | "items" | "cosmetics";
+type UnlockDifficulty = "easy" | "normal" | "hard" | "hardest" | "disaster" | "unknown";
 
 function sumCurrency(a: Currency, b: Currency): Currency {
   return {
@@ -41,6 +46,60 @@ function categoryForCollectionId(id: string): Category {
 
 function isStartingWeaponUnlock(unlock?: string): boolean {
   return (unlock ?? "").toLowerCase().includes("starting");
+}
+
+function getItemStatusSafe(state: AppState, id: string): ItemStatus {
+  const v = state.items[id];
+  return v === 0 || v === 1 || v === 2 ? v : 0;
+}
+
+function normalizeDifficulty(raw: string): UnlockDifficulty {
+  const t = raw.trim().toLowerCase();
+  if (t === "easy") return "easy";
+  if (t === "normal") return "normal";
+  if (t === "hard") return "hard";
+  if (t === "hardest") return "hardest";
+  if (t === "disaster") return "disaster";
+  return "unknown";
+}
+
+function parseMissionUnlock(text?: string): { mission: number; difficulty: UnlockDifficulty } | null {
+  const s = (text ?? "").trim();
+  if (!s) return null;
+
+  if (isStartingWeaponUnlock(s)) return { mission: 0, difficulty: "easy" };
+
+  // Expected: M{level} ({Difficulty}) , example: "M12 (Hardest)"
+  const m = s.match(/m\s*(\d+)\s*\(([^)]+)\)/i);
+  if (!m) return null;
+
+  const mission = Number(m[1]);
+  if (!Number.isFinite(mission)) return null;
+
+  return { mission, difficulty: normalizeDifficulty(m[2]) };
+}
+
+const DIFFICULTY_WEIGHT: Record<UnlockDifficulty, number> = {
+  easy: 0,
+  normal: 1,
+  hard: 2,
+  hardest: 3,
+  disaster: 4,
+  unknown: 99
+};
+
+function unlockSortValue(unlock?: string): number {
+  const parsed = parseMissionUnlock(unlock);
+  if (!parsed) return 9_000_000_000;
+  return DIFFICULTY_WEIGHT[parsed.difficulty] * 1000 + parsed.mission;
+}
+
+function sortMetricFor(item: (typeof CATALOG)[number], sortBy: SortBy): number {
+  if (sortBy === "credits") return item.cost.credits ?? 0;
+  if (sortBy === "yellow") return item.cost.yellow ?? 0;
+  if (sortBy === "red") return item.cost.red ?? 0;
+  if (sortBy === "blue") return item.cost.blue ?? 0;
+  return unlockSortValue(item.unlock);
 }
 
 const STARTING_ITEM_IDS = new Set(CATALOG.filter((it) => isStartingWeaponUnlock(it.unlock)).map((it) => it.id));
@@ -144,14 +203,21 @@ export default function Home() {
   const [q, setQ] = useState("");
   const [category, setCategory] = useState<Category>("weapons");
 
-  // No more "all". Always a real collection id.
   const [collectionId, setCollectionId] = useState<string>(() => firstCollectionIdForCategory("weapons"));
 
   const [exportText, setExportText] = useState("");
   const [importText, setImportText] = useState("");
 
-  const fileInputRef = useRef<HTMLInputElement | null>(null);
-  const dialogRef = useRef<HTMLDialogElement | null>(null);
+  const [optionsOpen, setOptionsOpen] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+
+  const [filters, setFilters] = useState<FiltersState>({
+    showLocked: true,
+    showUnlocked: true,
+    showBought: true,
+    sortBy: "unlockLevel",
+    sortDir: "asc"
+  });
 
   useEffect(() => {
     const loaded = loadState();
@@ -194,7 +260,8 @@ export default function Home() {
       >;
     }
 
-    const out: Record<string, { locked: number; unlocked: number; bought: number; total: number; label: string; icon?: string }> = {};
+    const out: Record<string, { locked: number; unlocked: number; bought: number; total: number; label: string; icon?: string }> =
+      {};
 
     for (const c of COLLECTIONS) {
       let locked = 0;
@@ -202,7 +269,7 @@ export default function Home() {
       let bought = 0;
 
       for (const it of c.items) {
-        const st = (state.items[it.id] ?? 0) as ItemStatus;
+        const st = getItemStatusSafe(state, it.id);
         if (st === 2) bought += 1;
         else if (st === 1) unlocked += 1;
         else locked += 1;
@@ -231,17 +298,45 @@ export default function Home() {
       .sort((a, b) => a.label.localeCompare(b.label));
   }, [collectionsInCategory, collectionCountsById]);
 
-  const filteredCatalog = useMemo(() => {
+  const visibleCatalog = useMemo(() => {
+    if (!state) return [];
+
     const query = q.trim().toLowerCase();
-
     const baseList = CATALOG_BY_COLLECTION[collectionId] ?? [];
-    if (!query) return baseList;
 
-    return baseList.filter((item) => {
-      const hay = SEARCH_HAY_BY_ID[item.id] ?? "";
-      return hay.includes(query);
+    let list = !query
+      ? baseList
+      : baseList.filter((item) => {
+          const hay = SEARCH_HAY_BY_ID[item.id] ?? "";
+          return hay.includes(query);
+        });
+
+    list = list.filter((item) => {
+      const st = getItemStatusSafe(state, item.id);
+      if (st === 0) return filters.showLocked;
+      if (st === 1) return filters.showUnlocked;
+      return filters.showBought;
     });
-  }, [collectionId, q]);
+
+    const dirMul = filters.sortDir === "asc" ? 1 : -1;
+
+    return [...list].sort((a, b) => {
+      const av = sortMetricFor(a, filters.sortBy);
+      const bv = sortMetricFor(b, filters.sortBy);
+
+      if (av !== bv) return (av - bv) * dirMul;
+
+      // Tie breakers: unlock level (always asc), then name, then id
+      const au = unlockSortValue(a.unlock);
+      const bu = unlockSortValue(b.unlock);
+      if (au !== bu) return au - bu;
+
+      const nameCmp = a.name.localeCompare(b.name);
+      if (nameCmp !== 0) return nameCmp;
+
+      return a.id.localeCompare(b.id);
+    });
+  }, [collectionId, q, state, filters]);
 
   const stats = useMemo(() => {
     if (!state) {
@@ -318,14 +413,6 @@ export default function Home() {
     setCollectionId(firstCollectionIdForCategory("weapons"));
   }
 
-  function openImportExport() {
-    dialogRef.current?.showModal();
-  }
-
-  function closeImportExport() {
-    dialogRef.current?.close();
-  }
-
   function doExport() {
     if (!state) return;
     const payload = { version: 2 as const, items: state.items };
@@ -365,22 +452,6 @@ export default function Home() {
     const incoming = parseIncoming(text);
     const merged = mergeStateWithCatalog(incoming ?? createEmptyState());
     setState(merged);
-  }
-
-  function onFilePick() {
-    fileInputRef.current?.click();
-  }
-
-  async function onFileSelected(file: File | null) {
-    if (!file) return;
-    const text = await file.text();
-    setImportText(text);
-    try {
-      doImport(text);
-      alert("Imported.");
-    } catch (e: any) {
-      alert(String(e?.message ?? e));
-    }
   }
 
   if (!state) {
@@ -492,7 +563,7 @@ export default function Home() {
         <section className="listPanel">
           <div className="itemsScroll">
             <div className="itemsGrid">
-              {filteredCatalog.map((it) => {
+              {visibleCatalog.map((it) => {
                 const st = ensureItemStatus(state, it.id);
                 const flags = { unlocked: st === 1 || st === 2, bought: st === 2 };
 
@@ -512,59 +583,32 @@ export default function Home() {
         </section>
 
         <footer className="footerBar">
-          <button className="ResetButton" onClick={resetAll}>
-            Reset
+          <button className="FiltersButton" onClick={() => setFiltersOpen(true)}>
+            Filters
           </button>
-          <button className="OptionsButton" onClick={openImportExport}>
+          <button className="OptionsButton" onClick={() => setOptionsOpen(true)}>
             Options
           </button>
         </footer>
 
-        <dialog ref={dialogRef} className="ioDialog">
-          <div className="ioDialogInner">
-            <div className="ioDialogTitle">Import Export (JSON)</div>
+        <OptionsModal
+          open={optionsOpen}
+          onClose={() => setOptionsOpen(false)}
+          exportText={exportText}
+          importText={importText}
+          onExport={doExport}
+          onReset={resetAll}
+          onImportTextChange={setImportText}
+          onImportApply={(text) => doImport(text)}
+          onClearImport={() => setImportText("")}
+        />
 
-            <div className="row">
-              <button className="primary" onClick={doExport}>
-                Export JSON
-              </button>
-              <button onClick={onFilePick}>Import file</button>
-              <button onClick={closeImportExport}>Close</button>
-
-              <input
-                ref={fileInputRef}
-                type="file"
-                accept=".json,application/json"
-                style={{ display: "none" }}
-                onChange={(e) => onFileSelected(e.target.files?.[0] ?? null)}
-              />
-            </div>
-
-            <div className="small">Exported JSON</div>
-            <textarea value={exportText} readOnly placeholder="Export will appear here..." />
-
-            <div className="small">Paste JSON and apply</div>
-            <textarea value={importText} onChange={(e) => setImportText(e.target.value)} placeholder="Paste JSON here..." />
-
-            <div className="row">
-              <button
-                className="primary"
-                onClick={() => {
-                  try {
-                    doImport(importText);
-                    alert("Imported.");
-                  } catch (e: any) {
-                    alert(String(e?.message ?? e));
-                  }
-                }}
-                disabled={!importText.trim()}
-              >
-                Apply
-              </button>
-              <button onClick={() => setImportText("")}>Clear</button>
-            </div>
-          </div>
-        </dialog>
+        <FiltersModal
+          open={filtersOpen}
+          onClose={() => setFiltersOpen(false)}
+          value={filters}
+          onChange={setFilters}
+        />
       </div>
     </div>
   );
