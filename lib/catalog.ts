@@ -7,6 +7,8 @@ import missileLaunchers from "../data/collections/weapons_missile_launchers.json
 import laserRifles from "../data/collections/weapons_laser_rifles.json";
 import grenadeLaunchers from "../data/collections/weapons_grenade_launchers.json";
 import swords from "../data/collections/weapons_swords.json";
+import energyThrower from "../data/collections/weapons_energy_throwers.json";
+import railgun from "../data/collections/weapons_railgun.json";
 import laserCannon from "../data/collections/weapons_laser_cannon.json";
 import specialAndHeavy from "../data/collections/weapons_special_and_heavy.json";
 import orbital from "../data/collections/weapons_orbital.json";
@@ -36,6 +38,8 @@ export const COLLECTIONS: Collection[] = [
   specialAndHeavy,
   orbital,
   minigun,
+  energyThrower,
+  railgun,
   laserCannon,
   grenades,
   trapWeapons,

@@ -1,0 +1,133 @@
+{
+  "id": "weapons_railguns",
+  "label": "Railguns",
+  "icon": "assets/png/weapons/railgun.png",
+  "items": [
+    {
+      "id": "railgun-01",
+      "name": "SL-Sonic Pile Pre-Production Model",
+      "cost": { "credits": 2500, "yellow": 5, "red": 15, "blue": 5 },
+      "rank": "E",
+      "unlock": "Collect 11 M.I.A. Drones"
+    },
+    {
+      "id": "railgun-02",
+      "name": "SL-Sonic Pile",
+      "cost": { "credits": 8000, "yellow": 25, "red": 50, "blue": 25 },
+      "rank": "D",
+      "unlock": "Collect 31 M.I.A. Drones"
+    },
+    {
+      "id": "railgun-03",
+      "name": "SL-Sonic Pile Plus",
+      "cost": { "credits": 48000, "yellow": 200, "red": 400, "blue": 200 },
+      "rank": "C",
+      "unlock": "M10 (HARD)"
+    },
+    {
+      "id": "railgun-04",
+      "name": "SL-Lorentz",
+      "cost": { "credits": 200000, "yellow": 800, "red": 1600, "blue": 800 },
+      "rank": "B",
+      "unlock": "M22 (HARDEST)"
+    },
+    {
+      "id": "railgun-05",
+      "name": "SL-Arabesque",
+      "cost": { "credits": 53000, "yellow": 300, "red": 600, "blue": 300 },
+      "rank": "C",
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "railgun-06",
+      "name": "SL-Arabesque II",
+      "cost": { "credits": 200000, "yellow": 800, "red": 1600, "blue": 800 },
+      "rank": "B",
+      "unlock": "M36 (HARD)"
+    },
+    {
+      "id": "railgun-07",
+      "name": "SL-Arabesque III",
+      "cost": { "credits": 560000, "yellow": 1500, "red": 3000, "blue": 1500 },
+      "rank": "A",
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "railgun-08",
+      "name": "SL-Viola",
+      "cost": { "credits": 8000, "yellow": 25, "red": 50, "blue": 25 },
+      "rank": "D",
+      "unlock": "Collect 35 M.I.A. Drones"
+    },
+    {
+      "id": "railgun-09",
+      "name": "SL-Viola Quartet",
+      "cost": { "credits": 220000, "yellow": 900, "red": 1800, "blue": 900 },
+      "rank": "B",
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "railgun-10",
+      "name": "SL-Viol",
+      "cost": { "credits": 950000, "yellow": 3000, "red": 3000, "blue": 3000 },
+      "rank": "AA",
+      "unlock": "Defeat 175 Mutated Sideros"
+    },
+    {
+      "id": "railgun-11",
+      "name": "SL-Jester",
+      "cost": { "credits": 2500, "yellow": 5, "red": 15, "blue": 5 },
+      "rank": "E",
+      "unlock": "Collect 9 M.I.A. Drones"
+    },
+    {
+      "id": "railgun-12",
+      "name": "SL-Jester 2",
+      "cost": { "credits": 59000, "yellow": 400, "red": 800, "blue": 400 },
+      "rank": "C",
+      "unlock": "M20 (HARD)"
+    },
+    {
+      "id": "railgun-13",
+      "name": "SL-Joker",
+      "cost": { "credits": 560000, "yellow": 1500, "red": 3000, "blue": 1500 },
+      "rank": "A",
+      "unlock": "M38 (HARDEST)"
+    },
+    {
+      "id": "railgun-14",
+      "name": "SL-Achaemenes",
+      "cost": { "credits": 8000, "yellow": 25, "red": 50, "blue": 25 },
+      "rank": "D",
+      "unlock": "Collect 37 M.I.A. Drones"
+    },
+    {
+      "id": "railgun-15",
+      "name": "SL-Achaemenes VII",
+      "cost": { "credits": 59000, "yellow": 400, "red": 800, "blue": 400 },
+      "rank": "C",
+      "unlock": "M25 (HARD)"
+    },
+    {
+      "id": "railgun-16",
+      "name": "SL-Achaemenes Imperial",
+      "cost": { "credits": 560000, "yellow": 1500, "red": 3000, "blue": 1500 },
+      "rank": "A",
+      "unlock": "M48 (HARDEST)"
+    },
+    {
+      "id": "railgun-17",
+      "name": "SL-Soul Seeker",
+      "cost": { "credits": 8000, "yellow": 25, "red": 50, "blue": 25 },
+      "rank": "D",
+      "unlock": "Collect 33 M.I.A. Drones"
+    },
+    {
+      "id": "railgun-18",
+      "name": "SL-Soul Seeker MO",
+      "cost": { "credits": 580000, "yellow": 1600, "red": 3200, "blue": 1600 },
+      "rank": "A",
+      "unlock": "M51 (HARDEST)"
+    }
+  ]
+}

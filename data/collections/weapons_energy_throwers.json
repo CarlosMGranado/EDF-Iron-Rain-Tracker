@@ -1,0 +1,147 @@
+{
+  "id": "weapons_energy_throwers",
+  "label": "Energy Throwers",
+  "icon": "assets/png/weapons/energy-thrower.png",
+  "items": [
+    {
+      "id": "energythrower-01",
+      "name": "BL-Catalaunum",
+      "cost": { "credits": 2500, "yellow": 0, "red": 25, "blue": 0 },
+      "rank": "E",
+      "unlock": "Collect 1 M.I.A. Drone"
+    },
+    {
+      "id": "energythrower-02",
+      "name": "BL-Catalaunum Modified",
+      "cost": { "credits": 8000, "yellow": 0, "red": 100, "blue": 0 },
+      "rank": "D",
+      "unlock": "Collect 15 M.I.A. Drones"
+    },
+    {
+      "id": "energythrower-03",
+      "name": "BL-Catalaunum Oracle",
+      "cost": { "credits": 48000, "yellow": 0, "red": 1200, "blue": 0 },
+      "rank": "C",
+      "unlock": "M44 (NORMAL)"
+    },
+    {
+      "id": "energythrower-04",
+      "name": "BL-Catalaunum DA",
+      "cost": { "credits": 220000, "yellow": 0, "red": 3600, "blue": 0 },
+      "rank": "B",
+      "unlock": "M40 (HARD)"
+    },
+    {
+      "id": "energythrower-05",
+      "name": "BL-Catalaunum Triumph",
+      "cost": { "credits": 560000, "yellow": 0, "red": 6000, "blue": 0 },
+      "rank": "A",
+      "unlock": "M31 (HARDEST)"
+    },
+    {
+      "id": "energythrower-06",
+      "name": "BL-Hastings",
+      "cost": { "credits": 240000, "yellow": 0, "red": 0, "blue": 4000 },
+      "rank": "B",
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "energythrower-07",
+      "name": "BL-Hastings Oracle",
+      "cost": { "credits": 590000, "yellow": 0, "red": 0, "blue": 6400 },
+      "rank": "A",
+      "unlock": "M41 (HARDEST)"
+    },
+    {
+      "id": "energythrower-08",
+      "name": "BL-Hastings Triumph",
+      "cost": { "credits": 1000000, "yellow": 0, "red": 0, "blue": 10000 },
+      "rank": "AA",
+      "unlock": "Defeat 600 Wolf Spiders"
+    },
+    {
+      "id": "energythrower-09",
+      "name": "BL-Corinth",
+      "cost": { "credits": 2500, "yellow": 25, "red": 0, "blue": 0 },
+      "rank": "E",
+      "unlock": "Collect 5 M.I.A. Drones"
+    },
+    {
+      "id": "energythrower-10",
+      "name": "BL-Corinth L.M.I.",
+      "cost": { "credits": 8000, "yellow": 100, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "Collect 17 M.I.A. Drones"
+    },
+    {
+      "id": "energythrower-11",
+      "name": "BL-Corinth Triumph",
+      "cost": { "credits": 48000, "yellow": 1200, "red": 0, "blue": 0 },
+      "rank": "C",
+      "unlock": "M46 (NORMAL)"
+    },
+    {
+      "id": "energythrower-12",
+      "name": "BL-Gaugamela",
+      "cost": { "credits": 2500, "yellow": 0, "red": 0, "blue": 25 },
+      "rank": "E",
+      "unlock": "Collect 3 M.I.A. Drones"
+    },
+    {
+      "id": "energythrower-13",
+      "name": "BL-Gaugamela Modified",
+      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 100 },
+      "rank": "D",
+      "unlock": "Collect 19 M.I.A. Drones"
+    },
+    {
+      "id": "energythrower-14",
+      "name": "BL-Gaugamela Genocide",
+      "cost": { "credits": 59000, "yellow": 0, "red": 0, "blue": 1600 },
+      "rank": "C",
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "energythrower-15",
+      "name": "BL-Gaugamela Triumph",
+      "cost": { "credits": 220000, "yellow": 0, "red": 0, "blue": 3600 },
+      "rank": "B",
+      "unlock": "M35 (HARD)"
+    },
+    {
+      "id": "energythrower-16",
+      "name": "BL-Poeni",
+      "cost": { "credits": 220000, "yellow": 1800, "red": 0, "blue": 1800 },
+      "rank": "B",
+      "unlock": "M39 (HARD)"
+    },
+    {
+      "id": "energythrower-17",
+      "name": "BL-Poeni Triumph",
+      "cost": { "credits": 560000, "yellow": 3000, "red": 0, "blue": 3000 },
+      "rank": "A",
+      "unlock": "M36 (HARDEST)"
+    },
+    {
+      "id": "energythrower-18",
+      "name": "BL-Kadesh",
+      "cost": { "credits": 59000, "yellow": 0, "red": 800, "blue": 800 },
+      "rank": "C",
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "energythrower-19",
+      "name": "BL-Kadesh Oracle",
+      "cost": { "credits": 240000, "yellow": 0, "red": 2000, "blue": 2000 },
+      "rank": "B",
+      "unlock": "M38 (HARD)"
+    },
+    {
+      "id": "energythrower-20",
+      "name": "BL-Kadesh Triumph",
+      "cost": { "credits": 580000, "yellow": 0, "red": 3200, "blue": 3200 },
+      "rank": "A",
+      "unlock": "M44 (HARDEST)"
+    }
+  ]
+}
