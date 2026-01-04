@@ -1,0 +1,1415 @@
+{
+  "id": "cosmetics_accessory",
+  "label": "Accessories",
+  "icon": "assets/png/cosmetics/accessory.png",
+  "items": [
+    {
+      "id": "cosmetics-accessory-01-01",
+      "name": "Glasses (Color 01 White)",
+      "cost": {
+        "credits": 100,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M8 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-01-02",
+      "name": "Glasses (Color 02 Black)",
+      "cost": {
+        "credits": 100,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M8 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-01-03",
+      "name": "Glasses (Color 03 Silver)",
+      "cost": {
+        "credits": 100,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M8 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-01-04",
+      "name": "Glasses (Color 04 Yellow)",
+      "cost": {
+        "credits": 100,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M8 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-01-05",
+      "name": "Glasses (Color 05 Light Green)",
+      "cost": {
+        "credits": 100,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M8 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-01-06",
+      "name": "Glasses (Color 06 Black)",
+      "cost": {
+        "credits": 100,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M8 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-01-07",
+      "name": "Glasses (Color 07 Light Blue)",
+      "cost": {
+        "credits": 100,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M8 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-01-08",
+      "name": "Glasses (Color 08 Crimson)",
+      "cost": {
+        "credits": 100,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M8 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-02-01",
+      "name": "Smart Glasses (Color 01 White)",
+      "cost": {
+        "credits": 1250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-02-02",
+      "name": "Smart Glasses (Color 02 Black)",
+      "cost": {
+        "credits": 1250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-02-03",
+      "name": "Smart Glasses (Color 03 Silver)",
+      "cost": {
+        "credits": 1250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-02-04",
+      "name": "Smart Glasses (Color 04 Yellow)",
+      "cost": {
+        "credits": 1250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-02-05",
+      "name": "Smart Glasses (Color 05 Light Green)",
+      "cost": {
+        "credits": 1250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-02-06",
+      "name": "Smart Glasses (Color 06 Black)",
+      "cost": {
+        "credits": 1250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-02-07",
+      "name": "Smart Glasses (Color 07 Light Blue)",
+      "cost": {
+        "credits": 1250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-02-08",
+      "name": "Smart Glasses (Color 08 Crimson)",
+      "cost": {
+        "credits": 1250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-03-01",
+      "name": "Sunglasses (Color 01 White)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M34 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-03-02",
+      "name": "Sunglasses (Color 02 Black)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M34 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-03-03",
+      "name": "Sunglasses (Color 03 Silver)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M34 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-03-04",
+      "name": "Sunglasses (Color 04 Yellow)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M34 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-03-05",
+      "name": "Sunglasses (Color 05 Light Green)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M34 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-03-06",
+      "name": "Sunglasses (Color 06 Black)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M34 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-03-07",
+      "name": "Sunglasses (Color 07 Light Blue)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M34 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-03-08",
+      "name": "Sunglasses (Color 08 Crimson)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M34 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-04-01",
+      "name": "Sunglasses B (Color 01 White)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-04-02",
+      "name": "Sunglasses B (Color 02 Black)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-04-03",
+      "name": "Sunglasses B (Color 03 Silver)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-04-04",
+      "name": "Sunglasses B (Color 04 Yellow)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-04-05",
+      "name": "Sunglasses B (Color 05 Light Green)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-04-06",
+      "name": "Sunglasses B (Color 06 Black)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-04-07",
+      "name": "Sunglasses B (Color 07 Light Blue)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-04-08",
+      "name": "Sunglasses B (Color 08 Crimson)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-05-01",
+      "name": "Goggles (Color 01 White)",
+      "cost": {
+        "credits": 170,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-05-02",
+      "name": "Goggles (Color 02 Black)",
+      "cost": {
+        "credits": 170,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-05-03",
+      "name": "Goggles (Color 03 Silver)",
+      "cost": {
+        "credits": 170,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-05-04",
+      "name": "Goggles (Color 04 Yellow)",
+      "cost": {
+        "credits": 170,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-05-05",
+      "name": "Goggles (Color 05 Light Green)",
+      "cost": {
+        "credits": 170,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-05-06",
+      "name": "Goggles (Color 06 Black)",
+      "cost": {
+        "credits": 170,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-05-07",
+      "name": "Goggles (Color 07 Light Blue)",
+      "cost": {
+        "credits": 170,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-05-08",
+      "name": "Goggles (Color 08 Crimson)",
+      "cost": {
+        "credits": 170,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-06-01",
+      "name": "Hero Goggles (Color 01 White)",
+      "cost": {
+        "credits": 2750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-06-02",
+      "name": "Hero Goggles (Color 02 Black)",
+      "cost": {
+        "credits": 2750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-06-03",
+      "name": "Hero Goggles (Color 03 Silver)",
+      "cost": {
+        "credits": 2750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-06-04",
+      "name": "Hero Goggles (Color 04 Yellow)",
+      "cost": {
+        "credits": 2750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-06-05",
+      "name": "Hero Goggles (Color 05 Light Green)",
+      "cost": {
+        "credits": 2750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-06-06",
+      "name": "Hero Goggles (Color 06 Black)",
+      "cost": {
+        "credits": 2750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-06-07",
+      "name": "Hero Goggles (Color 07 Light Blue)",
+      "cost": {
+        "credits": 2750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-06-08",
+      "name": "Hero Goggles (Color 08 Crimson)",
+      "cost": {
+        "credits": 2750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-07-01",
+      "name": "Retro Goggles (Color 01 White)",
+      "cost": {
+        "credits": 1750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-07-02",
+      "name": "Retro Goggles (Color 02 Black)",
+      "cost": {
+        "credits": 1750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-07-03",
+      "name": "Retro Goggles (Color 03 Silver)",
+      "cost": {
+        "credits": 1750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-07-04",
+      "name": "Retro Goggles (Color 04 Yellow)",
+      "cost": {
+        "credits": 1750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-07-05",
+      "name": "Retro Goggles (Color 05 Light Green)",
+      "cost": {
+        "credits": 1750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-07-06",
+      "name": "Retro Goggles (Color 06 Black)",
+      "cost": {
+        "credits": 1750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-07-07",
+      "name": "Retro Goggles (Color 07 Light Blue)",
+      "cost": {
+        "credits": 1750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-07-08",
+      "name": "Retro Goggles (Color 08 Crimson)",
+      "cost": {
+        "credits": 1750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-08-01",
+      "name": "Balaclava (Color 01 White)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-accessory-08-02",
+      "name": "Balaclava (Color 02 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-accessory-08-03",
+      "name": "Balaclava (Color 03 Silver)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-accessory-08-04",
+      "name": "Balaclava (Color 04 Yellow)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-accessory-08-05",
+      "name": "Balaclava (Color 05 Light Green)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-accessory-08-06",
+      "name": "Balaclava (Color 06 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-accessory-08-07",
+      "name": "Balaclava (Color 07 Light Blue)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-accessory-08-08",
+      "name": "Balaclava (Color 08 Crimson)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-accessory-09-01",
+      "name": "Stealth Mask (Color 01 White)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-09-02",
+      "name": "Stealth Mask (Color 02 Black)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-09-03",
+      "name": "Stealth Mask (Color 03 Silver)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-09-04",
+      "name": "Stealth Mask (Color 04 Yellow)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-09-05",
+      "name": "Stealth Mask (Color 05 Light Green)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-09-06",
+      "name": "Stealth Mask (Color 06 Black)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-09-07",
+      "name": "Stealth Mask (Color 07 Light Blue)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-09-08",
+      "name": "Stealth Mask (Color 08 Crimson)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-10-01",
+      "name": "Mask (Color 01 White)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M38 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-10-02",
+      "name": "Mask (Color 02 Black)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M38 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-10-03",
+      "name": "Mask (Color 03 Silver)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M38 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-10-04",
+      "name": "Mask (Color 04 Yellow)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M38 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-10-05",
+      "name": "Mask (Color 05 Light Green)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M38 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-10-06",
+      "name": "Mask (Color 06 Black)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M38 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-10-07",
+      "name": "Mask (Color 07 Light Blue)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M38 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-10-08",
+      "name": "Mask (Color 08 Crimson)",
+      "cost": {
+        "credits": 750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M38 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-11-01",
+      "name": "Eyepatch (Right Eye) (Color 01 White)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-11-02",
+      "name": "Eyepatch (Right Eye) (Color 02 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-11-03",
+      "name": "Eyepatch (Right Eye) (Color 03 Silver)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-11-04",
+      "name": "Eyepatch (Right Eye) (Color 04 Yellow)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-11-05",
+      "name": "Eyepatch (Right Eye) (Color 05 Light Green)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-11-06",
+      "name": "Eyepatch (Right Eye) (Color 06 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-11-07",
+      "name": "Eyepatch (Right Eye) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-11-08",
+      "name": "Eyepatch (Right Eye) (Color 08 Crimson)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-12-01",
+      "name": "Eyepatch (Left Eye) (Color 01 White)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-12-02",
+      "name": "Eyepatch (Left Eye) (Color 02 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-12-03",
+      "name": "Eyepatch (Left Eye) (Color 03 Silver)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-12-04",
+      "name": "Eyepatch (Left Eye) (Color 04 Yellow)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-12-05",
+      "name": "Eyepatch (Left Eye) (Color 05 Light Green)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-12-06",
+      "name": "Eyepatch (Left Eye) (Color 06 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-12-07",
+      "name": "Eyepatch (Left Eye) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-12-08",
+      "name": "Eyepatch (Left Eye) (Color 08 Crimson)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 accessories"
+    },
+    {
+      "id": "cosmetics-accessory-13-01",
+      "name": "Mind's Eye (Color 01 White)",
+      "cost": {
+        "credits": 6000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-13-02",
+      "name": "Mind's Eye (Color 02 Black)",
+      "cost": {
+        "credits": 6000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-13-03",
+      "name": "Mind's Eye (Color 03 Silver)",
+      "cost": {
+        "credits": 6000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-13-04",
+      "name": "Mind's Eye (Color 04 Yellow)",
+      "cost": {
+        "credits": 6000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-13-05",
+      "name": "Mind's Eye (Color 05 Light Green)",
+      "cost": {
+        "credits": 6000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-13-06",
+      "name": "Mind's Eye (Color 06 Black)",
+      "cost": {
+        "credits": 6000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-13-07",
+      "name": "Mind's Eye (Color 07 Light Blue)",
+      "cost": {
+        "credits": 6000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-13-08",
+      "name": "Mind's Eye (Color 08 Crimson)",
+      "cost": {
+        "credits": 6000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-14-01",
+      "name": "Face Guard (Menpo) (Color 01 White)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-14-02",
+      "name": "Face Guard (Menpo) (Color 02 Black)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-14-03",
+      "name": "Face Guard (Menpo) (Color 03 Silver)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-14-04",
+      "name": "Face Guard (Menpo) (Color 04 Yellow)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-14-05",
+      "name": "Face Guard (Menpo) (Color 05 Light Green)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-14-06",
+      "name": "Face Guard (Menpo) (Color 06 Black)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-14-07",
+      "name": "Face Guard (Menpo) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-14-08",
+      "name": "Face Guard (Menpo) (Color 08 Crimson)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M47 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-accessory-15-01",
+      "name": "Wrestler Mask (Color 01 White)",
+      "cost": {
+        "credits": 9000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-15-02",
+      "name": "Wrestler Mask (Color 02 Black)",
+      "cost": {
+        "credits": 9000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-15-03",
+      "name": "Wrestler Mask (Color 03 Silver)",
+      "cost": {
+        "credits": 9000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-15-04",
+      "name": "Wrestler Mask (Color 04 Yellow)",
+      "cost": {
+        "credits": 9000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-15-05",
+      "name": "Wrestler Mask (Color 05 Light Green)",
+      "cost": {
+        "credits": 9000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-15-06",
+      "name": "Wrestler Mask (Color 06 Black)",
+      "cost": {
+        "credits": 9000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-15-07",
+      "name": "Wrestler Mask (Color 07 Light Blue)",
+      "cost": {
+        "credits": 9000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-15-08",
+      "name": "Wrestler Mask (Color 08 Crimson)",
+      "cost": {
+        "credits": 9000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (EASY)"
+    },
+    {
+      "id": "cosmetics-accessory-16-01",
+      "name": "Fake Beard (Color 01 White)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-16-02",
+      "name": "Fake Beard (Color 02 Black)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-16-03",
+      "name": "Fake Beard (Color 03 Silver)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-16-04",
+      "name": "Fake Beard (Color 04 Yellow)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-16-05",
+      "name": "Fake Beard (Color 05 Light Green)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-16-06",
+      "name": "Fake Beard (Color 06 Black)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-16-07",
+      "name": "Fake Beard (Color 07 Light Blue)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARD)"
+    },
+    {
+      "id": "cosmetics-accessory-16-08",
+      "name": "Fake Beard (Color 08 Crimson)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARD)"
+    }
+  ]
+}

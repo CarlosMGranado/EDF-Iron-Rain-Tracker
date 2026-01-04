@@ -1,7 +1,7 @@
 {
   "id": "weapons_miniguns",
   "label": "Miniguns",
-  "icon": "assets/png/minigun.png",
+  "icon": "assets/png/weapons/minigun.png",
   "items": [
     {
       "id": "minigun-01",

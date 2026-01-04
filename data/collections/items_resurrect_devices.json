@@ -1,0 +1,38 @@
+{
+  "id": "items_resurrect_devices",
+  "label": "Resurrect Devices",
+  "icon": "assets/png/items/resurrect-device.png",
+  "items": [
+    { "id": "resurrect-device-01", "name": "PE Amore", "cost": { "credits": 0, "yellow": 300, "red": 0, "blue": 100 }, "unlock": "M45 (EASY)" },
+    { "id": "resurrect-device-02", "name": "PE Mythical Amore", "cost": { "credits": 0, "yellow": 1050, "red": 0, "blue": 350 }, "unlock": "M49 (HARD)" },
+    { "id": "resurrect-device-03", "name": "PE Mass Produced Amore x3", "cost": { "credits": 0, "yellow": 1875, "red": 0, "blue": 625 }, "unlock": "M44 (HARDEST)" },
+
+    { "id": "resurrect-device-04", "name": "PE Psyche", "cost": { "credits": 0, "yellow": 300, "red": 100, "blue": 0 }, "unlock": "M45 (EASY)" },
+    { "id": "resurrect-device-05", "name": "PE Mythical Psyche", "cost": { "credits": 0, "yellow": 1050, "red": 350, "blue": 0 }, "unlock": "M49 (HARD)" },
+    { "id": "resurrect-device-06", "name": "PE Mass Produced Psyche x3", "cost": { "credits": 0, "yellow": 1875, "red": 625, "blue": 0 }, "unlock": "M44 (HARDEST)" },
+
+    { "id": "resurrect-device-07", "name": "Rebooter", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 30 }, "unlock": "M1 (EASY)" },
+    { "id": "resurrect-device-08", "name": "Rebooter x2", "cost": { "credits": 0, "yellow": 350, "red": 350, "blue": 700 }, "unlock": "M52 (EASY)" },
+    { "id": "resurrect-device-09", "name": "Rebooter x3", "cost": { "credits": 0, "yellow": 625, "red": 625, "blue": 1250 }, "unlock": "M1 (HARDEST)" },
+
+    { "id": "resurrect-device-10", "name": "Rebooter III", "cost": { "credits": 0, "yellow": 300, "red": 300, "blue": 300 }, "unlock": "M1 (EASY)" },
+    { "id": "resurrect-device-11", "name": "Rebooter IV", "cost": { "credits": 0, "yellow": 900, "red": 900, "blue": 900 }, "unlock": "M11 (HARD)" },
+    { "id": "resurrect-device-12", "name": "Rebooter V", "cost": { "credits": 0, "yellow": 1600, "red": 1600, "blue": 1600 }, "unlock": "M3 (HARDEST)" },
+
+    { "id": "resurrect-device-13", "name": "Illicit Rebooter III", "cost": { "credits": 0, "yellow": 300, "red": 300, "blue": 300 }, "unlock": "M1 (EASY)" },
+    { "id": "resurrect-device-14", "name": "Illicit Rebooter IV", "cost": { "credits": 0, "yellow": 900, "red": 900, "blue": 900 }, "unlock": "M26 (HARD)" },
+    { "id": "resurrect-device-15", "name": "Illicit Rebooter V", "cost": { "credits": 0, "yellow": 1600, "red": 1600, "blue": 1600 }, "unlock": "M7 (HARDEST)" },
+
+    { "id": "resurrect-device-16", "name": "Quick Rebooter", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 50 }, "unlock": "M4 (EASY)" },
+    { "id": "resurrect-device-17", "name": "Quick Rebooter x2", "cost": { "credits": 0, "yellow": 350, "red": 700, "blue": 350 }, "unlock": "M52 (EASY)" },
+    { "id": "resurrect-device-18", "name": "Quick Rebooter x3", "cost": { "credits": 0, "yellow": 625, "red": 1250, "blue": 625 }, "unlock": "M1 (HARDEST)" },
+
+    { "id": "resurrect-device-19", "name": "Quick Rebooter III", "cost": { "credits": 0, "yellow": 300, "red": 300, "blue": 300 }, "unlock": "M4 (EASY)" },
+    { "id": "resurrect-device-20", "name": "Quick Rebooter IV", "cost": { "credits": 0, "yellow": 900, "red": 900, "blue": 900 }, "unlock": "M11 (HARD)" },
+    { "id": "resurrect-device-21", "name": "Quick Rebooter V", "cost": { "credits": 0, "yellow": 1600, "red": 1600, "blue": 1600 }, "unlock": "M3 (HARDEST)" },
+
+    { "id": "resurrect-device-22", "name": "Illicit Quick Rebooter III", "cost": { "credits": 0, "yellow": 300, "red": 300, "blue": 300 }, "unlock": "M4 (EASY)" },
+    { "id": "resurrect-device-23", "name": "Illicit Quick Rebooter IV", "cost": { "credits": 0, "yellow": 900, "red": 900, "blue": 900 }, "unlock": "M26 (HARD)" },
+    { "id": "resurrect-device-24", "name": "Illicit Quick Rebooter V", "cost": { "credits": 0, "yellow": 1600, "red": 1600, "blue": 1600 }, "unlock": "M7 (HARDEST)" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "weapons_grenade_launchers",
   "label": "Grenade launchers",
-  "icon": "assets/png/granade-launcher.png",
+  "icon": "assets/png/weapons/granade-launcher.png",
   "items": [
     {
       "id": "grenade-launcher-01",

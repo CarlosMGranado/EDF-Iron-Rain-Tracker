@@ -1,7 +1,7 @@
 {
   "id": "weapons_sniper_rifles",
   "label": "Sniper rifles",
-  "icon": "assets/png/sniper-rifle.png",
+  "icon": "assets/png/weapons/sniper-rifle.png",
   "items": [
     {
       "id": "sniper-rifle-01",

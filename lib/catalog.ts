@@ -10,8 +10,17 @@ import swords from "../data/collections/weapons_swords.json";
 import laserCannon from "../data/collections/weapons_laser_cannon.json";
 import specialAndHeavy from "../data/collections/weapons_special_and_heavy.json";
 import orbital from "../data/collections/weapons_orbital.json";
-import revivalAndVehicles from "../data/collections/items_revival_and_vehicles.json";
-import supportHealCosmetics from "../data/collections/items_support_heal_cosmetics.json";
+import grenades from "../data/collections/items_granade.json";
+import trapWeapons from "../data/collections/items_trap_weapons.json";
+import vehicles from "../data/collections/items_vehicles.json";
+import supportDevices from "../data/collections/items_support-devices.json";
+import resurrectDevices from "../data/collections/items_resurrect_devices.json";
+import fieldSupport from "../data/collections/items_field_support.json";
+import recoveryDevices from "../data/collections/items_recovery_devices.json";
+import acessory from "../data/collections/cosmetics_accessory.json";
+import head from "../data/collections/cosmetics_head.json";
+import lower from "../data/collections/cosmetics_lower.json";
+import upper from "../data/collections/cosmetics_upper.json";
 
 import type { CatalogEntry, Collection } from "./types";
 
@@ -28,8 +37,17 @@ export const COLLECTIONS: Collection[] = [
   orbital,
   minigun,
   laserCannon,
-  revivalAndVehicles,
-  supportHealCosmetics
+  grenades,
+  trapWeapons,
+  vehicles,
+  supportDevices,
+  resurrectDevices,
+  fieldSupport,
+  recoveryDevices,
+  acessory,
+  head,
+  lower,
+  upper
 ] as unknown as Collection[];
 
 export const CATALOG: CatalogEntry[] = COLLECTIONS.flatMap((c) =>

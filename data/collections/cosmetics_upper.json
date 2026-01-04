@@ -1,0 +1,1503 @@
+{
+  "id": "cosmetics_upper",
+  "label": "Upper Body",
+  "icon": "assets/png/cosmetics/upper.png",
+  "items": [
+    {
+      "id": "cosmetics-upper-01-01",
+      "name": "General Combat Suit (Phlox) (Color 01 White)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-upper-01-02",
+      "name": "General Combat Suit (Phlox) (Color 02 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-upper-01-03",
+      "name": "General Combat Suit (Phlox) (Color 03 Silver)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-upper-01-04",
+      "name": "General Combat Suit (Phlox) (Color 04 Yellow)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-upper-01-05",
+      "name": "General Combat Suit (Phlox) (Color 05 Light Green)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-upper-01-06",
+      "name": "General Combat Suit (Phlox) (Color 06 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-upper-01-07",
+      "name": "General Combat Suit (Phlox) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-upper-01-08",
+      "name": "General Combat Suit (Phlox) (Color 08 Crimson)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-upper-02-01",
+      "name": "Light Combat Suit (Chamomile) (Color 01 White)",
+      "cost": {
+        "credits": 600,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-02-02",
+      "name": "Light Combat Suit (Chamomile) (Color 02 Black)",
+      "cost": {
+        "credits": 600,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-02-03",
+      "name": "Light Combat Suit (Chamomile) (Color 03 Silver)",
+      "cost": {
+        "credits": 600,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-02-04",
+      "name": "Light Combat Suit (Chamomile) (Color 04 Yellow)",
+      "cost": {
+        "credits": 600,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-02-05",
+      "name": "Light Combat Suit (Chamomile) (Color 05 Light Green)",
+      "cost": {
+        "credits": 600,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-02-06",
+      "name": "Light Combat Suit (Chamomile) (Color 06 Black)",
+      "cost": {
+        "credits": 600,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-02-07",
+      "name": "Light Combat Suit (Chamomile) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 600,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-02-08",
+      "name": "Light Combat Suit (Chamomile) (Color 08 Crimson)",
+      "cost": {
+        "credits": 600,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-03-01",
+      "name": "Light Combat Suit (Chamomile) (Open Chest) (Color 01 White)",
+      "cost": {
+        "credits": 3750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-03-02",
+      "name": "Light Combat Suit (Chamomile) (Open Chest) (Color 02 Black)",
+      "cost": {
+        "credits": 3750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-03-03",
+      "name": "Light Combat Suit (Chamomile) (Open Chest) (Color 03 Silver)",
+      "cost": {
+        "credits": 3750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-03-04",
+      "name": "Light Combat Suit (Chamomile) (Open Chest) (Color 04 Yellow)",
+      "cost": {
+        "credits": 3750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-03-05",
+      "name": "Light Combat Suit (Chamomile) (Open Chest) (Color 05 Light Green)",
+      "cost": {
+        "credits": 3750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-03-06",
+      "name": "Light Combat Suit (Chamomile) (Open Chest) (Color 06 Black)",
+      "cost": {
+        "credits": 3750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-03-07",
+      "name": "Light Combat Suit (Chamomile) (Open Chest) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 3750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-03-08",
+      "name": "Light Combat Suit (Chamomile) (Open Chest) (Color 08 Crimson)",
+      "cost": {
+        "credits": 3750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M3 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-04-01",
+      "name": "Heavy Combat Suit (Nasturtium) (Color 01 White)",
+      "cost": {
+        "credits": 10500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-04-02",
+      "name": "Heavy Combat Suit (Nasturtium) (Color 02 Black)",
+      "cost": {
+        "credits": 10500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-04-03",
+      "name": "Heavy Combat Suit (Nasturtium) (Color 03 Silver)",
+      "cost": {
+        "credits": 10500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-04-04",
+      "name": "Heavy Combat Suit (Nasturtium) (Color 04 Yellow)",
+      "cost": {
+        "credits": 10500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-04-05",
+      "name": "Heavy Combat Suit (Nasturtium) (Color 05 Light Green)",
+      "cost": {
+        "credits": 10500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-04-06",
+      "name": "Heavy Combat Suit (Nasturtium) (Color 06 Black)",
+      "cost": {
+        "credits": 10500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-04-07",
+      "name": "Heavy Combat Suit (Nasturtium) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 10500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-04-08",
+      "name": "Heavy Combat Suit (Nasturtium) (Color 08 Crimson)",
+      "cost": {
+        "credits": 10500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-05-01",
+      "name": "Assault Combat Suit (Anemone) (Color 01 White)",
+      "cost": {
+        "credits": 12000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M1 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-upper-05-02",
+      "name": "Assault Combat Suit (Anemone) (Color 02 Black)",
+      "cost": {
+        "credits": 12000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M1 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-upper-05-03",
+      "name": "Assault Combat Suit (Anemone) (Color 03 Silver)",
+      "cost": {
+        "credits": 12000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M1 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-upper-05-04",
+      "name": "Assault Combat Suit (Anemone) (Color 04 Yellow)",
+      "cost": {
+        "credits": 12000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M1 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-upper-05-05",
+      "name": "Assault Combat Suit (Anemone) (Color 05 Light Green)",
+      "cost": {
+        "credits": 12000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M1 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-upper-05-06",
+      "name": "Assault Combat Suit (Anemone) (Color 06 Black)",
+      "cost": {
+        "credits": 12000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M1 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-upper-05-07",
+      "name": "Assault Combat Suit (Anemone) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 12000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M1 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-upper-05-08",
+      "name": "Assault Combat Suit (Anemone) (Color 08 Crimson)",
+      "cost": {
+        "credits": 12000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M1 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-upper-06-01",
+      "name": "Chemical Protective Suit (Platanus) (Color 01 White)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-06-02",
+      "name": "Chemical Protective Suit (Platanus) (Color 02 Black)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-06-03",
+      "name": "Chemical Protective Suit (Platanus) (Color 03 Silver)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-06-04",
+      "name": "Chemical Protective Suit (Platanus) (Color 04 Yellow)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-06-05",
+      "name": "Chemical Protective Suit (Platanus) (Color 05 Light Green)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-06-06",
+      "name": "Chemical Protective Suit (Platanus) (Color 06 Black)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-06-07",
+      "name": "Chemical Protective Suit (Platanus) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-06-08",
+      "name": "Chemical Protective Suit (Platanus) (Color 08 Crimson)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-07-01",
+      "name": "PR Combat Suit (Tuberose) (Color 01 White)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 upper body outfits"
+    },
+    {
+      "id": "cosmetics-upper-07-02",
+      "name": "PR Combat Suit (Tuberose) (Color 02 Black)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 upper body outfits"
+    },
+    {
+      "id": "cosmetics-upper-07-03",
+      "name": "PR Combat Suit (Tuberose) (Color 03 Silver)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 upper body outfits"
+    },
+    {
+      "id": "cosmetics-upper-07-04",
+      "name": "PR Combat Suit (Tuberose) (Color 04 Yellow)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 upper body outfits"
+    },
+    {
+      "id": "cosmetics-upper-07-05",
+      "name": "PR Combat Suit (Tuberose) (Color 05 Light Green)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 upper body outfits"
+    },
+    {
+      "id": "cosmetics-upper-07-06",
+      "name": "PR Combat Suit (Tuberose) (Color 06 Black)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 upper body outfits"
+    },
+    {
+      "id": "cosmetics-upper-07-07",
+      "name": "PR Combat Suit (Tuberose) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 upper body outfits"
+    },
+    {
+      "id": "cosmetics-upper-07-08",
+      "name": "PR Combat Suit (Tuberose) (Color 08 Crimson)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 upper body outfits"
+    },
+    {
+      "id": "cosmetics-upper-08-01",
+      "name": "Stealth Gear (Hozuki) (Color 01 White)",
+      "cost": {
+        "credits": 11250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Collect 51 M.I.A. Drones"
+    },
+    {
+      "id": "cosmetics-upper-08-02",
+      "name": "Stealth Gear (Hozuki) (Color 02 Black)",
+      "cost": {
+        "credits": 11250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Collect 51 M.I.A. Drones"
+    },
+    {
+      "id": "cosmetics-upper-08-03",
+      "name": "Stealth Gear (Hozuki) (Color 03 Silver)",
+      "cost": {
+        "credits": 11250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Collect 51 M.I.A. Drones"
+    },
+    {
+      "id": "cosmetics-upper-08-04",
+      "name": "Stealth Gear (Hozuki) (Color 04 Yellow)",
+      "cost": {
+        "credits": 11250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Collect 51 M.I.A. Drones"
+    },
+    {
+      "id": "cosmetics-upper-08-05",
+      "name": "Stealth Gear (Hozuki) (Color 05 Light Green)",
+      "cost": {
+        "credits": 11250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Collect 51 M.I.A. Drones"
+    },
+    {
+      "id": "cosmetics-upper-08-06",
+      "name": "Stealth Gear (Hozuki) (Color 06 Black)",
+      "cost": {
+        "credits": 11250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Collect 51 M.I.A. Drones"
+    },
+    {
+      "id": "cosmetics-upper-08-07",
+      "name": "Stealth Gear (Hozuki) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 11250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Collect 51 M.I.A. Drones"
+    },
+    {
+      "id": "cosmetics-upper-08-08",
+      "name": "Stealth Gear (Hozuki) (Color 08 Crimson)",
+      "cost": {
+        "credits": 11250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Collect 51 M.I.A. Drones"
+    },
+    {
+      "id": "cosmetics-upper-09-01",
+      "name": "EDF Far East Branch Uniform (Color 01 White)",
+      "cost": {
+        "credits": 8250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-09-02",
+      "name": "EDF Far East Branch Uniform (Color 02 Black)",
+      "cost": {
+        "credits": 8250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-09-03",
+      "name": "EDF Far East Branch Uniform (Color 03 Silver)",
+      "cost": {
+        "credits": 8250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-09-04",
+      "name": "EDF Far East Branch Uniform (Color 04 Yellow)",
+      "cost": {
+        "credits": 8250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-09-05",
+      "name": "EDF Far East Branch Uniform (Color 05 Light Green)",
+      "cost": {
+        "credits": 8250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-09-06",
+      "name": "EDF Far East Branch Uniform (Color 06 Black)",
+      "cost": {
+        "credits": 8250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-09-07",
+      "name": "EDF Far East Branch Uniform (Color 07 Light Blue)",
+      "cost": {
+        "credits": 8250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-09-08",
+      "name": "EDF Far East Branch Uniform (Color 08 Crimson)",
+      "cost": {
+        "credits": 8250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M19 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-upper-10-01",
+      "name": "EDF Infantry Combat Suit (Color 01 White)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-upper-10-02",
+      "name": "EDF Infantry Combat Suit (Color 02 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-upper-10-03",
+      "name": "EDF Infantry Combat Suit (Color 03 Silver)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-upper-10-04",
+      "name": "EDF Infantry Combat Suit (Color 04 Yellow)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-upper-10-05",
+      "name": "EDF Infantry Combat Suit (Color 05 Light Green)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-upper-10-06",
+      "name": "EDF Infantry Combat Suit (Color 06 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-upper-10-07",
+      "name": "EDF Infantry Combat Suit (Color 07 Light Blue)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-upper-10-08",
+      "name": "EDF Infantry Combat Suit (Color 08 Crimson)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-upper-11-01",
+      "name": "Commando Sweater (Color 01 White)",
+      "cost": {
+        "credits": 1500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-11-02",
+      "name": "Commando Sweater (Color 02 Black)",
+      "cost": {
+        "credits": 1500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-11-03",
+      "name": "Commando Sweater (Color 03 Silver)",
+      "cost": {
+        "credits": 1500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-11-04",
+      "name": "Commando Sweater (Color 04 Yellow)",
+      "cost": {
+        "credits": 1500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-11-05",
+      "name": "Commando Sweater (Color 05 Light Green)",
+      "cost": {
+        "credits": 1500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-11-06",
+      "name": "Commando Sweater (Color 06 Black)",
+      "cost": {
+        "credits": 1500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-11-07",
+      "name": "Commando Sweater (Color 07 Light Blue)",
+      "cost": {
+        "credits": 1500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-11-08",
+      "name": "Commando Sweater (Color 08 Crimson)",
+      "cost": {
+        "credits": 1500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-12-01",
+      "name": "Guerrilla Style (Color 01 White)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M40 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-12-02",
+      "name": "Guerrilla Style (Color 02 Black)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M40 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-12-03",
+      "name": "Guerrilla Style (Color 03 Silver)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M40 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-12-04",
+      "name": "Guerrilla Style (Color 04 Yellow)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M40 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-12-05",
+      "name": "Guerrilla Style (Color 05 Light Green)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M40 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-12-06",
+      "name": "Guerrilla Style (Color 06 Black)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M40 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-12-07",
+      "name": "Guerrilla Style (Color 07 Light Blue)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M40 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-12-08",
+      "name": "Guerrilla Style (Color 08 Crimson)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M40 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-13-01",
+      "name": "Guerrilla Style B (Color 01 White)",
+      "cost": {
+        "credits": 6750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-13-02",
+      "name": "Guerrilla Style B (Color 02 Black)",
+      "cost": {
+        "credits": 6750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-13-03",
+      "name": "Guerrilla Style B (Color 03 Silver)",
+      "cost": {
+        "credits": 6750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-13-04",
+      "name": "Guerrilla Style B (Color 04 Yellow)",
+      "cost": {
+        "credits": 6750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-13-05",
+      "name": "Guerrilla Style B (Color 05 Light Green)",
+      "cost": {
+        "credits": 6750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-13-06",
+      "name": "Guerrilla Style B (Color 06 Black)",
+      "cost": {
+        "credits": 6750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-13-07",
+      "name": "Guerrilla Style B (Color 07 Light Blue)",
+      "cost": {
+        "credits": 6750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-13-08",
+      "name": "Guerrilla Style B (Color 08 Crimson)",
+      "cost": {
+        "credits": 6750,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M42 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-14-01",
+      "name": "Commando Armor (Color 01 White)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-14-02",
+      "name": "Commando Armor (Color 02 Black)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-14-03",
+      "name": "Commando Armor (Color 03 Silver)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-14-04",
+      "name": "Commando Armor (Color 04 Yellow)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-14-05",
+      "name": "Commando Armor (Color 05 Light Green)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-14-06",
+      "name": "Commando Armor (Color 06 Black)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-14-07",
+      "name": "Commando Armor (Color 07 Light Blue)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-14-08",
+      "name": "Commando Armor (Color 08 Crimson)",
+      "cost": {
+        "credits": 2250,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-15-01",
+      "name": "T Shirt (Color 01 White)",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-15-02",
+      "name": "T Shirt (Color 02 Black)",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-15-03",
+      "name": "T Shirt (Color 03 Silver)",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-15-04",
+      "name": "T Shirt (Color 04 Yellow)",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-15-05",
+      "name": "T Shirt (Color 05 Light Green)",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-15-06",
+      "name": "T Shirt (Color 06 Black)",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-15-07",
+      "name": "T Shirt (Color 07 Light Blue)",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-15-08",
+      "name": "T Shirt (Color 08 Crimson)",
+      "cost": {
+        "credits": 1200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M18 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-16-01",
+      "name": "Tank Top (Color 01 White)",
+      "cost": {
+        "credits": 3000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M46 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-16-02",
+      "name": "Tank Top (Color 02 Black)",
+      "cost": {
+        "credits": 3000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M46 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-16-03",
+      "name": "Tank Top (Color 03 Silver)",
+      "cost": {
+        "credits": 3000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M46 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-16-04",
+      "name": "Tank Top (Color 04 Yellow)",
+      "cost": {
+        "credits": 3000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M46 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-16-05",
+      "name": "Tank Top (Color 05 Light Green)",
+      "cost": {
+        "credits": 3000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M46 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-16-06",
+      "name": "Tank Top (Color 06 Black)",
+      "cost": {
+        "credits": 3000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M46 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-16-07",
+      "name": "Tank Top (Color 07 Light Blue)",
+      "cost": {
+        "credits": 3000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M46 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-16-08",
+      "name": "Tank Top (Color 08 Crimson)",
+      "cost": {
+        "credits": 3000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M46 (EASY)"
+    },
+    {
+      "id": "cosmetics-upper-17-01",
+      "name": "Wild Style (Color 01 White)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-17-02",
+      "name": "Wild Style (Color 02 Black)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-17-03",
+      "name": "Wild Style (Color 03 Silver)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-17-04",
+      "name": "Wild Style (Color 04 Yellow)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-17-05",
+      "name": "Wild Style (Color 05 Light Green)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-17-06",
+      "name": "Wild Style (Color 06 Black)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-17-07",
+      "name": "Wild Style (Color 07 Light Blue)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (HARD)"
+    },
+    {
+      "id": "cosmetics-upper-17-08",
+      "name": "Wild Style (Color 08 Crimson)",
+      "cost": {
+        "credits": 100000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M52 (HARD)"
+    }
+  ]
+}

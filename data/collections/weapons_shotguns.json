@@ -1,7 +1,7 @@
 {
   "id": "weapons_shotguns",
   "label": "Shotguns",
-  "icon": "assets/png/shotgun.png",
+  "icon": "assets/png/weapons/shotgun.png",
   "items": [
     {
       "id": "shotgun-01",

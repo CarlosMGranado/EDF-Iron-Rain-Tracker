@@ -1,7 +1,7 @@
 {
   "id": "weapons_assault_rifles",
   "label": "Assault rifles",
-  "icon": "assets/png/assault-rifle.png",
+  "icon": "assets/png/weapons/assault-rifle.png",
   "items": [
     {
       "id": "assault-rifle-01",

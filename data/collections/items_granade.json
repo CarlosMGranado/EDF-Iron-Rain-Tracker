@@ -1,0 +1,381 @@
+{
+  "id": "items_grenades",
+  "label": "Grenades",
+  "icon": "assets/png/items/grenade.png",
+  "items": [
+    {
+      "id": "grenade-01",
+      "name": "AL Grenade x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 0 },
+      "unlock": "Starting Item"
+    },
+    {
+      "id": "grenade-02",
+      "name": "AL Grenade x12",
+      "cost": { "credits": 0, "yellow": 0, "red": 90, "blue": 0 },
+      "unlock": "M1 (NORMAL)"
+    },
+    {
+      "id": "grenade-03",
+      "name": "AL Grenade x16",
+      "cost": { "credits": 0, "yellow": 0, "red": 135, "blue": 0 },
+      "unlock": "M1 (NORMAL)"
+    },
+    {
+      "id": "grenade-04",
+      "name": "AL Grenade Modified x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 250, "blue": 0 },
+      "unlock": "M49 (NORMAL)"
+    },
+    {
+      "id": "grenade-05",
+      "name": "AL Grenade Modified x12",
+      "cost": { "credits": 0, "yellow": 0, "red": 300, "blue": 0 },
+      "unlock": "M49 (NORMAL)"
+    },
+    {
+      "id": "grenade-06",
+      "name": "AL Grenade Modified x16",
+      "cost": { "credits": 0, "yellow": 0, "red": 450, "blue": 0 },
+      "unlock": "M49 (NORMAL)"
+    },
+    {
+      "id": "grenade-07",
+      "name": "AL Grenade Z x3",
+      "cost": { "credits": 0, "yellow": 0, "red": 270, "blue": 0 },
+      "unlock": "M47 (HARD)"
+    },
+    {
+      "id": "grenade-08",
+      "name": "AL Grenade Z x5",
+      "cost": { "credits": 0, "yellow": 0, "red": 540, "blue": 0 },
+      "unlock": "M47 (HARD)"
+    },
+    {
+      "id": "grenade-09",
+      "name": "AL Flame Grenade x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 60, "blue": 0 },
+      "unlock": "M14 (NORMAL)"
+    },
+    {
+      "id": "grenade-10",
+      "name": "AL Flame Grenade x12",
+      "cost": { "credits": 0, "yellow": 0, "red": 120, "blue": 0 },
+      "unlock": "M14 (NORMAL)"
+    },
+    {
+      "id": "grenade-11",
+      "name": "AL Flame Grenade Modified x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 },
+      "unlock": "M1 (HARD)"
+    },
+    {
+      "id": "grenade-12",
+      "name": "AL Flame Grenade Modified x12",
+      "cost": { "credits": 0, "yellow": 0, "red": 420, "blue": 0 },
+      "unlock": "M1 (HARD)"
+    },
+    {
+      "id": "grenade-13",
+      "name": "AL Freeze Grenade x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 210 },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "grenade-14",
+      "name": "AL Freeze Grenade x9",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 420 },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "grenade-15",
+      "name": "AL Freeze Grenade Modified x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 750 },
+      "unlock": "M50 (HARD)"
+    },
+    {
+      "id": "grenade-16",
+      "name": "AL Shock Grenade x20",
+      "cost": { "credits": 0, "yellow": 120, "red": 0, "blue": 0 },
+      "unlock": "M21 (NORMAL)"
+    },
+    {
+      "id": "grenade-17",
+      "name": "AL Shock Grenade Modified x20",
+      "cost": { "credits": 0, "yellow": 210, "red": 0, "blue": 0 },
+      "unlock": "M51 (NORMAL)"
+    },
+    {
+      "id": "grenade-18",
+      "name": "AL Shock Grenade Z x40",
+      "cost": { "credits": 0, "yellow": 375, "red": 0, "blue": 0 },
+      "unlock": "M35 (HARD)"
+    },
+    {
+      "id": "grenade-19",
+      "name": "AL Timed Grenade x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 45, "blue": 0 },
+      "unlock": "M22 (NORMAL)"
+    },
+    {
+      "id": "grenade-20",
+      "name": "AL Timed Grenade x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 120, "blue": 0 },
+      "unlock": "M22 (NORMAL)"
+    },
+    {
+      "id": "grenade-21",
+      "name": "AL Timed Grenade x10",
+      "cost": { "credits": 0, "yellow": 0, "red": 135, "blue": 0 },
+      "unlock": "M22 (NORMAL)"
+    },
+    {
+      "id": "grenade-22",
+      "name": "AL Timed Grenade Modified x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 150, "blue": 0 },
+      "unlock": "M4 (HARD)"
+    },
+    {
+      "id": "grenade-23",
+      "name": "AL Timed Grenade Modified x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 300, "blue": 0 },
+      "unlock": "M4 (HARD)"
+    },
+    {
+      "id": "grenade-24",
+      "name": "AL Timed Grenade Modified x10",
+      "cost": { "credits": 0, "yellow": 0, "red": 450, "blue": 0 },
+      "unlock": "M4 (HARD)"
+    },
+    {
+      "id": "grenade-25",
+      "name": "AL Timed Grenade Z x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 270, "blue": 0 },
+      "unlock": "M44 (NORMAL)"
+    },
+    {
+      "id": "grenade-26",
+      "name": "AL Timed Grenade Z x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 540, "blue": 0 },
+      "unlock": "M44 (NORMAL)"
+    },
+    {
+      "id": "grenade-27",
+      "name": "AL Timed Flame Grenade x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 120, "blue": 0 },
+      "unlock": "M32 (HARD)"
+    },
+    {
+      "id": "grenade-28",
+      "name": "AL Timed Flame Grenade x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 180, "blue": 0 },
+      "unlock": "M32 (HARD)"
+    },
+    {
+      "id": "grenade-29",
+      "name": "AL Timed Flame Grenade Modified x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 },
+      "unlock": "M18 (HARD)"
+    },
+    {
+      "id": "grenade-30",
+      "name": "AL Timed Flame Grenade Modified x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 420, "blue": 0 },
+      "unlock": "M18 (HARD)"
+    },
+
+    {
+      "id": "grenade-31",
+      "name": "CR Sticky Grenade x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 30, "blue": 0 },
+      "unlock": "M26 (NORMAL)"
+    },
+    {
+      "id": "grenade-32",
+      "name": "CR Sticky Grenade x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 60, "blue": 0 },
+      "unlock": "M26 (NORMAL)"
+    },
+    {
+      "id": "grenade-33",
+      "name": "CR Sticky Grenade x10",
+      "cost": { "credits": 0, "yellow": 0, "red": 90, "blue": 0 },
+      "unlock": "M26 (NORMAL)"
+    },
+    {
+      "id": "grenade-34",
+      "name": "CR Sticky Grenade Modified x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 105, "blue": 0 },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "grenade-35",
+      "name": "CR Sticky Grenade Modified x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "grenade-36",
+      "name": "CR Sticky Grenade Modified x10",
+      "cost": { "credits": 0, "yellow": 0, "red": 315, "blue": 0 },
+      "unlock": "M9 (HARD)"
+    },
+    {
+      "id": "grenade-37",
+      "name": "CR Sticky Grenade Z x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 190, "blue": 0 },
+      "unlock": "M9 (HARDEST)"
+    },
+    {
+      "id": "grenade-38",
+      "name": "CR Sticky Grenade Z x8",
+      "cost": { "credits": 0, "yellow": 0, "red": 375, "blue": 0 },
+      "unlock": "M9 (HARDEST)"
+    },
+    {
+      "id": "grenade-39",
+      "name": "CR Sticky Freeze Grenade x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 50 },
+      "unlock": "M31 (HARD)"
+    },
+    {
+      "id": "grenade-40",
+      "name": "CR Sticky Freeze Grenade x9",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 105 },
+      "unlock": "M32 (HARD)"
+    },
+    {
+      "id": "grenade-41",
+      "name": "CR Sticky Freeze Grenade Modified x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 190 },
+      "unlock": "M13 (HARDEST)"
+    },
+    {
+      "id": "grenade-42",
+      "name": "CR Sticky Healing Grenade x4",
+      "cost": { "credits": 0, "yellow": 5, "red": 15, "blue": 0 },
+      "unlock": "M10 (NORMAL)"
+    },
+    {
+      "id": "grenade-43",
+      "name": "CR Sticky Healing Grenade x6",
+      "cost": { "credits": 0, "yellow": 10, "red": 30, "blue": 0 },
+      "unlock": "M10 (NORMAL)"
+    },
+    {
+      "id": "grenade-44",
+      "name": "CR Sticky Healing Grenade x8",
+      "cost": { "credits": 0, "yellow": 15, "red": 45, "blue": 0 },
+      "unlock": "M10 (NORMAL)"
+    },
+    {
+      "id": "grenade-45",
+      "name": "CR Sticky Healing Grenade Modified x3",
+      "cost": { "credits": 0, "yellow": 50, "red": 150, "blue": 0 },
+      "unlock": "M41 (NORMAL)"
+    },
+    {
+      "id": "grenade-46",
+      "name": "CR Sticky Healing Grenade Modified x4",
+      "cost": { "credits": 0, "yellow": 100, "red": 300, "blue": 0 },
+      "unlock": "M41 (NORMAL)"
+    },
+    {
+      "id": "grenade-47",
+      "name": "CR Sticky Healing Grenade Modified x5",
+      "cost": { "credits": 0, "yellow": 150, "red": 450, "blue": 0 },
+      "unlock": "M41 (NORMAL)"
+    },
+    {
+      "id": "grenade-48",
+      "name": "CR Sticky Healing Grenade Z x2",
+      "cost": { "credits": 0, "yellow": 150, "red": 525, "blue": 0 },
+      "unlock": "M22 (HARD)"
+    },
+    {
+      "id": "grenade-49",
+      "name": "CR Sticky Healing Grenade Z x3",
+      "cost": { "credits": 0, "yellow": 250, "red": 1050, "blue": 0 },
+      "unlock": "M22 (HARD)"
+    },
+    {
+      "id": "grenade-50",
+      "name": "CR Sticky Healing Grenade ZS x2",
+      "cost": { "credits": 0, "yellow": 525, "red": 1875, "blue": 0 },
+      "unlock": "M31 (HARDEST)"
+    },
+
+    {
+      "id": "grenade-51",
+      "name": "KK Plasma Cloud x2",
+      "cost": { "credits": 0, "yellow": 0, "red": 120, "blue": 0 },
+      "unlock": "M5 (NORMAL)"
+    },
+    {
+      "id": "grenade-52",
+      "name": "KK Plasma Cloud x3",
+      "cost": { "credits": 0, "yellow": 0, "red": 120, "blue": 0 },
+      "unlock": "M5 (NORMAL)"
+    },
+    {
+      "id": "grenade-53",
+      "name": "KK Plasma Cloud Modified x2",
+      "cost": { "credits": 0, "yellow": 0, "red": 420, "blue": 0 },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "grenade-54",
+      "name": "KK Plasma Cloud Modified x3",
+      "cost": { "credits": 0, "yellow": 0, "red": 420, "blue": 0 },
+      "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "grenade-55",
+      "name": "KK Plasma Cloud Z x2",
+      "cost": { "credits": 0, "yellow": 0, "red": 750, "blue": 0 },
+      "unlock": "M18 (HARDEST)"
+    },
+    {
+      "id": "grenade-56",
+      "name": "KK Plasma Icicle x2",
+      "cost": { "credits": 0, "yellow": 0, "red": 60, "blue": 0 },
+      "unlock": "M27 (NORMAL)"
+    },
+    {
+      "id": "grenade-57",
+      "name": "KK Plasma Icicle x3",
+      "cost": { "credits": 0, "yellow": 0, "red": 120, "blue": 0 },
+      "unlock": "M27 (NORMAL)"
+    },
+    {
+      "id": "grenade-58",
+      "name": "KK Plasma Icicle Modified x10",
+      "cost": { "credits": 0, "yellow": 0, "red": 420, "blue": 0 },
+      "unlock": "M28 (HARD)"
+    },
+    {
+      "id": "grenade-59",
+      "name": "KK Plasma Icicle Z x2",
+      "cost": { "credits": 0, "yellow": 0, "red": 750, "blue": 0 },
+      "unlock": "M25 (HARDEST)"
+    },
+    {
+      "id": "grenade-60",
+      "name": "KK Plasma Rain x2",
+      "cost": { "credits": 0, "yellow": 0, "red": 120, "blue": 0 },
+      "unlock": "M35 (NORMAL)"
+    },
+    {
+      "id": "grenade-61",
+      "name": "KK Plasma Rain Modified x2",
+      "cost": { "credits": 0, "yellow": 0, "red": 420, "blue": 0 },
+      "unlock": "M33 (HARD)"
+    },
+    {
+      "id": "grenade-62",
+      "name": "KK Plasma Rain Z x6",
+      "cost": { "credits": 0, "yellow": 0, "red": 750, "blue": 0 },
+      "unlock": "M35 (HARDEST)"
+    }
+  ]
+}

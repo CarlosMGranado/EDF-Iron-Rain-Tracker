@@ -1,0 +1,124 @@
+{
+  "id": "items_traps",
+  "label": "Trap Weapons",
+  "icon": "assets/png/items/trap-weapon.png",
+  "items": [
+    { "id": "trap-01", "name": "NP Landmine", "cost": { "credits": 0, "yellow": 0, "red": 30, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-02", "name": "NP Landmine x2", "cost": { "credits": 0, "yellow": 0, "red": 80, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-03", "name": "NP Landmine x3", "cost": { "credits": 0, "yellow": 0, "red": 80, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-04", "name": "NP Landmine Modified", "cost": { "credits": 0, "yellow": 0, "red": 80, "blue": 0 }, "unlock": "M50 (NORMAL)" },
+    { "id": "trap-05", "name": "NP Landmine Modified x2", "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-06", "name": "NP Landmine Modified x3", "cost": { "credits": 0, "yellow": 0, "red": 315, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-07", "name": "NP Landmine Z", "cost": { "credits": 0, "yellow": 0, "red": 625, "blue": 0 }, "unlock": "M2 (HARDEST)" },
+    { "id": "trap-08", "name": "NP Landmine Z x2", "cost": { "credits": 0, "yellow": 0, "red": 1250, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-09", "name": "NP Landmine Z x3", "cost": { "credits": 0, "yellow": 0, "red": 1875, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-10", "name": "NP Freeze Landmine x2", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 15 }, "unlock": "M42 (NORMAL)" },
+    { "id": "trap-11", "name": "NP Freeze Landmine x3", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 30 }, "unlock": "Shop" },
+    { "id": "trap-12", "name": "NP Freeze Landmine Z x2", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 105 }, "unlock": "M42 (HARD)" },
+
+    { "id": "trap-13", "name": "NP Shock Landmine x2", "cost": { "credits": 0, "yellow": 55, "red": 0, "blue": 0 }, "unlock": "M25 (HARD)" },
+    { "id": "trap-14", "name": "NP Shock Landmine x3", "cost": { "credits": 0, "yellow": 105, "red": 0, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-15", "name": "NP Shock Landmine Modified x2", "cost": { "credits": 0, "yellow": 190, "red": 0, "blue": 0 }, "unlock": "M23 (HARDEST)" },
+
+    { "id": "trap-16", "name": "NP Healing Landmine x2", "cost": { "credits": 0, "yellow": 75, "red": 50, "blue": 75 }, "unlock": "M34 (NORMAL)" },
+    { "id": "trap-17", "name": "NP Healing Landmine x3", "cost": { "credits": 0, "yellow": 150, "red": 100, "blue": 150 }, "unlock": "Shop" },
+    { "id": "trap-18", "name": "NP Healing Landmine x4", "cost": { "credits": 0, "yellow": 225, "red": 150, "blue": 225 }, "unlock": "Shop" },
+    { "id": "trap-19", "name": "NP Healing Landmine Modified x2", "cost": { "credits": 0, "yellow": 260, "red": 175, "blue": 260 }, "unlock": "M40 (HARD)" },
+    { "id": "trap-20", "name": "NP Healing Landmine Modified x3", "cost": { "credits": 0, "yellow": 525, "red": 350, "blue": 525 }, "unlock": "Shop" },
+
+    { "id": "trap-21", "name": "SR Directional Mine Type 1 x6", "cost": { "credits": 0, "yellow": 0, "red": 30, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-22", "name": "SR Directional Mine Type 1 x9", "cost": { "credits": 0, "yellow": 0, "red": 60, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-23", "name": "SR Directional Mine Type 1 x12", "cost": { "credits": 0, "yellow": 0, "red": 75, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-24", "name": "SR Directional Mine Type 1 Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 105, "blue": 0 }, "unlock": "M48 (NORMAL)" },
+    { "id": "trap-25", "name": "SR Directional Mine Type 1 Modified x9", "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-26", "name": "SR Directional Mine Type 1 Modified x12", "cost": { "credits": 0, "yellow": 0, "red": 315, "blue": 0 }, "unlock": "M2 (HARD)" },
+    { "id": "trap-27", "name": "SR Directional Mine Type 1 Z x6", "cost": { "credits": 0, "yellow": 0, "red": 190, "blue": 0 }, "unlock": "M6 (HARDEST)" },
+    { "id": "trap-28", "name": "SR Directional Mine Type 1 Z x9", "cost": { "credits": 0, "yellow": 0, "red": 375, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-29", "name": "SR Directional Mine Type 1 Z x12", "cost": { "credits": 0, "yellow": 0, "red": 565, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-30", "name": "SR Toxic Directional Mine Type 1 x4", "cost": { "credits": 0, "yellow": 0, "red": 30, "blue": 0 }, "unlock": "M29 (NORMAL)" },
+    { "id": "trap-31", "name": "SR Toxic Directional Mine Type 1 x6", "cost": { "credits": 0, "yellow": 0, "red": 60, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-32", "name": "SR Toxic Directional Mine Type 1 x8", "cost": { "credits": 0, "yellow": 0, "red": 90, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-33", "name": "SR Toxic Directional Mine Type 1 Modified x4", "cost": { "credits": 0, "yellow": 0, "red": 105, "blue": 0 }, "unlock": "M6 (HARD)" },
+    { "id": "trap-34", "name": "SR Toxic Directional Mine Type 1 Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-35", "name": "SR Shock Directional Mine Type 1 x6", "cost": { "credits": 0, "yellow": 105, "red": 0, "blue": 0 }, "unlock": "M10 (HARD)" },
+    { "id": "trap-36", "name": "SR Shock Directional Mine Type 1 x8", "cost": { "credits": 0, "yellow": 210, "red": 0, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-37", "name": "SR Shock Directional Mine Type 1 Modified x6", "cost": { "credits": 0, "yellow": 375, "red": 0, "blue": 0 }, "unlock": "M14 (HARDEST)" },
+
+    { "id": "trap-38", "name": "SR Directional Mine Type 2 x6", "cost": { "credits": 0, "yellow": 0, "red": 30, "blue": 0 }, "unlock": "M23 (NORMAL)" },
+    { "id": "trap-39", "name": "SR Directional Mine Type 2 x9", "cost": { "credits": 0, "yellow": 0, "red": 60, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-40", "name": "SR Directional Mine Type 2 x12", "cost": { "credits": 0, "yellow": 0, "red": 75, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-41", "name": "SR Directional Mine Type 2 Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 105, "blue": 0 }, "unlock": "M2 (HARD)" },
+    { "id": "trap-42", "name": "SR Directional Mine Type 2 Modified x9", "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-43", "name": "SR Directional Mine Type 2 Z x6", "cost": { "credits": 0, "yellow": 0, "red": 190, "blue": 0 }, "unlock": "M19 (HARDEST)" },
+
+    { "id": "trap-44", "name": "SR Flame Directional Mine Type 2 x6", "cost": { "credits": 0, "yellow": 0, "red": 105, "blue": 0 }, "unlock": "M15 (HARD)" },
+    { "id": "trap-45", "name": "SR Flame Directional Mine Type 2 x8", "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-46", "name": "SR Flame Directional Mine Type 2 x10", "cost": { "credits": 0, "yellow": 0, "red": 315, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-47", "name": "SR Flame Directional Mine Type 2 Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 190, "blue": 0 }, "unlock": "M28 (HARDEST)" },
+    { "id": "trap-48", "name": "SR Flame Directional Mine Type 2 Modified x8", "cost": { "credits": 0, "yellow": 0, "red": 375, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-49", "name": "SR Shock Directional Mine Type 2 x6", "cost": { "credits": 0, "yellow": 30, "red": 0, "blue": 0 }, "unlock": "M20 (NORMAL)" },
+    { "id": "trap-50", "name": "SR Shock Directional Mine Type 2 x8", "cost": { "credits": 0, "yellow": 60, "red": 0, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-51", "name": "SR Shock Directional Mine Type 2 x10", "cost": { "credits": 0, "yellow": 90, "red": 0, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-52", "name": "SR Shock Directional Mine Type 2 Modified x6", "cost": { "credits": 0, "yellow": 55, "red": 0, "blue": 0 }, "unlock": "M27 (HARD)" },
+    { "id": "trap-53", "name": "SR Shock Directional Mine Type 2 Modified x8", "cost": { "credits": 0, "yellow": 100, "red": 0, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-54", "name": "SR Shock Directional Mine Type 2 Modified x10", "cost": { "credits": 0, "yellow": 150, "red": 0, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-55", "name": "SR Healing Directional Mine Type 2 x4", "cost": { "credits": 0, "yellow": 400, "red": 200, "blue": 400 }, "unlock": "M33 (HARD)" },
+    { "id": "trap-56", "name": "SR Healing Directional Mine Type 2 x6", "cost": { "credits": 0, "yellow": 525, "red": 350, "blue": 525 }, "unlock": "Shop" },
+    { "id": "trap-57", "name": "SR Healing Directional Mine Type 2 x8", "cost": { "credits": 0, "yellow": 700, "red": 500, "blue": 700 }, "unlock": "Shop" },
+    { "id": "trap-58", "name": "SR Healing Directional Mine Type 2 Modified x4", "cost": { "credits": 0, "yellow": 450, "red": 300, "blue": 450 }, "unlock": "M38 (HARDEST)" },
+    { "id": "trap-59", "name": "SR Healing Directional Mine Type 2 Modified x6", "cost": { "credits": 0, "yellow": 935, "red": 625, "blue": 935 }, "unlock": "Shop" },
+
+    { "id": "trap-60", "name": "SR Directional Mine Type 3 x6", "cost": { "credits": 0, "yellow": 0, "red": 60, "blue": 0 }, "unlock": "M38 (NORMAL)" },
+    { "id": "trap-61", "name": "SR Directional Mine Type 3 x8", "cost": { "credits": 0, "yellow": 0, "red": 120, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-62", "name": "SR Directional Mine Type 3 Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 105, "blue": 0 }, "unlock": "M45 (HARD)" },
+    { "id": "trap-63", "name": "SR Directional Mine Type 3 Modified x9", "cost": { "credits": 0, "yellow": 0, "red": 210, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-64", "name": "SR Directional Mine Type 3 Z x6", "cost": { "credits": 0, "yellow": 0, "red": 375, "blue": 0 }, "unlock": "M33 (HARDEST)" },
+
+    { "id": "trap-65", "name": "SR Freeze Directional Mine Type 3 x6", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 210 }, "unlock": "M41 (HARD)" },
+    { "id": "trap-66", "name": "SR Freeze Directional Mine Type 3 x8", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 315 }, "unlock": "Shop" },
+    { "id": "trap-67", "name": "SR Freeze Directional Mine Type 3 Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 190 }, "unlock": "M41 (HARDEST)" },
+
+    { "id": "trap-68", "name": "SR Strong Acid Directional Mine Type 3 x6", "cost": { "credits": 0, "yellow": 0, "red": 45, "blue": 0 }, "unlock": "M37 (NORMAL)" },
+    { "id": "trap-69", "name": "SR Strong Acid Directional Mine Type 3 x8", "cost": { "credits": 0, "yellow": 0, "red": 90, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-70", "name": "SR Strong Acid Directional Mine Type 3 x10", "cost": { "credits": 0, "yellow": 0, "red": 135, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-71", "name": "SR Strong Acid Directional Mine Type 3 Modified x4", "cost": { "credits": 0, "yellow": 0, "red": 105, "blue": 0 }, "unlock": "M48 (HARD)" },
+    { "id": "trap-72", "name": "SR Strong Acid Directional Mine Type 3 Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 155, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-73", "name": "OW Sentry Gun x4", "cost": { "credits": 0, "yellow": 50, "red": 150, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-74", "name": "OW Sentry Gun x6", "cost": { "credits": 0, "yellow": 100, "red": 300, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-75", "name": "OW Sentry Gun x8", "cost": { "credits": 0, "yellow": 150, "red": 450, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-76", "name": "OW Sentry Gun Mk.II x4", "cost": { "credits": 0, "yellow": 175, "red": 525, "blue": 0 }, "unlock": "M3 (HARD)" },
+    { "id": "trap-77", "name": "OW Sentry Gun Mk.II x6", "cost": { "credits": 0, "yellow": 350, "red": 1050, "blue": 0 }, "unlock": "Shop" },
+    { "id": "trap-78", "name": "OW Sentry Gun Mk.II x8", "cost": { "credits": 0, "yellow": 525, "red": 1075, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-79", "name": "OW Sentry Gun Mk.III x2", "cost": { "credits": 0, "yellow": 310, "red": 930, "blue": 0 }, "unlock": "M46 (HARDEST)" },
+    { "id": "trap-80", "name": "OW Sentry Gun Mk.III x3", "cost": { "credits": 0, "yellow": 625, "red": 1875, "blue": 0 }, "unlock": "Shop" },
+
+    { "id": "trap-81", "name": "OW Extended Mag Sentry Gun x2", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 150 }, "unlock": "Shop" },
+    { "id": "trap-82", "name": "OW Extended Mag Sentry Gun x3", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 300 }, "unlock": "Shop" },
+    { "id": "trap-83", "name": "OW Extended Mag Sentry Gun Modified x4", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 525 }, "unlock": "M14 (HARD)" },
+    { "id": "trap-84", "name": "OW Extended Mag Sentry Gun Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 1050 }, "unlock": "Shop" },
+    { "id": "trap-85", "name": "OW Extended Mag Sentry Gun Z x3", "cost": { "credits": 0, "yellow": 0, "red": 585, "blue": 1300 }, "unlock": "M5 (HARDEST)" },
+
+    { "id": "trap-86", "name": "OW Sentry Sniper x2", "cost": { "credits": 0, "yellow": 200, "red": 0, "blue": 200 }, "unlock": "M33 (NORMAL)" },
+    { "id": "trap-87", "name": "OW Sentry Sniper x3", "cost": { "credits": 0, "yellow": 300, "red": 0, "blue": 300 }, "unlock": "Shop" },
+    { "id": "trap-88", "name": "OW Sentry Sniper Modified x2", "cost": { "credits": 0, "yellow": 0, "red": 700, "blue": 700 }, "unlock": "M20 (HARD)" },
+    { "id": "trap-89", "name": "OW Sentry Sniper Modified x3", "cost": { "credits": 0, "yellow": 0, "red": 1050, "blue": 1050 }, "unlock": "Shop" },
+
+    { "id": "trap-90", "name": "OW Sentry Launcher x2", "cost": { "credits": 0, "yellow": 0, "red": 1050, "blue": 350 }, "unlock": "M23 (HARD)" },
+    { "id": "trap-91", "name": "OW Sentry Launcher x3", "cost": { "credits": 0, "yellow": 0, "red": 1575, "blue": 425 }, "unlock": "Shop" },
+    { "id": "trap-92", "name": "OW Sentry Launcher Modified x2", "cost": { "credits": 0, "yellow": 0, "red": 1900, "blue": 625 }, "unlock": "M27 (HARDEST)" },
+    { "id": "trap-93", "name": "OW Sentry Launcher Modified x3", "cost": { "credits": 0, "yellow": 0, "red": 2850, "blue": 935 }, "unlock": "Shop" },
+
+    { "id": "trap-94", "name": "OW Sentry Laser x4", "cost": { "credits": 0, "yellow": 700, "red": 0, "blue": 700 }, "unlock": "M51 (NORMAL)" },
+    { "id": "trap-95", "name": "OW Sentry Laser x6", "cost": { "credits": 0, "yellow": 1050, "red": 0, "blue": 1050 }, "unlock": "Shop" },
+    { "id": "trap-96", "name": "OW Sentry Laser Modified x4", "cost": { "credits": 0, "yellow": 0, "red": 1250, "blue": 1250 }, "unlock": "M51 (HARD)" },
+    { "id": "trap-97", "name": "OW Sentry Laser Modified x6", "cost": { "credits": 0, "yellow": 0, "red": 1900, "blue": 1900 }, "unlock": "Shop" }
+  ]
+}

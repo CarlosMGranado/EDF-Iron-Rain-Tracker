@@ -1,0 +1,84 @@
+{
+  "id": "items_field_support",
+  "label": "Field Support",
+  "icon": "assets/png/items/field-support.png",
+  "items": [
+    { "id": "field-support-01", "name": "OR Dummy Balloon Alpha x3", "cost": { "credits": 0, "yellow": 0, "red": 25, "blue": 175 }, "unlock": "M3 (NORMAL)" },
+    { "id": "field-support-02", "name": "OR Dummy Balloon Alpha x5", "cost": { "credits": 0, "yellow": 0, "red": 50, "blue": 350 }, "unlock": "Unknown" },
+    { "id": "field-support-03", "name": "OR Dummy Balloon Alpha x7", "cost": { "credits": 0, "yellow": 0, "red": 75, "blue": 525 }, "unlock": "Unknown" },
+    { "id": "field-support-04", "name": "OR Dummy Balloon (Silver Eagle Medal)", "cost": { "credits": 0, "yellow": 10, "red": 10, "blue": 10 }, "unlock": "Unknown" },
+
+    { "id": "field-support-05", "name": "OR Dummy Balloon Beta x2", "cost": { "credits": 0, "yellow": 0, "red": 100, "blue": 600 }, "unlock": "M43 (NORMAL)" },
+    { "id": "field-support-06", "name": "OR Dummy Balloon Beta x3", "cost": { "credits": 0, "yellow": 0, "red": 200, "blue": 1200 }, "unlock": "Unknown" },
+    { "id": "field-support-07", "name": "OR Dummy Balloon Beta x4", "cost": { "credits": 0, "yellow": 0, "red": 300, "blue": 1800 }, "unlock": "Unknown" },
+
+    { "id": "field-support-08", "name": "OR Super Dummy Balloon Alpha", "cost": { "credits": 0, "yellow": 0, "red": 250, "blue": 1000 }, "unlock": "M43 (HARD)" },
+    { "id": "field-support-09", "name": "OR Super Dummy Balloon Alpha x2", "cost": { "credits": 0, "yellow": 0, "red": 500, "blue": 2000 }, "unlock": "Unknown" },
+    { "id": "field-support-10", "name": "OR Super Dummy Balloon Alpha x3", "cost": { "credits": 0, "yellow": 0, "red": 750, "blue": 3000 }, "unlock": "Unknown" },
+
+    { "id": "field-support-11", "name": "OR Super Dummy Balloon Beta", "cost": { "credits": 0, "yellow": 0, "red": 500, "blue": 1250 }, "unlock": "M46 (HARDEST)" },
+    { "id": "field-support-12", "name": "OR Super Dummy Balloon Beta x2", "cost": { "credits": 0, "yellow": 0, "red": 1000, "blue": 2500 }, "unlock": "Unknown" },
+    { "id": "field-support-13", "name": "OR Super Dummy Balloon Beta x3", "cost": { "credits": 0, "yellow": 0, "red": 1500, "blue": 3750 }, "unlock": "Unknown" },
+
+    { "id": "field-support-14", "name": "PR Healer x2", "cost": { "credits": 0, "yellow": 150, "red": 100, "blue": 150 }, "unlock": "M13 (NORMAL)" },
+    { "id": "field-support-15", "name": "PR Healer x3", "cost": { "credits": 0, "yellow": 300, "red": 200, "blue": 300 }, "unlock": "Unknown" },
+    { "id": "field-support-16", "name": "PR Healer x4", "cost": { "credits": 0, "yellow": 450, "red": 300, "blue": 450 }, "unlock": "Unknown" },
+
+    { "id": "field-support-17", "name": "PR Healer II x2", "cost": { "credits": 0, "yellow": 500, "red": 400, "blue": 500 }, "unlock": "M8 (HARD)" },
+    { "id": "field-support-18", "name": "PR Healer II x3", "cost": { "credits": 0, "yellow": 750, "red": 600, "blue": 750 }, "unlock": "Unknown" },
+
+    { "id": "field-support-19", "name": "PR Legendary Healer x3", "cost": { "credits": 0, "yellow": 1000, "red": 500, "blue": 1000 }, "unlock": "M38 (HARD)" },
+
+    { "id": "field-support-20", "name": "PR Guardian", "cost": { "credits": 0, "yellow": 150, "red": 150, "blue": 100 }, "unlock": "M28 (NORMAL)" },
+    { "id": "field-support-21", "name": "PR Guardian x2", "cost": { "credits": 0, "yellow": 300, "red": 300, "blue": 200 }, "unlock": "Unknown" },
+    { "id": "field-support-22", "name": "PR Guardian x3", "cost": { "credits": 0, "yellow": 450, "red": 450, "blue": 300 }, "unlock": "Unknown" },
+
+    { "id": "field-support-23", "name": "PR Guardian II", "cost": { "credits": 0, "yellow": 500, "red": 500, "blue": 400 }, "unlock": "M17 (HARD)" },
+    { "id": "field-support-24", "name": "PR Guardian II x2", "cost": { "credits": 0, "yellow": 1000, "red": 1000, "blue": 800 }, "unlock": "Unknown" },
+    { "id": "field-support-25", "name": "PR Guardian II x3", "cost": { "credits": 0, "yellow": 1500, "red": 1500, "blue": 1200 }, "unlock": "Unknown" },
+
+    { "id": "field-support-26", "name": "PR Immortal Guardian", "cost": { "credits": 0, "yellow": 1000, "red": 1000, "blue": 500 }, "unlock": "M34 (HARDEST)" },
+    { "id": "field-support-27", "name": "PR Immortal Guardian x2", "cost": { "credits": 0, "yellow": 1500, "red": 1500, "blue": 750 }, "unlock": "Unknown" },
+    { "id": "field-support-28", "name": "PR Immortal Guardian x3", "cost": { "credits": 0, "yellow": 2000, "red": 2000, "blue": 1000 }, "unlock": "Unknown" },
+
+    { "id": "field-support-29", "name": "RF Guard Field", "cost": { "credits": 0, "yellow": 200, "red": 0, "blue": 200 }, "unlock": "M9 (NORMAL)" },
+    { "id": "field-support-30", "name": "RF Guard Field x2", "cost": { "credits": 0, "yellow": 400, "red": 0, "blue": 400 }, "unlock": "Unknown" },
+    { "id": "field-support-31", "name": "RF Guard Field x3", "cost": { "credits": 0, "yellow": 600, "red": 0, "blue": 600 }, "unlock": "Unknown" },
+
+    { "id": "field-support-32", "name": "RF Guard Field (Modified)", "cost": { "credits": 0, "yellow": 700, "red": 0, "blue": 700 }, "unlock": "M29 (HARD)" },
+    { "id": "field-support-33", "name": "RF Guard Field (Modified) x2", "cost": { "credits": 0, "yellow": 1400, "red": 0, "blue": 1400 }, "unlock": "M31 (HARD)" },
+    { "id": "field-support-34", "name": "RF Guard Field (Modified) x3", "cost": { "credits": 0, "yellow": 2100, "red": 0, "blue": 2100 }, "unlock": "Unknown" },
+
+    { "id": "field-support-35", "name": "RF Guard Field Z", "cost": { "credits": 0, "yellow": 1250, "red": 0, "blue": 1250 }, "unlock": "M36 (HARD)" },
+    { "id": "field-support-36", "name": "RF Guard Field Z x2", "cost": { "credits": 0, "yellow": 2500, "red": 0, "blue": 2500 }, "unlock": "Unknown" },
+    { "id": "field-support-37", "name": "RF Guard Field Z x3", "cost": { "credits": 0, "yellow": 3750, "red": 0, "blue": 3750 }, "unlock": "Unknown" },
+
+    { "id": "field-support-38", "name": "PR Sorcerer", "cost": { "credits": 0, "yellow": 100, "red": 150, "blue": 150 }, "unlock": "M36 (NORMAL)" },
+    { "id": "field-support-39", "name": "PR Sorcerer x2", "cost": { "credits": 0, "yellow": 200, "red": 300, "blue": 300 }, "unlock": "Unknown" },
+    { "id": "field-support-40", "name": "PR Sorcerer x3", "cost": { "credits": 0, "yellow": 300, "red": 450, "blue": 450 }, "unlock": "Unknown" },
+
+    { "id": "field-support-41", "name": "PR Sorcerer II", "cost": { "credits": 0, "yellow": 400, "red": 500, "blue": 500 }, "unlock": "M24 (HARD)" },
+    { "id": "field-support-42", "name": "PR Sorcerer II x2", "cost": { "credits": 0, "yellow": 800, "red": 1000, "blue": 1000 }, "unlock": "Unknown" },
+    { "id": "field-support-43", "name": "PR Sorcerer II x3", "cost": { "credits": 0, "yellow": 1200, "red": 1500, "blue": 1500 }, "unlock": "Unknown" },
+
+    { "id": "field-support-44", "name": "PR Holy Sorcerer", "cost": { "credits": 0, "yellow": 500, "red": 1000, "blue": 1000 }, "unlock": "M20 (HARDEST)" },
+    { "id": "field-support-45", "name": "PR Holy Sorcerer x2", "cost": { "credits": 0, "yellow": 1000, "red": 2000, "blue": 2000 }, "unlock": "Unknown" },
+    { "id": "field-support-46", "name": "PR Holy Sorcerer x3", "cost": { "credits": 0, "yellow": 1500, "red": 3000, "blue": 3000 }, "unlock": "Unknown" },
+
+    { "id": "field-support-47", "name": "RF Sorcery Field", "cost": { "credits": 0, "yellow": 0, "red": 400, "blue": 0 }, "unlock": "M19 (NORMAL)" },
+    { "id": "field-support-48", "name": "RF Sorcery Field x2", "cost": { "credits": 0, "yellow": 0, "red": 600, "blue": 0 }, "unlock": "Unknown" },
+    { "id": "field-support-49", "name": "RF Sorcery Field x3", "cost": { "credits": 0, "yellow": 0, "red": 800, "blue": 0 }, "unlock": "Unknown" },
+
+    { "id": "field-support-50", "name": "RF Sorcery Field (Modified)", "cost": { "credits": 0, "yellow": 0, "red": 700, "blue": 0 }, "unlock": "M13 (HARD)" },
+    { "id": "field-support-51", "name": "RF Sorcery Field (Modified) x2", "cost": { "credits": 0, "yellow": 0, "red": 1050, "blue": 0 }, "unlock": "Unknown" },
+    { "id": "field-support-52", "name": "RF Sorcery Field (Modified) x3", "cost": { "credits": 0, "yellow": 0, "red": 1400, "blue": 0 }, "unlock": "Unknown" },
+
+    { "id": "field-support-53", "name": "RF Sorcery Field Z", "cost": { "credits": 0, "yellow": 0, "red": 1250, "blue": 0 }, "unlock": "M11 (HARDEST)" },
+    { "id": "field-support-54", "name": "RF Sorcery Field Z x2", "cost": { "credits": 0, "yellow": 0, "red": 1925, "blue": 0 }, "unlock": "Unknown" },
+    { "id": "field-support-55", "name": "RF Sorcery Field Z x3", "cost": { "credits": 0, "yellow": 0, "red": 2500, "blue": 0 }, "unlock": "Unknown" },
+
+    { "id": "field-support-56", "name": "RF Power Field x2", "cost": { "credits": 0, "yellow": 200, "red": 200, "blue": 0 }, "unlock": "M44 (NORMAL)" },
+    { "id": "field-support-57", "name": "RF Power Field (Modified) x2", "cost": { "credits": 0, "yellow": 700, "red": 700, "blue": 0 }, "unlock": "M34 (HARD)" },
+    { "id": "field-support-58", "name": "RF Power Field Z x2", "cost": { "credits": 0, "yellow": 1250, "red": 1250, "blue": 0 }, "unlock": "M24 (HARDEST)" }
+  ]
+}

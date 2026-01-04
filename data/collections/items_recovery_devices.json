@@ -1,0 +1,40 @@
+{
+  "id": "items_recovery_devices",
+  "label": "Recovery Devices",
+  "icon": "assets/png/items/recovery-device.png",
+  "items": [
+    { "id": "recovery-device-01", "name": "Dummy Energy Core", "cost": { "credits": 0, "yellow": 500, "red": 500, "blue": 500 }, "unlock": "Starting Item" },
+
+    { "id": "recovery-device-02", "name": "Green Feeder", "cost": { "credits": 0, "yellow": 10, "red": 0, "blue": 30 }, "unlock": "Starting Item" },
+    { "id": "recovery-device-03", "name": "Green Feeder x3", "cost": { "credits": 0, "yellow": 20, "red": 0, "blue": 60 }, "unlock": "M12 (NORMAL)" },
+    { "id": "recovery-device-04", "name": "Green Feeder x5", "cost": { "credits": 0, "yellow": 30, "red": 0, "blue": 90 }, "unlock": "M25 (NORMAL)" },
+
+    { "id": "recovery-device-05", "name": "Green Feeder Ar", "cost": { "credits": 0, "yellow": 100, "red": 0, "blue": 300 }, "unlock": "M31 (NORMAL)" },
+    { "id": "recovery-device-06", "name": "Green Feeder Ar x2", "cost": { "credits": 0, "yellow": 200, "red": 0, "blue": 600 }, "unlock": "M40 (NORMAL)" },
+    { "id": "recovery-device-07", "name": "Green Feeder Ar x3", "cost": { "credits": 0, "yellow": 300, "red": 0, "blue": 900 }, "unlock": "M47 (NORMAL)" },
+
+    { "id": "recovery-device-08", "name": "Green Feeder Kr", "cost": { "credits": 0, "yellow": 350, "red": 0, "blue": 1050 }, "unlock": "M5 (HARD)" },
+    { "id": "recovery-device-09", "name": "Green Feeder Kr x2", "cost": { "credits": 0, "yellow": 700, "red": 0, "blue": 2100 }, "unlock": "M5 (HARD)" },
+    { "id": "recovery-device-10", "name": "Green Feeder Kr x3", "cost": { "credits": 0, "yellow": 1050, "red": 0, "blue": 3150 }, "unlock": "M5 (HARD)" },
+
+    { "id": "recovery-device-11", "name": "Green Feeder Xe", "cost": { "credits": 0, "yellow": 625, "red": 0, "blue": 1875 }, "unlock": "M48 (HARDEST)" },
+    { "id": "recovery-device-12", "name": "Green Feeder Xe x2", "cost": { "credits": 0, "yellow": 1300, "red": 0, "blue": 3740 }, "unlock": "M48 (HARDEST)" },
+    { "id": "recovery-device-13", "name": "Green Feeder Xe x3", "cost": { "credits": 0, "yellow": 1925, "red": 0, "blue": 5615 }, "unlock": "M48 (HARDEST)" },
+
+    { "id": "recovery-device-14", "name": "Quick Feeder", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 0 }, "unlock": "Starting Item" },
+    { "id": "recovery-device-15", "name": "Quick Feeder x3", "cost": { "credits": 0, "yellow": 0, "red": 20, "blue": 60 }, "unlock": "M12 (NORMAL)" },
+    { "id": "recovery-device-16", "name": "Quick Feeder x5", "cost": { "credits": 0, "yellow": 0, "red": 30, "blue": 90 }, "unlock": "M25 (NORMAL)" },
+
+    { "id": "recovery-device-17", "name": "Quick Feeder Ar", "cost": { "credits": 0, "yellow": 0, "red": 100, "blue": 300 }, "unlock": "M31 (NORMAL)" },
+    { "id": "recovery-device-18", "name": "Quick Feeder Ar x2", "cost": { "credits": 0, "yellow": 0, "red": 200, "blue": 600 }, "unlock": "M40 (NORMAL)" },
+    { "id": "recovery-device-19", "name": "Quick Feeder Ar x3", "cost": { "credits": 0, "yellow": 0, "red": 300, "blue": 900 }, "unlock": "M47 (NORMAL)" },
+
+    { "id": "recovery-device-20", "name": "Quick Feeder Kr", "cost": { "credits": 0, "yellow": 0, "red": 350, "blue": 1050 }, "unlock": "M19 (HARD)" },
+    { "id": "recovery-device-21", "name": "Quick Feeder Kr x2", "cost": { "credits": 0, "yellow": 0, "red": 700, "blue": 2100 }, "unlock": "M19 (HARD)" },
+    { "id": "recovery-device-22", "name": "Quick Feeder Kr x3", "cost": { "credits": 0, "yellow": 0, "red": 1050, "blue": 3150 }, "unlock": "M19 (HARD)" },
+
+    { "id": "recovery-device-23", "name": "Quick Feeder Xe", "cost": { "credits": 0, "yellow": 0, "red": 625, "blue": 1875 }, "unlock": "M50 (HARDEST)" },
+    { "id": "recovery-device-24", "name": "Quick Feeder Xe x2", "cost": { "credits": 0, "yellow": 0, "red": 1250, "blue": 3740 }, "unlock": "M50 (HARDEST)" },
+    { "id": "recovery-device-25", "name": "Quick Feeder Xe x3", "cost": { "credits": 0, "yellow": 0, "red": 1875, "blue": 5615 }, "unlock": "M50 (HARDEST)" }
+  ]
+}

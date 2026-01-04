@@ -1,7 +1,7 @@
 {
   "id": "weapons_laser_rifles",
   "label": "Laser rifles",
-  "icon": "assets/png/laser-rifle.png",
+  "icon": "assets/png/weapons/laser-rifle.png",
   "items": [
     {
       "id": "laser-rifle-01",

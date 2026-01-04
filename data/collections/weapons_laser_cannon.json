@@ -1,7 +1,7 @@
 {
   "id": "weapons_laser_cannon",
   "label": "Laser Cannon",
-  "icon": "assets/png/laser-cannon.png",
+  "icon": "assets/png/weapons/laser-cannon.png",
   "items": [
     {
       "id": "lasercannon-01",

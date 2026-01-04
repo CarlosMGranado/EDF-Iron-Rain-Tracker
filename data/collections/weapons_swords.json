@@ -1,7 +1,7 @@
 {
   "id": "weapons_swords",
   "label": "Swords",
-  "icon": "assets/png/sword.png",
+  "icon": "assets/png/weapons/sword.png",
   "items": [
     {
       "id": "sword-01",

@@ -1,0 +1,2295 @@
+{
+  "id": "cosmetics_head",
+  "label": "Head",
+  "icon": "assets/png/cosmetics/head.png",
+  "items": [
+    {
+      "id": "cosmetics-head-01-01",
+      "name": "General Armor (Allium) (Color 01 White)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-01-02",
+      "name": "General Armor (Allium) (Color 02 Black)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-01-03",
+      "name": "General Armor (Allium) (Color 03 Silver)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-01-04",
+      "name": "General Armor (Allium) (Color 04 Yellow)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-01-05",
+      "name": "General Armor (Allium) (Color 05 Light Green)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-01-06",
+      "name": "General Armor (Allium) (Color 06 Black)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-01-07",
+      "name": "General Armor (Allium) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-01-08",
+      "name": "General Armor (Allium) (Color 08 Crimson)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-02-01",
+      "name": "General Armor (Allium) (Goggles Off) (Color 01 White)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-02-02",
+      "name": "General Armor (Allium) (Goggles Off) (Color 02 Black)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-02-03",
+      "name": "General Armor (Allium) (Goggles Off) (Color 03 Silver)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-02-04",
+      "name": "General Armor (Allium) (Goggles Off) (Color 04 Yellow)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-02-05",
+      "name": "General Armor (Allium) (Goggles Off) (Color 05 Light Green)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-02-06",
+      "name": "General Armor (Allium) (Goggles Off) (Color 06 Black)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-02-07",
+      "name": "General Armor (Allium) (Goggles Off) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-02-08",
+      "name": "General Armor (Allium) (Goggles Off) (Color 08 Crimson)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-03-01",
+      "name": "Airborne Armor (Acanthus) (Color 01 White)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-03-02",
+      "name": "Airborne Armor (Acanthus) (Color 02 Black)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-03-03",
+      "name": "Airborne Armor (Acanthus) (Color 03 Silver)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-03-04",
+      "name": "Airborne Armor (Acanthus) (Color 04 Yellow)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-03-05",
+      "name": "Airborne Armor (Acanthus) (Color 05 Light Green)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-03-06",
+      "name": "Airborne Armor (Acanthus) (Color 06 Black)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-03-07",
+      "name": "Airborne Armor (Acanthus) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-03-08",
+      "name": "Airborne Armor (Acanthus) (Color 08 Crimson)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-04-01",
+      "name": "Airborne Armor (Acanthus) (Mask Off) (Color 01 White)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-04-02",
+      "name": "Airborne Armor (Acanthus) (Mask Off) (Color 02 Black)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-04-03",
+      "name": "Airborne Armor (Acanthus) (Mask Off) (Color 03 Silver)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-04-04",
+      "name": "Airborne Armor (Acanthus) (Mask Off) (Color 04 Yellow)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-04-05",
+      "name": "Airborne Armor (Acanthus) (Mask Off) (Color 05 Light Green)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-04-06",
+      "name": "Airborne Armor (Acanthus) (Mask Off) (Color 06 Black)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-04-07",
+      "name": "Airborne Armor (Acanthus) (Mask Off) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-04-08",
+      "name": "Airborne Armor (Acanthus) (Mask Off) (Color 08 Crimson)",
+      "cost": {
+        "credits": 180,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-05-01",
+      "name": "Defender Armor (Bamboo) (Color 01 White)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-05-02",
+      "name": "Defender Armor (Bamboo) (Color 02 Black)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-05-03",
+      "name": "Defender Armor (Bamboo) (Color 03 Silver)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-05-04",
+      "name": "Defender Armor (Bamboo) (Color 04 Yellow)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-05-05",
+      "name": "Defender Armor (Bamboo) (Color 05 Light Green)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-05-06",
+      "name": "Defender Armor (Bamboo) (Color 06 Black)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-05-07",
+      "name": "Defender Armor (Bamboo) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-05-08",
+      "name": "Defender Armor (Bamboo) (Color 08 Crimson)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-06-01",
+      "name": "Defender Armor (Bamboo) (Mask Off) (Color 01 White)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-06-02",
+      "name": "Defender Armor (Bamboo) (Mask Off) (Color 02 Black)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-06-03",
+      "name": "Defender Armor (Bamboo) (Mask Off) (Color 03 Silver)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-06-04",
+      "name": "Defender Armor (Bamboo) (Mask Off) (Color 04 Yellow)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-06-05",
+      "name": "Defender Armor (Bamboo) (Mask Off) (Color 05 Light Green)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-06-06",
+      "name": "Defender Armor (Bamboo) (Mask Off) (Color 06 Black)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-06-07",
+      "name": "Defender Armor (Bamboo) (Mask Off) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-06-08",
+      "name": "Defender Armor (Bamboo) (Mask Off) (Color 08 Crimson)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M12 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-07-01",
+      "name": "Infiltration Armor (Shakunage) (Color 01 White)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-07-02",
+      "name": "Infiltration Armor (Shakunage) (Color 02 Black)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-07-03",
+      "name": "Infiltration Armor (Shakunage) (Color 03 Silver)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-07-04",
+      "name": "Infiltration Armor (Shakunage) (Color 04 Yellow)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-07-05",
+      "name": "Infiltration Armor (Shakunage) (Color 05 Light Green)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-07-06",
+      "name": "Infiltration Armor (Shakunage) (Color 06 Black)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-07-07",
+      "name": "Infiltration Armor (Shakunage) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-07-08",
+      "name": "Infiltration Armor (Shakunage) (Color 08 Crimson)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-08-01",
+      "name": "Infiltration Armor (Shakunage) (Goggles Off) (Color 01 White)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-08-02",
+      "name": "Infiltration Armor (Shakunage) (Goggles Off) (Color 02 Black)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-08-03",
+      "name": "Infiltration Armor (Shakunage) (Goggles Off) (Color 03 Silver)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-08-04",
+      "name": "Infiltration Armor (Shakunage) (Goggles Off) (Color 04 Yellow)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-08-05",
+      "name": "Infiltration Armor (Shakunage) (Goggles Off) (Color 05 Light Green)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-08-06",
+      "name": "Infiltration Armor (Shakunage) (Goggles Off) (Color 06 Black)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-08-07",
+      "name": "Infiltration Armor (Shakunage) (Goggles Off) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-08-08",
+      "name": "Infiltration Armor (Shakunage) (Goggles Off) (Color 08 Crimson)",
+      "cost": {
+        "credits": 350,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M15 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-09-01",
+      "name": "Standard Steel Helmet (Nazuna) (Color 01 White)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-09-02",
+      "name": "Standard Steel Helmet (Nazuna) (Color 02 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-09-03",
+      "name": "Standard Steel Helmet (Nazuna) (Color 03 Silver)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-09-04",
+      "name": "Standard Steel Helmet (Nazuna) (Color 04 Yellow)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-09-05",
+      "name": "Standard Steel Helmet (Nazuna) (Color 05 Light Green)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-09-06",
+      "name": "Standard Steel Helmet (Nazuna) (Color 06 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-09-07",
+      "name": "Standard Steel Helmet (Nazuna) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-09-08",
+      "name": "Standard Steel Helmet (Nazuna) (Color 08 Crimson)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial"
+    },
+    {
+      "id": "cosmetics-head-10-01",
+      "name": "Standard Steel Helmet (Nazuna) (Mask Off) (Color 01 White)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-head-10-02",
+      "name": "Standard Steel Helmet (Nazuna) (Mask Off) (Color 02 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-head-10-03",
+      "name": "Standard Steel Helmet (Nazuna) (Mask Off) (Color 03 Silver)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-head-10-04",
+      "name": "Standard Steel Helmet (Nazuna) (Mask Off) (Color 04 Yellow)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-head-10-05",
+      "name": "Standard Steel Helmet (Nazuna) (Mask Off) (Color 05 Light Green)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-head-10-06",
+      "name": "Standard Steel Helmet (Nazuna) (Mask Off) (Color 06 Black)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-head-10-07",
+      "name": "Standard Steel Helmet (Nazuna) (Mask Off) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-head-10-08",
+      "name": "Standard Steel Helmet (Nazuna) (Mask Off) (Color 08 Crimson)",
+      "cost": {
+        "credits": 0,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Initial Equipment"
+    },
+    {
+      "id": "cosmetics-head-11-01",
+      "name": "Elite Armor (Sakura) (Color 01 White)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-11-02",
+      "name": "Elite Armor (Sakura) (Color 02 Black)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-11-03",
+      "name": "Elite Armor (Sakura) (Color 03 Silver)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-11-04",
+      "name": "Elite Armor (Sakura) (Color 04 Yellow)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-11-05",
+      "name": "Elite Armor (Sakura) (Color 05 Light Green)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-11-06",
+      "name": "Elite Armor (Sakura) (Color 06 Black)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-11-07",
+      "name": "Elite Armor (Sakura) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-11-08",
+      "name": "Elite Armor (Sakura) (Color 08 Crimson)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-12-01",
+      "name": "Cyber Armor (Laurel) (Color 01 White)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-12-02",
+      "name": "Cyber Armor (Laurel) (Color 02 Black)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-12-03",
+      "name": "Cyber Armor (Laurel) (Color 03 Silver)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-12-04",
+      "name": "Cyber Armor (Laurel) (Color 04 Yellow)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-12-05",
+      "name": "Cyber Armor (Laurel) (Color 05 Light Green)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-12-06",
+      "name": "Cyber Armor (Laurel) (Color 06 Black)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-12-07",
+      "name": "Cyber Armor (Laurel) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-12-08",
+      "name": "Cyber Armor (Laurel) (Color 08 Crimson)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M31 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-13-01",
+      "name": "Old Model Steel Helmet (Color 01 White)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-13-02",
+      "name": "Old Model Steel Helmet (Color 02 Black)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-13-03",
+      "name": "Old Model Steel Helmet (Color 03 Silver)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-13-04",
+      "name": "Old Model Steel Helmet (Color 04 Yellow)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-13-05",
+      "name": "Old Model Steel Helmet (Color 05 Light Green)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-13-06",
+      "name": "Old Model Steel Helmet (Color 06 Black)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-13-07",
+      "name": "Old Model Steel Helmet (Color 07 Light Blue)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-13-08",
+      "name": "Old Model Steel Helmet (Color 08 Crimson)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M24 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-14-01",
+      "name": "Wild Helmet (Color 01 White)",
+      "cost": {
+        "credits": 4000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-14-02",
+      "name": "Wild Helmet (Color 02 Black)",
+      "cost": {
+        "credits": 4000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-14-03",
+      "name": "Wild Helmet (Color 03 Silver)",
+      "cost": {
+        "credits": 4000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-14-04",
+      "name": "Wild Helmet (Color 04 Yellow)",
+      "cost": {
+        "credits": 4000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-14-05",
+      "name": "Wild Helmet (Color 05 Light Green)",
+      "cost": {
+        "credits": 4000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-14-06",
+      "name": "Wild Helmet (Color 06 Black)",
+      "cost": {
+        "credits": 4000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-14-07",
+      "name": "Wild Helmet (Color 07 Light Blue)",
+      "cost": {
+        "credits": 4000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-14-08",
+      "name": "Wild Helmet (Color 08 Crimson)",
+      "cost": {
+        "credits": 4000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M43 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-15-01",
+      "name": "Gas Mask (Color 01 White)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M49 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-15-02",
+      "name": "Gas Mask (Color 02 Black)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M49 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-15-03",
+      "name": "Gas Mask (Color 03 Silver)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M49 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-15-04",
+      "name": "Gas Mask (Color 04 Yellow)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M49 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-15-05",
+      "name": "Gas Mask (Color 05 Light Green)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M49 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-15-06",
+      "name": "Gas Mask (Color 06 Black)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M49 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-15-07",
+      "name": "Gas Mask (Color 07 Light Blue)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M49 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-15-08",
+      "name": "Gas Mask (Color 08 Crimson)",
+      "cost": {
+        "credits": 1000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M49 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-16-01",
+      "name": "Hockey Mask (Color 01 White)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-16-02",
+      "name": "Hockey Mask (Color 02 Black)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-16-03",
+      "name": "Hockey Mask (Color 03 Silver)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-16-04",
+      "name": "Hockey Mask (Color 04 Yellow)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-16-05",
+      "name": "Hockey Mask (Color 05 Light Green)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-16-06",
+      "name": "Hockey Mask (Color 06 Black)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-16-07",
+      "name": "Hockey Mask (Color 07 Light Blue)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-16-08",
+      "name": "Hockey Mask (Color 08 Crimson)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M6 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-17-01",
+      "name": "Watch Cap (Color 01 White)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-17-02",
+      "name": "Watch Cap (Color 02 Black)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-17-03",
+      "name": "Watch Cap (Color 03 Silver)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-17-04",
+      "name": "Watch Cap (Color 04 Yellow)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-17-05",
+      "name": "Watch Cap (Color 05 Light Green)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-17-06",
+      "name": "Watch Cap (Color 06 Black)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-17-07",
+      "name": "Watch Cap (Color 07 Light Blue)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-17-08",
+      "name": "Watch Cap (Color 08 Crimson)",
+      "cost": {
+        "credits": 3500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M27 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-18-01",
+      "name": "Rail Cap (Color 01 White)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-18-02",
+      "name": "Rail Cap (Color 02 Black)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-18-03",
+      "name": "Rail Cap (Color 03 Silver)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-18-04",
+      "name": "Rail Cap (Color 04 Yellow)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-18-05",
+      "name": "Rail Cap (Color 05 Light Green)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-18-06",
+      "name": "Rail Cap (Color 06 Black)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-18-07",
+      "name": "Rail Cap (Color 07 Light Blue)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-18-08",
+      "name": "Rail Cap (Color 08 Crimson)",
+      "cost": {
+        "credits": 400,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-19-01",
+      "name": "Rail Cap (Back) (Color 01 White)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-19-02",
+      "name": "Rail Cap (Back) (Color 02 Black)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-19-03",
+      "name": "Rail Cap (Back) (Color 03 Silver)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-19-04",
+      "name": "Rail Cap (Back) (Color 04 Yellow)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-19-05",
+      "name": "Rail Cap (Back) (Color 05 Light Green)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-19-06",
+      "name": "Rail Cap (Back) (Color 06 Black)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-19-07",
+      "name": "Rail Cap (Back) (Color 07 Light Blue)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-19-08",
+      "name": "Rail Cap (Back) (Color 08 Crimson)",
+      "cost": {
+        "credits": 200,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M10 (EASY)"
+    },
+    {
+      "id": "cosmetics-head-20-01",
+      "name": "Cowboy Hat (Color 01 White)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-20-02",
+      "name": "Cowboy Hat (Color 02 Black)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-20-03",
+      "name": "Cowboy Hat (Color 03 Silver)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-20-04",
+      "name": "Cowboy Hat (Color 04 Yellow)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-20-05",
+      "name": "Cowboy Hat (Color 05 Light Green)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-20-06",
+      "name": "Cowboy Hat (Color 06 Black)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-20-07",
+      "name": "Cowboy Hat (Color 07 Light Blue)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-20-08",
+      "name": "Cowboy Hat (Color 08 Crimson)",
+      "cost": {
+        "credits": 4500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M44 (HARD)"
+    },
+    {
+      "id": "cosmetics-head-21-01",
+      "name": "Beret (Color 01 White)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 head accessories"
+    },
+    {
+      "id": "cosmetics-head-21-02",
+      "name": "Beret (Color 02 Black)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 head accessories"
+    },
+    {
+      "id": "cosmetics-head-21-03",
+      "name": "Beret (Color 03 Silver)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 head accessories"
+    },
+    {
+      "id": "cosmetics-head-21-04",
+      "name": "Beret (Color 04 Yellow)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 head accessories"
+    },
+    {
+      "id": "cosmetics-head-21-05",
+      "name": "Beret (Color 05 Light Green)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 head accessories"
+    },
+    {
+      "id": "cosmetics-head-21-06",
+      "name": "Beret (Color 06 Black)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 head accessories"
+    },
+    {
+      "id": "cosmetics-head-21-07",
+      "name": "Beret (Color 07 Light Blue)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 head accessories"
+    },
+    {
+      "id": "cosmetics-head-21-08",
+      "name": "Beret (Color 08 Crimson)",
+      "cost": {
+        "credits": 2000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "Acquire 30 head accessories"
+    },
+    {
+      "id": "cosmetics-head-22-01",
+      "name": "Headband (Color 01 White)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-22-02",
+      "name": "Headband (Color 02 Black)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-22-03",
+      "name": "Headband (Color 03 Silver)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-22-04",
+      "name": "Headband (Color 04 Yellow)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-22-05",
+      "name": "Headband (Color 05 Light Green)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-22-06",
+      "name": "Headband (Color 06 Black)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-22-07",
+      "name": "Headband (Color 07 Light Blue)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-22-08",
+      "name": "Headband (Color 08 Crimson)",
+      "cost": {
+        "credits": 5000,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-23-01",
+      "name": "Hachimaki (Color 01 White)",
+      "cost": {
+        "credits": 7500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-23-02",
+      "name": "Hachimaki (Color 02 Black)",
+      "cost": {
+        "credits": 7500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-23-03",
+      "name": "Hachimaki (Color 03 Silver)",
+      "cost": {
+        "credits": 7500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-23-04",
+      "name": "Hachimaki (Color 04 Yellow)",
+      "cost": {
+        "credits": 7500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-23-05",
+      "name": "Hachimaki (Color 05 Light Green)",
+      "cost": {
+        "credits": 7500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-23-06",
+      "name": "Hachimaki (Color 06 Black)",
+      "cost": {
+        "credits": 7500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-23-07",
+      "name": "Hachimaki (Color 07 Light Blue)",
+      "cost": {
+        "credits": 7500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-23-08",
+      "name": "Hachimaki (Color 08 Crimson)",
+      "cost": {
+        "credits": 7500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-24-01",
+      "name": "Cat Ears (Color 01 White)",
+      "cost": {
+        "credits": 5500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-24-02",
+      "name": "Cat Ears (Color 02 Black)",
+      "cost": {
+        "credits": 5500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-24-03",
+      "name": "Cat Ears (Color 03 Silver)",
+      "cost": {
+        "credits": 5500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-24-04",
+      "name": "Cat Ears (Color 04 Yellow)",
+      "cost": {
+        "credits": 5500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-24-05",
+      "name": "Cat Ears (Color 05 Light Green)",
+      "cost": {
+        "credits": 5500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-24-06",
+      "name": "Cat Ears (Color 06 Black)",
+      "cost": {
+        "credits": 5500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-24-07",
+      "name": "Cat Ears (Color 07 Light Blue)",
+      "cost": {
+        "credits": 5500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-24-08",
+      "name": "Cat Ears (Color 08 Crimson)",
+      "cost": {
+        "credits": 5500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M11 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-25-01",
+      "name": "Camouflage Head (Color 01 White)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M41 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-25-02",
+      "name": "Camouflage Head (Color 02 Black)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M41 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-25-03",
+      "name": "Camouflage Head (Color 03 Silver)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M41 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-25-04",
+      "name": "Camouflage Head (Color 04 Yellow)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M41 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-25-05",
+      "name": "Camouflage Head (Color 05 Light Green)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M41 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-25-06",
+      "name": "Camouflage Head (Color 06 Black)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M41 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-25-07",
+      "name": "Camouflage Head (Color 07 Light Blue)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M41 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-25-08",
+      "name": "Camouflage Head (Color 08 Crimson)",
+      "cost": {
+        "credits": 9500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M41 (DISASTER)"
+    },
+    {
+      "id": "cosmetics-head-26-01",
+      "name": "Antennae (Color 01 White)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-26-02",
+      "name": "Antennae (Color 02 Black)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-26-03",
+      "name": "Antennae (Color 03 Silver)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-26-04",
+      "name": "Antennae (Color 04 Yellow)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-26-05",
+      "name": "Antennae (Color 05 Light Green)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-26-06",
+      "name": "Antennae (Color 06 Black)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-26-07",
+      "name": "Antennae (Color 07 Light Blue)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "cosmetics-head-26-08",
+      "name": "Antennae (Color 08 Crimson)",
+      "cost": {
+        "credits": 6500,
+        "yellow": 0,
+        "red": 0,
+        "blue": 0
+      },
+      "unlock": "M39 (HARDEST)"
+    }
+  ]
+}

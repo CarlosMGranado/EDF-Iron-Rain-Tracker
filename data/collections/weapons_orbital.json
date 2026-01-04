@@ -1,7 +1,7 @@
 {
   "id": "weapons_orbital",
   "label": "Orbital",
-  "icon": "assets/png/satelite.png",
+  "icon": "assets/png/weapons/satelite.png",
   "items": [
     {
       "id": "orbital-01",

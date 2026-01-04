@@ -1,7 +1,7 @@
 {
   "id": "weapons_rocket_launchers",
   "label": "Rocket launchers",
-  "icon": "assets/png/rocket-launcher.png",
+  "icon": "assets/png/weapons/rocket-launcher.png",
   "items": [
     {
       "id": "rocket-launcher-01",

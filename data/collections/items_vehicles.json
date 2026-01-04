@@ -1,0 +1,34 @@
+{
+  "id": "items_vehicles",
+  "label": "Vehicles",
+  "icon": "assets/png/items/vehicles.png",
+  "items": [
+    { "id": "vehicle-01", "name": "Caddy", "cost": { "credits": 0, "yellow": 400, "red": 250, "blue": 250 }, "unlock": "M7 (NORMAL)" },
+    { "id": "vehicle-02", "name": "Caddy Advance", "cost": { "credits": 0, "yellow": 1200, "red": 1000, "blue": 750 }, "unlock": "M30 (NORMAL)" },
+    { "id": "vehicle-03", "name": "Ogopogo", "cost": { "credits": 0, "yellow": 2700, "red": 1800, "blue": 1500 }, "unlock": "M7 (HARD)" },
+    { "id": "vehicle-04", "name": "Champ", "cost": { "credits": 0, "yellow": 1300, "red": 1200, "blue": 500 }, "unlock": "M16 (NORMAL)" },
+    { "id": "vehicle-05", "name": "Wiratack", "cost": { "credits": 0, "yellow": 2500, "red": 2000, "blue": 800 }, "unlock": "M16 (HARD)" },
+    { "id": "vehicle-06", "name": "Mokele Mbembe", "cost": { "credits": 0, "yellow": 3000, "red": 2500, "blue": 1000 }, "unlock": "M16 (HARDEST)" },
+    { "id": "vehicle-07", "name": "Minhocao", "cost": { "credits": 0, "yellow": 3500, "red": 1750, "blue": 1750 }, "unlock": "Ex04 (HARD)" },
+    { "id": "vehicle-08", "name": "Jet Minhocao", "cost": { "credits": 0, "yellow": 4500, "red": 2000, "blue": 2000 }, "unlock": "Ex04 (HARDEST)" },
+    { "id": "vehicle-09", "name": "Magma Minhocao", "cost": { "credits": 0, "yellow": 5000, "red": 2500, "blue": 2500 }, "unlock": "Ex04 (DISASTER)" },
+
+    { "id": "vehicle-10", "name": "Skyfish", "cost": { "credits": 0, "yellow": 500, "red": 250, "blue": 250 }, "unlock": "M7 (NORMAL)" },
+    { "id": "vehicle-11", "name": "Shadow People", "cost": { "credits": 0, "yellow": 1750, "red": 875, "blue": 875 }, "unlock": "M16 (NORMAL)" },
+    { "id": "vehicle-12", "name": "Thunderbird", "cost": { "credits": 0, "yellow": 4000, "red": 0, "blue": 0 }, "unlock": "M39 (NORMAL)" },
+    { "id": "vehicle-13", "name": "Thunderbird Advance", "cost": { "credits": 0, "yellow": 5500, "red": 0, "blue": 0 }, "unlock": "M30 (HARD)" },
+    { "id": "vehicle-14", "name": "Raiju", "cost": { "credits": 0, "yellow": 7500, "red": 0, "blue": 0 }, "unlock": "M39 (HARDEST)" },
+    { "id": "vehicle-15", "name": "Will o Wisp", "cost": { "credits": 0, "yellow": 2000, "red": 2000, "blue": 0 }, "unlock": "M39 (NORMAL)" },
+    { "id": "vehicle-16", "name": "Will o Wisp Advance", "cost": { "credits": 0, "yellow": 2250, "red": 3250, "blue": 0 }, "unlock": "M39 (HARD)" },
+    { "id": "vehicle-17", "name": "Carbuncle", "cost": { "credits": 0, "yellow": 3250, "red": 4250, "blue": 0 }, "unlock": "M30 (HARDEST)" },
+
+    { "id": "vehicle-18", "name": "Bigfoot", "cost": { "credits": 0, "yellow": 2250, "red": 0, "blue": 2250 }, "unlock": "M21 (NORMAL)" },
+    { "id": "vehicle-19", "name": "Bigfoot Marauder", "cost": { "credits": 0, "yellow": 3000, "red": 0, "blue": 3500 }, "unlock": "M46 (HARDEST)" },
+    { "id": "vehicle-20", "name": "Sasquatch", "cost": { "credits": 0, "yellow": 2500, "red": 2500, "blue": 2500 }, "unlock": "M21 (HARDEST)" },
+    { "id": "vehicle-21", "name": "Night Crawler", "cost": { "credits": 0, "yellow": 500, "red": 500, "blue": 500 }, "unlock": "M11 (NORMAL)" },
+    { "id": "vehicle-22", "name": "Night Crawler Advance", "cost": { "credits": 0, "yellow": 500, "red": 800, "blue": 500 }, "unlock": "M15 (NORMAL)" },
+    { "id": "vehicle-23", "name": "Sphinx", "cost": { "credits": 0, "yellow": 5000, "red": 5000, "blue": 5000 }, "unlock": "M21 (DISASTER)" },
+
+    { "id": "vehicle-24", "name": "4WD (EDF Spec)", "cost": { "credits": 0, "yellow": 0, "red": 0, "blue": 0 }, "unlock": "M7 (NORMAL)" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "weapons_special_and_heavy",
   "label": "Special Weapons",
-  "icon": "assets/png/special-weapon.png",
+  "icon": "assets/png/weapons/special-weapon.png",
   "items": [
     {
       "id": "special-weapon-01",
