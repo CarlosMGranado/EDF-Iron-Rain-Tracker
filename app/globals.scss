@@ -4,18 +4,20 @@
     --panel2: #0f1318;
     --text: #f1f5fb;
     --muted: #666b73;
-    --border: rgba(255, 255, 255, 0.09);    
+    --border: rgba(255, 255, 255, 0.09);
 
     --neutral-bg: rgb(121, 135, 151);
+    --type-bg:rgb(55, 58, 62);
+    --type-active-bg: rgb(82,87,93);
 
-    --locked-bg: rgb(82,87,93);
-    --locked-border: rgb(55, 58, 62);
+    --locked-bg: rgb(121, 135, 151);
+    --locked-border: rgb(121, 135, 151);
 
-    --unlocked-bg: rgba(198, 108, 12, 1);
-    --unlocked-border: rgba(245, 198, 83, 0.35);
+    --unlocked-bg: rgb(198, 108, 12);
+    --unlocked-border: rgb(198,108,12);
 
-    --bought-bg: rgb(69, 198, 127);
-    --bought-border: rgba(90, 210, 143, 0.35);
+    --bought-bg: rgb(120,222,165);
+    --bought-border: rgb(120,222,165);
 }
 
 * {
@@ -25,7 +27,7 @@
 html,
 body {
     height: 100%;
-        overflow: hidden;
+    overflow: hidden;
     padding: 0;
     margin: 0;
     background: var(--bg);
@@ -104,7 +106,6 @@ a {
     white-space: nowrap;
 }
 
-/* Main line: big, outlined, punchy */
 .brandMain {
     font-size: 1.45rem;
     color: #f5f7ff;
@@ -141,6 +142,20 @@ a {
 }
 
 @media (max-width: 420px) {
+    .bentoIcon {
+
+            width: 16px;
+            height: 16px;
+        }
+
+        .bentoTile .bentoTitleRow .bentoTitle{
+            font-weight: 500;
+            font-size: 0.7rem; 
+            margin-bottom: 4px;
+    }
+    .bentoTitleRow {
+        gap: 2px;
+    }
     .brandMain {
         font-size: 1.25rem;
     }
@@ -195,7 +210,6 @@ a {
     }
 }
 
-
 .totalCard {
     border: 1px solid var(--border);
     background: var(--panel2);
@@ -215,33 +229,30 @@ a {
     }
 }
 
-
 .bentoPanel {
     display: flex;
     flex-direction: column;
-    
 }
 
 .tabs {
     display: flex;
-    
 
     .tab {
         text-transform: uppercase;
-flex: 1 1;
-    padding: 4px;
-    border: none;
-    background: none;
-    color: gray;
-    cursor: pointer;
-    font-weight: 650;
-    border-radius: unset;
-    border-bottom: 1px solid rgb(255, 255, 255);
+        flex: 1 1;
+        padding: 4px;
+        border: none;
+        background: none;
+        color: gray;
+        cursor: pointer;
+        font-weight: 650;
+        border-radius: unset;
+        border-bottom: 1px solid rgb(255, 255, 255);
     }
 
     .tab.active {
-        color:#e7eef7;
-            border-bottom: 2px solid aliceblue;
+        color: #e7eef7;
+        border-bottom: 2px solid aliceblue;
     }
 }
 
@@ -252,6 +263,7 @@ flex: 1 1;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 4px;
     border-bottom: 1px solid var(--locked-border);
+
     @media (min-width: 720px) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -260,8 +272,9 @@ flex: 1 1;
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
+
 .bentoIcon {
-    display:inline;
+    display: inline;
     width: 20px;
     height: 20px;
     border-radius: 8px;
@@ -269,26 +282,28 @@ flex: 1 1;
     flex-shrink: 0;
     margin-bottom: 6px;
 }
-.bentoTitleRow{
-    display:flex;
-    align-items:center;
-    gap:6px;
-}
-.bentoTile {
 
+.bentoTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.bentoTile {
     text-align: left;
     padding: 10px;
     border-radius: 4px;
     border: unset;
-    background: var(--locked-border);
+    background: var(--type-bg);
     cursor: pointer;
     border: 1px solid transparent;
+
     .bentoTitle {
         font-weight: 720;
         font-size: 0.8rem;
         line-height: 1.1rem;
         margin-bottom: 6px;
-        display:inline;
+        display: inline;
     }
 
     .bentoMeta {
@@ -303,17 +318,16 @@ flex: 1 1;
 }
 
 .bentoTile.active {
-    background: var(--locked-bg);
+    background: var(--type-active-bg);
     border: 1px solid var(--border);
 }
 
 .bentoMiniBar {
     display: flex;
     height: 8px;
-    border-radius: 999px;
+    border-radius: 4px;
     overflow: hidden;
     background: 1px solid var(--neutral-bg);
-    border: 1px solid var(--neutral-bg);
 
     .miniSeg.locked {
         background: var(--neutral-bg);
@@ -331,10 +345,32 @@ flex: 1 1;
 .listPanel {
     display: flex;
     flex-direction: column;
-    border-block: 1px solid var(--locked-border);
+    position: relative;
 }
 
+/* subtle fade separators top and bottom */
+.listPanel::before,
+.listPanel::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 10px;
+    pointer-events: none;
+    opacity: 0.55;
+}
 
+/* top fade: visible line that fades down into content */
+.listPanel::before {
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(to top,  rgba(255, 255, 255, 0),rgba(0, 0, 0, 1))
+}
+
+.listPanel::after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0))
+}
 
 input,
 select,
@@ -363,8 +399,6 @@ textarea {
     grid-template-columns: 1fr;
     gap: 10px;
 
-
-
     @media (min-width: 1050px) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -372,8 +406,9 @@ textarea {
 
 button {
     appearance: none;
-    border: 1px solid var(--border);
-    background: var(--panel2);
+    border: 1px solid var(--text);
+    background: transparent;
+    text-transform: uppercase;
     color: var(--text);
     border-radius: 12px;
     padding: 10px 12px;
@@ -395,14 +430,15 @@ button:disabled {
     gap: 10px;
     align-items: center;
 
-    .OptionsButton{
-        width:100%
+    .OptionsButton {
+        width: 100%;
     }
-    .ResetButton{
-        width:50%
-    }
-    button {
 
+    .ResetButton {
+        width: 50%;
+    }
+
+    button {
         height: 100%;
     }
 }
@@ -443,18 +479,54 @@ button:disabled {
 }
 
 .item {
-    border-radius: 14px;
-    border: 1px solid var(--locked-border);
-    background: var(--locked-bg);
-    padding: 10px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: #383838;
+    padding: 4px 4px 4px 20px;
+    overflow: hidden;
+}
+
+.item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background: rgba(121, 135, 151, 0.85);
 }
 
 .item.unlocked {
     border-color: var(--unlocked-border);
+}
+
+.item.unlocked::before {
     background: var(--unlocked-bg);
 }
 
 .item.bought {
     border-color: var(--bought-border);
+}
+
+.item.bought::before {
     background: var(--bought-bg);
+}
+
+.footerBar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .OptionsButton {
+        width: 100%;
+    }
+
+    .ResetButton {
+        width: 50%;
+    }
+
+    button {
+        height: 100%;
+    }
 }

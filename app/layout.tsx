@@ -3,7 +3,10 @@ import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Earth Defense Force: Iron Rain Tracker",
-  description: "Client-only EDF: Iron Rain tracker "
+  description: "Track your progress in Earth Defense Force: Iron Rain.",
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

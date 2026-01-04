@@ -5,6 +5,7 @@
     flex-wrap: nowrap;
     min-width: 0;
     justify-content: start;
+        margin-left: 3px;
 }
 
 .currencyToken {
@@ -12,6 +13,7 @@
     align-items: center;
     gap: 8px;
     min-width: 0;
+
 }
 
 .value {
@@ -41,8 +43,8 @@
 
 .coinIcon {
     position: relative;
-    width: 18px;
-    height: 18px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
     vertical-align: -3px;
 }
@@ -51,8 +53,8 @@
 .coinIcon::after {
     content: "";
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    height: 10px;
     border-radius: 100%;
     border: 2px solid #0b0b0b;
     background: rgb(255, 239, 0);
@@ -95,11 +97,12 @@
 .dense .numPlain {
     font-size: 0.8rem;
     letter-spacing: 0;
+    
 }
 
 .dense.coinIcon {
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    height: 10px;
 }
 
 .dense.gemCircle {
@@ -108,11 +111,38 @@
     font-size: 11px;
 }
 
-@media (max-width: 420px) {
+
+@media (max-width: 550px) {
     .costRow {
-        gap: 10px;
+            justify-content: center;
+        }
+:global(.listPanel) {
+    .costRow {
+            justify-content: start;
+        }
+    .actions{
+        gap: 4px;
+    }
+    .actionButton{
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+    .costRow {
+        gap: 4px;
     }
 
+    .dense.currency{
+        width: 6px;
+            height: 6px;
+    }
+    .currencyToken {
+        gap: 4px;
+    }
+.dense.gemCircle {
+    width:10px;
+    height:10px;
+    color: transparent;
+} }
     .num,
     .numPlain {
         font-size: 0.88rem;

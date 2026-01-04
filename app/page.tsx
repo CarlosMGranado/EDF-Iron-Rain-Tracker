@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { COLLECTIONS, CATALOG, CATALOG_ID_ORDER } from "../lib/catalog";
-import type { AppState, Currency, ItemFlags, ItemStatus } from "../lib/types";
+import type { AppState, Currency, ItemStatus } from "../lib/types";
 import { createEmptyState, ensureItemStatus, loadState, saveState } from "../lib/storage";
 import CatalogItemCard from "../components/CatalogItemCard";
 import Cost from "../components/currency/Cost";
@@ -32,17 +32,76 @@ function downloadJson(filename: string, data: unknown) {
   URL.revokeObjectURL(url);
 }
 
+function categoryForCollectionId(id: string): Category {
+  const lower = id.toLowerCase();
+  if (lower.includes("cosmetics")) return "cosmetics";
+  if (lower.startsWith("weapons_")) return "weapons";
+  return "items";
+}
+
+function isStartingWeaponUnlock(unlock?: string): boolean {
+  return (unlock ?? "").toLowerCase().includes("starting");
+}
+
+const STARTING_ITEM_IDS = new Set(CATALOG.filter((it) => isStartingWeaponUnlock(it.unlock)).map((it) => it.id));
+const MIGRATION_KEY_STARTING_BOUGHT = "edfir-ir-tracker:migrated_starting_bought:v1";
+
+// -------------------------------
+// Pre indexing for speed
+// -------------------------------
+
+const CATALOG_BY_CATEGORY: Record<Category, typeof CATALOG> = {
+  weapons: [],
+  items: [],
+  cosmetics: []
+};
+
+const CATALOG_BY_COLLECTION: Record<string, typeof CATALOG> = {};
+const SEARCH_HAY_BY_ID: Record<string, string> = {};
+
+for (const it of CATALOG) {
+  const cat = categoryForCollectionId(it.collectionId);
+  CATALOG_BY_CATEGORY[cat].push(it);
+
+  if (!CATALOG_BY_COLLECTION[it.collectionId]) CATALOG_BY_COLLECTION[it.collectionId] = [];
+  CATALOG_BY_COLLECTION[it.collectionId].push(it);
+
+  SEARCH_HAY_BY_ID[it.id] = `${it.name} ${it.collectionLabel} ${it.unlock ?? ""}`.toLowerCase();
+}
+
+// Build a stable "first collection per category" based on the same order you show (sorted by label)
+const COLLECTION_IDS_SORTED_BY_CATEGORY: Record<Category, string[]> = (() => {
+  const buckets: Record<Category, { id: string; label: string }[]> = {
+    weapons: [],
+    items: [],
+    cosmetics: []
+  };
+
+  for (const c of COLLECTIONS) {
+    const cat = categoryForCollectionId(c.id);
+    buckets[cat].push({ id: c.id, label: c.label });
+  }
+
+  return {
+    weapons: buckets.weapons.sort((a, b) => a.label.localeCompare(b.label)).map((x) => x.id),
+    items: buckets.items.sort((a, b) => a.label.localeCompare(b.label)).map((x) => x.id),
+    cosmetics: buckets.cosmetics.sort((a, b) => a.label.localeCompare(b.label)).map((x) => x.id)
+  };
+})();
+
+function firstCollectionIdForCategory(category: Category): string {
+  return COLLECTION_IDS_SORTED_BY_CATEGORY[category][0] ?? "";
+}
+
 function buildDefaultState(): AppState {
   const s = createEmptyState();
-  for (const id of CATALOG_ID_ORDER) s.items[id] = 0;
+  for (const id of CATALOG_ID_ORDER) s.items[id] = STARTING_ITEM_IDS.has(id) ? 2 : 0;
   return s;
 }
 
-const catalogById: Record<string, (typeof CATALOG)[number]> = (() => {
-  const map: Record<string, (typeof CATALOG)[number]> = {};
-  for (const it of CATALOG) map[it.id] = it;
-  return map;
-})();
+function isCompleteStateV2(s: AppState): boolean {
+  return s?.version === 2 && typeof s.items === "object" && Object.keys(s.items).length === CATALOG_ID_ORDER.length;
+}
 
 function mergeStateWithCatalog(incoming: AppState): AppState {
   const base = buildDefaultState();
@@ -56,23 +115,37 @@ function mergeStateWithCatalog(incoming: AppState): AppState {
   return merged;
 }
 
-function statusToFlags(st: ItemStatus): ItemFlags {
-  return { unlocked: st === 1 || st === 2, bought: st === 2 };
-}
+function migrateStartingWeaponsOnce(state: AppState): AppState {
+  if (typeof window === "undefined") return state;
 
-function categoryForCollectionId(id: string): Category {
-  const lower = id.toLowerCase();
-  if (lower.includes("cosmetics")) return "cosmetics";
-  if (lower.startsWith("weapons_")) return "weapons";
-  return "items";
+  try {
+    if (window.localStorage.getItem(MIGRATION_KEY_STARTING_BOUGHT) === "1") return state;
+
+    let changed = false;
+    const next: AppState = { ...state, items: { ...state.items } };
+
+    for (const id of STARTING_ITEM_IDS) {
+      if (next.items[id] === 0) {
+        next.items[id] = 2;
+        changed = true;
+      }
+    }
+
+    window.localStorage.setItem(MIGRATION_KEY_STARTING_BOUGHT, "1");
+    return changed ? next : state;
+  } catch {
+    return state;
+  }
 }
 
 export default function Home() {
-  const [state, setState] = useState<AppState>(() => buildDefaultState());
+  const [state, setState] = useState<AppState | null>(null);
 
   const [q, setQ] = useState("");
   const [category, setCategory] = useState<Category>("weapons");
-  const [collectionId, setCollectionId] = useState<string>("all");
+
+  // No more "all". Always a real collection id.
+  const [collectionId, setCollectionId] = useState<string>(() => firstCollectionIdForCategory("weapons"));
 
   const [exportText, setExportText] = useState("");
   const [importText, setImportText] = useState("");
@@ -81,32 +154,107 @@ export default function Home() {
   const dialogRef = useRef<HTMLDialogElement | null>(null);
 
   useEffect(() => {
-    const loaded = loadState() ?? buildDefaultState();
-    setState(mergeStateWithCatalog(loaded));
+    const loaded = loadState();
+
+    const base =
+      loaded && Object.keys(loaded.items ?? {}).length > 0
+        ? isCompleteStateV2(loaded)
+          ? loaded
+          : mergeStateWithCatalog(loaded)
+        : buildDefaultState();
+
+    const migrated = migrateStartingWeaponsOnce(base);
+    setState(migrated);
   }, []);
 
   useEffect(() => {
+    if (!state) return;
     saveState(state);
   }, [state]);
+
+  // When category changes, auto select the first collection in that category.
+  useEffect(() => {
+    const firstId = firstCollectionIdForCategory(category);
+    if (!firstId) return;
+
+    // Only change if the current selection is not in this category
+    const allowed = new Set(COLLECTION_IDS_SORTED_BY_CATEGORY[category]);
+    if (!allowed.has(collectionId)) setCollectionId(firstId);
+  }, [category, collectionId]);
 
   const collectionsInCategory = useMemo(() => {
     return COLLECTIONS.filter((c) => categoryForCollectionId(c.id) === category);
   }, [category]);
 
+  const collectionCountsById = useMemo(() => {
+    if (!state) {
+      return {} as Record<
+        string,
+        { locked: number; unlocked: number; bought: number; total: number; label: string; icon?: string }
+      >;
+    }
+
+    const out: Record<string, { locked: number; unlocked: number; bought: number; total: number; label: string; icon?: string }> = {};
+
+    for (const c of COLLECTIONS) {
+      let locked = 0;
+      let unlocked = 0;
+      let bought = 0;
+
+      for (const it of c.items) {
+        const st = (state.items[it.id] ?? 0) as ItemStatus;
+        if (st === 2) bought += 1;
+        else if (st === 1) unlocked += 1;
+        else locked += 1;
+      }
+
+      out[c.id] = { locked, unlocked, bought, total: c.items.length, label: c.label, icon: (c as any).icon };
+    }
+
+    return out;
+  }, [state]);
+
+  const collectionTiles = useMemo(() => {
+    return collectionsInCategory
+      .map((c) => {
+        const counts =
+          collectionCountsById[c.id] ?? {
+            locked: 0,
+            unlocked: 0,
+            bought: 0,
+            total: c.items.length,
+            label: c.label,
+            icon: (c as any).icon
+          };
+        return { id: c.id, ...counts };
+      })
+      .sort((a, b) => a.label.localeCompare(b.label));
+  }, [collectionsInCategory, collectionCountsById]);
+
   const filteredCatalog = useMemo(() => {
     const query = q.trim().toLowerCase();
 
-    return CATALOG.filter((item) => {
-      if (categoryForCollectionId(item.collectionId) !== category) return false;
-      if (collectionId !== "all" && item.collectionId !== collectionId) return false;
+    const baseList = CATALOG_BY_COLLECTION[collectionId] ?? [];
+    if (!query) return baseList;
 
-      if (!query) return true;
-      const hay = `${item.name} ${item.id} ${item.collectionLabel} ${item.unlock ?? ""}`.toLowerCase();
+    return baseList.filter((item) => {
+      const hay = SEARCH_HAY_BY_ID[item.id] ?? "";
       return hay.includes(query);
     });
-  }, [category, collectionId, q]);
+  }, [collectionId, q]);
 
   const stats = useMemo(() => {
+    if (!state) {
+      return {
+        total: CATALOG.length,
+        locked: 0,
+        unlockedNotBought: 0,
+        bought: 0,
+        remainingAll: { credits: 0, yellow: 0, red: 0, blue: 0 } as Currency,
+        remainingUnlocked: { credits: 0, yellow: 0, red: 0, blue: 0 } as Currency
+      };
+    }
+
     let locked = 0;
     let unlockedNotBought = 0;
     let bought = 0;
@@ -138,6 +286,7 @@ export default function Home() {
 
   function setItemStatus(id: string, nextStatus: ItemStatus) {
     setState((prev) => {
+      if (!prev) return prev;
       const next: AppState = { ...prev, items: { ...prev.items } };
       next.items[id] = nextStatus;
       return next;
@@ -145,6 +294,7 @@ export default function Home() {
   }
 
   function toggleUnlocked(id: string) {
+    if (!state) return;
     const cur = ensureItemStatus(state, id);
     if (cur === 0) return setItemStatus(id, 1);
     if (cur === 1) return setItemStatus(id, 0);
@@ -152,6 +302,7 @@ export default function Home() {
   }
 
   function toggleBought(id: string) {
+    if (!state) return;
     const cur = ensureItemStatus(state, id);
     if (cur === 2) return setItemStatus(id, 1);
     return setItemStatus(id, 2);
@@ -164,7 +315,7 @@ export default function Home() {
     setImportText("");
     setQ("");
     setCategory("weapons");
-    setCollectionId("all");
+    setCollectionId(firstCollectionIdForCategory("weapons"));
   }
 
   function openImportExport() {
@@ -176,6 +327,7 @@ export default function Home() {
   }
 
   function doExport() {
+    if (!state) return;
     const payload = { version: 2 as const, items: state.items };
     const text = JSON.stringify(payload, null, 2);
     setExportText(text);
@@ -211,7 +363,8 @@ export default function Home() {
 
   function doImport(text: string) {
     const incoming = parseIncoming(text);
-    setState(mergeStateWithCatalog(incoming ?? createEmptyState()));
+    const merged = mergeStateWithCatalog(incoming ?? createEmptyState());
+    setState(merged);
   }
 
   function onFilePick() {
@@ -230,33 +383,27 @@ export default function Home() {
     }
   }
 
-  const collectionTiles = useMemo(() => {
-    const tiles = collectionsInCategory.map((c) => {
-      const ids = c.items.map((x) => x.id);
-
-      let locked = 0;
-      let unlocked = 0;
-      let bought = 0;
-
-      for (const id of ids) {
-        const st = ensureItemStatus(state, id);
-        if (st === 2) bought += 1;
-        else if (st === 1) unlocked += 1;
-        else locked += 1;
-      }
-
-      const icon =
-        (typeof (c as any).icon === "string" && (c as any).icon.trim() ? (c as any).icon : null) ??
-        ids
-          .map((id) => (catalogById[id] as any)?.icon as string | undefined)
-          .find((x) => typeof x === "string" && x.trim()) ??
-        null;
-
-      return { id: c.id, label: c.label, locked, unlocked, bought, total: ids.length, icon: c.icon };
-    });
-
-    return tiles.sort((a, b) => a.label.localeCompare(b.label));
-  }, [collectionsInCategory, state]);
+  if (!state) {
+    return (
+      <div className="wrap">
+        <div className="appShell">
+          <section className="topPanel">
+            <div className="topHeader">
+              <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
+                <div className="brandMain" data-text="EDF IRON RAIN">
+                  EDF: IRON RAIN
+                </div>
+                <div className="brandSub" data-text="TRACKER">
+                  TRACKER
+                </div>
+              </div>
+              <div className="totalLabel">Loading saved state...</div>
+            </div>
+          </section>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="wrap">
@@ -284,7 +431,7 @@ export default function Home() {
               className={category === "weapons" ? "tab active" : "tab"}
               onClick={() => {
                 setCategory("weapons");
-                setCollectionId("all");
+                setCollectionId(firstCollectionIdForCategory("weapons"));
               }}
             >
               Weapons
@@ -293,7 +440,7 @@ export default function Home() {
               className={category === "items" ? "tab active" : "tab"}
               onClick={() => {
                 setCategory("items");
-                setCollectionId("all");
+                setCollectionId(firstCollectionIdForCategory("items"));
               }}
             >
               Items
@@ -302,7 +449,7 @@ export default function Home() {
               className={category === "cosmetics" ? "tab active" : "tab"}
               onClick={() => {
                 setCategory("cosmetics");
-                setCollectionId("all");
+                setCollectionId(firstCollectionIdForCategory("cosmetics"));
               }}
             >
               Cosmetics
@@ -347,7 +494,7 @@ export default function Home() {
             <div className="itemsGrid">
               {filteredCatalog.map((it) => {
                 const st = ensureItemStatus(state, it.id);
-                const flags = statusToFlags(st);
+                const flags = { unlocked: st === 1 || st === 2, bought: st === 2 };
 
                 return (
                   <CatalogItemCard
