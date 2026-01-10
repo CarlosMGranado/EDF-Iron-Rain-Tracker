@@ -1,26 +1,8 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import "./modals.scss";
-export type TotalsMode = "global" | "category";
-
-type Props = {
-  open: boolean;
-  onClose: () => void;
-
-  exportText: string;
-  importText: string;
-
-  totalsMode: TotalsMode;
-  onTotalsModeChange: (mode: TotalsMode) => void;
-
-  onExport: () => void;
-  onReset: () => void;
-
-  onImportTextChange: (next: string) => void;
-  onImportApply: (text: string) => void;
-  onClearImport: () => void;
-};
+import "./Modal.scss";
+import { OptionsPopupProps } from "../../lib/types";
 
 export default function OptionsModal({
   open,
@@ -34,9 +16,10 @@ export default function OptionsModal({
   onImportTextChange,
   onImportApply,
   onClearImport
-}: Props) {
+}: OptionsPopupProps) {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
 
+  // Close on Escape key
   useEffect(() => {
     if (!open) return;
 
@@ -48,14 +31,17 @@ export default function OptionsModal({
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [open, onClose]);
 
+  // Close on backdrop click
   function onBackdropMouseDown(e: React.MouseEvent<HTMLDivElement>) {
     if (e.target === e.currentTarget) onClose();
   }
 
+  // Pick file for import
   function onPickFile() {
     fileInputRef.current?.click();
   }
 
+  // Handle selected file
   async function onFileSelected(file: File | null) {
     if (!file) return;
 

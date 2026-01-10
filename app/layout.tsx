@@ -1,5 +1,4 @@
 import "./globals.scss";
-import "./shell.scss";
 
 import type { ReactNode } from "react";
 

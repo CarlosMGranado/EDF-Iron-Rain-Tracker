@@ -1,4 +1,8 @@
 export type Rank = "E" | "D" | "C" | "B" | "A" | "AA";
+export type CurrencyType = "credits" | "yellow" | "red" | "blue";
+export type SortBy = "gameOrder" | "credits" | "yellow" | "red" | "blue" | "unlockLevel";
+export type SortDir = "asc" | "desc";
+export type TotalsMode = "global" | "category";
 
 export type Currency = {
   credits: number;
@@ -44,4 +48,67 @@ export type CatalogEntry = CatalogItem & {
 export type ItemState = {
   unlocked: boolean;
   bought: boolean;
+};
+export type FiltersState = {
+  showLocked: boolean;
+  showUnlocked: boolean;
+  showBought: boolean;
+  sortBy: SortBy;
+  sortDir: SortDir;
+};
+//Props
+export type CostProps = {
+  value: Currency;
+  dense?: boolean;
+  className?: string;
+  variant?: "global" | "card";
+};
+
+export type PaddedNumberProps = {
+  value: number;
+  minDigits?: number;
+  padToMinDigits?: boolean;
+  muteLeadingZeros?: boolean;
+  className?: string;
+};
+
+export type CurrencyProps = {
+  type: CurrencyType;
+  value: number;
+  dense?: boolean;
+  minDigits?: number;
+};
+
+
+export type FiltersPopupProps = {
+  open: boolean;
+  onClose: () => void;
+  value: FiltersState;
+  onChange: (next: FiltersState) => void;
+};
+
+
+export type OptionsPopupProps = {
+  open: boolean;
+  onClose: () => void;
+
+  exportText: string;
+  importText: string;
+
+  totalsMode: TotalsMode;
+  onTotalsModeChange: (mode: TotalsMode) => void;
+
+  onExport: () => void;
+  onReset: () => void;
+
+  onImportTextChange: (next: string) => void;
+  onImportApply: (text: string) => void;
+  onClearImport: () => void;
+};
+export type CatalogItemProps = {
+  item: CatalogEntry;
+  state: ItemState;
+  rank?: Rank;
+  onToggleUnlocked: () => void;
+  onToggleBought: () => void;
 };

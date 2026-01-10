@@ -1,26 +1,17 @@
-import styles from "./currency.module.scss";
+import styles from "./Currency.module.scss";
 import { buildGroupedNumberParts } from "../../lib/currencyFormat";
+import type { PaddedNumberProps } from "../../lib/types";
 
-type Props = {
-  value: number;
-  minDigits?: number;
-  maxDigits?: number;
-  padToMinDigits?: boolean;
-  muteLeadingZeros?: boolean;
-  className?: string;
-};
 
 export default function PaddedNumber({
   value,    
   minDigits = 6,
-  maxDigits = 10,
   padToMinDigits = true,
   muteLeadingZeros = true,
   className
-}: Props) {
+}: PaddedNumberProps) {
   const parts = buildGroupedNumberParts(value, {
     minDigits,
-    maxDigits,
     padToMinDigits,
     muteLeadingZeros
   });

@@ -1,16 +1,8 @@
 "use client";
 
-import type { CatalogEntry, ItemState, Rank } from "../lib/types";
+import type { CatalogItemProps, ItemState, Rank } from "../lib/types";
 import styles from "./CatalogItemCard.module.scss";
 import Cost from "./currency/Cost";
-
-type Props = {
-  item: CatalogEntry;
-  state: ItemState;
-  rank?: Rank;
-  onToggleUnlocked: () => void;
-  onToggleBought: () => void;
-};
 
 function RarityBadge({ rank }: { rank: Rank }) {
   return <span className={`${styles.rarityBadge} ${styles[`rarity${rank}`]}`}>{rank}</span>;
@@ -22,7 +14,8 @@ function StatePill({ state }: { state: ItemState }) {
   return null;
 }
 
-export default function CatalogItemCard({ item, state, rank, onToggleUnlocked, onToggleBought }: Props) {
+export default function CatalogItemCard({ item, state, rank, onToggleUnlocked, onToggleBought }: CatalogItemProps) {
+  
   const cls = state.bought ? "item bought" : state.unlocked ? "item unlocked" : "item locked";
 
   const showUnlockCondition = !state.unlocked && !state.bought;

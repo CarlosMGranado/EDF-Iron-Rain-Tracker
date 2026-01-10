@@ -1,26 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-import "./modals.scss";
-export type SortBy = "gameOrder" | "credits" | "yellow" | "red" | "blue" | "unlockLevel";
-export type SortDir = "asc" | "desc";
+import "./Modal.scss";
+import type { FiltersPopupProps, SortBy, SortDir } from "../../lib/types";
 
-export type FiltersState = {
-  showLocked: boolean;
-  showUnlocked: boolean;
-  showBought: boolean;
-  sortBy: SortBy;
-  sortDir: SortDir;
-};
+export default function FiltersModal({ open, onClose, value, onChange }: FiltersPopupProps) {
 
-type Props = {
-  open: boolean;
-  onClose: () => void;
-  value: FiltersState;
-  onChange: (next: FiltersState) => void;
-};
-
-export default function FiltersModal({ open, onClose, value, onChange }: Props) {
+  // Close on Escape key
   useEffect(() => {
     if (!open) return;
 
@@ -32,14 +18,17 @@ export default function FiltersModal({ open, onClose, value, onChange }: Props) 
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [open, onClose]);
 
+  // Close on backdrop click
   function onBackdropMouseDown(e: React.MouseEvent<HTMLDivElement>) {
     if (e.target === e.currentTarget) onClose();
   }
 
+  // Toggle filter
   function toggle(key: "showLocked" | "showUnlocked" | "showBought") {
     onChange({ ...value, [key]: !value[key] });
   }
 
+  // Render only if open
   if (!open) return null;
 
   return (
@@ -66,7 +55,6 @@ export default function FiltersModal({ open, onClose, value, onChange }: Props) 
           </button>
         </div>
 
-        <div className="small">Sort</div>
         <div className="modalRow">
           <div className="modalField">
             <div className="modalFieldLabel small">Sort By</div>

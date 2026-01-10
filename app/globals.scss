@@ -18,6 +18,10 @@
 
     --bought-bg: rgb(120, 222, 165);
     --bought-border: rgb(120, 222, 165);
+
+    --gemYellowColor: #efe139;
+    --gemRedColor: #f32200;
+    --gemBlueColor: #478de4;
 }
 
 * {
@@ -467,4 +471,22 @@ button:disabled {
 
 .item.bought::before {
     background: var(--bought-bg);
+}
+
+.footerBar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .FiltersButton {
+        width: 50%;
+    }
+
+    .OptionsButton {
+        width: 100%;
+    }
+
+    button {
+        height: 100%;
+    }
 }

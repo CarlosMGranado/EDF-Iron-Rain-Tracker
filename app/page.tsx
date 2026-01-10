@@ -1,16 +1,16 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-
+import {FiltersState, SortBy, SortDir} from "../lib/types";
 import { COLLECTIONS, CATALOG, CATALOG_ID_ORDER } from "../lib/catalog";
-import type { AppState, Currency, ItemStatus } from "../lib/types";
+import type { AppState, Currency, ItemStatus, TotalsMode } from "../lib/types";
 import { createEmptyState, ensureItemStatus, loadState, saveState } from "../lib/storage";
 
 import CatalogItemCard from "../components/CatalogItemCard";
 import Cost from "../components/currency/Cost";
 
-import OptionsModal, { type TotalsMode } from "../components/modals/OptionsModal";
-import FiltersModal, { type FiltersState, type SortBy, type SortDir } from "../components/modals/FiltersModal";
+import OptionsModal from "../components/modals/OptionsModal";
+import FiltersModal from "../components/modals/FiltersModal";
 
 type Category = "weapons" | "items" | "cosmetics";
 type UnlockDifficulty = "easy" | "normal" | "hard" | "hardest" | "disaster" | "unknown";

@@ -1,15 +1,6 @@
-import styles from "./currency.module.scss";
+import styles from "./Currency.module.scss";
 import PaddedNumber from "./PaddedNumber";
-
-export type CurrencyType = "credits" | "yellow" | "red" | "blue";
-
-type Props = {
-  type: CurrencyType;
-  value: number;
-  dense?: boolean;
-  minDigits?: number;
-  maxDigits?: number;
-};
+import type { CurrencyType, CurrencyProps } from "../../lib/types";
 
 function CoinIcon({ dense }: { dense?: boolean }) {
   return <span className={`${styles.coinIcon} ${dense ? styles.dense : ""}`} aria-hidden="true" />;
@@ -26,11 +17,10 @@ function GemIcon({ type, dense }: { type: Exclude<CurrencyType, "credits">; dens
   );
 }
 
-export default function CurrencyToken({ type, value, dense, minDigits, maxDigits }: Props) {
+export default function CurrencyToken({ type, value, dense, minDigits  }: CurrencyProps) {
   const isCredits = type === "credits";
 
   const effectiveMin = minDigits ?? (isCredits ? 10 : 7);
-  const effectiveMax = maxDigits ?? (isCredits ? effectiveMin : 10);
 
   return (
     <span className={`${styles.currencyToken} ${dense ? styles.dense : ""}`}>
@@ -40,7 +30,6 @@ export default function CurrencyToken({ type, value, dense, minDigits, maxDigits
         <PaddedNumber
           value={value}
           minDigits={effectiveMin}
-          maxDigits={effectiveMax}
           padToMinDigits={true}
           muteLeadingZeros={true}
         />

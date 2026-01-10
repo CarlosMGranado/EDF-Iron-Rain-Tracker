@@ -5,7 +5,7 @@
     flex-wrap: nowrap;
     min-width: 0;
     justify-content: start;
-        margin-left: 3px;
+    margin-left: 3px;
 }
 
 .currencyToken {
@@ -13,7 +13,6 @@
     align-items: center;
     gap: 8px;
     min-width: 0;
-
 }
 
 .value {
@@ -21,9 +20,8 @@
     align-items: baseline;
 }
 
-.num,
-.numPlain {
-    font-family: var(--num-font), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.num {
+    font-family: var(--num-font);
     font-variant-numeric: tabular-nums;
     letter-spacing: 0.04em;
     white-space: pre;
@@ -56,8 +54,8 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    border: 2px solid #0b0b0b;
-    background: rgb(255, 239, 0);
+    border: 1px solid var(--bg);
+    background: var(--gemYellowColor);
 }
 
 .coinIcon::before {
@@ -77,24 +75,23 @@
     place-items: center;
     font-weight: 900;
     font-size: 12px;
-    color: #0b0b0b;
-    border: 1px solid #0b0b0b;
+    color: var(--bg);
+    border: 1px solid var(--bg);
 }
 
 .gemYellow {
-    background: #efe139;
+    background: var(--gemYellowColor);
 }
 
 .gemRed {
-    background: #f32200;
+    background: var(--gemRedColor);
 }
 
 .gemBlue {
-    background: #478de4;
+    background: var(--gemBlueColor);
 }
 
-.dense .num,
-.dense .numPlain {
+.dense .num {
     font-size: 0.8rem;
     letter-spacing: 0;
     
@@ -114,11 +111,7 @@
 
 @media (max-width: 550px) {
     .costRow {
-            justify-content: center;
-        }
-:global(.listPanel) {
-    .costRow {
-            justify-content: start;
+        justify-content: start;
         }
     .actions{
         gap: 4px;
@@ -133,18 +126,46 @@
 
     .dense.currency{
         width: 6px;
-            height: 6px;
+        height: 6px;
     }
     .currencyToken {
         gap: 4px;
     }
-.dense.gemCircle {
-    width:10px;
-    height:10px;
-    color: transparent;
-} }
-    .num,
-    .numPlain {
+    .dense.gemCircle {
+        width:10px;
+        height:10px;
+        color: transparent;
+    } 
+    .num {
         font-size: 0.88rem;
     }
+    .coinIcon {
+        position: relative;
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        vertical-align: -3px;
+    }
+
+    .coinIcon::before,
+    .coinIcon::after {
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        border: 2px solid var(--bg);
+        background: var(--gemYellowColor);
+    }
+
+    .coinIcon::before {
+        top: 3px;
+    }
+
+    .coinIcon::after {
+        left: -1px;
+        top: 0px;
+    }
 }
+
+
