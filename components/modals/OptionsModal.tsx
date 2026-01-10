@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import "./modals.scss";
+export type TotalsMode = "global" | "category";
 
 type Props = {
   open: boolean;
@@ -8,6 +10,9 @@ type Props = {
 
   exportText: string;
   importText: string;
+
+  totalsMode: TotalsMode;
+  onTotalsModeChange: (mode: TotalsMode) => void;
 
   onExport: () => void;
   onReset: () => void;
@@ -22,6 +27,8 @@ export default function OptionsModal({
   onClose,
   exportText,
   importText,
+  totalsMode,
+  onTotalsModeChange,
   onExport,
   onReset,
   onImportTextChange,
@@ -69,6 +76,25 @@ export default function OptionsModal({
     <div className="modalOverlay" onMouseDown={onBackdropMouseDown} role="dialog" aria-modal="true" aria-label="Options">
       <div className="modalPanel" onMouseDown={(e) => e.stopPropagation()}>
         <div className="modalTitle">Options</div>
+
+        <div className="small">Totals</div>
+        <div className="modalRow">
+          <button
+            className={totalsMode === "global" ? "primary" : ""}
+            onClick={() => onTotalsModeChange("global")}
+            aria-pressed={totalsMode === "global"}
+          >
+            Global totals
+          </button>
+
+          <button
+            className={totalsMode === "category" ? "primary" : ""}
+            onClick={() => onTotalsModeChange("category")}
+            aria-pressed={totalsMode === "category"}
+          >
+            Selected category totals
+          </button>
+        </div>
 
         <div className="modalRow">
           <button className="primary" onClick={onExport}>

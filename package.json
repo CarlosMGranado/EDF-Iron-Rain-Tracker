@@ -8,11 +8,9 @@
     "build": "next build",
     "start": "npx serve@latest out -l 3000",
     "lint": "next lint"
-    
   },
   "dependencies": {
-    "next": "15.1.2",
-    "qrcode": "^1.5.4",
+    "next": "^15.5.9",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "sass": "1.77.8"

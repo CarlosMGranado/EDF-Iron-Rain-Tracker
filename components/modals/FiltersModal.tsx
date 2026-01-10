@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-
+import "./modals.scss";
 export type SortBy = "gameOrder" | "credits" | "yellow" | "red" | "blue" | "unlockLevel";
 export type SortDir = "asc" | "desc";
 
@@ -50,7 +50,7 @@ export default function FiltersModal({ open, onClose, value, onChange }: Props) 
         <div className="small">Visibility</div>
         <div className="modalRow">
           <button className={value.showLocked ? "primary" : ""} onClick={() => toggle("showLocked")} aria-pressed={value.showLocked}>
-            {value.showLocked ? "Hide Locked":"See Locked"}
+            {value.showLocked ? "Hide Locked" : "See Locked"}
           </button>
 
           <button
@@ -67,7 +67,7 @@ export default function FiltersModal({ open, onClose, value, onChange }: Props) 
         </div>
 
         <div className="small">Sort</div>
-        <div className="modalRow">F
+        <div className="modalRow">
           <div className="modalField">
             <div className="modalFieldLabel small">Sort By</div>
             <select value={value.sortBy} onChange={(e) => onChange({ ...value, sortBy: e.target.value as SortBy })}>

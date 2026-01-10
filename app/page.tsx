@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { COLLECTIONS, CATALOG, CATALOG_ID_ORDER } from "../lib/catalog";
 import type { AppState, Currency, ItemStatus } from "../lib/types";
@@ -9,7 +9,7 @@ import { createEmptyState, ensureItemStatus, loadState, saveState } from "../lib
 import CatalogItemCard from "../components/CatalogItemCard";
 import Cost from "../components/currency/Cost";
 
-import OptionsModal from "../components/modals/OptionsModal";
+import OptionsModal, { type TotalsMode } from "../components/modals/OptionsModal";
 import FiltersModal, { type FiltersState, type SortBy, type SortDir } from "../components/modals/FiltersModal";
 
 type Category = "weapons" | "items" | "cosmetics";
@@ -44,6 +44,12 @@ function categoryForCollectionId(id: string): Category {
   return "items";
 }
 
+function categoryLabel(category: Category): string {
+  if (category === "weapons") return "Weapons";
+  if (category === "items") return "Items";
+  return "Cosmetics";
+}
+
 function isStartingWeaponUnlock(unlock?: string): boolean {
   return (unlock ?? "").toLowerCase().includes("starting");
 }
@@ -69,7 +75,6 @@ function parseMissionUnlock(text?: string): { mission: number; difficulty: Unloc
 
   if (isStartingWeaponUnlock(s)) return { mission: 0, difficulty: "easy" };
 
-  // Expected: M{level} ({Difficulty}) , example: "M12 (Hardest)"
   const m = s.match(/m\s*(\d+)\s*\(([^)]+)\)/i);
   if (!m) return null;
 
@@ -93,8 +98,70 @@ function unlockSortValue(unlock?: string): number {
   if (!parsed) return 9_000_000_000;
   return DIFFICULTY_WEIGHT[parsed.difficulty] * 1000 + parsed.mission;
 }
+const FILTERS_STORAGE_KEYS = ["edfir-ir-tracker:filters:v1", "edfir-ir-tracker:filters", "filters"];
+
+const DEFAULT_FILTERS: FiltersState = {
+  showLocked: true,
+  showUnlocked: true,
+  showBought: true,
+  sortBy: "unlockLevel",
+  sortDir: "asc"
+};
+
+function isSortBy(v: any): v is SortBy {
+  return v === "gameOrder" || v === "credits" || v === "yellow" || v === "red" || v === "blue" || v === "unlockLevel";
+}
+
+function isSortDir(v: any): v is SortDir {
+  return v === "asc" || v === "desc";
+}
+
+function loadFiltersFromStorage(): FiltersState | null {
+  if (typeof window === "undefined") return null;
+
+  for (const key of FILTERS_STORAGE_KEYS) {
+    try {
+      const raw = window.localStorage.getItem(key);
+      if (!raw) continue;
+
+      const parsed = JSON.parse(raw);
+      if (!parsed || typeof parsed !== "object") continue;
+
+      const next: FiltersState = {
+        showLocked: typeof (parsed as any).showLocked === "boolean" ? (parsed as any).showLocked : DEFAULT_FILTERS.showLocked,
+        showUnlocked:
+          typeof (parsed as any).showUnlocked === "boolean" ? (parsed as any).showUnlocked : DEFAULT_FILTERS.showUnlocked,
+        showBought: typeof (parsed as any).showBought === "boolean" ? (parsed as any).showBought : DEFAULT_FILTERS.showBought,
+        sortBy: isSortBy((parsed as any).sortBy) ? (parsed as any).sortBy : DEFAULT_FILTERS.sortBy,
+        sortDir: isSortDir((parsed as any).sortDir) ? (parsed as any).sortDir : DEFAULT_FILTERS.sortDir
+      };
+
+      return next;
+    } catch {
+      // try next key
+    }
+  }
+
+  return null;
+}
+
+function saveFiltersToStorage(filters: FiltersState) {
+  if (typeof window === "undefined") return;
+
+  try {
+    window.localStorage.setItem(FILTERS_STORAGE_KEYS[0], JSON.stringify(filters));
+  } catch {
+    // ignore
+  }
+}
+
+const GAME_ORDER_INDEX_BY_ID: Record<string, number> = {};
+for (let i = 0; i < CATALOG_ID_ORDER.length; i += 1) {
+  GAME_ORDER_INDEX_BY_ID[CATALOG_ID_ORDER[i]] = i;
+}
 
 function sortMetricFor(item: (typeof CATALOG)[number], sortBy: SortBy): number {
+  if (sortBy === "gameOrder") return GAME_ORDER_INDEX_BY_ID[item.id] ?? 9_000_000_000;
   if (sortBy === "credits") return item.cost.credits ?? 0;
   if (sortBy === "yellow") return item.cost.yellow ?? 0;
   if (sortBy === "red") return item.cost.red ?? 0;
@@ -105,30 +172,17 @@ function sortMetricFor(item: (typeof CATALOG)[number], sortBy: SortBy): number {
 const STARTING_ITEM_IDS = new Set(CATALOG.filter((it) => isStartingWeaponUnlock(it.unlock)).map((it) => it.id));
 const MIGRATION_KEY_STARTING_BOUGHT = "edfir-ir-tracker:migrated_starting_bought:v1";
 
-// -------------------------------
-// Pre indexing for speed
-// -------------------------------
-
-const CATALOG_BY_CATEGORY: Record<Category, typeof CATALOG> = {
-  weapons: [],
-  items: [],
-  cosmetics: []
-};
 
 const CATALOG_BY_COLLECTION: Record<string, typeof CATALOG> = {};
 const SEARCH_HAY_BY_ID: Record<string, string> = {};
 
 for (const it of CATALOG) {
-  const cat = categoryForCollectionId(it.collectionId);
-  CATALOG_BY_CATEGORY[cat].push(it);
-
   if (!CATALOG_BY_COLLECTION[it.collectionId]) CATALOG_BY_COLLECTION[it.collectionId] = [];
   CATALOG_BY_COLLECTION[it.collectionId].push(it);
 
   SEARCH_HAY_BY_ID[it.id] = `${it.name} ${it.collectionLabel} ${it.unlock ?? ""}`.toLowerCase();
 }
 
-// Build a stable "first collection per category" based on the same order you show (sorted by label)
 const COLLECTION_IDS_SORTED_BY_CATEGORY: Record<Category, string[]> = (() => {
   const buckets: Record<Category, { id: string; label: string }[]> = {
     weapons: [],
@@ -202,22 +256,21 @@ export default function Home() {
 
   const [q, setQ] = useState("");
   const [category, setCategory] = useState<Category>("weapons");
-
   const [collectionId, setCollectionId] = useState<string>(() => firstCollectionIdForCategory("weapons"));
 
   const [exportText, setExportText] = useState("");
   const [importText, setImportText] = useState("");
 
+  const [totalsMode, setTotalsMode] = useState<TotalsMode>("global");
+
   const [optionsOpen, setOptionsOpen] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
 
-  const [filters, setFilters] = useState<FiltersState>({
-    showLocked: true,
-    showUnlocked: true,
-    showBought: true,
-    sortBy: "unlockLevel",
-    sortDir: "asc"
-  });
+  const [filters, setFilters] = useState<FiltersState>(() => loadFiltersFromStorage() ?? DEFAULT_FILTERS);
+
+  useEffect(() => {
+    saveFiltersToStorage(filters);
+  }, [filters]);
 
   useEffect(() => {
     const loaded = loadState();
@@ -238,12 +291,10 @@ export default function Home() {
     saveState(state);
   }, [state]);
 
-  // When category changes, auto select the first collection in that category.
   useEffect(() => {
     const firstId = firstCollectionIdForCategory(category);
     if (!firstId) return;
 
-    // Only change if the current selection is not in this category
     const allowed = new Set(COLLECTION_IDS_SORTED_BY_CATEGORY[category]);
     if (!allowed.has(collectionId)) setCollectionId(firstId);
   }, [category, collectionId]);
@@ -326,10 +377,20 @@ export default function Home() {
 
       if (av !== bv) return (av - bv) * dirMul;
 
-      // Tie breakers: unlock level (always asc), then name, then id
-      const au = unlockSortValue(a.unlock);
-      const bu = unlockSortValue(b.unlock);
-      if (au !== bu) return au - bu;
+      if (filters.sortBy === "unlockLevel") {
+        const nameCmp = a.name.localeCompare(b.name);
+        if (nameCmp !== 0) return nameCmp;
+
+        const ao = GAME_ORDER_INDEX_BY_ID[a.id] ?? 9_000_000_000;
+        const bo = GAME_ORDER_INDEX_BY_ID[b.id] ?? 9_000_000_000;
+        if (ao !== bo) return ao - bo;
+
+        return a.id.localeCompare(b.id);
+      }
+
+      const ao = GAME_ORDER_INDEX_BY_ID[a.id] ?? 9_000_000_000;
+      const bo = GAME_ORDER_INDEX_BY_ID[b.id] ?? 9_000_000_000;
+      if (ao !== bo) return ao - bo;
 
       const nameCmp = a.name.localeCompare(b.name);
       if (nameCmp !== 0) return nameCmp;
@@ -379,6 +440,25 @@ export default function Home() {
     return { total, locked, unlockedNotBought, bought, remainingAll, remainingUnlocked };
   }, [state]);
 
+  const remainingSelectedCategory = useMemo(() => {
+    const zero: Currency = { credits: 0, yellow: 0, red: 0, blue: 0 };
+    if (!state) return zero;
+
+    let out = zero;
+
+    for (const it of CATALOG) {
+      const st = ensureItemStatus(state, it.id);
+      if (st === 2) continue;
+
+      const cat = categoryForCollectionId(it.collectionId);
+      if (cat !== category) continue;
+
+      out = sumCurrency(out, it.cost);
+    }
+
+    return out;
+  }, [state, category]);
+
   function setItemStatus(id: string, nextStatus: ItemStatus) {
     setState((prev) => {
       if (!prev) return prev;
@@ -405,12 +485,22 @@ export default function Home() {
 
   function resetAll() {
     if (!confirm("Reset all flags? This only clears your local progress.")) return;
+
     setState(buildDefaultState());
     setExportText("");
     setImportText("");
     setQ("");
     setCategory("weapons");
     setCollectionId(firstCollectionIdForCategory("weapons"));
+
+    setFilters(DEFAULT_FILTERS);
+    try {
+      window.localStorage.removeItem(FILTERS_STORAGE_KEYS[0]);
+      window.localStorage.removeItem(FILTERS_STORAGE_KEYS[1]);
+      window.localStorage.removeItem(FILTERS_STORAGE_KEYS[2]);
+    } catch {
+      // ignore
+    }
   }
 
   function doExport() {
@@ -425,8 +515,8 @@ export default function Home() {
     const parsed = JSON.parse(text);
     if (!parsed || typeof parsed !== "object") throw new Error("Invalid JSON");
 
-    if (parsed.version === 2) {
-      const items = parsed.items ?? {};
+    if ((parsed as any).version === 2) {
+      const items = (parsed as any).items ?? {};
       const incoming: AppState = { version: 2, items: {} };
       for (const [id, st] of Object.entries(items)) {
         incoming.items[id] = (st === 2 || st === 1 || st === 0 ? st : 0) as ItemStatus;
@@ -434,8 +524,8 @@ export default function Home() {
       return incoming;
     }
 
-    if (parsed.version === 1) {
-      const items = parsed.items ?? {};
+    if ((parsed as any).version === 1) {
+      const items = (parsed as any).items ?? {};
       const incoming: AppState = { version: 2, items: {} };
       for (const [id, st] of Object.entries(items)) {
         const unlocked = Boolean((st as any)?.unlocked);
@@ -445,7 +535,7 @@ export default function Home() {
       return incoming;
     }
 
-    throw new Error(`Unsupported version: ${String(parsed.version)}`);
+    throw new Error(`Unsupported version: ${String((parsed as any).version)}`);
   }
 
   function doImport(text: string) {
@@ -476,6 +566,11 @@ export default function Home() {
     );
   }
 
+  const headerLabel =
+    totalsMode === "global" ? "Needed to complete:" : `Needed to complete (${categoryLabel(category)}):`;
+
+  const headerValue = totalsMode === "global" ? stats.remainingAll : remainingSelectedCategory;
+
   return (
     <div className="wrap">
       <div className="appShell">
@@ -489,9 +584,10 @@ export default function Home() {
                 TRACKER
               </div>
             </div>
-            <div className="totalLabel">Needed to complete:</div>
+
+            <div className="totalLabel">{headerLabel}</div>
             <div className="totalValue">
-              <Cost value={stats.remainingAll} dense />
+              <Cost value={headerValue} dense />
             </div>
           </div>
         </section>
@@ -596,6 +692,8 @@ export default function Home() {
           onClose={() => setOptionsOpen(false)}
           exportText={exportText}
           importText={importText}
+          totalsMode={totalsMode}
+          onTotalsModeChange={setTotalsMode}
           onExport={doExport}
           onReset={resetAll}
           onImportTextChange={setImportText}

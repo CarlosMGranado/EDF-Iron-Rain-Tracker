@@ -1,6 +1,6 @@
 import "./globals.scss";
 import "./shell.scss";
-import "./modals.scss";
+
 import type { ReactNode } from "react";
 
 export const metadata = {

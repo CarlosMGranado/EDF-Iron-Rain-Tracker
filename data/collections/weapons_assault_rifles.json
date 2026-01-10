@@ -11,25 +11,11 @@
       "unlock": "Starting Weapon"
     },
     {
-      "id": "assault-rifle-02",
-      "name": "AE-2032 Ghost BDN",
-      "cost": { "credits": 800, "yellow": 0, "red": 0, "blue": 5 },
-      "rank": "E",
-      "unlock": "M4 (NORMAL)"
-    },
-    {
       "id": "assault-rifle-03",
       "name": "AE-2032GD-I",
       "cost": { "credits": 1200, "yellow": 0, "red": 0, "blue": 10 },
       "rank": "E",
       "unlock": "M8 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-04",
-      "name": "AE-2032 Ghost STL",
-      "cost": { "credits": 8000, "yellow": 10, "red": 0, "blue": 70 },
-      "rank": "D",
-      "unlock": "M18 (NORMAL)"
     },
     {
       "id": "assault-rifle-05",
@@ -53,19 +39,112 @@
       "unlock": "M31 (NORMAL)"
     },
     {
-      "id": "assault-rifle-08",
-      "name": "AE-2032 Ghost PNT",
-      "cost": { "credits": 48000, "yellow": 100, "red": 0, "blue": 700 },
-      "rank": "C",
-      "unlock": "M4 (HARD)"
-    },
-    {
       "id": "assault-rifle-09",
       "name": "AE-2040Ex",
       "cost": { "credits": 48000, "yellow": 300, "red": 0, "blue": 500 },
       "rank": "C",
       "unlock": "M36 (NORMAL)"
     },
+    {
+      "id": "assault-rifle-17",
+      "name": "AW-Outrage",
+      "cost": { "credits": 800, "yellow": 0, "red": 0, "blue": 5 },
+      "rank": "E",
+      "unlock": "M2 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-18",
+      "name": "AW-Rampage",
+      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
+      "rank": "D",
+      "unlock": "M13 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-22",
+      "name": "AW-Outrage Ghost",
+      "cost": { "credits": 48000, "yellow": 0, "red": 400, "blue": 400 },
+      "rank": "C",
+      "unlock": "M47 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-25",
+      "name": "AW-Doppelganger",
+      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M8 (HARD)"
+    },
+    {
+      "id": "assault-rifle-19",
+      "name": "AW-Furious",
+      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
+      "rank": "D",
+      "unlock": "M21 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-21",
+      "name": "AW-Furious Rev",
+      "cost": { "credits": 10000, "yellow": 0, "red": 0, "blue": 100 },
+      "rank": "D",
+      "unlock": "M30 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-23",
+      "name": "AW-Furious 2",
+      "cost": { "credits": 48000, "yellow": 0, "red": 400, "blue": 400 },
+      "rank": "C",
+      "unlock": "M1 (HARD)"
+    },
+    {
+      "id": "assault-rifle-34",
+      "name": "PG-Victoria",
+      "cost": { "credits": 8000, "yellow": 80, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "M24 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-20",
+      "name": "AW-Wrath Prototype",
+      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
+      "rank": "D",
+      "unlock": "M25 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-35",
+      "name": "PG-Clown",
+      "cost": { "credits": 8000, "yellow": 80, "red": 0, "blue": 0 },
+      "rank": "D",
+      "unlock": "M28 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-36",
+      "name": "PG-Puppeteer",
+      "cost": { "credits": 48000, "yellow": 600, "red": 200, "blue": 0 },
+      "rank": "C",
+      "unlock": "M44 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-02",
+      "name": "AE-2032 Ghost YL",
+      "cost": { "credits": 800, "yellow": 0, "red": 0, "blue": 5 },
+      "rank": "E",
+      "unlock": "M4 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-04",
+      "name": "AE-2032 Ghost CC",
+      "cost": { "credits": 8000, "yellow": 10, "red": 0, "blue": 70 },
+      "rank": "D",
+      "unlock": "M18 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-08",
+      "name": "AE-2032 Ghost GB",
+      "cost": { "credits": 48000, "yellow": 100, "red": 0, "blue": 700 },
+      "rank": "C",
+      "unlock": "M4 (HARD)"
+    },
+
+
     {
       "id": "assault-rifle-10",
       "name": "AE-2032GD-II",
@@ -116,67 +195,11 @@
       "unlock": "M34 (HARDEST)"
     },
     {
-      "id": "assault-rifle-17",
-      "name": "AW Outrage",
-      "cost": { "credits": 800, "yellow": 0, "red": 0, "blue": 5 },
-      "rank": "E",
-      "unlock": "M2 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-18",
-      "name": "AW Rampage",
-      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
-      "rank": "D",
-      "unlock": "M13 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-19",
-      "name": "AW Furious",
-      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
-      "rank": "D",
-      "unlock": "M21 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-20",
-      "name": "AW Wrath Prototype",
-      "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
-      "rank": "D",
-      "unlock": "M25 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-21",
-      "name": "AW Furious Modified",
-      "cost": { "credits": 10000, "yellow": 0, "red": 0, "blue": 100 },
-      "rank": "D",
-      "unlock": "M30 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-22",
-      "name": "AW Outrage Ghost",
-      "cost": { "credits": 48000, "yellow": 0, "red": 400, "blue": 400 },
-      "rank": "C",
-      "unlock": "M47 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-23",
-      "name": "AW Furious 2",
-      "cost": { "credits": 48000, "yellow": 0, "red": 400, "blue": 400 },
-      "rank": "C",
-      "unlock": "M1 (HARD)"
-    },
-    {
       "id": "assault-rifle-24",
       "name": "AW Wrath",
       "cost": { "credits": 48000, "yellow": 0, "red": 400, "blue": 400 },
       "rank": "C",
       "unlock": "M16 (HARD)"
-    },
-    {
-      "id": "assault-rifle-25",
-      "name": "AW Doppeladler",
-      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
-      "rank": "C",
-      "unlock": "M8 (HARD)"
     },
     {
       "id": "assault-rifle-26",
@@ -233,27 +256,6 @@
       "cost": { "credits": 850000, "yellow": 0, "red": 3500, "blue": 3500 },
       "rank": "AA",
       "unlock": "Defeat 1200 Crazy Ants"
-    },
-    {
-      "id": "assault-rifle-34",
-      "name": "PG Victory",
-      "cost": { "credits": 8000, "yellow": 80, "red": 0, "blue": 0 },
-      "rank": "D",
-      "unlock": "M24 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-35",
-      "name": "PG Jester",
-      "cost": { "credits": 8000, "yellow": 80, "red": 0, "blue": 0 },
-      "rank": "D",
-      "unlock": "M28 (NORMAL)"
-    },
-    {
-      "id": "assault-rifle-36",
-      "name": "PG Puppeteer",
-      "cost": { "credits": 48000, "yellow": 600, "red": 200, "blue": 0 },
-      "rank": "C",
-      "unlock": "M44 (NORMAL)"
     },
     {
       "id": "assault-rifle-37",
