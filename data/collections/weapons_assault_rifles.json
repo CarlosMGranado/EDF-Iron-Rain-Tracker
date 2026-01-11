@@ -45,6 +45,27 @@
       "rank": "C",
       "unlock": "M36 (NORMAL)"
     },
+        {
+      "id": "assault-rifle-10",
+      "name": "AE-2032GD-II",
+      "cost": { "credits": 53000, "yellow": 400, "red": 0, "blue": 800 },
+      "rank": "C",
+      "unlock": "M13 (HARD)"
+    },
+    {
+      "id": "assault-rifle-11",
+      "name": "AE-La Marseillaise",
+      "cost": { "credits": 59000, "yellow": 800, "red": 0, "blue": 1100 },
+      "rank": "C",
+      "unlock": "M19 (HARD)"
+    },
+    {
+      "id": "assault-rifle-13",
+      "name": "AE-2041",
+      "cost": { "credits": 180000, "yellow": 1000, "red": 0, "blue": 1800 },
+      "rank": "B",
+      "unlock": "M31 (HARD)"
+    },
     {
       "id": "assault-rifle-17",
       "name": "AW-Outrage",
@@ -74,6 +95,13 @@
       "unlock": "M8 (HARD)"
     },
     {
+      "id": "assault-rifle-29",
+      "name": "AW Rampage L.M.I.",
+      "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
+      "rank": "B",
+      "unlock": "M45 (HARD)"
+    },
+    {
       "id": "assault-rifle-19",
       "name": "AW-Furious",
       "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 80 },
@@ -95,6 +123,13 @@
       "unlock": "M1 (HARD)"
     },
     {
+      "id": "assault-rifle-26",
+      "name": "AW Furious GD",
+      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M21 (HARD)"
+    },
+    {
       "id": "assault-rifle-34",
       "name": "PG-Victoria",
       "cost": { "credits": 8000, "yellow": 80, "red": 0, "blue": 0 },
@@ -109,6 +144,13 @@
       "unlock": "M25 (NORMAL)"
     },
     {
+      "id": "assault-rifle-24",
+      "name": "AW-Wrath",
+      "cost": { "credits": 48000, "yellow": 0, "red": 400, "blue": 400 },
+      "rank": "C",
+      "unlock": "M16 (HARD)"
+    },
+    {
       "id": "assault-rifle-35",
       "name": "PG-Clown",
       "cost": { "credits": 8000, "yellow": 80, "red": 0, "blue": 0 },
@@ -121,6 +163,20 @@
       "cost": { "credits": 48000, "yellow": 600, "red": 200, "blue": 0 },
       "rank": "C",
       "unlock": "M44 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-38",
+      "name": "PG-Puppeteer Frayed",
+      "cost": { "credits": 180000, "yellow": 2000, "red": 800, "blue": 0 },
+      "rank": "B",
+      "unlock": "M4 (HARDEST)"
+    },
+    {
+      "id": "assault-rifle-39",
+      "name": "PG-Pinocchio",
+      "cost": { "credits": 480000, "yellow": 4000, "red": 1000, "blue": 0 },
+      "rank": "A",
+      "unlock": "M25 (HARDEST)"
     },
     {
       "id": "assault-rifle-02",
@@ -146,32 +202,11 @@
 
 
     {
-      "id": "assault-rifle-10",
-      "name": "AE-2032GD-II",
-      "cost": { "credits": 53000, "yellow": 400, "red": 0, "blue": 800 },
-      "rank": "C",
-      "unlock": "M13 (HARD)"
-    },
-    {
-      "id": "assault-rifle-11",
-      "name": "AE La Marseillaise",
-      "cost": { "credits": 59000, "yellow": 800, "red": 0, "blue": 1100 },
-      "rank": "C",
-      "unlock": "M19 (HARD)"
-    },
-    {
       "id": "assault-rifle-12",
       "name": "AE-2032 Santa Claus",
       "cost": { "credits": 180000, "yellow": 1000, "red": 0, "blue": 1800 },
       "rank": "B",
       "unlock": "M10 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-13",
-      "name": "AE-2041",
-      "cost": { "credits": 180000, "yellow": 1000, "red": 0, "blue": 1800 },
-      "rank": "B",
-      "unlock": "M31 (HARD)"
     },
     {
       "id": "assault-rifle-14",
@@ -195,20 +230,6 @@
       "unlock": "M34 (HARDEST)"
     },
     {
-      "id": "assault-rifle-24",
-      "name": "AW Wrath",
-      "cost": { "credits": 48000, "yellow": 0, "red": 400, "blue": 400 },
-      "rank": "C",
-      "unlock": "M16 (HARD)"
-    },
-    {
-      "id": "assault-rifle-26",
-      "name": "AW Furious GD",
-      "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
-      "rank": "C",
-      "unlock": "M21 (HARD)"
-    },
-    {
       "id": "assault-rifle-27",
       "name": "AW Rage",
       "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
@@ -221,13 +242,6 @@
       "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
       "rank": "B",
       "unlock": "M48 (HARD)"
-    },
-    {
-      "id": "assault-rifle-29",
-      "name": "AW Rampage L.M.I.",
-      "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
-      "rank": "B",
-      "unlock": "M45 (HARD)"
     },
     {
       "id": "assault-rifle-30",
@@ -265,18 +279,18 @@
       "unlock": "M13 (HARDEST)"
     },
     {
-      "id": "assault-rifle-38",
-      "name": "PG Puppeteer Frayed",
-      "cost": { "credits": 180000, "yellow": 2000, "red": 800, "blue": 0 },
-      "rank": "B",
-      "unlock": "M4 (HARDEST)"
+      "id": "assault-rifle-40",
+      "name": "PG-V3-GD",
+      "cost": { "credits": 900000, "yellow": 6000, "red": 2000, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 1000 Silver Ant"
     },
     {
-      "id": "assault-rifle-39",
-      "name": "PG Pinocchio",
-      "cost": { "credits": 480000, "yellow": 4000, "red": 1000, "blue": 0 },
-      "rank": "A",
-      "unlock": "M25 (HARDEST)"
+      "id": "assault-rifle-41",
+      "name": "AE-2030",
+      "cost": { "credits": 850000, "yellow": 2000, "red": 0, "blue": 5000 },
+      "rank": "AA",
+      "unlock": "Defeat 2500 Storm Ant"
     }
   ]
 }

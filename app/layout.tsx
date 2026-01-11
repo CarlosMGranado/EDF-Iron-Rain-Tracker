@@ -1,5 +1,6 @@
-import "./globals.scss";
-
+import "../styles/tokens.scss";
+import "../styles/base.scss";
+import "../styles/app.scss";
 import type { ReactNode } from "react";
 
 export const metadata = {

@@ -1,60 +1,5 @@
-:root {
-    --bg: #0b0d10;
-    --panel: #11151b;
-    --panel2: #0f1318;
-    --text: #f1f5fb;
-    --muted: #666b73;
-    --border: rgba(255, 255, 255, 0.09);
-
-    --neutral-bg: rgb(121, 135, 151);
-    --type-bg: rgb(55, 58, 62);
-    --type-active-bg: rgb(82, 87, 93);
-
-    --locked-bg: rgb(121, 135, 151);
-    --locked-border: rgb(121, 135, 151);
-
-    --unlocked-bg: rgb(198, 108, 12);
-    --unlocked-border: rgb(198, 108, 12);
-
-    --bought-bg: rgb(120, 222, 165);
-    --bought-border: rgb(120, 222, 165);
-
-    --gemYellowColor: #efe139;
-    --gemRedColor: #f32200;
-    --gemBlueColor: #478de4;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    height: 100%;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-}
-
-a {
-    color: inherit;
-}
-
-.mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-.small {
-    color: var(--muted);
-    font-size: 0.8rem;
-    line-height: 1.25rem;
-}
-
 .wrap {
-    max-width: 1100px;
+    max-width: var(--content-max);
     margin: 0 auto;
     height: 100svh;
     padding: 2%;
@@ -134,7 +79,6 @@ a {
     letter-spacing: 0.18em;
     color: rgba(210, 220, 235, 0.92);
     opacity: 0.95;
-    transform: skewX(-12deg);
 }
 
 .brandSub::before {
@@ -145,14 +89,17 @@ a {
     -webkit-text-stroke: 4px rgba(0, 0, 0, 0.85);
     z-index: -1;
 }
+
 @media (max-width: 800px) {
     .brandMain {
         font-size: 1rem;
     }
+
     .appShell {
         grid-template-rows: 60px minmax(0, 2fr) minmax(0, 5fr) 40px;
     }
 }
+
 @media (max-width: 420px) {
     .bentoIcon {
         width: 16px;
@@ -318,16 +265,6 @@ a {
         margin-bottom: 6px;
         display: inline;
     }
-
-    .bentoMeta {
-        margin-bottom: 8px;
-    }
-
-    .bentoCounts {
-        font-size: 0.85rem;
-        opacity: 0.9;
-        margin-bottom: 8px;
-    }
 }
 
 .bentoTile.active {
@@ -340,7 +277,8 @@ a {
     height: 8px;
     border-radius: 4px;
     overflow: hidden;
-    background: 1px solid var(--neutral-bg);
+    border: 1px solid var(--neutral-bg);
+    background: var(--panel2);
 
     .miniSeg.locked {
         background: var(--neutral-bg);
@@ -361,7 +299,6 @@ a {
     position: relative;
 }
 
-/* subtle fade separators top and bottom */
 .listPanel::before,
 .listPanel::after {
     content: "";
@@ -373,16 +310,15 @@ a {
     opacity: 0.55;
 }
 
-/* top fade: visible line that fades down into content */
 .listPanel::before {
     top: 0;
     z-index: 1;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1))
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
 }
 
 .listPanel::after {
     bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0))
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
 }
 
 input,
@@ -442,7 +378,7 @@ button:disabled {
     position: relative;
     border-radius: 6px;
     border: 1px solid var(--border);
-    background: #383838;
+    background: var(--panel3);
     padding: 4px 4px 4px 20px;
     overflow: hidden;
 }

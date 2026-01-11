@@ -11,47 +11,77 @@
       "unlock": "Starting Weapon"
     },
     {
-      "id": "shotgun-02",
-      "name": "SP Cornet",
-      "cost": { "credits": 1200, "yellow": 0, "red": 5, "blue": 5 },
-      "rank": "E",
-      "unlock": "M6 (NORMAL)"
-    },
-    {
       "id": "shotgun-03",
-      "name": "SP 30Y DA",
+      "name": "SP-30Y-DA",
       "cost": { "credits": 8000, "yellow": 0, "red": 40, "blue": 40 },
       "rank": "D",
       "unlock": "M13 (NORMAL)"
     },
     {
+      "id": "shotgun-07",
+      "name": "SP-20X-SS",
+      "cost": { "credits": 48000, "yellow": 0, "red": 600, "blue": 600 },
+      "rank": "C",
+      "unlock": "M37 (NORMAL)"
+    },
+    {
+      "id": "shotgun-15",
+      "name": "PC-Hurricane",
+      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
+      "rank": "D",
+      "unlock": "M23 (NORMAL)"
+    },
+    {
+      "id": "shotgun-18",
+      "name": "PC-Tornado",
+      "cost": { "credits": 48000, "yellow": 600, "red": 600, "blue": 0 },
+      "rank": "C",
+      "unlock": "M39 (NORMAL)"
+    },
+    {
+      "id": "shotgun-02",
+      "name": "SP-Cornet",
+      "cost": { "credits": 1200, "yellow": 0, "red": 5, "blue": 5 },
+      "rank": "E",
+      "unlock": "M6 (NORMAL)"
+    },
+    {
       "id": "shotgun-04",
-      "name": "SP Cornet Ex",
+      "name": "SP-Cornet Ex",
       "cost": { "credits": 10000, "yellow": 0, "red": 50, "blue": 50 },
       "rank": "D",
       "unlock": "M20 (NORMAL)"
     },
     {
+      "id": "shotgun-16",
+      "name": "PC-Puncher",
+      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
+      "rank": "D",
+      "unlock": "M27 (NORMAL)"
+    },
+    {
       "id": "shotgun-05",
-      "name": "SP Sarsan",
+      "name": "SP-Sasan",
       "cost": { "credits": 10000, "yellow": 0, "red": 50, "blue": 50 },
       "rank": "D",
       "unlock": "M16 (NORMAL)"
     },
     {
+      "id": "shotgun-17",
+      "name": "PC-Green Cross",
+      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
+      "rank": "D",
+      "unlock": "M32 (NORMAL)"
+    },
+    {
       "id": "shotgun-06",
-      "name": "SP Kalahari",
+      "name": "SP-Kalahari",
       "cost": { "credits": 10000, "yellow": 0, "red": 50, "blue": 50 },
       "rank": "D",
       "unlock": "M14 (NORMAL)"
     },
-    {
-      "id": "shotgun-07",
-      "name": "SP 20X SS",
-      "cost": { "credits": 48000, "yellow": 0, "red": 600, "blue": 600 },
-      "rank": "C",
-      "unlock": "M37 (NORMAL)"
-    },
+
+
     {
       "id": "shotgun-08",
       "name": "SP Euphonium GD",
@@ -100,34 +130,6 @@
       "cost": { "credits": 200000, "yellow": 0, "red": 1600, "blue": 1600 },
       "rank": "B",
       "unlock": "M8 (HARDEST)"
-    },
-    {
-      "id": "shotgun-15",
-      "name": "PC Hurricane",
-      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
-      "rank": "D",
-      "unlock": "M23 (NORMAL)"
-    },
-    {
-      "id": "shotgun-16",
-      "name": "PC Puncher",
-      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
-      "rank": "D",
-      "unlock": "M27 (NORMAL)"
-    },
-    {
-      "id": "shotgun-17",
-      "name": "PC Green Cross",
-      "cost": { "credits": 10000, "yellow": 50, "red": 50, "blue": 0 },
-      "rank": "D",
-      "unlock": "M32 (NORMAL)"
-    },
-    {
-      "id": "shotgun-18",
-      "name": "PC Tornado",
-      "cost": { "credits": 48000, "yellow": 600, "red": 600, "blue": 0 },
-      "rank": "C",
-      "unlock": "M39 (NORMAL)"
     },
     {
       "id": "shotgun-19",

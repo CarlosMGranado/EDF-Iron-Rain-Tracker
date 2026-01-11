@@ -1,28 +1,31 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import {FiltersState, SortBy, SortDir} from "../lib/types";
-import { COLLECTIONS, CATALOG, CATALOG_ID_ORDER } from "../lib/catalog";
-import type { AppState, Currency, ItemStatus, TotalsMode } from "../lib/types";
+import type { AppState, Currency, ItemStatus, TotalsMode, Category } from "../lib/types";
+import { CATALOG, COLLECTIONS } from "../lib/catalog";
 import { createEmptyState, ensureItemStatus, loadState, saveState } from "../lib/storage";
 
 import CatalogItemCard from "../components/CatalogItemCard";
-import Cost from "../components/currency/Cost";
 
 import OptionsModal from "../components/modals/OptionsModal";
 import FiltersModal from "../components/modals/FiltersModal";
 
-type Category = "weapons" | "items" | "cosmetics";
-type UnlockDifficulty = "easy" | "normal" | "hard" | "hardest" | "disaster" | "unknown";
+import HeaderBar from "../components/HeaderBar";
+import CategoryTabs from "../components/CategoryTabs";
+import CollectionGrid from "../components/CollectionGrid";
 
-function sumCurrency(a: Currency, b: Currency): Currency {
-  return {
-    credits: a.credits + b.credits,
-    yellow: a.yellow + b.yellow,
-    red: a.red + b.red,
-    blue: a.blue + b.blue
-  };
-}
+import { DEFAULT_FILTERS, FILTERS_STORAGE_KEYS, loadFiltersFromStorage, saveFiltersToStorage } from "../lib/edfirFilters";
+import {
+  CATALOG_BY_COLLECTION,
+  SEARCH_HAY_BY_ID,
+  COLLECTION_IDS_SORTED_BY_CATEGORY,
+  categoryForCollectionId,
+  categoryLabel,
+  firstCollectionIdForCategory,
+  sortMetricFor,
+  GAME_ORDER_INDEX_BY_ID
+} from "../lib/edfirSorting";
+import { buildDefaultState, isCompleteStateV2, mergeStateWithCatalog, migrateStartingWeaponsOnce, sumCurrency, getItemStatusSafe } from "../lib/edfirState";
 
 function downloadJson(filename: string, data: unknown) {
   const text = JSON.stringify(data, null, 2);
@@ -35,220 +38,6 @@ function downloadJson(filename: string, data: unknown) {
   a.click();
   a.remove();
   URL.revokeObjectURL(url);
-}
-
-function categoryForCollectionId(id: string): Category {
-  const lower = id.toLowerCase();
-  if (lower.includes("cosmetics")) return "cosmetics";
-  if (lower.startsWith("weapons_")) return "weapons";
-  return "items";
-}
-
-function categoryLabel(category: Category): string {
-  if (category === "weapons") return "Weapons";
-  if (category === "items") return "Items";
-  return "Cosmetics";
-}
-
-function isStartingWeaponUnlock(unlock?: string): boolean {
-  return (unlock ?? "").toLowerCase().includes("starting");
-}
-
-function getItemStatusSafe(state: AppState, id: string): ItemStatus {
-  const v = state.items[id];
-  return v === 0 || v === 1 || v === 2 ? v : 0;
-}
-
-function normalizeDifficulty(raw: string): UnlockDifficulty {
-  const t = raw.trim().toLowerCase();
-  if (t === "easy") return "easy";
-  if (t === "normal") return "normal";
-  if (t === "hard") return "hard";
-  if (t === "hardest") return "hardest";
-  if (t === "disaster") return "disaster";
-  return "unknown";
-}
-
-function parseMissionUnlock(text?: string): { mission: number; difficulty: UnlockDifficulty } | null {
-  const s = (text ?? "").trim();
-  if (!s) return null;
-
-  if (isStartingWeaponUnlock(s)) return { mission: 0, difficulty: "easy" };
-
-  const m = s.match(/m\s*(\d+)\s*\(([^)]+)\)/i);
-  if (!m) return null;
-
-  const mission = Number(m[1]);
-  if (!Number.isFinite(mission)) return null;
-
-  return { mission, difficulty: normalizeDifficulty(m[2]) };
-}
-
-const DIFFICULTY_WEIGHT: Record<UnlockDifficulty, number> = {
-  easy: 0,
-  normal: 1,
-  hard: 2,
-  hardest: 3,
-  disaster: 4,
-  unknown: 99
-};
-
-function unlockSortValue(unlock?: string): number {
-  const parsed = parseMissionUnlock(unlock);
-  if (!parsed) return 9_000_000_000;
-  return DIFFICULTY_WEIGHT[parsed.difficulty] * 1000 + parsed.mission;
-}
-const FILTERS_STORAGE_KEYS = ["edfir-ir-tracker:filters:v1", "edfir-ir-tracker:filters", "filters"];
-
-const DEFAULT_FILTERS: FiltersState = {
-  showLocked: true,
-  showUnlocked: true,
-  showBought: true,
-  sortBy: "unlockLevel",
-  sortDir: "asc"
-};
-
-function isSortBy(v: any): v is SortBy {
-  return v === "gameOrder" || v === "credits" || v === "yellow" || v === "red" || v === "blue" || v === "unlockLevel";
-}
-
-function isSortDir(v: any): v is SortDir {
-  return v === "asc" || v === "desc";
-}
-
-function loadFiltersFromStorage(): FiltersState | null {
-  if (typeof window === "undefined") return null;
-
-  for (const key of FILTERS_STORAGE_KEYS) {
-    try {
-      const raw = window.localStorage.getItem(key);
-      if (!raw) continue;
-
-      const parsed = JSON.parse(raw);
-      if (!parsed || typeof parsed !== "object") continue;
-
-      const next: FiltersState = {
-        showLocked: typeof (parsed as any).showLocked === "boolean" ? (parsed as any).showLocked : DEFAULT_FILTERS.showLocked,
-        showUnlocked:
-          typeof (parsed as any).showUnlocked === "boolean" ? (parsed as any).showUnlocked : DEFAULT_FILTERS.showUnlocked,
-        showBought: typeof (parsed as any).showBought === "boolean" ? (parsed as any).showBought : DEFAULT_FILTERS.showBought,
-        sortBy: isSortBy((parsed as any).sortBy) ? (parsed as any).sortBy : DEFAULT_FILTERS.sortBy,
-        sortDir: isSortDir((parsed as any).sortDir) ? (parsed as any).sortDir : DEFAULT_FILTERS.sortDir
-      };
-
-      return next;
-    } catch {
-      // try next key
-    }
-  }
-
-  return null;
-}
-
-function saveFiltersToStorage(filters: FiltersState) {
-  if (typeof window === "undefined") return;
-
-  try {
-    window.localStorage.setItem(FILTERS_STORAGE_KEYS[0], JSON.stringify(filters));
-  } catch {
-    // ignore
-  }
-}
-
-const GAME_ORDER_INDEX_BY_ID: Record<string, number> = {};
-for (let i = 0; i < CATALOG_ID_ORDER.length; i += 1) {
-  GAME_ORDER_INDEX_BY_ID[CATALOG_ID_ORDER[i]] = i;
-}
-
-function sortMetricFor(item: (typeof CATALOG)[number], sortBy: SortBy): number {
-  if (sortBy === "gameOrder") return GAME_ORDER_INDEX_BY_ID[item.id] ?? 9_000_000_000;
-  if (sortBy === "credits") return item.cost.credits ?? 0;
-  if (sortBy === "yellow") return item.cost.yellow ?? 0;
-  if (sortBy === "red") return item.cost.red ?? 0;
-  if (sortBy === "blue") return item.cost.blue ?? 0;
-  return unlockSortValue(item.unlock);
-}
-
-const STARTING_ITEM_IDS = new Set(CATALOG.filter((it) => isStartingWeaponUnlock(it.unlock)).map((it) => it.id));
-const MIGRATION_KEY_STARTING_BOUGHT = "edfir-ir-tracker:migrated_starting_bought:v1";
-
-
-const CATALOG_BY_COLLECTION: Record<string, typeof CATALOG> = {};
-const SEARCH_HAY_BY_ID: Record<string, string> = {};
-
-for (const it of CATALOG) {
-  if (!CATALOG_BY_COLLECTION[it.collectionId]) CATALOG_BY_COLLECTION[it.collectionId] = [];
-  CATALOG_BY_COLLECTION[it.collectionId].push(it);
-
-  SEARCH_HAY_BY_ID[it.id] = `${it.name} ${it.collectionLabel} ${it.unlock ?? ""}`.toLowerCase();
-}
-
-const COLLECTION_IDS_SORTED_BY_CATEGORY: Record<Category, string[]> = (() => {
-  const buckets: Record<Category, { id: string; label: string }[]> = {
-    weapons: [],
-    items: [],
-    cosmetics: []
-  };
-
-  for (const c of COLLECTIONS) {
-    const cat = categoryForCollectionId(c.id);
-    buckets[cat].push({ id: c.id, label: c.label });
-  }
-
-  return {
-    weapons: buckets.weapons.sort((a, b) => a.label.localeCompare(b.label)).map((x) => x.id),
-    items: buckets.items.sort((a, b) => a.label.localeCompare(b.label)).map((x) => x.id),
-    cosmetics: buckets.cosmetics.sort((a, b) => a.label.localeCompare(b.label)).map((x) => x.id)
-  };
-})();
-
-function firstCollectionIdForCategory(category: Category): string {
-  return COLLECTION_IDS_SORTED_BY_CATEGORY[category][0] ?? "";
-}
-
-function buildDefaultState(): AppState {
-  const s = createEmptyState();
-  for (const id of CATALOG_ID_ORDER) s.items[id] = STARTING_ITEM_IDS.has(id) ? 2 : 0;
-  return s;
-}
-
-function isCompleteStateV2(s: AppState): boolean {
-  return s?.version === 2 && typeof s.items === "object" && Object.keys(s.items).length === CATALOG_ID_ORDER.length;
-}
-
-function mergeStateWithCatalog(incoming: AppState): AppState {
-  const base = buildDefaultState();
-  const merged: AppState = { version: 2, items: { ...base.items, ...(incoming.items ?? {}) } };
-
-  for (const id of CATALOG_ID_ORDER) {
-    const st = ensureItemStatus(merged, id);
-    merged.items[id] = st === 2 ? 2 : st === 1 ? 1 : 0;
-  }
-
-  return merged;
-}
-
-function migrateStartingWeaponsOnce(state: AppState): AppState {
-  if (typeof window === "undefined") return state;
-
-  try {
-    if (window.localStorage.getItem(MIGRATION_KEY_STARTING_BOUGHT) === "1") return state;
-
-    let changed = false;
-    const next: AppState = { ...state, items: { ...state.items } };
-
-    for (const id of STARTING_ITEM_IDS) {
-      if (next.items[id] === 0) {
-        next.items[id] = 2;
-        changed = true;
-      }
-    }
-
-    window.localStorage.setItem(MIGRATION_KEY_STARTING_BOUGHT, "1");
-    return changed ? next : state;
-  } catch {
-    return state;
-  }
 }
 
 export default function Home() {
@@ -266,7 +55,7 @@ export default function Home() {
   const [optionsOpen, setOptionsOpen] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
 
-  const [filters, setFilters] = useState<FiltersState>(() => loadFiltersFromStorage() ?? DEFAULT_FILTERS);
+  const [filters, setFilters] = useState(() => loadFiltersFromStorage() ?? DEFAULT_FILTERS);
 
   useEffect(() => {
     saveFiltersToStorage(filters);
@@ -566,94 +355,24 @@ export default function Home() {
     );
   }
 
-  const headerLabel =
-    totalsMode === "global" ? "Needed to complete:" : `Needed to complete (${categoryLabel(category)}):`;
-
+  const headerLabel = totalsMode === "global" ? "Needed to complete:" : `Needed to complete (${categoryLabel(category)}):`;
   const headerValue = totalsMode === "global" ? stats.remainingAll : remainingSelectedCategory;
 
   return (
     <div className="wrap">
       <div className="appShell">
-        <section className="topPanel">
-          <div className="topHeader">
-            <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
-              <div className="brandMain" data-text="EDF IRON RAIN">
-                Earth Defense Force: IRON RAIN
-              </div>
-              <div className="brandSub" data-text="TRACKER">
-                TRACKER
-              </div>
-            </div>
-
-            <div className="totalLabel">{headerLabel}</div>
-            <div className="totalValue">
-              <Cost value={headerValue} dense />
-            </div>
-          </div>
-        </section>
+        <HeaderBar label={headerLabel} value={headerValue} />
 
         <section className="bentoPanel">
-          <div className="tabs">
-            <button
-              className={category === "weapons" ? "tab active" : "tab"}
-              onClick={() => {
-                setCategory("weapons");
-                setCollectionId(firstCollectionIdForCategory("weapons"));
-              }}
-            >
-              Weapons
-            </button>
-            <button
-              className={category === "items" ? "tab active" : "tab"}
-              onClick={() => {
-                setCategory("items");
-                setCollectionId(firstCollectionIdForCategory("items"));
-              }}
-            >
-              Items
-            </button>
-            <button
-              className={category === "cosmetics" ? "tab active" : "tab"}
-              onClick={() => {
-                setCategory("cosmetics");
-                setCollectionId(firstCollectionIdForCategory("cosmetics"));
-              }}
-            >
-              Cosmetics
-            </button>
-          </div>
+          <CategoryTabs
+            value={category}
+            onChange={(next) => {
+              setCategory(next);
+              setCollectionId(firstCollectionIdForCategory(next));
+            }}
+          />
 
-          <div className="bentoGrid">
-            {collectionTiles.map((t) => (
-              <button
-                key={t.id}
-                className={collectionId === t.id ? "bentoTile active" : "bentoTile"}
-                onClick={() => setCollectionId(t.id)}
-                title={t.label}
-              >
-                <div className="bentoTitleRow">
-                  {t.icon ? (
-                    <img
-                      className="bentoIcon"
-                      src={t.icon}
-                      alt=""
-                      onError={(e) => {
-                        e.currentTarget.style.display = "none";
-                      }}
-                    />
-                  ) : (
-                    <span className="bentoIcon" aria-hidden="true" />
-                  )}
-                  <div className="bentoTitle">{t.label}</div>
-                </div>
-                <div className="bentoMiniBar" aria-hidden="true">
-                  <span className="miniSeg bought" style={{ flexGrow: t.bought }} />
-                  <span className="miniSeg unlocked" style={{ flexGrow: t.unlocked }} />
-                  <span className="miniSeg locked" style={{ flexGrow: t.locked }} />
-                </div>
-              </button>
-            ))}
-          </div>
+          <CollectionGrid tiles={collectionTiles} selectedId={collectionId} onSelect={setCollectionId} />
         </section>
 
         <section className="listPanel">
@@ -701,12 +420,7 @@ export default function Home() {
           onClearImport={() => setImportText("")}
         />
 
-        <FiltersModal
-          open={filtersOpen}
-          onClose={() => setFiltersOpen(false)}
-          value={filters}
-          onChange={setFilters}
-        />
+        <FiltersModal open={filtersOpen} onClose={() => setFiltersOpen(false)} value={filters} onChange={setFilters} />
       </div>
     </div>
   );

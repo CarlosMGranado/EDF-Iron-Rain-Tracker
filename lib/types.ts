@@ -3,6 +3,8 @@ export type CurrencyType = "credits" | "yellow" | "red" | "blue";
 export type SortBy = "gameOrder" | "credits" | "yellow" | "red" | "blue" | "unlockLevel";
 export type SortDir = "asc" | "desc";
 export type TotalsMode = "global" | "category";
+export type Category = "weapons" | "items" | "cosmetics";
+export type UnlockDifficulty = "easy" | "normal" | "hard" | "hardest" | "disaster" | "unknown";
 
 export type Currency = {
   credits: number;

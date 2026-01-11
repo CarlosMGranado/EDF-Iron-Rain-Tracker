@@ -154,17 +154,17 @@
         width: 5px;
         height: 5px;
         border-radius: 100%;
-        border: 2px solid var(--bg);
+        border: 1px solid var(--bg);
         background: var(--gemYellowColor);
     }
 
     .coinIcon::before {
-        top: 3px;
+        top: 4px;
     }
 
     .coinIcon::after {
         left: -1px;
-        top: 0px;
+        top: 2px;
     }
 }
 

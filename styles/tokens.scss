@@ -1,0 +1,31 @@
+:root {
+    --bg: #0b0d10;
+    --panel: #11151b;
+    --panel2: #0f1318;
+    --panel3: #383838;
+    --text: #f1f5fb;
+    --muted: #666b73;
+    --border: rgba(255, 255, 255, 0.09);
+
+    --neutral-bg: rgb(121, 135, 151);
+    --type-bg: rgb(55, 58, 62);
+    --type-active-bg: rgb(82, 87, 93);
+
+    --locked-bg: rgb(121, 135, 151);
+    --locked-border: rgb(121, 135, 151);
+
+    --unlocked-bg: rgb(198, 108, 12);
+    --unlocked-border: rgb(198, 108, 12);
+
+    --bought-bg: rgb(120, 222, 165);
+    --bought-border: rgb(120, 222, 165);
+
+    --gemYellowColor: #efe139;
+    --gemRedColor: #f32200;
+    --gemBlueColor: #478de4;
+
+    --num-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    --content-max: 1100px;
+    --focus-ring: rgba(120, 170, 255, 0.55);
+}
