@@ -93,7 +93,7 @@
     },
     {
       "id": "cosmetics-accessory-02-01",
-      "name": "Smart Glasses (Color 01 White)",
+      "name": "GLASSES (SLIM) (Color 01 White)",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -104,7 +104,7 @@
     },
     {
       "id": "cosmetics-accessory-02-02",
-      "name": "Smart Glasses (Color 02 Black)",
+      "name": "GLASSES (SLIM) (Color 02 Black)",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -115,7 +115,7 @@
     },
     {
       "id": "cosmetics-accessory-02-03",
-      "name": "Smart Glasses (Color 03 Silver)",
+      "name": "GLASSES (SLIM) (Color 03 Silver)",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -126,7 +126,7 @@
     },
     {
       "id": "cosmetics-accessory-02-04",
-      "name": "Smart Glasses (Color 04 Yellow)",
+      "name": "GLASSES (SLIM) (Color 04 Yellow)",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -137,7 +137,7 @@
     },
     {
       "id": "cosmetics-accessory-02-05",
-      "name": "Smart Glasses (Color 05 Light Green)",
+      "name": "GLASSES (SLIM) (Color 05 Light Green)",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -148,7 +148,7 @@
     },
     {
       "id": "cosmetics-accessory-02-06",
-      "name": "Smart Glasses (Color 06 Black)",
+      "name": "GLASSES (SLIM) (Color 06 Black)",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -159,7 +159,7 @@
     },
     {
       "id": "cosmetics-accessory-02-07",
-      "name": "Smart Glasses (Color 07 Light Blue)",
+      "name": "GLASSES (SLIM) (Color 07 Light Blue)",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -170,7 +170,7 @@
     },
     {
       "id": "cosmetics-accessory-02-08",
-      "name": "Smart Glasses (Color 08 Crimson)",
+      "name": "GLASSES (SLIM) (Color 08 Crimson)",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -709,7 +709,7 @@
     },
     {
       "id": "cosmetics-accessory-09-01",
-      "name": "Stealth Mask (Color 01 White)",
+      "name": "NINJA MASK (Color 01 White)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -720,7 +720,7 @@
     },
     {
       "id": "cosmetics-accessory-09-02",
-      "name": "Stealth Mask (Color 02 Black)",
+      "name": "NINJA MASK (Color 02 Black)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -731,7 +731,7 @@
     },
     {
       "id": "cosmetics-accessory-09-03",
-      "name": "Stealth Mask (Color 03 Silver)",
+      "name": "NINJA MASK (Color 03 Silver)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -742,7 +742,7 @@
     },
     {
       "id": "cosmetics-accessory-09-04",
-      "name": "Stealth Mask (Color 04 Yellow)",
+      "name": "NINJA MASK (Color 04 Yellow)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -753,7 +753,7 @@
     },
     {
       "id": "cosmetics-accessory-09-05",
-      "name": "Stealth Mask (Color 05 Light Green)",
+      "name": "NINJA MASK (Color 05 Light Green)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -764,7 +764,7 @@
     },
     {
       "id": "cosmetics-accessory-09-06",
-      "name": "Stealth Mask (Color 06 Black)",
+      "name": "NINJA MASK (Color 06 Black)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -775,7 +775,7 @@
     },
     {
       "id": "cosmetics-accessory-09-07",
-      "name": "Stealth Mask (Color 07 Light Blue)",
+      "name": "NINJA MASK (Color 07 Light Blue)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -786,7 +786,7 @@
     },
     {
       "id": "cosmetics-accessory-09-08",
-      "name": "Stealth Mask (Color 08 Crimson)",
+      "name": "NINJA MASK (Color 08 Crimson)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -885,7 +885,7 @@
     },
     {
       "id": "cosmetics-accessory-11-01",
-      "name": "Eyepatch (Right Eye) (Color 01 White)",
+      "name": "EYE PATCH (R)(Color 01 White)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -896,7 +896,7 @@
     },
     {
       "id": "cosmetics-accessory-11-02",
-      "name": "Eyepatch (Right Eye) (Color 02 Black)",
+      "name": "EYE PATCH (R)(Color 02 Black)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -907,7 +907,7 @@
     },
     {
       "id": "cosmetics-accessory-11-03",
-      "name": "Eyepatch (Right Eye) (Color 03 Silver)",
+      "name": "EYE PATCH (R)(Color 03 Silver)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -918,7 +918,7 @@
     },
     {
       "id": "cosmetics-accessory-11-04",
-      "name": "Eyepatch (Right Eye) (Color 04 Yellow)",
+      "name": "EYE PATCH (R)(Color 04 Yellow)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -929,7 +929,7 @@
     },
     {
       "id": "cosmetics-accessory-11-05",
-      "name": "Eyepatch (Right Eye) (Color 05 Light Green)",
+      "name": "EYE PATCH (R)(Color 05 Light Green)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -940,7 +940,7 @@
     },
     {
       "id": "cosmetics-accessory-11-06",
-      "name": "Eyepatch (Right Eye) (Color 06 Black)",
+      "name": "EYE PATCH (R)(Color 06 Black)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -951,7 +951,7 @@
     },
     {
       "id": "cosmetics-accessory-11-07",
-      "name": "Eyepatch (Right Eye) (Color 07 Light Blue)",
+      "name": "EYE PATCH (R)(Color 07 Light Blue)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -962,7 +962,7 @@
     },
     {
       "id": "cosmetics-accessory-11-08",
-      "name": "Eyepatch (Right Eye) (Color 08 Crimson)",
+      "name": "EYE PATCH (R)(Color 08 Crimson)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -973,7 +973,7 @@
     },
     {
       "id": "cosmetics-accessory-12-01",
-      "name": "Eyepatch (Left Eye) (Color 01 White)",
+      "name": "EYE PATCH (L) (Color 01 White)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -984,7 +984,7 @@
     },
     {
       "id": "cosmetics-accessory-12-02",
-      "name": "Eyepatch (Left Eye) (Color 02 Black)",
+      "name": "EYE PATCH (L) (Color 02 Black)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -995,7 +995,7 @@
     },
     {
       "id": "cosmetics-accessory-12-03",
-      "name": "Eyepatch (Left Eye) (Color 03 Silver)",
+      "name": "EYE PATCH (L) (Color 03 Silver)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1006,7 +1006,7 @@
     },
     {
       "id": "cosmetics-accessory-12-04",
-      "name": "Eyepatch (Left Eye) (Color 04 Yellow)",
+      "name": "EYE PATCH (L) (Color 04 Yellow)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1017,7 +1017,7 @@
     },
     {
       "id": "cosmetics-accessory-12-05",
-      "name": "Eyepatch (Left Eye) (Color 05 Light Green)",
+      "name": "EYE PATCH (L) (Color 05 Light Green)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1028,7 +1028,7 @@
     },
     {
       "id": "cosmetics-accessory-12-06",
-      "name": "Eyepatch (Left Eye) (Color 06 Black)",
+      "name": "EYE PATCH (L) (Color 06 Black)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1039,7 +1039,7 @@
     },
     {
       "id": "cosmetics-accessory-12-07",
-      "name": "Eyepatch (Left Eye) (Color 07 Light Blue)",
+      "name": "EYE PATCH (L) (Color 07 Light Blue)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1050,7 +1050,7 @@
     },
     {
       "id": "cosmetics-accessory-12-08",
-      "name": "Eyepatch (Left Eye) (Color 08 Crimson)",
+      "name": "EYE PATCH (L) (Color 08 Crimson)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1061,7 +1061,7 @@
     },
     {
       "id": "cosmetics-accessory-13-01",
-      "name": "Mind's Eye (Color 01 White)",
+      "name": "BLINDFOLD (Color 01 White)",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1072,7 +1072,7 @@
     },
     {
       "id": "cosmetics-accessory-13-02",
-      "name": "Mind's Eye (Color 02 Black)",
+      "name": "BLINDFOLD (Color 02 Black)",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1083,7 +1083,7 @@
     },
     {
       "id": "cosmetics-accessory-13-03",
-      "name": "Mind's Eye (Color 03 Silver)",
+      "name": "BLINDFOLD (Color 03 Silver)",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "cosmetics-accessory-13-04",
-      "name": "Mind's Eye (Color 04 Yellow)",
+      "name": "BLINDFOLD (Color 04 Yellow)",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "cosmetics-accessory-13-05",
-      "name": "Mind's Eye (Color 05 Light Green)",
+      "name": "BLINDFOLD (Color 05 Light Green)",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1116,7 +1116,7 @@
     },
     {
       "id": "cosmetics-accessory-13-06",
-      "name": "Mind's Eye (Color 06 Black)",
+      "name": "BLINDFOLD (Color 06 Black)",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1127,7 +1127,7 @@
     },
     {
       "id": "cosmetics-accessory-13-07",
-      "name": "Mind's Eye (Color 07 Light Blue)",
+      "name": "BLINDFOLD (Color 07 Light Blue)",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1138,7 +1138,7 @@
     },
     {
       "id": "cosmetics-accessory-13-08",
-      "name": "Mind's Eye (Color 08 Crimson)",
+      "name": "BLINDFOLD (Color 08 Crimson)",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "cosmetics-accessory-14-01",
-      "name": "Face Guard (Menpo) (Color 01 White)",
+      "name": "SAMURAI MASK (Color 01 White)",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1160,7 +1160,7 @@
     },
     {
       "id": "cosmetics-accessory-14-02",
-      "name": "Face Guard (Menpo) (Color 02 Black)",
+      "name": "SAMURAI MASK (Color 02 Black)",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "cosmetics-accessory-14-03",
-      "name": "Face Guard (Menpo) (Color 03 Silver)",
+      "name": "SAMURAI MASK (Color 03 Silver)",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1182,7 +1182,7 @@
     },
     {
       "id": "cosmetics-accessory-14-04",
-      "name": "Face Guard (Menpo) (Color 04 Yellow)",
+      "name": "SAMURAI MASK (Color 04 Yellow)",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1193,7 +1193,7 @@
     },
     {
       "id": "cosmetics-accessory-14-05",
-      "name": "Face Guard (Menpo) (Color 05 Light Green)",
+      "name": "SAMURAI MASK (Color 05 Light Green)",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "cosmetics-accessory-14-06",
-      "name": "Face Guard (Menpo) (Color 06 Black)",
+      "name": "SAMURAI MASK (Color 06 Black)",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1215,7 +1215,7 @@
     },
     {
       "id": "cosmetics-accessory-14-07",
-      "name": "Face Guard (Menpo) (Color 07 Light Blue)",
+      "name": "SAMURAI MASK (Color 07 Light Blue)",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1226,7 +1226,7 @@
     },
     {
       "id": "cosmetics-accessory-14-08",
-      "name": "Face Guard (Menpo) (Color 08 Crimson)",
+      "name": "SAMURAI MASK (Color 08 Crimson)",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1325,7 +1325,7 @@
     },
     {
       "id": "cosmetics-accessory-16-01",
-      "name": "Fake Beard (Color 01 White)",
+      "name": "FAKE MUSTACHE (Color 01 White)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1336,7 +1336,7 @@
     },
     {
       "id": "cosmetics-accessory-16-02",
-      "name": "Fake Beard (Color 02 Black)",
+      "name": "FAKE MUSTACHE (Color 02 Black)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1347,7 +1347,7 @@
     },
     {
       "id": "cosmetics-accessory-16-03",
-      "name": "Fake Beard (Color 03 Silver)",
+      "name": "FAKE MUSTACHE (Color 03 Silver)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1358,7 +1358,7 @@
     },
     {
       "id": "cosmetics-accessory-16-04",
-      "name": "Fake Beard (Color 04 Yellow)",
+      "name": "FAKE MUSTACHE (Color 04 Yellow)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1369,7 +1369,7 @@
     },
     {
       "id": "cosmetics-accessory-16-05",
-      "name": "Fake Beard (Color 05 Light Green)",
+      "name": "FAKE MUSTACHE (Color 05 Light Green)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1380,7 +1380,7 @@
     },
     {
       "id": "cosmetics-accessory-16-06",
-      "name": "Fake Beard (Color 06 Black)",
+      "name": "FAKE MUSTACHE (Color 06 Black)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1391,7 +1391,7 @@
     },
     {
       "id": "cosmetics-accessory-16-07",
-      "name": "Fake Beard (Color 07 Light Blue)",
+      "name": "FAKE MUSTACHE (Color 07 Light Blue)",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1402,7 +1402,7 @@
     },
     {
       "id": "cosmetics-accessory-16-08",
-      "name": "Fake Beard (Color 08 Crimson)",
+      "name": "FAKE MUSTACHE (Color 08 Crimson)",
       "cost": {
         "credits": 3500,
         "yellow": 0,

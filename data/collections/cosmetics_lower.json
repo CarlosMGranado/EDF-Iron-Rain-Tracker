@@ -5,7 +5,7 @@
   "items": [
     {
       "id": "cosmetics-lower-01-01",
-      "name": "General Combat Suit (Phlox) (Color 01 White)",
+      "name": "TROOPER SUIT (Phlox) (Color 01 White)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -16,7 +16,7 @@
     },
     {
       "id": "cosmetics-lower-01-02",
-      "name": "General Combat Suit (Phlox) (Color 02 Black)",
+      "name": "TROOPER SUIT (Phlox) (Color 02 Black)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -27,7 +27,7 @@
     },
     {
       "id": "cosmetics-lower-01-03",
-      "name": "General Combat Suit (Phlox) (Color 03 Silver)",
+      "name": "TROOPER SUIT (Phlox) (Color 03 Silver)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -38,7 +38,7 @@
     },
     {
       "id": "cosmetics-lower-01-04",
-      "name": "General Combat Suit (Phlox) (Color 04 Yellow)",
+      "name": "TROOPER SUIT (Phlox) (Color 04 Yellow)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -49,7 +49,7 @@
     },
     {
       "id": "cosmetics-lower-01-05",
-      "name": "General Combat Suit (Phlox) (Color 05 Light Green)",
+      "name": "TROOPER SUIT (Phlox) (Color 05 Light Green)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -60,7 +60,7 @@
     },
     {
       "id": "cosmetics-lower-01-06",
-      "name": "General Combat Suit (Phlox) (Color 06 Black)",
+      "name": "TROOPER SUIT (Phlox) (Color 06 Black)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -71,7 +71,7 @@
     },
     {
       "id": "cosmetics-lower-01-07",
-      "name": "General Combat Suit (Phlox) (Color 07 Light Blue)",
+      "name": "TROOPER SUIT (Phlox) (Color 07 Light Blue)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -82,7 +82,7 @@
     },
     {
       "id": "cosmetics-lower-01-08",
-      "name": "General Combat Suit (Phlox) (Color 08 Crimson)",
+      "name": "TROOPER SUIT (Phlox) (Color 08 Crimson)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -93,7 +93,7 @@
     },
     {
       "id": "cosmetics-lower-02-01",
-      "name": "Light Combat Suit (Chamomile) (Color 01 White)",
+      "name": "LIGHT SUIT (Chamomile) (Color 01 White)",
       "cost": {
         "credits": 600,
         "yellow": 0,
@@ -104,7 +104,7 @@
     },
     {
       "id": "cosmetics-lower-02-02",
-      "name": "Light Combat Suit (Chamomile) (Color 02 Black)",
+      "name": "LIGHT SUIT (Chamomile) (Color 02 Black)",
       "cost": {
         "credits": 600,
         "yellow": 0,
@@ -115,7 +115,7 @@
     },
     {
       "id": "cosmetics-lower-02-03",
-      "name": "Light Combat Suit (Chamomile) (Color 03 Silver)",
+      "name": "LIGHT SUIT (Chamomile) (Color 03 Silver)",
       "cost": {
         "credits": 600,
         "yellow": 0,
@@ -126,7 +126,7 @@
     },
     {
       "id": "cosmetics-lower-02-04",
-      "name": "Light Combat Suit (Chamomile) (Color 04 Yellow)",
+      "name": "LIGHT SUIT (Chamomile) (Color 04 Yellow)",
       "cost": {
         "credits": 600,
         "yellow": 0,
@@ -137,7 +137,7 @@
     },
     {
       "id": "cosmetics-lower-02-05",
-      "name": "Light Combat Suit (Chamomile) (Color 05 Light Green)",
+      "name": "LIGHT SUIT (Chamomile) (Color 05 Light Green)",
       "cost": {
         "credits": 600,
         "yellow": 0,
@@ -148,7 +148,7 @@
     },
     {
       "id": "cosmetics-lower-02-06",
-      "name": "Light Combat Suit (Chamomile) (Color 06 Black)",
+      "name": "LIGHT SUIT (Chamomile) (Color 06 Black)",
       "cost": {
         "credits": 600,
         "yellow": 0,
@@ -159,7 +159,7 @@
     },
     {
       "id": "cosmetics-lower-02-07",
-      "name": "Light Combat Suit (Chamomile) (Color 07 Light Blue)",
+      "name": "LIGHT SUIT (Chamomile) (Color 07 Light Blue)",
       "cost": {
         "credits": 600,
         "yellow": 0,
@@ -170,7 +170,7 @@
     },
     {
       "id": "cosmetics-lower-02-08",
-      "name": "Light Combat Suit (Chamomile) (Color 08 Crimson)",
+      "name": "LIGHT SUIT (Chamomile) (Color 08 Crimson)",
       "cost": {
         "credits": 600,
         "yellow": 0,
@@ -181,7 +181,7 @@
     },
     {
       "id": "cosmetics-lower-03-01",
-      "name": "Heavy Combat Suit (Nasturtium) (Color 01 White)",
+      "name": "HEAVY SUIT (MASHUA) (Color 01 White)",
       "cost": {
         "credits": 10500,
         "yellow": 0,
@@ -192,7 +192,7 @@
     },
     {
       "id": "cosmetics-lower-03-02",
-      "name": "Heavy Combat Suit (Nasturtium) (Color 02 Black)",
+      "name": "HEAVY SUIT (MASHUA) (Color 02 Black)",
       "cost": {
         "credits": 10500,
         "yellow": 0,
@@ -203,7 +203,7 @@
     },
     {
       "id": "cosmetics-lower-03-03",
-      "name": "Heavy Combat Suit (Nasturtium) (Color 03 Silver)",
+      "name": "HEAVY SUIT (MASHUA) (Color 03 Silver)",
       "cost": {
         "credits": 10500,
         "yellow": 0,
@@ -214,7 +214,7 @@
     },
     {
       "id": "cosmetics-lower-03-04",
-      "name": "Heavy Combat Suit (Nasturtium) (Color 04 Yellow)",
+      "name": "HEAVY SUIT (MASHUA) (Color 04 Yellow)",
       "cost": {
         "credits": 10500,
         "yellow": 0,
@@ -225,7 +225,7 @@
     },
     {
       "id": "cosmetics-lower-03-05",
-      "name": "Heavy Combat Suit (Nasturtium) (Color 05 Light Green)",
+      "name": "HEAVY SUIT (MASHUA) (Color 05 Light Green)",
       "cost": {
         "credits": 10500,
         "yellow": 0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "cosmetics-lower-03-06",
-      "name": "Heavy Combat Suit (Nasturtium) (Color 06 Black)",
+      "name": "HEAVY SUIT (MASHUA) (Color 06 Black)",
       "cost": {
         "credits": 10500,
         "yellow": 0,
@@ -247,7 +247,7 @@
     },
     {
       "id": "cosmetics-lower-03-07",
-      "name": "Heavy Combat Suit (Nasturtium) (Color 07 Light Blue)",
+      "name": "HEAVY SUIT (MASHUA) (Color 07 Light Blue)",
       "cost": {
         "credits": 10500,
         "yellow": 0,
@@ -258,7 +258,7 @@
     },
     {
       "id": "cosmetics-lower-03-08",
-      "name": "Heavy Combat Suit (Nasturtium) (Color 08 Crimson)",
+      "name": "HEAVY SUIT (MASHUA) (Color 08 Crimson)",
       "cost": {
         "credits": 10500,
         "yellow": 0,
@@ -269,7 +269,7 @@
     },
     {
       "id": "cosmetics-lower-04-01",
-      "name": "Chemical Protective Suit (Platanus) (Color 01 White)",
+      "name": "BIO SUIT (SYCAMORE) (Color 01 White)",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -280,7 +280,7 @@
     },
     {
       "id": "cosmetics-lower-04-02",
-      "name": "Chemical Protective Suit (Platanus) (Color 02 Black)",
+      "name": "BIO SUIT (SYCAMORE) (Color 02 Black)",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -291,7 +291,7 @@
     },
     {
       "id": "cosmetics-lower-04-03",
-      "name": "Chemical Protective Suit (Platanus) (Color 03 Silver)",
+      "name": "BIO SUIT (SYCAMORE) (Color 03 Silver)",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -302,7 +302,7 @@
     },
     {
       "id": "cosmetics-lower-04-04",
-      "name": "Chemical Protective Suit (Platanus) (Color 04 Yellow)",
+      "name": "BIO SUIT (SYCAMORE) (Color 04 Yellow)",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -313,7 +313,7 @@
     },
     {
       "id": "cosmetics-lower-04-05",
-      "name": "Chemical Protective Suit (Platanus) (Color 05 Light Green)",
+      "name": "BIO SUIT (SYCAMORE) (Color 05 Light Green)",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -324,7 +324,7 @@
     },
     {
       "id": "cosmetics-lower-04-06",
-      "name": "Chemical Protective Suit (Platanus) (Color 06 Black)",
+      "name": "BIO SUIT (SYCAMORE) (Color 06 Black)",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -335,7 +335,7 @@
     },
     {
       "id": "cosmetics-lower-04-07",
-      "name": "Chemical Protective Suit (Platanus) (Color 07 Light Blue)",
+      "name": "BIO SUIT (SYCAMORE) (Color 07 Light Blue)",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -346,7 +346,7 @@
     },
     {
       "id": "cosmetics-lower-04-08",
-      "name": "Chemical Protective Suit (Platanus) (Color 08 Crimson)",
+      "name": "BIO SUIT (SYCAMORE) (Color 08 Crimson)",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -357,7 +357,7 @@
     },
     {
       "id": "cosmetics-lower-05-01",
-      "name": "PR Combat Suit (Tuberose) (Color 01 White)",
+      "name": "RECRUIT SUIT (Color 01 White)",
       "cost": {
         "credits": 100000,
         "yellow": 0,
@@ -368,7 +368,7 @@
     },
     {
       "id": "cosmetics-lower-05-02",
-      "name": "PR Combat Suit (Tuberose) (Color 02 Black)",
+      "name": "RECRUIT SUIT (Color 02 Black)",
       "cost": {
         "credits": 100000,
         "yellow": 0,
@@ -379,7 +379,7 @@
     },
     {
       "id": "cosmetics-lower-05-03",
-      "name": "PR Combat Suit (Tuberose) (Color 03 Silver)",
+      "name": "RECRUIT SUIT (Color 03 Silver)",
       "cost": {
         "credits": 100000,
         "yellow": 0,
@@ -390,7 +390,7 @@
     },
     {
       "id": "cosmetics-lower-05-04",
-      "name": "PR Combat Suit (Tuberose) (Color 04 Yellow)",
+      "name": "RECRUIT SUIT (Color 04 Yellow)",
       "cost": {
         "credits": 100000,
         "yellow": 0,
@@ -401,7 +401,7 @@
     },
     {
       "id": "cosmetics-lower-05-05",
-      "name": "PR Combat Suit (Tuberose) (Color 05 Light Green)",
+      "name": "RECRUIT SUIT (Color 05 Light Green)",
       "cost": {
         "credits": 100000,
         "yellow": 0,
@@ -412,7 +412,7 @@
     },
     {
       "id": "cosmetics-lower-05-06",
-      "name": "PR Combat Suit (Tuberose) (Color 06 Black)",
+      "name": "RECRUIT SUIT (Color 06 Black)",
       "cost": {
         "credits": 100000,
         "yellow": 0,
@@ -423,7 +423,7 @@
     },
     {
       "id": "cosmetics-lower-05-07",
-      "name": "PR Combat Suit (Tuberose) (Color 07 Light Blue)",
+      "name": "RECRUIT SUIT (Color 07 Light Blue)",
       "cost": {
         "credits": 100000,
         "yellow": 0,
@@ -434,7 +434,7 @@
     },
     {
       "id": "cosmetics-lower-05-08",
-      "name": "PR Combat Suit (Tuberose) (Color 08 Crimson)",
+      "name": "RECRUIT SUIT (Color 08 Crimson)",
       "cost": {
         "credits": 100000,
         "yellow": 0,
@@ -445,7 +445,7 @@
     },
     {
       "id": "cosmetics-lower-06-01",
-      "name": "Stealth Gear (Jinchoge) (Color 01 White)",
+      "name": "NINJA SUIT (HOZUKI) (Color 01 White)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -456,7 +456,7 @@
     },
     {
       "id": "cosmetics-lower-06-02",
-      "name": "Stealth Gear (Jinchoge) (Color 02 Black)",
+      "name": "NINJA SUIT (HOZUKI) (Color 02 Black)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -467,7 +467,7 @@
     },
     {
       "id": "cosmetics-lower-06-03",
-      "name": "Stealth Gear (Jinchoge) (Color 03 Silver)",
+      "name": "NINJA SUIT (HOZUKI) (Color 03 Silver)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -478,7 +478,7 @@
     },
     {
       "id": "cosmetics-lower-06-04",
-      "name": "Stealth Gear (Jinchoge) (Color 04 Yellow)",
+      "name": "NINJA SUIT (HOZUKI) (Color 04 Yellow)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -489,7 +489,7 @@
     },
     {
       "id": "cosmetics-lower-06-05",
-      "name": "Stealth Gear (Jinchoge) (Color 05 Light Green)",
+      "name": "NINJA SUIT (HOZUKI) (Color 05 Light Green)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -500,7 +500,7 @@
     },
     {
       "id": "cosmetics-lower-06-06",
-      "name": "Stealth Gear (Jinchoge) (Color 06 Black)",
+      "name": "NINJA SUIT (HOZUKI) (Color 06 Black)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -511,7 +511,7 @@
     },
     {
       "id": "cosmetics-lower-06-07",
-      "name": "Stealth Gear (Jinchoge) (Color 07 Light Blue)",
+      "name": "NINJA SUIT (HOZUKI) (Color 07 Light Blue)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -522,7 +522,7 @@
     },
     {
       "id": "cosmetics-lower-06-08",
-      "name": "Stealth Gear (Jinchoge) (Color 08 Crimson)",
+      "name": "NINJA SUIT (HOZUKI) (Color 08 Crimson)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -533,7 +533,7 @@
     },
     {
       "id": "cosmetics-lower-07-01",
-      "name": "Stealth Gear (Sennichikou) (Color 01 White)",
+      "name": "NINJA SUIT B (SUGI) (Color 01 White)",
       "cost": {
         "credits": 11250,
         "yellow": 0,
@@ -544,7 +544,7 @@
     },
     {
       "id": "cosmetics-lower-07-02",
-      "name": "Stealth Gear (Sennichikou) (Color 02 Black)",
+      "name": "NINJA SUIT B (SUGI) (Color 02 Black)",
       "cost": {
         "credits": 11250,
         "yellow": 0,
@@ -555,7 +555,7 @@
     },
     {
       "id": "cosmetics-lower-07-03",
-      "name": "Stealth Gear (Sennichikou) (Color 03 Silver)",
+      "name": "NINJA SUIT B (SUGI) (Color 03 Silver)",
       "cost": {
         "credits": 11250,
         "yellow": 0,
@@ -566,7 +566,7 @@
     },
     {
       "id": "cosmetics-lower-07-04",
-      "name": "Stealth Gear (Sennichikou) (Color 04 Yellow)",
+      "name": "NINJA SUIT B (SUGI) (Color 04 Yellow)",
       "cost": {
         "credits": 11250,
         "yellow": 0,
@@ -577,7 +577,7 @@
     },
     {
       "id": "cosmetics-lower-07-05",
-      "name": "Stealth Gear (Sennichikou) (Color 05 Light Green)",
+      "name": "NINJA SUIT B (SUGI) (Color 05 Light Green)",
       "cost": {
         "credits": 11250,
         "yellow": 0,
@@ -588,7 +588,7 @@
     },
     {
       "id": "cosmetics-lower-07-06",
-      "name": "Stealth Gear (Sennichikou) (Color 06 Black)",
+      "name": "NINJA SUIT B (SUGI) (Color 06 Black)",
       "cost": {
         "credits": 11250,
         "yellow": 0,
@@ -599,7 +599,7 @@
     },
     {
       "id": "cosmetics-lower-07-07",
-      "name": "Stealth Gear (Sennichikou) (Color 07 Light Blue)",
+      "name": "NINJA SUIT B (SUGI) (Color 07 Light Blue)",
       "cost": {
         "credits": 11250,
         "yellow": 0,
@@ -610,7 +610,7 @@
     },
     {
       "id": "cosmetics-lower-07-08",
-      "name": "Stealth Gear (Sennichikou) (Color 08 Crimson)",
+      "name": "NINJA SUIT B (SUGI) (Color 08 Crimson)",
       "cost": {
         "credits": 11250,
         "yellow": 0,
@@ -621,7 +621,7 @@
     },
     {
       "id": "cosmetics-lower-08-01",
-      "name": "EDF Far East Branch Uniform (Color 01 White)",
+      "name": "EDF EAST UNIFORM (Color 01 White)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -632,7 +632,7 @@
     },
     {
       "id": "cosmetics-lower-08-02",
-      "name": "EDF Far East Branch Uniform (Color 02 Black)",
+      "name": "EDF EAST UNIFORM (Color 02 Black)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -643,7 +643,7 @@
     },
     {
       "id": "cosmetics-lower-08-03",
-      "name": "EDF Far East Branch Uniform (Color 03 Silver)",
+      "name": "EDF EAST UNIFORM (Color 03 Silver)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -654,7 +654,7 @@
     },
     {
       "id": "cosmetics-lower-08-04",
-      "name": "EDF Far East Branch Uniform (Color 04 Yellow)",
+      "name": "EDF EAST UNIFORM (Color 04 Yellow)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -665,7 +665,7 @@
     },
     {
       "id": "cosmetics-lower-08-05",
-      "name": "EDF Far East Branch Uniform (Color 05 Light Green)",
+      "name": "EDF EAST UNIFORM (Color 05 Light Green)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -676,7 +676,7 @@
     },
     {
       "id": "cosmetics-lower-08-06",
-      "name": "EDF Far East Branch Uniform (Color 06 Black)",
+      "name": "EDF EAST UNIFORM (Color 06 Black)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -687,7 +687,7 @@
     },
     {
       "id": "cosmetics-lower-08-07",
-      "name": "EDF Far East Branch Uniform (Color 07 Light Blue)",
+      "name": "EDF EAST UNIFORM (Color 07 Light Blue)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -698,7 +698,7 @@
     },
     {
       "id": "cosmetics-lower-08-08",
-      "name": "EDF Far East Branch Uniform (Color 08 Crimson)",
+      "name": "EDF EAST UNIFORM (Color 08 Crimson)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -709,7 +709,7 @@
     },
     {
       "id": "cosmetics-lower-09-01",
-      "name": "EDF Far East Branch Skirt (Color 01 White)",
+      "name": "EDF EAST SKIRT (Color 01 White)",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -720,7 +720,7 @@
     },
     {
       "id": "cosmetics-lower-09-02",
-      "name": "EDF Far East Branch Skirt (Color 02 Black)",
+      "name": "EDF EAST SKIRT (Color 02 Black)",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -731,7 +731,7 @@
     },
     {
       "id": "cosmetics-lower-09-03",
-      "name": "EDF Far East Branch Skirt (Color 03 Silver)",
+      "name": "EDF EAST SKIRT (Color 03 Silver)",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -742,7 +742,7 @@
     },
     {
       "id": "cosmetics-lower-09-04",
-      "name": "EDF Far East Branch Skirt (Color 04 Yellow)",
+      "name": "EDF EAST SKIRT (Color 04 Yellow)",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -753,7 +753,7 @@
     },
     {
       "id": "cosmetics-lower-09-05",
-      "name": "EDF Far East Branch Skirt (Color 05 Light Green)",
+      "name": "EDF EAST SKIRT (Color 05 Light Green)",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -764,7 +764,7 @@
     },
     {
       "id": "cosmetics-lower-09-06",
-      "name": "EDF Far East Branch Skirt (Color 06 Black)",
+      "name": "EDF EAST SKIRT (Color 06 Black)",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -775,7 +775,7 @@
     },
     {
       "id": "cosmetics-lower-09-07",
-      "name": "EDF Far East Branch Skirt (Color 07 Light Blue)",
+      "name": "EDF EAST SKIRT (Color 07 Light Blue)",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -786,7 +786,7 @@
     },
     {
       "id": "cosmetics-lower-09-08",
-      "name": "EDF Far East Branch Skirt (Color 08 Crimson)",
+      "name": "EDF EAST SKIRT (Color 08 Crimson)",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -797,7 +797,7 @@
     },
     {
       "id": "cosmetics-lower-10-01",
-      "name": "EDF Infantry Combat Suit (Color 01 White)",
+      "name": "EDF GROUND UNIFORM (Color 01 White)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -808,7 +808,7 @@
     },
     {
       "id": "cosmetics-lower-10-02",
-      "name": "EDF Infantry Combat Suit (Color 02 Black)",
+      "name": "EDF GROUND UNIFORM (Color 02 Black)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -819,7 +819,7 @@
     },
     {
       "id": "cosmetics-lower-10-03",
-      "name": "EDF Infantry Combat Suit (Color 03 Silver)",
+      "name": "EDF GROUND UNIFORM (Color 03 Silver)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -830,7 +830,7 @@
     },
     {
       "id": "cosmetics-lower-10-04",
-      "name": "EDF Infantry Combat Suit (Color 04 Yellow)",
+      "name": "EDF GROUND UNIFORM (Color 04 Yellow)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -841,7 +841,7 @@
     },
     {
       "id": "cosmetics-lower-10-05",
-      "name": "EDF Infantry Combat Suit (Color 05 Light Green)",
+      "name": "EDF GROUND UNIFORM (Color 05 Light Green)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -852,7 +852,7 @@
     },
     {
       "id": "cosmetics-lower-10-06",
-      "name": "EDF Infantry Combat Suit (Color 06 Black)",
+      "name": "EDF GROUND UNIFORM (Color 06 Black)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -863,7 +863,7 @@
     },
     {
       "id": "cosmetics-lower-10-07",
-      "name": "EDF Infantry Combat Suit (Color 07 Light Blue)",
+      "name": "EDF GROUND UNIFORM (Color 07 Light Blue)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -874,7 +874,7 @@
     },
     {
       "id": "cosmetics-lower-10-08",
-      "name": "EDF Infantry Combat Suit (Color 08 Crimson)",
+      "name": "EDF GROUND UNIFORM (Color 08 Crimson)",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -885,7 +885,7 @@
     },
     {
       "id": "cosmetics-lower-11-01",
-      "name": "Guerrilla Style (Color 01 White)",
+      "name": "GUERRILLA SUIT (Color 01 White)",
       "cost": {
         "credits": 2250,
         "yellow": 0,
@@ -896,7 +896,7 @@
     },
     {
       "id": "cosmetics-lower-11-02",
-      "name": "Guerrilla Style (Color 02 Black)",
+      "name": "GUERRILLA SUIT (Color 02 Black)",
       "cost": {
         "credits": 2250,
         "yellow": 0,
@@ -907,7 +907,7 @@
     },
     {
       "id": "cosmetics-lower-11-03",
-      "name": "Guerrilla Style (Color 03 Silver)",
+      "name": "GUERRILLA SUIT (Color 03 Silver)",
       "cost": {
         "credits": 2250,
         "yellow": 0,
@@ -918,7 +918,7 @@
     },
     {
       "id": "cosmetics-lower-11-04",
-      "name": "Guerrilla Style (Color 04 Yellow)",
+      "name": "GUERRILLA SUIT (Color 04 Yellow)",
       "cost": {
         "credits": 2250,
         "yellow": 0,
@@ -929,7 +929,7 @@
     },
     {
       "id": "cosmetics-lower-11-05",
-      "name": "Guerrilla Style (Color 05 Light Green)",
+      "name": "GUERRILLA SUIT (Color 05 Light Green)",
       "cost": {
         "credits": 2250,
         "yellow": 0,
@@ -940,7 +940,7 @@
     },
     {
       "id": "cosmetics-lower-11-06",
-      "name": "Guerrilla Style (Color 06 Black)",
+      "name": "GUERRILLA SUIT (Color 06 Black)",
       "cost": {
         "credits": 2250,
         "yellow": 0,
@@ -951,7 +951,7 @@
     },
     {
       "id": "cosmetics-lower-11-07",
-      "name": "Guerrilla Style (Color 07 Light Blue)",
+      "name": "GUERRILLA SUIT (Color 07 Light Blue)",
       "cost": {
         "credits": 2250,
         "yellow": 0,
@@ -962,7 +962,7 @@
     },
     {
       "id": "cosmetics-lower-11-08",
-      "name": "Guerrilla Style (Color 08 Crimson)",
+      "name": "GUERRILLA SUIT (Color 08 Crimson)",
       "cost": {
         "credits": 2250,
         "yellow": 0,
@@ -1061,7 +1061,7 @@
     },
     {
       "id": "cosmetics-lower-13-01",
-      "name": "Short Pants (Color 01 White)",
+      "name": "HOT PANTS (Color 01 White)",
       "cost": {
         "credits": 3750,
         "yellow": 0,
@@ -1072,7 +1072,7 @@
     },
     {
       "id": "cosmetics-lower-13-02",
-      "name": "Short Pants (Color 02 Black)",
+      "name": "HOT PANTS (Color 02 Black)",
       "cost": {
         "credits": 3750,
         "yellow": 0,
@@ -1083,7 +1083,7 @@
     },
     {
       "id": "cosmetics-lower-13-03",
-      "name": "Short Pants (Color 03 Silver)",
+      "name": "HOT PANTS (Color 03 Silver)",
       "cost": {
         "credits": 3750,
         "yellow": 0,
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "cosmetics-lower-13-04",
-      "name": "Short Pants (Color 04 Yellow)",
+      "name": "HOT PANTS (Color 04 Yellow)",
       "cost": {
         "credits": 3750,
         "yellow": 0,
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "cosmetics-lower-13-05",
-      "name": "Short Pants (Color 05 Light Green)",
+      "name": "HOT PANTS (Color 05 Light Green)",
       "cost": {
         "credits": 3750,
         "yellow": 0,
@@ -1116,7 +1116,7 @@
     },
     {
       "id": "cosmetics-lower-13-06",
-      "name": "Short Pants (Color 06 Black)",
+      "name": "HOT PANTS (Color 06 Black)",
       "cost": {
         "credits": 3750,
         "yellow": 0,
@@ -1127,7 +1127,7 @@
     },
     {
       "id": "cosmetics-lower-13-07",
-      "name": "Short Pants (Color 07 Light Blue)",
+      "name": "HOT PANTS (Color 07 Light Blue)",
       "cost": {
         "credits": 3750,
         "yellow": 0,
@@ -1138,7 +1138,7 @@
     },
     {
       "id": "cosmetics-lower-13-08",
-      "name": "Short Pants (Color 08 Crimson)",
+      "name": "HOT PANTS (Color 08 Crimson)",
       "cost": {
         "credits": 3750,
         "yellow": 0,
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "cosmetics-lower-14-01",
-      "name": "Short Pants B (Color 01 White)",
+      "name": "HOT PANTS B (Color 01 White)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -1160,7 +1160,7 @@
     },
     {
       "id": "cosmetics-lower-14-02",
-      "name": "Short Pants B (Color 02 Black)",
+      "name": "HOT PANTS B (Color 02 Black)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "cosmetics-lower-14-03",
-      "name": "Short Pants B (Color 03 Silver)",
+      "name": "HOT PANTS B (Color 03 Silver)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -1182,7 +1182,7 @@
     },
     {
       "id": "cosmetics-lower-14-04",
-      "name": "Short Pants B (Color 04 Yellow)",
+      "name": "HOT PANTS B (Color 04 Yellow)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -1193,7 +1193,7 @@
     },
     {
       "id": "cosmetics-lower-14-05",
-      "name": "Short Pants B (Color 05 Light Green)",
+      "name": "HOT PANTS B (Color 05 Light Green)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "cosmetics-lower-14-06",
-      "name": "Short Pants B (Color 06 Black)",
+      "name": "HOT PANTS B (Color 06 Black)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -1215,7 +1215,7 @@
     },
     {
       "id": "cosmetics-lower-14-07",
-      "name": "Short Pants B (Color 07 Light Blue)",
+      "name": "HOT PANTS B (Color 07 Light Blue)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -1226,7 +1226,7 @@
     },
     {
       "id": "cosmetics-lower-14-08",
-      "name": "Short Pants B (Color 08 Crimson)",
+      "name": "HOT PANTS B (Color 08 Crimson)",
       "cost": {
         "credits": 8250,
         "yellow": 0,
@@ -1237,7 +1237,7 @@
     },
     {
       "id": "cosmetics-lower-15-01",
-      "name": "Wild Style (Color 01 White)",
+      "name": "SHIRTLESS (Color 01 White)",
       "cost": {
         "credits": 80000,
         "yellow": 0,
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "cosmetics-lower-15-02",
-      "name": "Wild Style (Color 02 Black)",
+      "name": "SHIRTLESS (Color 02 Black)",
       "cost": {
         "credits": 80000,
         "yellow": 0,
@@ -1259,7 +1259,7 @@
     },
     {
       "id": "cosmetics-lower-15-03",
-      "name": "Wild Style (Color 03 Silver)",
+      "name": "SHIRTLESS (Color 03 Silver)",
       "cost": {
         "credits": 80000,
         "yellow": 0,
@@ -1270,7 +1270,7 @@
     },
     {
       "id": "cosmetics-lower-15-04",
-      "name": "Wild Style (Color 04 Yellow)",
+      "name": "SHIRTLESS (Color 04 Yellow)",
       "cost": {
         "credits": 80000,
         "yellow": 0,
@@ -1281,7 +1281,7 @@
     },
     {
       "id": "cosmetics-lower-15-05",
-      "name": "Wild Style (Color 05 Light Green)",
+      "name": "SHIRTLESS (Color 05 Light Green)",
       "cost": {
         "credits": 80000,
         "yellow": 0,
@@ -1292,7 +1292,7 @@
     },
     {
       "id": "cosmetics-lower-15-06",
-      "name": "Wild Style (Color 06 Black)",
+      "name": "SHIRTLESS (Color 06 Black)",
       "cost": {
         "credits": 80000,
         "yellow": 0,
@@ -1303,7 +1303,7 @@
     },
     {
       "id": "cosmetics-lower-15-07",
-      "name": "Wild Style (Color 07 Light Blue)",
+      "name": "SHIRTLESS (Color 07 Light Blue)",
       "cost": {
         "credits": 80000,
         "yellow": 0,
@@ -1314,7 +1314,7 @@
     },
     {
       "id": "cosmetics-lower-15-08",
-      "name": "Wild Style (Color 08 Crimson)",
+      "name": "SHIRTLESS (Color 08 Crimson)",
       "cost": {
         "credits": 80000,
         "yellow": 0,
@@ -1501,7 +1501,7 @@
     },
     {
       "id": "cosmetics-lower-18-01",
-      "name": "Tights Skirt (Color 01 White)",
+      "name": "SKIRT & TIGHTS (Color 01 White)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -1512,7 +1512,7 @@
     },
     {
       "id": "cosmetics-lower-18-02",
-      "name": "Tights Skirt (Color 02 Black)",
+      "name": "SKIRT & TIGHTS (Color 02 Black)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -1523,7 +1523,7 @@
     },
     {
       "id": "cosmetics-lower-18-03",
-      "name": "Tights Skirt (Color 03 Silver)",
+      "name": "SKIRT & TIGHTS (Color 03 Silver)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -1534,7 +1534,7 @@
     },
     {
       "id": "cosmetics-lower-18-04",
-      "name": "Tights Skirt (Color 04 Yellow)",
+      "name": "SKIRT & TIGHTS (Color 04 Yellow)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -1545,7 +1545,7 @@
     },
     {
       "id": "cosmetics-lower-18-05",
-      "name": "Tights Skirt (Color 05 Light Green)",
+      "name": "SKIRT & TIGHTS (Color 05 Light Green)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -1556,7 +1556,7 @@
     },
     {
       "id": "cosmetics-lower-18-06",
-      "name": "Tights Skirt (Color 06 Black)",
+      "name": "SKIRT & TIGHTS (Color 06 Black)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -1567,7 +1567,7 @@
     },
     {
       "id": "cosmetics-lower-18-07",
-      "name": "Tights Skirt (Color 07 Light Blue)",
+      "name": "SKIRT & TIGHTS (Color 07 Light Blue)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
@@ -1578,7 +1578,7 @@
     },
     {
       "id": "cosmetics-lower-18-08",
-      "name": "Tights Skirt (Color 08 Crimson)",
+      "name": "SKIRT & TIGHTS (Color 08 Crimson)",
       "cost": {
         "credits": 120000,
         "yellow": 0,
