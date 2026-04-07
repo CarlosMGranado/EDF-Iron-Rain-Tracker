@@ -191,6 +191,13 @@
       "cost": { "credits": 560000, "yellow": 3000, "red": 0, "blue": 3000 },
       "rank": "A",
       "unlock": "M38 (HARDEST)"
+    },
+    {
+      "id": "rocket-launcher-28",
+      "name": "RC-Gauss Zwei ",
+      "cost": { "credits": 950000, "yellow": 4500, "red": 0, "blue": 4500 },
+      "rank": "AA",
+      "unlock": "Defeat 275 Super Scourger"
     }
   ]
 }

@@ -172,6 +172,28 @@
       "cost": { "credits": 950000, "yellow": 4500, "red": 4500, "blue": 0 },
       "rank": "AA",
       "unlock": "Defeat 110 Queen Ants"
+    },
+    {
+      "id": "shotgun-25",
+      "name": "Sp Union Jack",
+      "cost": { "credits": 900000, "yellow": 0, "red": 4000, "blue": 4000 },
+      "rank": "AA",
+      "unlock": "Defeat 450 Zombie Ants"
+    },
+    {
+      "id": "shotgun-26",
+      "name": "SP-30X",
+      "cost": { "credits": 900000, "yellow": 0, "red": 4000, "blue": 4000 },
+      "rank": "A",
+      "unlock": "M39 (HARDEST)" 
+    },
+    {
+      "id": "shotgun-27",
+      "name": "SP-Sasan Century",
+      "cost": { "credits": 520000, "yellow": 0, "red": 2750, "blue": 2750 },
+      "rank": "A",
+      "unlock": "M29 (HARDEST)" 
     }
+
   ]
 }

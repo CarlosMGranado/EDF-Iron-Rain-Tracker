@@ -191,6 +191,20 @@
       "cost": { "credits": 580000, "yellow": 5400, "red": 0, "blue": 1000 },
       "rank": "A",
       "unlock": "M33 (HARDEST)"
+    },
+    {
+      "id": "sniper-rifle-28",
+      "name": "SH-Aria",
+      "cost": { "credits": 900000, "yellow": 0, "red": 6400, "blue": 1600 },
+      "rank": "AA",
+      "unlock": "Defeat 1500 Winged Ant"
+    },
+    {
+      "id": "sniper-rifle-29",
+      "name": "PT Photon Supplier X",
+      "cost": { "credits": 950000, "yellow": 7000, "red": 2000, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 750 Death Stalker"
     }
   ]
 }
