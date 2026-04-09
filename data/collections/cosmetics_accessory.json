@@ -1,11 +1,11 @@
 {
   "id": "cosmetics_accessory",
-  "label": "Accessories",
+  "label": "Face Accessory",
   "icon": "assets/png/cosmetics/accessory.png",
   "items": [
     {
       "id": "cosmetics-accessory-01-01",
-      "name": "Glasses (Color 01 White)",
+      "name": "Glasses 1",
       "cost": {
         "credits": 100,
         "yellow": 0,
@@ -16,7 +16,7 @@
     },
     {
       "id": "cosmetics-accessory-01-02",
-      "name": "Glasses (Color 02 Black)",
+      "name": "Glasses 2",
       "cost": {
         "credits": 100,
         "yellow": 0,
@@ -27,7 +27,7 @@
     },
     {
       "id": "cosmetics-accessory-01-03",
-      "name": "Glasses (Color 03 Silver)",
+      "name": "Glasses 3",
       "cost": {
         "credits": 100,
         "yellow": 0,
@@ -38,7 +38,7 @@
     },
     {
       "id": "cosmetics-accessory-01-04",
-      "name": "Glasses (Color 04 Yellow)",
+      "name": "Glasses 4",
       "cost": {
         "credits": 100,
         "yellow": 0,
@@ -49,7 +49,7 @@
     },
     {
       "id": "cosmetics-accessory-01-05",
-      "name": "Glasses (Color 05 Light Green)",
+      "name": "Glasses 5",
       "cost": {
         "credits": 100,
         "yellow": 0,
@@ -60,7 +60,7 @@
     },
     {
       "id": "cosmetics-accessory-01-06",
-      "name": "Glasses (Color 06 Black)",
+      "name": "Glasses 6",
       "cost": {
         "credits": 100,
         "yellow": 0,
@@ -71,7 +71,7 @@
     },
     {
       "id": "cosmetics-accessory-01-07",
-      "name": "Glasses (Color 07 Light Blue)",
+      "name": "Glasses 7",
       "cost": {
         "credits": 100,
         "yellow": 0,
@@ -82,7 +82,7 @@
     },
     {
       "id": "cosmetics-accessory-01-08",
-      "name": "Glasses (Color 08 Crimson)",
+      "name": "Glasses 8",
       "cost": {
         "credits": 100,
         "yellow": 0,
@@ -93,7 +93,7 @@
     },
     {
       "id": "cosmetics-accessory-02-01",
-      "name": "GLASSES (SLIM) (Color 01 White)",
+      "name": "Glasses (Slim) 1",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -104,7 +104,7 @@
     },
     {
       "id": "cosmetics-accessory-02-02",
-      "name": "GLASSES (SLIM) (Color 02 Black)",
+      "name": "Glasses (Slim) 2",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -115,7 +115,7 @@
     },
     {
       "id": "cosmetics-accessory-02-03",
-      "name": "GLASSES (SLIM) (Color 03 Silver)",
+      "name": "Glasses (Slim) 3",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -126,7 +126,7 @@
     },
     {
       "id": "cosmetics-accessory-02-04",
-      "name": "GLASSES (SLIM) (Color 04 Yellow)",
+      "name": "Glasses (Slim) 4",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -137,7 +137,7 @@
     },
     {
       "id": "cosmetics-accessory-02-05",
-      "name": "GLASSES (SLIM) (Color 05 Light Green)",
+      "name": "Glasses (Slim) 5",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -148,7 +148,7 @@
     },
     {
       "id": "cosmetics-accessory-02-06",
-      "name": "GLASSES (SLIM) (Color 06 Black)",
+      "name": "Glasses (Slim) 6",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -159,7 +159,7 @@
     },
     {
       "id": "cosmetics-accessory-02-07",
-      "name": "GLASSES (SLIM) (Color 07 Light Blue)",
+      "name": "Glasses (Slim) 7",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -170,7 +170,7 @@
     },
     {
       "id": "cosmetics-accessory-02-08",
-      "name": "GLASSES (SLIM) (Color 08 Crimson)",
+      "name": "Glasses (Slim) 8",
       "cost": {
         "credits": 1250,
         "yellow": 0,
@@ -181,7 +181,7 @@
     },
     {
       "id": "cosmetics-accessory-03-01",
-      "name": "Sunglasses (Color 01 White)",
+      "name": "Sunglasses 1",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -192,7 +192,7 @@
     },
     {
       "id": "cosmetics-accessory-03-02",
-      "name": "Sunglasses (Color 02 Black)",
+      "name": "Sunglasses 2",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -203,7 +203,7 @@
     },
     {
       "id": "cosmetics-accessory-03-03",
-      "name": "Sunglasses (Color 03 Silver)",
+      "name": "Sunglasses 3",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -214,7 +214,7 @@
     },
     {
       "id": "cosmetics-accessory-03-04",
-      "name": "Sunglasses (Color 04 Yellow)",
+      "name": "Sunglasses 4",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -225,7 +225,7 @@
     },
     {
       "id": "cosmetics-accessory-03-05",
-      "name": "Sunglasses (Color 05 Light Green)",
+      "name": "Sunglasses 5",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "cosmetics-accessory-03-06",
-      "name": "Sunglasses (Color 06 Black)",
+      "name": "Sunglasses 6",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -247,7 +247,7 @@
     },
     {
       "id": "cosmetics-accessory-03-07",
-      "name": "Sunglasses (Color 07 Light Blue)",
+      "name": "Sunglasses 7",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -258,7 +258,7 @@
     },
     {
       "id": "cosmetics-accessory-03-08",
-      "name": "Sunglasses (Color 08 Crimson)",
+      "name": "Sunglasses 8",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -269,7 +269,7 @@
     },
     {
       "id": "cosmetics-accessory-04-01",
-      "name": "Sunglasses B (Color 01 White)",
+      "name": "Sunglasses B 1",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -280,7 +280,7 @@
     },
     {
       "id": "cosmetics-accessory-04-02",
-      "name": "Sunglasses B (Color 02 Black)",
+      "name": "Sunglasses B 2",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -291,7 +291,7 @@
     },
     {
       "id": "cosmetics-accessory-04-03",
-      "name": "Sunglasses B (Color 03 Silver)",
+      "name": "Sunglasses B 3",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -302,7 +302,7 @@
     },
     {
       "id": "cosmetics-accessory-04-04",
-      "name": "Sunglasses B (Color 04 Yellow)",
+      "name": "Sunglasses B 4",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -313,7 +313,7 @@
     },
     {
       "id": "cosmetics-accessory-04-05",
-      "name": "Sunglasses B (Color 05 Light Green)",
+      "name": "Sunglasses B 5",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -324,7 +324,7 @@
     },
     {
       "id": "cosmetics-accessory-04-06",
-      "name": "Sunglasses B (Color 06 Black)",
+      "name": "Sunglasses B 6",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -335,7 +335,7 @@
     },
     {
       "id": "cosmetics-accessory-04-07",
-      "name": "Sunglasses B (Color 07 Light Blue)",
+      "name": "Sunglasses B 7",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -346,7 +346,7 @@
     },
     {
       "id": "cosmetics-accessory-04-08",
-      "name": "Sunglasses B (Color 08 Crimson)",
+      "name": "Sunglasses B 8",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -357,7 +357,7 @@
     },
     {
       "id": "cosmetics-accessory-05-01",
-      "name": "Goggles (Color 01 White)",
+      "name": "Goggles 1",
       "cost": {
         "credits": 170,
         "yellow": 0,
@@ -368,7 +368,7 @@
     },
     {
       "id": "cosmetics-accessory-05-02",
-      "name": "Goggles (Color 02 Black)",
+      "name": "Goggles 2",
       "cost": {
         "credits": 170,
         "yellow": 0,
@@ -379,7 +379,7 @@
     },
     {
       "id": "cosmetics-accessory-05-03",
-      "name": "Goggles (Color 03 Silver)",
+      "name": "Goggles 3",
       "cost": {
         "credits": 170,
         "yellow": 0,
@@ -390,7 +390,7 @@
     },
     {
       "id": "cosmetics-accessory-05-04",
-      "name": "Goggles (Color 04 Yellow)",
+      "name": "Goggles 4",
       "cost": {
         "credits": 170,
         "yellow": 0,
@@ -401,7 +401,7 @@
     },
     {
       "id": "cosmetics-accessory-05-05",
-      "name": "Goggles (Color 05 Light Green)",
+      "name": "Goggles 5",
       "cost": {
         "credits": 170,
         "yellow": 0,
@@ -412,7 +412,7 @@
     },
     {
       "id": "cosmetics-accessory-05-06",
-      "name": "Goggles (Color 06 Black)",
+      "name": "Goggles 6",
       "cost": {
         "credits": 170,
         "yellow": 0,
@@ -423,7 +423,7 @@
     },
     {
       "id": "cosmetics-accessory-05-07",
-      "name": "Goggles (Color 07 Light Blue)",
+      "name": "Goggles 7",
       "cost": {
         "credits": 170,
         "yellow": 0,
@@ -434,7 +434,7 @@
     },
     {
       "id": "cosmetics-accessory-05-08",
-      "name": "Goggles (Color 08 Crimson)",
+      "name": "Goggles 8",
       "cost": {
         "credits": 170,
         "yellow": 0,
@@ -445,7 +445,7 @@
     },
     {
       "id": "cosmetics-accessory-06-01",
-      "name": "Hero Goggles (Color 01 White)",
+      "name": "Hero Goggles 1",
       "cost": {
         "credits": 2750,
         "yellow": 0,
@@ -456,7 +456,7 @@
     },
     {
       "id": "cosmetics-accessory-06-02",
-      "name": "Hero Goggles (Color 02 Black)",
+      "name": "Hero Goggles 2",
       "cost": {
         "credits": 2750,
         "yellow": 0,
@@ -467,7 +467,7 @@
     },
     {
       "id": "cosmetics-accessory-06-03",
-      "name": "Hero Goggles (Color 03 Silver)",
+      "name": "Hero Goggles 3",
       "cost": {
         "credits": 2750,
         "yellow": 0,
@@ -478,7 +478,7 @@
     },
     {
       "id": "cosmetics-accessory-06-04",
-      "name": "Hero Goggles (Color 04 Yellow)",
+      "name": "Hero Goggles 4",
       "cost": {
         "credits": 2750,
         "yellow": 0,
@@ -489,7 +489,7 @@
     },
     {
       "id": "cosmetics-accessory-06-05",
-      "name": "Hero Goggles (Color 05 Light Green)",
+      "name": "Hero Goggles 5",
       "cost": {
         "credits": 2750,
         "yellow": 0,
@@ -500,7 +500,7 @@
     },
     {
       "id": "cosmetics-accessory-06-06",
-      "name": "Hero Goggles (Color 06 Black)",
+      "name": "Hero Goggles 6",
       "cost": {
         "credits": 2750,
         "yellow": 0,
@@ -511,7 +511,7 @@
     },
     {
       "id": "cosmetics-accessory-06-07",
-      "name": "Hero Goggles (Color 07 Light Blue)",
+      "name": "Hero Goggles 7",
       "cost": {
         "credits": 2750,
         "yellow": 0,
@@ -522,7 +522,7 @@
     },
     {
       "id": "cosmetics-accessory-06-08",
-      "name": "Hero Goggles (Color 08 Crimson)",
+      "name": "Hero Goggles 8",
       "cost": {
         "credits": 2750,
         "yellow": 0,
@@ -533,7 +533,7 @@
     },
     {
       "id": "cosmetics-accessory-07-01",
-      "name": "Retro Goggles (Color 01 White)",
+      "name": "Retro Goggles 1",
       "cost": {
         "credits": 1750,
         "yellow": 0,
@@ -544,7 +544,7 @@
     },
     {
       "id": "cosmetics-accessory-07-02",
-      "name": "Retro Goggles (Color 02 Black)",
+      "name": "Retro Goggles 2",
       "cost": {
         "credits": 1750,
         "yellow": 0,
@@ -555,7 +555,7 @@
     },
     {
       "id": "cosmetics-accessory-07-03",
-      "name": "Retro Goggles (Color 03 Silver)",
+      "name": "Retro Goggles 3",
       "cost": {
         "credits": 1750,
         "yellow": 0,
@@ -566,7 +566,7 @@
     },
     {
       "id": "cosmetics-accessory-07-04",
-      "name": "Retro Goggles (Color 04 Yellow)",
+      "name": "Retro Goggles 4",
       "cost": {
         "credits": 1750,
         "yellow": 0,
@@ -577,7 +577,7 @@
     },
     {
       "id": "cosmetics-accessory-07-05",
-      "name": "Retro Goggles (Color 05 Light Green)",
+      "name": "Retro Goggles 5",
       "cost": {
         "credits": 1750,
         "yellow": 0,
@@ -588,7 +588,7 @@
     },
     {
       "id": "cosmetics-accessory-07-06",
-      "name": "Retro Goggles (Color 06 Black)",
+      "name": "Retro Goggles 6",
       "cost": {
         "credits": 1750,
         "yellow": 0,
@@ -599,7 +599,7 @@
     },
     {
       "id": "cosmetics-accessory-07-07",
-      "name": "Retro Goggles (Color 07 Light Blue)",
+      "name": "Retro Goggles 7",
       "cost": {
         "credits": 1750,
         "yellow": 0,
@@ -610,7 +610,7 @@
     },
     {
       "id": "cosmetics-accessory-07-08",
-      "name": "Retro Goggles (Color 08 Crimson)",
+      "name": "Retro Goggles 8",
       "cost": {
         "credits": 1750,
         "yellow": 0,
@@ -621,7 +621,7 @@
     },
     {
       "id": "cosmetics-accessory-08-01",
-      "name": "Balaclava (Color 01 White)",
+      "name": "Balaclava 1",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -632,7 +632,7 @@
     },
     {
       "id": "cosmetics-accessory-08-02",
-      "name": "Balaclava (Color 02 Black)",
+      "name": "Balaclava 2",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -643,7 +643,7 @@
     },
     {
       "id": "cosmetics-accessory-08-03",
-      "name": "Balaclava (Color 03 Silver)",
+      "name": "Balaclava 3",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -654,7 +654,7 @@
     },
     {
       "id": "cosmetics-accessory-08-04",
-      "name": "Balaclava (Color 04 Yellow)",
+      "name": "Balaclava 4",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -665,7 +665,7 @@
     },
     {
       "id": "cosmetics-accessory-08-05",
-      "name": "Balaclava (Color 05 Light Green)",
+      "name": "Balaclava 5",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -676,7 +676,7 @@
     },
     {
       "id": "cosmetics-accessory-08-06",
-      "name": "Balaclava (Color 06 Black)",
+      "name": "Balaclava 6",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -687,7 +687,7 @@
     },
     {
       "id": "cosmetics-accessory-08-07",
-      "name": "Balaclava (Color 07 Light Blue)",
+      "name": "Balaclava 7",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -698,7 +698,7 @@
     },
     {
       "id": "cosmetics-accessory-08-08",
-      "name": "Balaclava (Color 08 Crimson)",
+      "name": "Balaclava 8",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -709,7 +709,7 @@
     },
     {
       "id": "cosmetics-accessory-09-01",
-      "name": "NINJA MASK (Color 01 White)",
+      "name": "Ninja Mask 1",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -720,7 +720,7 @@
     },
     {
       "id": "cosmetics-accessory-09-02",
-      "name": "NINJA MASK (Color 02 Black)",
+      "name": "Ninja Mask 2",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -731,7 +731,7 @@
     },
     {
       "id": "cosmetics-accessory-09-03",
-      "name": "NINJA MASK (Color 03 Silver)",
+      "name": "Ninja Mask 3",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -742,7 +742,7 @@
     },
     {
       "id": "cosmetics-accessory-09-04",
-      "name": "NINJA MASK (Color 04 Yellow)",
+      "name": "Ninja Mask 4",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -753,7 +753,7 @@
     },
     {
       "id": "cosmetics-accessory-09-05",
-      "name": "NINJA MASK (Color 05 Light Green)",
+      "name": "Ninja Mask 5",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -764,7 +764,7 @@
     },
     {
       "id": "cosmetics-accessory-09-06",
-      "name": "NINJA MASK (Color 06 Black)",
+      "name": "Ninja Mask 6",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -775,7 +775,7 @@
     },
     {
       "id": "cosmetics-accessory-09-07",
-      "name": "NINJA MASK (Color 07 Light Blue)",
+      "name": "Ninja Mask 7",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -786,7 +786,7 @@
     },
     {
       "id": "cosmetics-accessory-09-08",
-      "name": "NINJA MASK (Color 08 Crimson)",
+      "name": "Ninja Mask 8",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -797,7 +797,7 @@
     },
     {
       "id": "cosmetics-accessory-10-01",
-      "name": "Mask (Color 01 White)",
+      "name": "Mask 1",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -808,7 +808,7 @@
     },
     {
       "id": "cosmetics-accessory-10-02",
-      "name": "Mask (Color 02 Black)",
+      "name": "Mask 2",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -819,7 +819,7 @@
     },
     {
       "id": "cosmetics-accessory-10-03",
-      "name": "Mask (Color 03 Silver)",
+      "name": "Mask 3",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -830,7 +830,7 @@
     },
     {
       "id": "cosmetics-accessory-10-04",
-      "name": "Mask (Color 04 Yellow)",
+      "name": "Mask 4",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -841,7 +841,7 @@
     },
     {
       "id": "cosmetics-accessory-10-05",
-      "name": "Mask (Color 05 Light Green)",
+      "name": "Mask 5",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -852,7 +852,7 @@
     },
     {
       "id": "cosmetics-accessory-10-06",
-      "name": "Mask (Color 06 Black)",
+      "name": "Mask 6",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -863,7 +863,7 @@
     },
     {
       "id": "cosmetics-accessory-10-07",
-      "name": "Mask (Color 07 Light Blue)",
+      "name": "Mask 7",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -874,7 +874,7 @@
     },
     {
       "id": "cosmetics-accessory-10-08",
-      "name": "Mask (Color 08 Crimson)",
+      "name": "Mask 8",
       "cost": {
         "credits": 750,
         "yellow": 0,
@@ -885,7 +885,7 @@
     },
     {
       "id": "cosmetics-accessory-11-01",
-      "name": "EYE PATCH (R)(Color 01 White)",
+      "name": "Eye Patch (R) 1",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -896,7 +896,7 @@
     },
     {
       "id": "cosmetics-accessory-11-02",
-      "name": "EYE PATCH (R)(Color 02 Black)",
+      "name": "Eye Patch (R) 2",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -907,7 +907,7 @@
     },
     {
       "id": "cosmetics-accessory-11-03",
-      "name": "EYE PATCH (R)(Color 03 Silver)",
+      "name": "Eye Patch (R) 3",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -918,7 +918,7 @@
     },
     {
       "id": "cosmetics-accessory-11-04",
-      "name": "EYE PATCH (R)(Color 04 Yellow)",
+      "name": "Eye Patch (R) 4",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -929,7 +929,7 @@
     },
     {
       "id": "cosmetics-accessory-11-05",
-      "name": "EYE PATCH (R)(Color 05 Light Green)",
+      "name": "Eye Patch (R) 5",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -940,7 +940,7 @@
     },
     {
       "id": "cosmetics-accessory-11-06",
-      "name": "EYE PATCH (R)(Color 06 Black)",
+      "name": "Eye Patch (R) 6",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -951,7 +951,7 @@
     },
     {
       "id": "cosmetics-accessory-11-07",
-      "name": "EYE PATCH (R)(Color 07 Light Blue)",
+      "name": "Eye Patch (R) 7",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -962,7 +962,7 @@
     },
     {
       "id": "cosmetics-accessory-11-08",
-      "name": "EYE PATCH (R)(Color 08 Crimson)",
+      "name": "Eye Patch (R) 8",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -973,7 +973,7 @@
     },
     {
       "id": "cosmetics-accessory-12-01",
-      "name": "EYE PATCH (L) (Color 01 White)",
+      "name": "Eye Patch (L) 1",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -984,7 +984,7 @@
     },
     {
       "id": "cosmetics-accessory-12-02",
-      "name": "EYE PATCH (L) (Color 02 Black)",
+      "name": "Eye Patch (L) 2",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -995,7 +995,7 @@
     },
     {
       "id": "cosmetics-accessory-12-03",
-      "name": "EYE PATCH (L) (Color 03 Silver)",
+      "name": "Eye Patch (L) 3",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1006,7 +1006,7 @@
     },
     {
       "id": "cosmetics-accessory-12-04",
-      "name": "EYE PATCH (L) (Color 04 Yellow)",
+      "name": "Eye Patch (L) 4",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1017,7 +1017,7 @@
     },
     {
       "id": "cosmetics-accessory-12-05",
-      "name": "EYE PATCH (L) (Color 05 Light Green)",
+      "name": "Eye Patch (L) 5",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1028,7 +1028,7 @@
     },
     {
       "id": "cosmetics-accessory-12-06",
-      "name": "EYE PATCH (L) (Color 06 Black)",
+      "name": "Eye Patch (L) 6",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1039,7 +1039,7 @@
     },
     {
       "id": "cosmetics-accessory-12-07",
-      "name": "EYE PATCH (L) (Color 07 Light Blue)",
+      "name": "Eye Patch (L) 7",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1050,7 +1050,7 @@
     },
     {
       "id": "cosmetics-accessory-12-08",
-      "name": "EYE PATCH (L) (Color 08 Crimson)",
+      "name": "Eye Patch (L) 8",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -1061,7 +1061,7 @@
     },
     {
       "id": "cosmetics-accessory-13-01",
-      "name": "BLINDFOLD (Color 01 White)",
+      "name": "Blindfold 1",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1072,7 +1072,7 @@
     },
     {
       "id": "cosmetics-accessory-13-02",
-      "name": "BLINDFOLD (Color 02 Black)",
+      "name": "Blindfold 2",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1083,7 +1083,7 @@
     },
     {
       "id": "cosmetics-accessory-13-03",
-      "name": "BLINDFOLD (Color 03 Silver)",
+      "name": "Blindfold 3",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "cosmetics-accessory-13-04",
-      "name": "BLINDFOLD (Color 04 Yellow)",
+      "name": "Blindfold 4",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "cosmetics-accessory-13-05",
-      "name": "BLINDFOLD (Color 05 Light Green)",
+      "name": "Blindfold 5",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1116,7 +1116,7 @@
     },
     {
       "id": "cosmetics-accessory-13-06",
-      "name": "BLINDFOLD (Color 06 Black)",
+      "name": "Blindfold 6",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1127,7 +1127,7 @@
     },
     {
       "id": "cosmetics-accessory-13-07",
-      "name": "BLINDFOLD (Color 07 Light Blue)",
+      "name": "Blindfold 7",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1138,7 +1138,7 @@
     },
     {
       "id": "cosmetics-accessory-13-08",
-      "name": "BLINDFOLD (Color 08 Crimson)",
+      "name": "Blindfold 8",
       "cost": {
         "credits": 6000,
         "yellow": 0,
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "cosmetics-accessory-14-01",
-      "name": "SAMURAI MASK (Color 01 White)",
+      "name": "Samurai Mask 1",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1160,7 +1160,7 @@
     },
     {
       "id": "cosmetics-accessory-14-02",
-      "name": "SAMURAI MASK (Color 02 Black)",
+      "name": "Samurai Mask 2",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "cosmetics-accessory-14-03",
-      "name": "SAMURAI MASK (Color 03 Silver)",
+      "name": "Samurai Mask 3",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1182,7 +1182,7 @@
     },
     {
       "id": "cosmetics-accessory-14-04",
-      "name": "SAMURAI MASK (Color 04 Yellow)",
+      "name": "Samurai Mask 4",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1193,7 +1193,7 @@
     },
     {
       "id": "cosmetics-accessory-14-05",
-      "name": "SAMURAI MASK (Color 05 Light Green)",
+      "name": "Samurai Mask 5",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "cosmetics-accessory-14-06",
-      "name": "SAMURAI MASK (Color 06 Black)",
+      "name": "Samurai Mask 6",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1215,7 +1215,7 @@
     },
     {
       "id": "cosmetics-accessory-14-07",
-      "name": "SAMURAI MASK (Color 07 Light Blue)",
+      "name": "Samurai Mask 7",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1226,7 +1226,7 @@
     },
     {
       "id": "cosmetics-accessory-14-08",
-      "name": "SAMURAI MASK (Color 08 Crimson)",
+      "name": "Samurai Mask 8",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -1237,7 +1237,7 @@
     },
     {
       "id": "cosmetics-accessory-15-01",
-      "name": "Wrestler Mask (Color 01 White)",
+      "name": "Wrestler Mask 1",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "cosmetics-accessory-15-02",
-      "name": "Wrestler Mask (Color 02 Black)",
+      "name": "Wrestler Mask 2",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -1259,7 +1259,7 @@
     },
     {
       "id": "cosmetics-accessory-15-03",
-      "name": "Wrestler Mask (Color 03 Silver)",
+      "name": "Wrestler Mask 3",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -1270,7 +1270,7 @@
     },
     {
       "id": "cosmetics-accessory-15-04",
-      "name": "Wrestler Mask (Color 04 Yellow)",
+      "name": "Wrestler Mask 4",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -1281,7 +1281,7 @@
     },
     {
       "id": "cosmetics-accessory-15-05",
-      "name": "Wrestler Mask (Color 05 Light Green)",
+      "name": "Wrestler Mask 5",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -1292,7 +1292,7 @@
     },
     {
       "id": "cosmetics-accessory-15-06",
-      "name": "Wrestler Mask (Color 06 Black)",
+      "name": "Wrestler Mask 6",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -1303,7 +1303,7 @@
     },
     {
       "id": "cosmetics-accessory-15-07",
-      "name": "Wrestler Mask (Color 07 Light Blue)",
+      "name": "Wrestler Mask 7",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -1314,7 +1314,7 @@
     },
     {
       "id": "cosmetics-accessory-15-08",
-      "name": "Wrestler Mask (Color 08 Crimson)",
+      "name": "Wrestler Mask 8",
       "cost": {
         "credits": 9000,
         "yellow": 0,
@@ -1325,7 +1325,7 @@
     },
     {
       "id": "cosmetics-accessory-16-01",
-      "name": "FAKE MUSTACHE (Color 01 White)",
+      "name": "Fake Mustache 1",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1336,7 +1336,7 @@
     },
     {
       "id": "cosmetics-accessory-16-02",
-      "name": "FAKE MUSTACHE (Color 02 Black)",
+      "name": "Fake Mustache 2",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1347,7 +1347,7 @@
     },
     {
       "id": "cosmetics-accessory-16-03",
-      "name": "FAKE MUSTACHE (Color 03 Silver)",
+      "name": "Fake Mustache 3",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1358,7 +1358,7 @@
     },
     {
       "id": "cosmetics-accessory-16-04",
-      "name": "FAKE MUSTACHE (Color 04 Yellow)",
+      "name": "Fake Mustache 4",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1369,7 +1369,7 @@
     },
     {
       "id": "cosmetics-accessory-16-05",
-      "name": "FAKE MUSTACHE (Color 05 Light Green)",
+      "name": "Fake Mustache 5",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1380,7 +1380,7 @@
     },
     {
       "id": "cosmetics-accessory-16-06",
-      "name": "FAKE MUSTACHE (Color 06 Black)",
+      "name": "Fake Mustache 6",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1391,7 +1391,7 @@
     },
     {
       "id": "cosmetics-accessory-16-07",
-      "name": "FAKE MUSTACHE (Color 07 Light Blue)",
+      "name": "Fake Mustache 7",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1402,7 +1402,7 @@
     },
     {
       "id": "cosmetics-accessory-16-08",
-      "name": "FAKE MUSTACHE (Color 08 Crimson)",
+      "name": "Fake Mustache 8",
       "cost": {
         "credits": 3500,
         "yellow": 0,
