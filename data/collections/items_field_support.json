@@ -3,22 +3,22 @@
   "label": "Field Support",
   "icon": "assets/png/items/field-support.png",
   "items": [
-    { "id": "support-01", "name": "Supply Transport Plan E", "cost": { "credits": 0, "yellow": 1250, "red": 1250, "blue": 1250 }, "unlock": "Available (Shop)" },
-    { "id": "support-02", "name": "Supply Transport Plan 1", "cost": { "credits": 0, "yellow": 0, "red": 3000, "blue": 3000 }, "unlock": "M24 (NORMAL)" },
-    { "id": "support-03", "name": "Supply Transport Plan 2", "cost": { "credits": 0, "yellow": 0, "red": 3500, "blue": 3500 }, "unlock": "M30 (NORMAL)" },
-    { "id": "support-04", "name": "Supply Transport Plan 3", "cost": { "credits": 0, "yellow": 0, "red": 4000, "blue": 4000 }, "unlock": "M37 (HARD)" },
+    { "id": "support-01", "name": "Item Drop (Ver E)", "cost": { "credits": 0, "yellow": 1250, "red": 1250, "blue": 1250 }, "unlock": "Available (Shop)" },
+    { "id": "support-02", "name": "Item Drop (Ver 1)", "cost": { "credits": 0, "yellow": 0, "red": 3000, "blue": 3000 }, "unlock": "M24 (NORMAL)" },
+    { "id": "support-03", "name": "Item Drop (Ver 2)", "cost": { "credits": 0, "yellow": 0, "red": 3500, "blue": 3500 }, "unlock": "M30 (NORMAL)" },
+    { "id": "support-04", "name": "Item Drop (Ver 3)", "cost": { "credits": 0, "yellow": 0, "red": 4000, "blue": 4000 }, "unlock": "M37 (HARD)" },
 
-    { "id": "support-05", "name": "Strafe Plan 1: Autocannon", "cost": { "credits": 0, "yellow": 1200, "red": 800, "blue": 800 }, "unlock": "M24 (NORMAL)" },
-    { "id": "support-06", "name": "Strafe Plan 2: Howitzer", "cost": { "credits": 0, "yellow": 3500, "red": 1750, "blue": 1750 }, "unlock": "M48 (NORMAL)" },
-    { "id": "support-07", "name": "Strafe Plan 3: Bombs", "cost": { "credits": 0, "yellow": 4000, "red": 2000, "blue": 2000 }, "unlock": "M35 (HARD)" },
+    { "id": "support-05", "name": "Strafe Attack 1: Machine Gun", "cost": { "credits": 0, "yellow": 1200, "red": 800, "blue": 800 }, "unlock": "M24 (NORMAL)" },
+    { "id": "support-06", "name": "Strafe Attack 2: Grenade", "cost": { "credits": 0, "yellow": 3500, "red": 1750, "blue": 1750 }, "unlock": "M48 (NORMAL)" },
+    { "id": "support-07", "name": "Strafe Attack 3: Bombardment", "cost": { "credits": 0, "yellow": 4000, "red": 2000, "blue": 2000 }, "unlock": "M35 (HARD)" },
 
-    { "id": "support-08", "name": "Bombardment Plan 1: Main Gun", "cost": { "credits": 0, "yellow": 4500, "red": 2500, "blue": 2500 }, "unlock": "M52 (NORMAL)" },
-    { "id": "support-09", "name": "Bombardment Plan 2: Ship to Ground Missiles", "cost": { "credits": 0, "yellow": 5500, "red": 3250, "blue": 3250 }, "unlock": "M52 (HARD)" },
-    { "id": "support-10", "name": "Bombardment Plan 3: HQ Dispersal Particle Cannon", "cost": { "credits": 0, "yellow": 6000, "red": 6000, "blue": 4000 }, "unlock": "M52 (HARDEST)" },
-    { "id": "support-11", "name": "Bombardment Plan 4: HQ Cannon", "cost": { "credits": 0, "yellow": 9000, "red": 6000, "blue": 4000 }, "unlock": "M52 (DISASTER)" },
+    { "id": "support-08", "name": "Cannon 1: Main Cannon", "cost": { "credits": 0, "yellow": 4500, "red": 2500, "blue": 2500 }, "unlock": "M52 (NORMAL)" },
+    { "id": "support-09", "name": "Cannon 2: Anti-ground Missile", "cost": { "credits": 0, "yellow": 5500, "red": 3250, "blue": 3250 }, "unlock": "M52 (HARD)" },
+    { "id": "support-10", "name": "Cannon 3: HQ Difussion Cannon", "cost": { "credits": 0, "yellow": 6000, "red": 6000, "blue": 4000 }, "unlock": "M52 (HARDEST)" },
+    { "id": "support-11", "name": "Cannon 4: Hexaquark Cannon", "cost": { "credits": 0, "yellow": 9000, "red": 6000, "blue": 4000 }, "unlock": "M52 (DISASTER)" },
 
-    { "id": "support-12", "name": "Bombing Plan Alpha (UNKNOWN)", "cost": { "credits": 0, "yellow": 6000, "red": 3000, "blue": 3000 }, "unlock": "M.I.A. Drones: 51 collected" },
-    { "id": "support-13", "name": "Bombing Plan Beta (UNKNOWN)", "cost": { "credits": 0, "yellow": 7500, "red": 3750, "blue": 3750 }, "unlock": "Unknown" },
-    { "id": "support-14", "name": "Bombing Plan Gamma (UNKNOWN)", "cost": { "credits": 0, "yellow": 9000, "red": 4500, "blue": 4500 }, "unlock": "Unknown" }
+    { "id": "support-12", "name": "Unknown Blast: Alpha", "cost": { "credits": 0, "yellow": 6000, "red": 3000, "blue": 3000 }, "unlock": "M.I.A. Drones: 51 collected" },
+    { "id": "support-13", "name": "Unknown Blast: Beta", "cost": { "credits": 0, "yellow": 7500, "red": 3750, "blue": 3750 }, "unlock": "Unknown" },
+    { "id": "support-14", "name": "Unknown Blast: Gamma", "cost": { "credits": 0, "yellow": 9000, "red": 4500, "blue": 4500 }, "unlock": "Unknown" }
   ]
 }
