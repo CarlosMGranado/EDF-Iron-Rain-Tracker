@@ -29,6 +29,59 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
+    position: relative;
+    padding-right: 94px;
+}
+
+.topProgressRings {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.progressRingsSvg {
+    width: 80px;
+    height: 80px;
+    transform: rotate(-90deg);
+}
+
+.ringTrack,
+.ringValue {
+    fill: none;
+    stroke-linecap: round;
+}
+
+
+
+.ringTrackOuter,
+.ringBought {
+    stroke-width: 6;
+}
+
+.ringTrackInner,
+.ringUnlocked {
+    stroke-width: 4;
+}
+
+.ringBought {
+    stroke: var(--bought-bg);
+}
+
+.ringUnlocked {
+    stroke: var(--unlocked-bg);
+}
+
+.progressRingsValue {
+    position: absolute;
+    font-family: var(--num-font);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: var(--text);
 }
 
 .brandTitle {
@@ -91,6 +144,30 @@
 }
 
 @media (max-width: 800px) {
+    .topHeader {
+        padding-right: 72px;
+    }
+
+    .topProgressRings,
+    .progressRingsSvg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .progressRingsValue {
+        font-size: 0.56rem;
+    }
+
+    .ringTrackOuter,
+    .ringBought {
+        stroke-width: 5;
+    }
+
+    .ringTrackInner,
+    .ringUnlocked {
+        stroke-width: 3.5;
+    }
+
     .brandMain {
         font-size: 1rem;
     }
@@ -101,6 +178,25 @@
 }
 
 @media (max-width: 420px) {
+    .topHeader {
+        padding-right: 0;
+    }
+
+    .topProgressRings {
+        position: static;
+        margin-bottom: 2px;
+    }
+
+    .topProgressRings,
+    .progressRingsSvg {
+        width: 54px;
+        height: 54px;
+    }
+
+    .progressRingsValue {
+        font-size: 0.5rem;
+    }
+
     .bentoIcon {
         width: 16px;
         height: 16px;

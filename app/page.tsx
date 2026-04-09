@@ -11,6 +11,7 @@ import OptionsModal from "../components/modals/OptionsModal";
 import FiltersModal from "../components/modals/FiltersModal";
 
 import HeaderBar from "../components/HeaderBar";
+import WeaponProgressRings from "../components/WeaponProgressRings";
 import CategoryTabs from "../components/CategoryTabs";
 import CollectionGrid from "../components/CollectionGrid";
 
@@ -248,6 +249,39 @@ export default function Home() {
     return out;
   }, [state, category]);
 
+  const weaponProgress = useMemo(() => {
+    if (!state) {
+      return { unlockedPercent: 0, boughtPercent: 0 };
+    }
+
+    let totalWeapons = 0;
+    let unlockedWeapons = 0;
+    let boughtWeapons = 0;
+
+    for (const it of CATALOG) {
+      if (categoryForCollectionId(it.collectionId) !== "weapons") continue;
+
+      totalWeapons += 1;
+
+      const st = ensureItemStatus(state, it.id);
+      if (st === 2) {
+        boughtWeapons += 1;
+        unlockedWeapons += 1;
+      } else if (st === 1) {
+        unlockedWeapons += 1;
+      }
+    }
+
+    if (totalWeapons === 0) {
+      return { unlockedPercent: 0, boughtPercent: 0 };
+    }
+
+    return {
+      unlockedPercent: (unlockedWeapons / totalWeapons) * 100,
+      boughtPercent: (boughtWeapons / totalWeapons) * 100
+    };
+  }, [state]);
+
   function setItemStatus(id: string, nextStatus: ItemStatus) {
     setState((prev) => {
       if (!prev) return prev;
@@ -339,6 +373,8 @@ export default function Home() {
         <div className="appShell">
           <section className="topPanel">
             <div className="topHeader">
+              <WeaponProgressRings unlockedPercent={0} boughtPercent={0} />
+
               <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
                 <div className="brandMain" data-text="EDF IRON RAIN">
                   Earth Defense Force: IRON RAIN
@@ -361,7 +397,12 @@ export default function Home() {
   return (
     <div className="wrap">
       <div className="appShell">
-        <HeaderBar label={headerLabel} value={headerValue} />
+        <HeaderBar
+          label={headerLabel}
+          value={headerValue}
+          unlockedWeaponsPercent={weaponProgress.unlockedPercent}
+          boughtWeaponsPercent={weaponProgress.boughtPercent}
+        />
 
         <section className="bentoPanel">
           <CategoryTabs

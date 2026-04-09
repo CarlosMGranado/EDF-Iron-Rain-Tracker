@@ -1,15 +1,20 @@
 import type { Currency } from "../lib/types";
 import Cost from "./currency/Cost";
+import WeaponProgressRings from "./WeaponProgressRings";
 
 type HeaderBarProps = {
   label: string;
   value: Currency;
+  unlockedWeaponsPercent: number;
+  boughtWeaponsPercent: number;
 };
 
-export default function HeaderBar({ label, value }: HeaderBarProps) {
+export default function HeaderBar({ label, value, unlockedWeaponsPercent, boughtWeaponsPercent }: HeaderBarProps) {
   return (
     <section className="topPanel">
       <div className="topHeader">
+        <WeaponProgressRings unlockedPercent={unlockedWeaponsPercent} boughtPercent={boughtWeaponsPercent} />
+
         <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
           <div className="brandMain" data-text="EDF IRON RAIN">
             Earth Defense Force: IRON RAIN
