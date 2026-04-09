@@ -218,7 +218,7 @@
       "name": "WS Antiproton Cloud 2 mol",
       "cost": { "credits": 580000, "yellow": 6400, "red": 0, "blue": 0 },
       "rank": "A",
-      "unlock": "M50 (HARDEST)"
+      "unlock": "M51 (HARDEST)"
     },
     {
       "id": "missile-launcher-32",
@@ -226,6 +226,13 @@
       "cost": { "credits": 900000, "yellow": 8000, "red": 0, "blue": 0 },
       "rank": "AA",
       "unlock": "Defeat 90 Super Harvesters"
+    },
+    {
+      "id": "missile-launcher-33",
+      "name": "SQ-Curtain Call",
+      "cost": { "credits": 900000, "yellow": 0, "red": 10000, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 150 Harvesters"
     }
   ]
 }

@@ -9,10 +9,6 @@
     { "id": "vehicle-04", "name": "Champ", "cost": { "credits": 0, "yellow": 1300, "red": 1200, "blue": 500 }, "unlock": "M16 (NORMAL)" },
     { "id": "vehicle-05", "name": "Wiratack", "cost": { "credits": 0, "yellow": 2500, "red": 2000, "blue": 800 }, "unlock": "M16 (HARD)" },
     { "id": "vehicle-06", "name": "Mokele Mbembe", "cost": { "credits": 0, "yellow": 3000, "red": 2500, "blue": 1000 }, "unlock": "M16 (HARDEST)" },
-    { "id": "vehicle-07", "name": "Minhocao", "cost": { "credits": 0, "yellow": 3500, "red": 1750, "blue": 1750 }, "unlock": "Ex04 (HARD)" },
-    { "id": "vehicle-08", "name": "Jet Minhocao", "cost": { "credits": 0, "yellow": 4500, "red": 2000, "blue": 2000 }, "unlock": "Ex04 (HARDEST)" },
-    { "id": "vehicle-09", "name": "Magma Minhocao", "cost": { "credits": 0, "yellow": 5000, "red": 2500, "blue": 2500 }, "unlock": "Ex04 (DISASTER)" },
-
     { "id": "vehicle-10", "name": "Skyfish", "cost": { "credits": 0, "yellow": 500, "red": 250, "blue": 250 }, "unlock": "M7 (NORMAL)" },
     { "id": "vehicle-11", "name": "Shadow People", "cost": { "credits": 0, "yellow": 1750, "red": 875, "blue": 875 }, "unlock": "M16 (NORMAL)" },
     { "id": "vehicle-12", "name": "Thunderbird", "cost": { "credits": 0, "yellow": 4000, "red": 0, "blue": 0 }, "unlock": "M39 (NORMAL)" },
