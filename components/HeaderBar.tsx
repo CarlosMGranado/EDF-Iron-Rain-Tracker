@@ -13,21 +13,23 @@ export default function HeaderBar({ label, value, unlockedWeaponsPercent, bought
   return (
     <section className="topPanel">
       <div className="topHeader">
+        <div className="topHeaderContent">
+          <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
+            <div className="brandMain" data-text="EDF IRON RAIN">
+              Earth Defense Force: IRON RAIN
+            </div>
+            <div className="brandSub" data-text="TRACKER">
+              TRACKER
+            </div>
+          </div>
+
+          <div className="totalLabel">{label}</div>
+          <div className="totalValue">
+            <Cost value={value} dense />
+          </div>
+        </div>
+
         <WeaponProgressRings unlockedPercent={unlockedWeaponsPercent} boughtPercent={boughtWeaponsPercent} />
-
-        <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
-          <div className="brandMain" data-text="EDF IRON RAIN">
-            Earth Defense Force: IRON RAIN
-          </div>
-          <div className="brandSub" data-text="TRACKER">
-            TRACKER
-          </div>
-        </div>
-
-        <div className="totalLabel">{label}</div>
-        <div className="totalValue">
-          <Cost value={value} dense />
-        </div>
       </div>
     </section>
   );

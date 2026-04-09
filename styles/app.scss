@@ -8,7 +8,7 @@
 .appShell {
     height: 100%;
     display: grid;
-    grid-template-rows: 75px minmax(0, 2fr) minmax(0, 5fr) 40px;
+    grid-template-rows: minmax(78px, auto) minmax(0, 2fr) minmax(0, 5fr) 40px;
     gap: 10px;
 }
 
@@ -26,21 +26,26 @@
 }
 
 .topHeader {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+    column-gap: 8px;
+    gap: 4px;
+}
+
+.topHeaderContent {
+    min-width: 0;
     display: flex;
     flex-direction: column;
     gap: 4px;
-    position: relative;
-    padding-right: 94px;
 }
 
 .topProgressRings {
-    position: absolute;
-    top: 0;
-    right: 0;
     width: 80px;
     height: 80px;
     display: grid;
     place-items: center;
+    pointer-events: none;
 }
 
 .progressRingsSvg {
@@ -53,6 +58,10 @@
 .ringValue {
     fill: none;
     stroke-linecap: round;
+}
+
+.ringTrack {
+    stroke: var(--panel3);
 }
 
 
@@ -77,9 +86,12 @@
 
 .progressRingsValue {
     position: absolute;
-    font-family: var(--num-font);
+    font-family: "Roboto Condensed", "Arial Narrow", "Bahnschrift", var(--num-font);
     font-variant-numeric: tabular-nums;
-    font-size: 0.72rem;
+    font-size: 0.7rem;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-stretch: condensed;
     font-weight: 800;
     color: var(--text);
 }
@@ -144,18 +156,14 @@
 }
 
 @media (max-width: 800px) {
-    .topHeader {
-        padding-right: 72px;
-    }
-
     .topProgressRings,
     .progressRingsSvg {
-        width: 60px;
-        height: 60px;
+        width: 66px;
+        height: 66px;
     }
 
     .progressRingsValue {
-        font-size: 0.56rem;
+        font-size: 0.58rem;
     }
 
     .ringTrackOuter,
@@ -169,24 +177,15 @@
     }
 
     .brandMain {
-        font-size: 1rem;
+        font-size: 0.92rem;
     }
 
     .appShell {
-        grid-template-rows: 60px minmax(0, 2fr) minmax(0, 5fr) 40px;
+        grid-template-rows: minmax(68px, auto) minmax(0, 2fr) minmax(0, 5fr) 40px;
     }
 }
 
 @media (max-width: 420px) {
-    .topHeader {
-        padding-right: 0;
-    }
-
-    .topProgressRings {
-        position: static;
-        margin-bottom: 2px;
-    }
-
     .topProgressRings,
     .progressRingsSvg {
         width: 54px;
@@ -195,6 +194,10 @@
 
     .progressRingsValue {
         font-size: 0.5rem;
+    }
+
+    .topHeader {
+        column-gap: 6px;
     }
 
     .bentoIcon {

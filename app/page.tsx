@@ -41,6 +41,18 @@ function downloadJson(filename: string, data: unknown) {
   URL.revokeObjectURL(url);
 }
 
+const WEAPON_CATALOG = CATALOG.filter((it) => categoryForCollectionId(it.collectionId) === "weapons");
+const WEAPON_TOTAL_COUNT = WEAPON_CATALOG.length;
+const WEAPON_TOTAL_COST = WEAPON_CATALOG.reduce(
+  (acc, it) => ({
+    credits: acc.credits + it.cost.credits,
+    yellow: acc.yellow + it.cost.yellow,
+    red: acc.red + it.cost.red,
+    blue: acc.blue + it.cost.blue
+  }),
+  { credits: 0, yellow: 0, red: 0, blue: 0 } as Currency
+);
+
 export default function Home() {
   const [state, setState] = useState<AppState | null>(null);
 
@@ -254,31 +266,31 @@ export default function Home() {
       return { unlockedPercent: 0, boughtPercent: 0 };
     }
 
-    let totalWeapons = 0;
     let unlockedWeapons = 0;
-    let boughtWeapons = 0;
+    let boughtCost: Currency = { credits: 0, yellow: 0, red: 0, blue: 0 };
 
-    for (const it of CATALOG) {
-      if (categoryForCollectionId(it.collectionId) !== "weapons") continue;
-
-      totalWeapons += 1;
-
+    for (const it of WEAPON_CATALOG) {
       const st = ensureItemStatus(state, it.id);
       if (st === 2) {
-        boughtWeapons += 1;
         unlockedWeapons += 1;
+        boughtCost = sumCurrency(boughtCost, it.cost);
       } else if (st === 1) {
         unlockedWeapons += 1;
       }
     }
 
-    if (totalWeapons === 0) {
-      return { unlockedPercent: 0, boughtPercent: 0 };
-    }
+    const unlockedPercent = WEAPON_TOTAL_COUNT > 0 ? (unlockedWeapons / WEAPON_TOTAL_COUNT) * 100 : 0;
+
+    const creditsProgress = WEAPON_TOTAL_COST.credits > 0 ? boughtCost.credits / WEAPON_TOTAL_COST.credits : 1;
+    const yellowProgress = WEAPON_TOTAL_COST.yellow > 0 ? boughtCost.yellow / WEAPON_TOTAL_COST.yellow : 1;
+    const redProgress = WEAPON_TOTAL_COST.red > 0 ? boughtCost.red / WEAPON_TOTAL_COST.red : 1;
+    const blueProgress = WEAPON_TOTAL_COST.blue > 0 ? boughtCost.blue / WEAPON_TOTAL_COST.blue : 1;
+
+    const boughtPercent = ((creditsProgress + yellowProgress + redProgress + blueProgress) / 4) * 100;
 
     return {
-      unlockedPercent: (unlockedWeapons / totalWeapons) * 100,
-      boughtPercent: (boughtWeapons / totalWeapons) * 100
+      unlockedPercent,
+      boughtPercent
     };
   }, [state]);
 
@@ -373,17 +385,19 @@ export default function Home() {
         <div className="appShell">
           <section className="topPanel">
             <div className="topHeader">
-              <WeaponProgressRings unlockedPercent={0} boughtPercent={0} />
-
-              <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
-                <div className="brandMain" data-text="EDF IRON RAIN">
-                  Earth Defense Force: IRON RAIN
+              <div className="topHeaderContent">
+                <div className="brandMark" aria-label="Earth Defense Force Iron Rain Tracker">
+                  <div className="brandMain" data-text="EDF IRON RAIN">
+                    Earth Defense Force: IRON RAIN
+                  </div>
+                  <div className="brandSub" data-text="TRACKER">
+                    TRACKER
+                  </div>
                 </div>
-                <div className="brandSub" data-text="TRACKER">
-                  TRACKER
-                </div>
+                <div className="totalLabel">Loading saved state...</div>
               </div>
-              <div className="totalLabel">Loading saved state...</div>
+
+              <WeaponProgressRings unlockedPercent={0} boughtPercent={0} />
             </div>
           </section>
         </div>
