@@ -67,6 +67,34 @@
       "unlock": "M31 (HARD)"
     },
     {
+      "id": "assault-rifle-14",
+      "name": "AE-20XX",
+      "cost": { "credits": 200000, "yellow": 1200, "red": 0, "blue": 2000 },
+      "rank": "B",
+      "unlock": "M31 (HARDEST)"
+    },
+    {
+      "id": "assault-rifle-15",
+      "name": "AE-2041FJ",
+      "cost": { "credits": 220000, "yellow": 1400, "red": 0, "blue": 2200 },
+      "rank": "B",
+      "unlock": "M51 (HARDEST)"
+    },
+    {
+      "id": "assault-rifle-16",
+      "name": "AE-2040GD-III",
+      "cost": { "credits": 480000, "yellow": 1000, "red": 0, "blue": 4000 },
+      "rank": "A",
+      "unlock": "M34 (HARDEST)"
+    },
+    {
+      "id": "assault-rifle-41",
+      "name": "AE-2030",
+      "cost": { "credits": 850000, "yellow": 2000, "red": 0, "blue": 5000 },
+      "rank": "AA",
+      "unlock": "Defeat 2500 Storm Ant"
+    },
+    {
       "id": "assault-rifle-17",
       "name": "AW-Outrage",
       "cost": { "credits": 800, "yellow": 0, "red": 0, "blue": 5 },
@@ -89,17 +117,24 @@
     },
     {
       "id": "assault-rifle-25",
-      "name": "AW-Doppelganger",
+      "name": "AW-Doppelgänger",
       "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
       "rank": "C",
       "unlock": "M8 (HARD)"
     },
     {
       "id": "assault-rifle-29",
-      "name": "AW Rampage L.M.I.",
+      "name": "AW-Rampage L.M.I",
       "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
       "rank": "B",
       "unlock": "M45 (HARD)"
+    },
+    {
+      "id": "assault-rifle-30",
+      "name": "AW Outrage Cruel",
+      "cost": { "credits": 480000, "yellow": 0, "red": 2500, "blue": 2500 },
+      "rank": "A",
+      "unlock": "M35 (HARDEST)"
     },
     {
       "id": "assault-rifle-19",
@@ -124,10 +159,31 @@
     },
     {
       "id": "assault-rifle-26",
-      "name": "AW Furious GD",
+      "name": "AW-Furious GD",
       "cost": { "credits": 53000, "yellow": 0, "red": 600, "blue": 600 },
       "rank": "C",
       "unlock": "M21 (HARD)"
+    },
+    {
+      "id": "assault-rifle-27",
+      "name": "AW-Gekido",
+      "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
+      "rank": "B",
+      "unlock": "M48 (HARD)"
+    },
+    {
+      "id": "assault-rifle-31",
+      "name": "AW-Madness",
+      "cost": { "credits": 480000, "yellow": 0, "red": 2500, "blue": 2500 },
+      "rank": "A",
+      "unlock": "M39 (HARDEST)"
+    },
+    {
+      "id": "assault-rifle-33",
+      "name": "AW Furious Ares",
+      "cost": { "credits": 850000, "yellow": 0, "red": 3500, "blue": 3500 },
+      "rank": "AA",
+      "unlock": "Defeat 1200 Crazy Ants"
     },
     {
       "id": "assault-rifle-34",
@@ -135,6 +191,20 @@
       "cost": { "credits": 8000, "yellow": 80, "red": 0, "blue": 0 },
       "rank": "D",
       "unlock": "M24 (NORMAL)"
+    },
+    {
+      "id": "assault-rifle-37",
+      "name": "PG-Double Victoria",
+      "cost": { "credits": 180000, "yellow": 2000, "red": 800, "blue": 0 },
+      "rank": "B",
+      "unlock": "M13 (HARDEST)"
+    },
+    {
+      "id": "assault-rifle-40",
+      "name": "PG-V3-GD",
+      "cost": { "credits": 900000, "yellow": 6000, "red": 2000, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 1000 Silver Ant"
     },
     {
       "id": "assault-rifle-20",
@@ -149,6 +219,20 @@
       "cost": { "credits": 48000, "yellow": 0, "red": 400, "blue": 400 },
       "rank": "C",
       "unlock": "M16 (HARD)"
+    },
+    {
+      "id": "assault-rifle-28",
+      "name": "AW-Wrath SS",
+      "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
+      "rank": "B",
+      "unlock": "M48 (HARD)"
+    },
+    {
+      "id": "assault-rifle-32",
+      "name": "AW-Wrath Artemis",
+      "cost": { "credits": 480000, "yellow": 0, "red": 2500, "blue": 2500 },
+      "rank": "A",
+      "unlock": "M42 (HARDEST)"
     },
     {
       "id": "assault-rifle-35",
@@ -166,7 +250,7 @@
     },
     {
       "id": "assault-rifle-38",
-      "name": "PG-Puppeteer Frayed",
+      "name": "PG-Puppeteer, Frayed",
       "cost": { "credits": 180000, "yellow": 2000, "red": 800, "blue": 0 },
       "rank": "B",
       "unlock": "M4 (HARDEST)"
@@ -199,98 +283,12 @@
       "rank": "C",
       "unlock": "M4 (HARD)"
     },
-
-
     {
       "id": "assault-rifle-12",
       "name": "AE-2032 Santa Claus",
       "cost": { "credits": 180000, "yellow": 1000, "red": 0, "blue": 1800 },
       "rank": "B",
       "unlock": "M10 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-14",
-      "name": "AE-20XX",
-      "cost": { "credits": 200000, "yellow": 1200, "red": 0, "blue": 2000 },
-      "rank": "B",
-      "unlock": "M31 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-15",
-      "name": "AE-2041FJ",
-      "cost": { "credits": 220000, "yellow": 1400, "red": 0, "blue": 2200 },
-      "rank": "B",
-      "unlock": "M51 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-16",
-      "name": "AE-2040GD-III",
-      "cost": { "credits": 480000, "yellow": 1000, "red": 0, "blue": 4000 },
-      "rank": "A",
-      "unlock": "M34 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-27",
-      "name": "AW Rage",
-      "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
-      "rank": "B",
-      "unlock": "M48 (HARD)"
-    },
-    {
-      "id": "assault-rifle-28",
-      "name": "AW Wrath SS",
-      "cost": { "credits": 180000, "yellow": 0, "red": 1400, "blue": 1400 },
-      "rank": "B",
-      "unlock": "M48 (HARD)"
-    },
-    {
-      "id": "assault-rifle-30",
-      "name": "AW Outrage Cruel",
-      "cost": { "credits": 480000, "yellow": 0, "red": 2500, "blue": 2500 },
-      "rank": "A",
-      "unlock": "M35 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-31",
-      "name": "AW Madness",
-      "cost": { "credits": 480000, "yellow": 0, "red": 2500, "blue": 2500 },
-      "rank": "A",
-      "unlock": "M39 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-32",
-      "name": "AW Wrath Artemis",
-      "cost": { "credits": 480000, "yellow": 0, "red": 2500, "blue": 2500 },
-      "rank": "A",
-      "unlock": "M42 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-33",
-      "name": "AW Furious Ares",
-      "cost": { "credits": 850000, "yellow": 0, "red": 3500, "blue": 3500 },
-      "rank": "AA",
-      "unlock": "Defeat 1200 Crazy Ants"
-    },
-    {
-      "id": "assault-rifle-37",
-      "name": "PG Double Victory",
-      "cost": { "credits": 180000, "yellow": 2000, "red": 800, "blue": 0 },
-      "rank": "B",
-      "unlock": "M13 (HARDEST)"
-    },
-    {
-      "id": "assault-rifle-40",
-      "name": "PG-V3-GD",
-      "cost": { "credits": 900000, "yellow": 6000, "red": 2000, "blue": 0 },
-      "rank": "AA",
-      "unlock": "Defeat 1000 Silver Ant"
-    },
-    {
-      "id": "assault-rifle-41",
-      "name": "AE-2030",
-      "cost": { "credits": 850000, "yellow": 2000, "red": 0, "blue": 5000 },
-      "rank": "AA",
-      "unlock": "Defeat 2500 Storm Ant"
     }
   ]
 }
