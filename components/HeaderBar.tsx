@@ -5,11 +5,11 @@ import WeaponProgressRings from "./WeaponProgressRings";
 type HeaderBarProps = {
   label: string;
   value: Currency;
-  unlockedWeaponsPercent: number;
-  boughtWeaponsPercent: number;
+  unlockedPercent: number;
+  boughtPercent: number;
 };
 
-export default function HeaderBar({ label, value, unlockedWeaponsPercent, boughtWeaponsPercent }: HeaderBarProps) {
+export default function HeaderBar({ label, value, unlockedPercent, boughtPercent }: HeaderBarProps) {
   return (
     <section className="topPanel">
       <div className="topHeader">
@@ -29,7 +29,7 @@ export default function HeaderBar({ label, value, unlockedWeaponsPercent, bought
           </div>
         </div>
 
-        <WeaponProgressRings unlockedPercent={unlockedWeaponsPercent} boughtPercent={boughtWeaponsPercent} />
+        <WeaponProgressRings unlockedPercent={unlockedPercent} boughtPercent={boughtPercent} />
       </div>
     </section>
   );

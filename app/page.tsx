@@ -41,17 +41,54 @@ function downloadJson(filename: string, data: unknown) {
   URL.revokeObjectURL(url);
 }
 
-const WEAPON_CATALOG = CATALOG.filter((it) => categoryForCollectionId(it.collectionId) === "weapons");
-const WEAPON_TOTAL_COUNT = WEAPON_CATALOG.length;
-const WEAPON_TOTAL_COST = WEAPON_CATALOG.reduce(
-  (acc, it) => ({
-    credits: acc.credits + it.cost.credits,
-    yellow: acc.yellow + it.cost.yellow,
-    red: acc.red + it.cost.red,
-    blue: acc.blue + it.cost.blue
-  }),
-  { credits: 0, yellow: 0, red: 0, blue: 0 } as Currency
-);
+const CATALOG_BY_CATEGORY: Record<Category, (typeof CATALOG)[number][]> = {
+  weapons: [],
+  items: [],
+  cosmetics: []
+};
+
+for (const it of CATALOG) {
+  CATALOG_BY_CATEGORY[categoryForCollectionId(it.collectionId)].push(it);
+}
+
+function totalCostOf(items: (typeof CATALOG)[number][]): Currency {
+  return items.reduce(
+    (acc, it) => ({
+      credits: acc.credits + it.cost.credits,
+      yellow: acc.yellow + it.cost.yellow,
+      red: acc.red + it.cost.red,
+      blue: acc.blue + it.cost.blue
+    }),
+    { credits: 0, yellow: 0, red: 0, blue: 0 } as Currency
+  );
+}
+
+const TOTAL_COST_ALL = totalCostOf(CATALOG);
+const TOTAL_COST_BY_CATEGORY: Record<Category, Currency> = {
+  weapons: totalCostOf(CATALOG_BY_CATEGORY.weapons),
+  items: totalCostOf(CATALOG_BY_CATEGORY.items),
+  cosmetics: totalCostOf(CATALOG_BY_CATEGORY.cosmetics)
+};
+
+const ZERO_CURRENCY: Currency = { credits: 0, yellow: 0, red: 0, blue: 0 };
+
+function weightedCostCompletionPercent(current: Currency, total: Currency): number {
+  const keys: Array<keyof Currency> = ["credits", "yellow", "red", "blue"];
+
+  let sum = 0;
+  let used = 0;
+
+  for (const key of keys) {
+    const t = total[key];
+    if (t <= 0) continue;
+
+    sum += current[key] / t;
+    used += 1;
+  }
+
+  if (used === 0) return 0;
+  return (sum / used) * 100;
+}
 
 export default function Home() {
   const [state, setState] = useState<AppState | null>(null);
@@ -243,10 +280,9 @@ export default function Home() {
   }, [state]);
 
   const remainingSelectedCategory = useMemo(() => {
-    const zero: Currency = { credits: 0, yellow: 0, red: 0, blue: 0 };
-    if (!state) return zero;
+    if (!state) return ZERO_CURRENCY;
 
-    let out = zero;
+    let out = ZERO_CURRENCY;
 
     for (const it of CATALOG) {
       const st = ensureItemStatus(state, it.id);
@@ -266,10 +302,13 @@ export default function Home() {
       return { unlockedPercent: 0, boughtPercent: 0 };
     }
 
-    let unlockedWeapons = 0;
-    let boughtCost: Currency = { credits: 0, yellow: 0, red: 0, blue: 0 };
+    const scopedCatalog = totalsMode === "global" ? CATALOG : CATALOG_BY_CATEGORY[category];
+    const scopedTotalCost = totalsMode === "global" ? TOTAL_COST_ALL : TOTAL_COST_BY_CATEGORY[category];
 
-    for (const it of WEAPON_CATALOG) {
+    let unlockedWeapons = 0;
+    let boughtCost: Currency = ZERO_CURRENCY;
+
+    for (const it of scopedCatalog) {
       const st = ensureItemStatus(state, it.id);
       if (st === 2) {
         unlockedWeapons += 1;
@@ -279,20 +318,14 @@ export default function Home() {
       }
     }
 
-    const unlockedPercent = WEAPON_TOTAL_COUNT > 0 ? (unlockedWeapons / WEAPON_TOTAL_COUNT) * 100 : 0;
-
-    const creditsProgress = WEAPON_TOTAL_COST.credits > 0 ? boughtCost.credits / WEAPON_TOTAL_COST.credits : 1;
-    const yellowProgress = WEAPON_TOTAL_COST.yellow > 0 ? boughtCost.yellow / WEAPON_TOTAL_COST.yellow : 1;
-    const redProgress = WEAPON_TOTAL_COST.red > 0 ? boughtCost.red / WEAPON_TOTAL_COST.red : 1;
-    const blueProgress = WEAPON_TOTAL_COST.blue > 0 ? boughtCost.blue / WEAPON_TOTAL_COST.blue : 1;
-
-    const boughtPercent = ((creditsProgress + yellowProgress + redProgress + blueProgress) / 4) * 100;
+    const unlockedPercent = scopedCatalog.length > 0 ? (unlockedWeapons / scopedCatalog.length) * 100 : 0;
+    const boughtPercent = weightedCostCompletionPercent(boughtCost, scopedTotalCost);
 
     return {
       unlockedPercent,
       boughtPercent
     };
-  }, [state]);
+  }, [state, totalsMode, category]);
 
   function setItemStatus(id: string, nextStatus: ItemStatus) {
     setState((prev) => {
@@ -414,8 +447,8 @@ export default function Home() {
         <HeaderBar
           label={headerLabel}
           value={headerValue}
-          unlockedWeaponsPercent={weaponProgress.unlockedPercent}
-          boughtWeaponsPercent={weaponProgress.boughtPercent}
+          unlockedPercent={weaponProgress.unlockedPercent}
+          boughtPercent={weaponProgress.boughtPercent}
         />
 
         <section className="bentoPanel">

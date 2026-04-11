@@ -233,6 +233,13 @@
       "cost": { "credits": 900000, "yellow": 0, "red": 10000, "blue": 0 },
       "rank": "AA",
       "unlock": "Defeat 150 Harvesters"
+    },
+        {
+      "id": "missile-launcher-34",
+      "name": "SQ-Mauna Kea DA",
+      "cost": { "credits": 200000, "yellow": 3200, "red": 0, "blue": 0 },
+      "rank": "B",
+      "unlock": "M50 (HARDEST)"
     }
   ]
 }

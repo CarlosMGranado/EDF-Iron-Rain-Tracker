@@ -207,6 +207,13 @@
       "cost": { "credits": 950000, "yellow": 2250, "red": 0, "blue": 6750 },
       "rank": "AA",
       "unlock": "Defeat 2000 Attack Pods"
+    },
+    {
+      "id": "laser-rifle-30",
+      "name": "GK-Exotic Ray Rudra",
+      "cost": { "credits": 1000000, "yellow": 2000, "red": 8000, "blue": 0 },
+      "rank": "AA",
+      "unlock": "Defeat 220 Raidship"
     }
   ]
 }
