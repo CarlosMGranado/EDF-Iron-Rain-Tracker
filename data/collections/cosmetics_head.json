@@ -5,7 +5,7 @@
   "items": [
     {
       "id": "cosmetics-head-01-01",
-      "name": "TROOPER HEAD GEAR (Alium) (Color 01 White)",
+      "name": "Trooper Head Gear [Alium] 1",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -16,7 +16,7 @@
     },
     {
       "id": "cosmetics-head-01-02",
-      "name": "TROOPER HEAD GEAR (Alium) (Color 02 Black)",
+      "name": "Trooper Head Gear [Alium] 2",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -27,7 +27,7 @@
     },
     {
       "id": "cosmetics-head-01-03",
-      "name": "TROOPER HEAD GEAR (Alium) (Color 03 Silver)",
+      "name": "Trooper Head Gear [Alium] 3",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -38,7 +38,7 @@
     },
     {
       "id": "cosmetics-head-01-04",
-      "name": "TROOPER HEAD GEAR (Alium) (Color 04 Yellow)",
+      "name": "Trooper Head Gear [Alium] 4",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -49,7 +49,7 @@
     },
     {
       "id": "cosmetics-head-01-05",
-      "name": "TROOPER HEAD GEAR (Alium) (Color 05 Light Green)",
+      "name": "Trooper Head Gear [Alium] 5",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -60,7 +60,7 @@
     },
     {
       "id": "cosmetics-head-01-06",
-      "name": "TROOPER HEAD GEAR (Alium) (Color 06 Black)",
+      "name": "Trooper Head Gear [Alium] 6",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -71,7 +71,7 @@
     },
     {
       "id": "cosmetics-head-01-07",
-      "name": "TROOPER HEAD GEAR (Alium) (Color 07 Light Blue)",
+      "name": "Trooper Head Gear [Alium] 7",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -82,7 +82,7 @@
     },
     {
       "id": "cosmetics-head-01-08",
-      "name": "TROOPER HEAD GEAR (Alium) (Color 08 Crimson)",
+      "name": "Trooper Head Gear [Alium] 8",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -93,7 +93,7 @@
     },
     {
       "id": "cosmetics-head-02-01",
-      "name": "TROOPER HEAD GEAR (Alium) (No Goggles) (Color 01 White)",
+      "name": "Trooper Head Gear [Alium] (no Goggles) 1",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -104,7 +104,7 @@
     },
     {
       "id": "cosmetics-head-02-02",
-      "name": "TROOPER HEAD GEAR (Alium) (No Goggles) (Color 02 Black)",
+      "name": "Trooper Head Gear [Alium] (no Goggles) 2",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -115,7 +115,7 @@
     },
     {
       "id": "cosmetics-head-02-03",
-      "name": "TROOPER HEAD GEAR (Alium) (No Goggles) (Color 03 Silver)",
+      "name": "Trooper Head Gear [Alium] (no Goggles) 3",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -126,7 +126,7 @@
     },
     {
       "id": "cosmetics-head-02-04",
-      "name": "TROOPER HEAD GEAR (Alium) (No Goggles) (Color 04 Yellow)",
+      "name": "Trooper Head Gear [Alium] (no Goggles) 4",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -137,7 +137,7 @@
     },
     {
       "id": "cosmetics-head-02-05",
-      "name": "TROOPER HEAD GEAR (Alium) (No Goggles) (Color 05 Light Green)",
+      "name": "Trooper Head Gear [Alium] (no Goggles) 5",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -148,7 +148,7 @@
     },
     {
       "id": "cosmetics-head-02-06",
-      "name": "TROOPER HEAD GEAR (Alium) (No Goggles) (Color 06 Black)",
+      "name": "Trooper Head Gear [Alium] (no Goggles) 6",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -159,7 +159,7 @@
     },
     {
       "id": "cosmetics-head-02-07",
-      "name": "TROOPER HEAD GEAR (Alium) (No Goggles) (Color 07 Light Blue)",
+      "name": "Trooper Head Gear [Alium] (no Goggles) 7",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -170,7 +170,7 @@
     },
     {
       "id": "cosmetics-head-02-08",
-      "name": "TROOPER HEAD GEAR (Alium) (No Goggles) (Color 08 Crimson)",
+      "name": "Trooper Head Gear [Alium] (no Goggles) 8",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -181,7 +181,7 @@
     },
     {
       "id": "cosmetics-head-03-01",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) (Color 01 White)",
+      "name": "Air Force Head Gear [Acanthus] 1",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -192,7 +192,7 @@
     },
     {
       "id": "cosmetics-head-03-02",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) (Color 02 Black)",
+      "name": "Air Force Head Gear [Acanthus] 2",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -203,7 +203,7 @@
     },
     {
       "id": "cosmetics-head-03-03",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) (Color 03 Silver)",
+      "name": "Air Force Head Gear [Acanthus] 3",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -214,7 +214,7 @@
     },
     {
       "id": "cosmetics-head-03-04",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) (Color 04 Yellow)",
+      "name": "Air Force Head Gear [Acanthus] 4",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -225,7 +225,7 @@
     },
     {
       "id": "cosmetics-head-03-05",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) (Color 05 Light Green)",
+      "name": "Air Force Head Gear [Acanthus] 5",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "cosmetics-head-03-06",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) (Color 06 Black)",
+      "name": "Air Force Head Gear [Acanthus] 6",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -247,7 +247,7 @@
     },
     {
       "id": "cosmetics-head-03-07",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) (Color 07 Light Blue)",
+      "name": "Air Force Head Gear [Acanthus] 7",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -258,7 +258,7 @@
     },
     {
       "id": "cosmetics-head-03-08",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) (Color 08 Crimson)",
+      "name": "Air Force Head Gear [Acanthus] 8",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -269,7 +269,7 @@
     },
     {
       "id": "cosmetics-head-04-01",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) ((NO MASK)) (Color 01 White)",
+      "name": "Air Force Head Gear [Acanthus] (no Mask) 1",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -280,7 +280,7 @@
     },
     {
       "id": "cosmetics-head-04-02",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) ((NO MASK)) (Color 02 Black)",
+      "name": "Air Force Head Gear [Acanthus] (no Mask) 2",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -291,7 +291,7 @@
     },
     {
       "id": "cosmetics-head-04-03",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) ((NO MASK)) (Color 03 Silver)",
+      "name": "Air Force Head Gear [Acanthus] (no Mask) 3",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -302,7 +302,7 @@
     },
     {
       "id": "cosmetics-head-04-04",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) ((NO MASK)) (Color 04 Yellow)",
+      "name": "Air Force Head Gear [Acanthus] (no Mask) 4",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -313,7 +313,7 @@
     },
     {
       "id": "cosmetics-head-04-05",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) ((NO MASK)) (Color 05 Light Green)",
+      "name": "Air Force Head Gear [Acanthus] (no Mask) 5",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -324,7 +324,7 @@
     },
     {
       "id": "cosmetics-head-04-06",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) ((NO MASK)) (Color 06 Black)",
+      "name": "Air Force Head Gear [Acanthus] (no Mask) 6",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -335,7 +335,7 @@
     },
     {
       "id": "cosmetics-head-04-07",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) ((NO MASK)) (Color 07 Light Blue)",
+      "name": "Air Force Head Gear [Acanthus] (no Mask) 7",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -346,7 +346,7 @@
     },
     {
       "id": "cosmetics-head-04-08",
-      "name": "AIR FORCE HEAD GEAR(Acanthus) ((NO MASK)) (Color 08 Crimson)",
+      "name": "Air Force Head Gear [Acanthus] (no Mask) 8",
       "cost": {
         "credits": 180,
         "yellow": 0,
@@ -357,7 +357,7 @@
     },
     {
       "id": "cosmetics-head-05-01",
-      "name": "TRIKER HEAD GEAR (Bamboo) (Color 01 White)",
+      "name": "Striker Head Gear [Bamboo] 1",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -368,7 +368,7 @@
     },
     {
       "id": "cosmetics-head-05-02",
-      "name": "TRIKER HEAD GEAR (Bamboo) (Color 02 Black)",
+      "name": "Striker Head Gear [Bamboo] 2",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -379,7 +379,7 @@
     },
     {
       "id": "cosmetics-head-05-03",
-      "name": "TRIKER HEAD GEAR (Bamboo) (Color 03 Silver)",
+      "name": "Striker Head Gear [Bamboo] 3",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -390,7 +390,7 @@
     },
     {
       "id": "cosmetics-head-05-04",
-      "name": "TRIKER HEAD GEAR (Bamboo) (Color 04 Yellow)",
+      "name": "Striker Head Gear [Bamboo] 4",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -401,7 +401,7 @@
     },
     {
       "id": "cosmetics-head-05-05",
-      "name": "TRIKER HEAD GEAR (Bamboo) (Color 05 Light Green)",
+      "name": "Striker Head Gear [Bamboo] 5",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -412,7 +412,7 @@
     },
     {
       "id": "cosmetics-head-05-06",
-      "name": "TRIKER HEAD GEAR (Bamboo) (Color 06 Black)",
+      "name": "Striker Head Gear [Bamboo] 6",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -423,7 +423,7 @@
     },
     {
       "id": "cosmetics-head-05-07",
-      "name": "TRIKER HEAD GEAR (Bamboo) (Color 07 Light Blue)",
+      "name": "Striker Head Gear [Bamboo] 7",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -434,7 +434,7 @@
     },
     {
       "id": "cosmetics-head-05-08",
-      "name": "TRIKER HEAD GEAR (Bamboo) (Color 08 Crimson)",
+      "name": "Striker Head Gear [Bamboo] 8",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -445,7 +445,7 @@
     },
     {
       "id": "cosmetics-head-06-01",
-      "name": "TRIKER HEAD GEAR (Bamboo) ((NO MASK)) (Color 01 White)",
+      "name": "Striker Head Gear [Bamboo] (no Mask) 1",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -456,7 +456,7 @@
     },
     {
       "id": "cosmetics-head-06-02",
-      "name": "TRIKER HEAD GEAR (Bamboo) ((NO MASK)) (Color 02 Black)",
+      "name": "Striker Head Gear [Bamboo] (no Mask) 2",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -467,7 +467,7 @@
     },
     {
       "id": "cosmetics-head-06-03",
-      "name": "TRIKER HEAD GEAR (Bamboo) ((NO MASK)) (Color 03 Silver)",
+      "name": "Striker Head Gear [Bamboo] (no Mask) 3",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -478,7 +478,7 @@
     },
     {
       "id": "cosmetics-head-06-04",
-      "name": "TRIKER HEAD GEAR (Bamboo) ((NO MASK)) (Color 04 Yellow)",
+      "name": "Striker Head Gear [Bamboo] (no Mask) 4",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -489,7 +489,7 @@
     },
     {
       "id": "cosmetics-head-06-05",
-      "name": "TRIKER HEAD GEAR (Bamboo) ((NO MASK)) (Color 05 Light Green)",
+      "name": "Striker Head Gear [Bamboo] (no Mask) 5",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -500,7 +500,7 @@
     },
     {
       "id": "cosmetics-head-06-06",
-      "name": "TRIKER HEAD GEAR (Bamboo) ((NO MASK)) (Color 06 Black)",
+      "name": "Striker Head Gear [Bamboo] (no Mask) 6",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -511,7 +511,7 @@
     },
     {
       "id": "cosmetics-head-06-07",
-      "name": "TRIKER HEAD GEAR (Bamboo) ((NO MASK)) (Color 07 Light Blue)",
+      "name": "Striker Head Gear [Bamboo] (no Mask) 7",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -522,7 +522,7 @@
     },
     {
       "id": "cosmetics-head-06-08",
-      "name": "TRIKER HEAD GEAR (Bamboo) ((NO MASK)) (Color 08 Crimson)",
+      "name": "Striker Head Gear [Bamboo] (no Mask) 8",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -533,7 +533,7 @@
     },
     {
       "id": "cosmetics-head-07-01",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (Color 01 White)",
+      "name": "Prowl Rider Head Gear [Azalea] 1",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -544,7 +544,7 @@
     },
     {
       "id": "cosmetics-head-07-02",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (Color 02 Black)",
+      "name": "Prowl Rider Head Gear [Azalea] 2",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -555,7 +555,7 @@
     },
     {
       "id": "cosmetics-head-07-03",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (Color 03 Silver)",
+      "name": "Prowl Rider Head Gear [Azalea] 3",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -566,7 +566,7 @@
     },
     {
       "id": "cosmetics-head-07-04",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (Color 04 Yellow)",
+      "name": "Prowl Rider Head Gear [Azalea] 4",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -577,7 +577,7 @@
     },
     {
       "id": "cosmetics-head-07-05",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (Color 05 Light Green)",
+      "name": "Prowl Rider Head Gear [Azalea] 5",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -588,7 +588,7 @@
     },
     {
       "id": "cosmetics-head-07-06",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (Color 06 Black)",
+      "name": "Prowl Rider Head Gear [Azalea] 6",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -599,7 +599,7 @@
     },
     {
       "id": "cosmetics-head-07-07",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (Color 07 Light Blue)",
+      "name": "Prowl Rider Head Gear [Azalea] 7",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -610,7 +610,7 @@
     },
     {
       "id": "cosmetics-head-07-08",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (Color 08 Crimson)",
+      "name": "Prowl Rider Head Gear [Azalea] 8",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -621,7 +621,7 @@
     },
     {
       "id": "cosmetics-head-08-01",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (No Goggles) (Color 01 White)",
+      "name": "Prowl Rider Head Gear [Azalea] (No Goggles) 1",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -632,7 +632,7 @@
     },
     {
       "id": "cosmetics-head-08-02",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (No Goggles) (Color 02 Black)",
+      "name": "Prowl Rider Head Gear [Azalea] (No Goggles) 2",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -643,7 +643,7 @@
     },
     {
       "id": "cosmetics-head-08-03",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (No Goggles) (Color 03 Silver)",
+      "name": "Prowl Rider Head Gear [Azalea] (No Goggles) 3",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -654,7 +654,7 @@
     },
     {
       "id": "cosmetics-head-08-04",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (No Goggles) (Color 04 Yellow)",
+      "name": "Prowl Rider Head Gear [Azalea] (No Goggles) 4",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -665,7 +665,7 @@
     },
     {
       "id": "cosmetics-head-08-05",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (No Goggles) (Color 05 Light Green)",
+      "name": "Prowl Rider Head Gear [Azalea] (No Goggles) 5",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -676,7 +676,7 @@
     },
     {
       "id": "cosmetics-head-08-06",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (No Goggles) (Color 06 Black)",
+      "name": "Prowl Rider Head Gear [Azalea] (No Goggles) 6",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -687,7 +687,7 @@
     },
     {
       "id": "cosmetics-head-08-07",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (No Goggles) (Color 07 Light Blue)",
+      "name": "Prowl Rider Head Gear [Azalea] (No Goggles) 7",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -698,7 +698,7 @@
     },
     {
       "id": "cosmetics-head-08-08",
-      "name": "PROWL RIDER HEAD GEAR (AZALEA) (No Goggles) (Color 08 Crimson)",
+      "name": "Prowl Rider Head Gear [Azalea] (No Goggles) 8",
       "cost": {
         "credits": 350,
         "yellow": 0,
@@ -709,7 +709,7 @@
     },
     {
       "id": "cosmetics-head-09-01",
-      "name": "EDF IRON HELMET (CAPSELLA) (Color 01 White)",
+      "name": "EDF Iron Helmet [Capsella] 1",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -720,7 +720,7 @@
     },
     {
       "id": "cosmetics-head-09-02",
-      "name": "EDF IRON HELMET (CAPSELLA) (Color 02 Black)",
+      "name": "EDF Iron Helmet [Capsella] 2",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -731,7 +731,7 @@
     },
     {
       "id": "cosmetics-head-09-03",
-      "name": "EDF IRON HELMET (CAPSELLA) (Color 03 Silver)",
+      "name": "EDF Iron Helmet [Capsella] 3",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -742,7 +742,7 @@
     },
     {
       "id": "cosmetics-head-09-04",
-      "name": "EDF IRON HELMET (CAPSELLA) (Color 04 Yellow)",
+      "name": "EDF Iron Helmet [Capsella] 4",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -753,7 +753,7 @@
     },
     {
       "id": "cosmetics-head-09-05",
-      "name": "EDF IRON HELMET (CAPSELLA) (Color 05 Light Green)",
+      "name": "EDF Iron Helmet [Capsella] 5",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -764,7 +764,7 @@
     },
     {
       "id": "cosmetics-head-09-06",
-      "name": "EDF IRON HELMET (CAPSELLA) (Color 06 Black)",
+      "name": "EDF Iron Helmet [Capsella] 6",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -775,7 +775,7 @@
     },
     {
       "id": "cosmetics-head-09-07",
-      "name": "EDF IRON HELMET (CAPSELLA) (Color 07 Light Blue)",
+      "name": "EDF Iron Helmet [Capsella] 7",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -786,7 +786,7 @@
     },
     {
       "id": "cosmetics-head-09-08",
-      "name": "EDF IRON HELMET (CAPSELLA) (Color 08 Crimson)",
+      "name": "EDF Iron Helmet [Capsella] 8",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -797,7 +797,7 @@
     },
     {
       "id": "cosmetics-head-10-01",
-      "name": "EDF IRON HELMET (CAPSELLA) ((NO MASK)) (Color 01 White)",
+      "name": "EDF Iron Helmet [Capsella] (No Mask) 1",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -808,7 +808,7 @@
     },
     {
       "id": "cosmetics-head-10-02",
-      "name": "EDF IRON HELMET (CAPSELLA) ((NO MASK)) (Color 02 Black)",
+      "name": "EDF Iron Helmet [Capsella] (No Mask) 2",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -819,7 +819,7 @@
     },
     {
       "id": "cosmetics-head-10-03",
-      "name": "EDF IRON HELMET (CAPSELLA) ((NO MASK)) (Color 03 Silver)",
+      "name": "EDF Iron Helmet [Capsella] (No Mask) 3",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -830,7 +830,7 @@
     },
     {
       "id": "cosmetics-head-10-04",
-      "name": "EDF IRON HELMET (CAPSELLA) ((NO MASK)) (Color 04 Yellow)",
+      "name": "EDF Iron Helmet [Capsella] (No Mask) 4",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -841,7 +841,7 @@
     },
     {
       "id": "cosmetics-head-10-05",
-      "name": "EDF IRON HELMET (CAPSELLA) ((NO MASK)) (Color 05 Light Green)",
+      "name": "EDF Iron Helmet [Capsella] (No Mask) 5",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -852,7 +852,7 @@
     },
     {
       "id": "cosmetics-head-10-06",
-      "name": "EDF IRON HELMET (CAPSELLA) ((NO MASK)) (Color 06 Black)",
+      "name": "EDF Iron Helmet [Capsella] (No Mask) 6",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -863,7 +863,7 @@
     },
     {
       "id": "cosmetics-head-10-07",
-      "name": "EDF IRON HELMET (CAPSELLA) ((NO MASK)) (Color 07 Light Blue)",
+      "name": "EDF Iron Helmet [Capsella] (No Mask) 7",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -874,7 +874,7 @@
     },
     {
       "id": "cosmetics-head-10-08",
-      "name": "EDF IRON HELMET (CAPSELLA) ((NO MASK)) (Color 08 Crimson)",
+      "name": "EDF Iron Helmet [Capsella] (No Mask) 8",
       "cost": {
         "credits": 0,
         "yellow": 0,
@@ -885,7 +885,7 @@
     },
     {
       "id": "cosmetics-head-11-01",
-      "name": "ELITE HELMET (SAKURA) (Color 01 White)",
+      "name": "Elite Helmet [Sakura] 1",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -896,7 +896,7 @@
     },
     {
       "id": "cosmetics-head-11-02",
-      "name": "ELITE HELMET (SAKURA) (Color 02 Black)",
+      "name": "Elite Helmet [Sakura] 2",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -907,7 +907,7 @@
     },
     {
       "id": "cosmetics-head-11-03",
-      "name": "ELITE HELMET (SAKURA) (Color 03 Silver)",
+      "name": "Elite Helmet [Sakura] 3",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -918,7 +918,7 @@
     },
     {
       "id": "cosmetics-head-11-04",
-      "name": "ELITE HELMET (SAKURA) (Color 04 Yellow)",
+      "name": "Elite Helmet [Sakura] 4",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -929,7 +929,7 @@
     },
     {
       "id": "cosmetics-head-11-05",
-      "name": "ELITE HELMET (SAKURA) (Color 05 Light Green)",
+      "name": "Elite Helmet [Sakura] 5",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -940,7 +940,7 @@
     },
     {
       "id": "cosmetics-head-11-06",
-      "name": "ELITE HELMET (SAKURA) (Color 06 Black)",
+      "name": "Elite Helmet [Sakura] 6",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -951,7 +951,7 @@
     },
     {
       "id": "cosmetics-head-11-07",
-      "name": "ELITE HELMET (SAKURA) (Color 07 Light Blue)",
+      "name": "Elite Helmet [Sakura] 7",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -962,7 +962,7 @@
     },
     {
       "id": "cosmetics-head-11-08",
-      "name": "ELITE HELMET (SAKURA) (Color 08 Crimson)",
+      "name": "Elite Helmet [Sakura] 8",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -973,7 +973,7 @@
     },
     {
       "id": "cosmetics-head-12-01",
-      "name": "MACHINE FACE (Laurel) (Color 01 White)",
+      "name": "Machine Face [Laurel] 1",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -984,7 +984,7 @@
     },
     {
       "id": "cosmetics-head-12-02",
-      "name": "MACHINE FACE (Laurel) (Color 02 Black)",
+      "name": "Machine Face [Laurel] 2",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -995,7 +995,7 @@
     },
     {
       "id": "cosmetics-head-12-03",
-      "name": "MACHINE FACE (Laurel) (Color 03 Silver)",
+      "name": "Machine Face [Laurel] 3",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -1006,7 +1006,7 @@
     },
     {
       "id": "cosmetics-head-12-04",
-      "name": "MACHINE FACE (Laurel) (Color 04 Yellow)",
+      "name": "Machine Face [Laurel] 4",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -1017,7 +1017,7 @@
     },
     {
       "id": "cosmetics-head-12-05",
-      "name": "MACHINE FACE (Laurel) (Color 05 Light Green)",
+      "name": "Machine Face [Laurel] 5",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -1028,7 +1028,7 @@
     },
     {
       "id": "cosmetics-head-12-06",
-      "name": "MACHINE FACE (Laurel) (Color 06 Black)",
+      "name": "Machine Face [Laurel] 6",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -1039,7 +1039,7 @@
     },
     {
       "id": "cosmetics-head-12-07",
-      "name": "MACHINE FACE (Laurel) (Color 07 Light Blue)",
+      "name": "Machine Face [Laurel] 7",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -1050,7 +1050,7 @@
     },
     {
       "id": "cosmetics-head-12-08",
-      "name": "MACHINE FACE (Laurel) (Color 08 Crimson)",
+      "name": "Machine Face [Laurel] 8",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -1061,7 +1061,7 @@
     },
     {
       "id": "cosmetics-head-13-01",
-      "name": "OLD-FASHIONED IRON HELMET (Color 01 White)",
+      "name": "Old-Fashioned Iron Helmet 1",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1072,7 +1072,7 @@
     },
     {
       "id": "cosmetics-head-13-02",
-      "name": "OLD-FASHIONED IRON HELMET (Color 02 Black)",
+      "name": "Old-Fashioned Iron Helmet 2",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1083,7 +1083,7 @@
     },
     {
       "id": "cosmetics-head-13-03",
-      "name": "OLD-FASHIONED IRON HELMET (Color 03 Silver)",
+      "name": "Old-Fashioned Iron Helmet 3",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "cosmetics-head-13-04",
-      "name": "OLD-FASHIONED IRON HELMET (Color 04 Yellow)",
+      "name": "Old-Fashioned Iron Helmet 4",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "cosmetics-head-13-05",
-      "name": "OLD-FASHIONED IRON HELMET (Color 05 Light Green)",
+      "name": "Old-Fashioned Iron Helmet 5",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1116,7 +1116,7 @@
     },
     {
       "id": "cosmetics-head-13-06",
-      "name": "OLD-FASHIONED IRON HELMET (Color 06 Black)",
+      "name": "Old-Fashioned Iron Helmet 6",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1127,7 +1127,7 @@
     },
     {
       "id": "cosmetics-head-13-07",
-      "name": "OLD-FASHIONED IRON HELMET (Color 07 Light Blue)",
+      "name": "Old-Fashioned Iron Helmet 7",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1138,7 +1138,7 @@
     },
     {
       "id": "cosmetics-head-13-08",
-      "name": "OLD-FASHIONED IRON HELMET (Color 08 Crimson)",
+      "name": "Old-Fashioned Iron Helmet 8",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "cosmetics-head-14-01",
-      "name": "BIKER HELMET (Color 01 White)",
+      "name": "Biker Helmet 1",
       "cost": {
         "credits": 4000,
         "yellow": 0,
@@ -1160,7 +1160,7 @@
     },
     {
       "id": "cosmetics-head-14-02",
-      "name": "BIKER HELMET (Color 02 Black)",
+      "name": "Biker Helmet 2",
       "cost": {
         "credits": 4000,
         "yellow": 0,
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "cosmetics-head-14-03",
-      "name": "BIKER HELMET (Color 03 Silver)",
+      "name": "Biker Helmet 3",
       "cost": {
         "credits": 4000,
         "yellow": 0,
@@ -1182,7 +1182,7 @@
     },
     {
       "id": "cosmetics-head-14-04",
-      "name": "BIKER HELMET (Color 04 Yellow)",
+      "name": "Biker Helmet 4",
       "cost": {
         "credits": 4000,
         "yellow": 0,
@@ -1193,7 +1193,7 @@
     },
     {
       "id": "cosmetics-head-14-05",
-      "name": "BIKER HELMET (Color 05 Light Green)",
+      "name": "Biker Helmet 5",
       "cost": {
         "credits": 4000,
         "yellow": 0,
@@ -1204,7 +1204,7 @@
     },
     {
       "id": "cosmetics-head-14-06",
-      "name": "BIKER HELMET (Color 06 Black)",
+      "name": "Biker Helmet 6",
       "cost": {
         "credits": 4000,
         "yellow": 0,
@@ -1215,7 +1215,7 @@
     },
     {
       "id": "cosmetics-head-14-07",
-      "name": "BIKER HELMET (Color 07 Light Blue)",
+      "name": "Biker Helmet 7",
       "cost": {
         "credits": 4000,
         "yellow": 0,
@@ -1226,7 +1226,7 @@
     },
     {
       "id": "cosmetics-head-14-08",
-      "name": "BIKER HELMET (Color 08 Crimson)",
+      "name": "Biker Helmet 8",
       "cost": {
         "credits": 4000,
         "yellow": 0,
@@ -1237,7 +1237,7 @@
     },
     {
       "id": "cosmetics-head-15-01",
-      "name": "Gas Mask (Color 01 White)",
+      "name": "Gas Mask 1",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "cosmetics-head-15-02",
-      "name": "Gas Mask (Color 02 Black)",
+      "name": "Gas Mask 2",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1259,7 +1259,7 @@
     },
     {
       "id": "cosmetics-head-15-03",
-      "name": "Gas Mask (Color 03 Silver)",
+      "name": "Gas Mask 3",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1270,7 +1270,7 @@
     },
     {
       "id": "cosmetics-head-15-04",
-      "name": "Gas Mask (Color 04 Yellow)",
+      "name": "Gas Mask 4",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1281,7 +1281,7 @@
     },
     {
       "id": "cosmetics-head-15-05",
-      "name": "Gas Mask (Color 05 Light Green)",
+      "name": "Gas Mask 5",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1292,7 +1292,7 @@
     },
     {
       "id": "cosmetics-head-15-06",
-      "name": "Gas Mask (Color 06 Black)",
+      "name": "Gas Mask 6",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1303,7 +1303,7 @@
     },
     {
       "id": "cosmetics-head-15-07",
-      "name": "Gas Mask (Color 07 Light Blue)",
+      "name": "Gas Mask 7",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1314,7 +1314,7 @@
     },
     {
       "id": "cosmetics-head-15-08",
-      "name": "Gas Mask (Color 08 Crimson)",
+      "name": "Gas Mask 8",
       "cost": {
         "credits": 1000,
         "yellow": 0,
@@ -1325,7 +1325,7 @@
     },
     {
       "id": "cosmetics-head-16-01",
-      "name": "Hockey Mask (Color 01 White)",
+      "name": "Hockey Mask 1",
       "cost": {
         "credits": 5000,
         "yellow": 0,
@@ -1336,7 +1336,7 @@
     },
     {
       "id": "cosmetics-head-16-02",
-      "name": "Hockey Mask (Color 02 Black)",
+      "name": "Hockey Mask 2",
       "cost": {
         "credits": 5000,
         "yellow": 0,
@@ -1347,7 +1347,7 @@
     },
     {
       "id": "cosmetics-head-16-03",
-      "name": "Hockey Mask (Color 03 Silver)",
+      "name": "Hockey Mask 3",
       "cost": {
         "credits": 5000,
         "yellow": 0,
@@ -1358,7 +1358,7 @@
     },
     {
       "id": "cosmetics-head-16-04",
-      "name": "Hockey Mask (Color 04 Yellow)",
+      "name": "Hockey Mask 4",
       "cost": {
         "credits": 5000,
         "yellow": 0,
@@ -1369,7 +1369,7 @@
     },
     {
       "id": "cosmetics-head-16-05",
-      "name": "Hockey Mask (Color 05 Light Green)",
+      "name": "Hockey Mask 5",
       "cost": {
         "credits": 5000,
         "yellow": 0,
@@ -1380,7 +1380,7 @@
     },
     {
       "id": "cosmetics-head-16-06",
-      "name": "Hockey Mask (Color 06 Black)",
+      "name": "Hockey Mask 6",
       "cost": {
         "credits": 5000,
         "yellow": 0,
@@ -1391,7 +1391,7 @@
     },
     {
       "id": "cosmetics-head-16-07",
-      "name": "Hockey Mask (Color 07 Light Blue)",
+      "name": "Hockey Mask 7",
       "cost": {
         "credits": 5000,
         "yellow": 0,
@@ -1402,7 +1402,7 @@
     },
     {
       "id": "cosmetics-head-16-08",
-      "name": "Hockey Mask (Color 08 Crimson)",
+      "name": "Hockey Mask 8",
       "cost": {
         "credits": 5000,
         "yellow": 0,
@@ -1413,7 +1413,7 @@
     },
     {
       "id": "cosmetics-head-17-01",
-      "name": "Watch Cap (Color 01 White)",
+      "name": "Watch Cap 1",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1424,7 +1424,7 @@
     },
     {
       "id": "cosmetics-head-17-02",
-      "name": "Watch Cap (Color 02 Black)",
+      "name": "Watch Cap 2",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1435,7 +1435,7 @@
     },
     {
       "id": "cosmetics-head-17-03",
-      "name": "Watch Cap (Color 03 Silver)",
+      "name": "Watch Cap 3",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1446,7 +1446,7 @@
     },
     {
       "id": "cosmetics-head-17-04",
-      "name": "Watch Cap (Color 04 Yellow)",
+      "name": "Watch Cap 4",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1457,7 +1457,7 @@
     },
     {
       "id": "cosmetics-head-17-05",
-      "name": "Watch Cap (Color 05 Light Green)",
+      "name": "Watch Cap 5",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1468,7 +1468,7 @@
     },
     {
       "id": "cosmetics-head-17-06",
-      "name": "Watch Cap (Color 06 Black)",
+      "name": "Watch Cap 6",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1479,7 +1479,7 @@
     },
     {
       "id": "cosmetics-head-17-07",
-      "name": "Watch Cap (Color 07 Light Blue)",
+      "name": "Watch Cap 7",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1490,7 +1490,7 @@
     },
     {
       "id": "cosmetics-head-17-08",
-      "name": "Watch Cap (Color 08 Crimson)",
+      "name": "Watch Cap 8",
       "cost": {
         "credits": 3500,
         "yellow": 0,
@@ -1501,7 +1501,7 @@
     },
     {
       "id": "cosmetics-head-18-01",
-      "name": "MAINTENANCE CAP (Color 01 White)",
+      "name": "Maintenance Cap 1",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -1512,7 +1512,7 @@
     },
     {
       "id": "cosmetics-head-18-02",
-      "name": "MAINTENANCE CAP (Color 02 Black)",
+      "name": "Maintenance Cap 2",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -1523,7 +1523,7 @@
     },
     {
       "id": "cosmetics-head-18-03",
-      "name": "MAINTENANCE CAP (Color 03 Silver)",
+      "name": "Maintenance Cap 3",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -1534,7 +1534,7 @@
     },
     {
       "id": "cosmetics-head-18-04",
-      "name": "MAINTENANCE CAP (Color 04 Yellow)",
+      "name": "Maintenance Cap 4",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -1545,7 +1545,7 @@
     },
     {
       "id": "cosmetics-head-18-05",
-      "name": "MAINTENANCE CAP (Color 05 Light Green)",
+      "name": "Maintenance Cap 5",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -1556,7 +1556,7 @@
     },
     {
       "id": "cosmetics-head-18-06",
-      "name": "MAINTENANCE CAP (Color 06 Black)",
+      "name": "Maintenance Cap 6",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -1567,7 +1567,7 @@
     },
     {
       "id": "cosmetics-head-18-07",
-      "name": "MAINTENANCE CAP (Color 07 Light Blue)",
+      "name": "Maintenance Cap 7",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -1578,7 +1578,7 @@
     },
     {
       "id": "cosmetics-head-18-08",
-      "name": "MAINTENANCE CAP (Color 08 Crimson)",
+      "name": "Maintenance Cap 8",
       "cost": {
         "credits": 400,
         "yellow": 0,
@@ -1589,7 +1589,7 @@
     },
     {
       "id": "cosmetics-head-19-01",
-      "name": "MAINTENANCE CAP (BACKWARDS) (Color 01 White)",
+      "name": "Maintenance Cap (Backwards) 1",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -1600,7 +1600,7 @@
     },
     {
       "id": "cosmetics-head-19-02",
-      "name": "MAINTENANCE CAP (BACKWARDS) (Color 02 Black)",
+      "name": "Maintenance Cap (Backwards) 2",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -1611,7 +1611,7 @@
     },
     {
       "id": "cosmetics-head-19-03",
-      "name": "MAINTENANCE CAP (BACKWARDS) (Color 03 Silver)",
+      "name": "Maintenance Cap (Backwards) 3",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -1622,7 +1622,7 @@
     },
     {
       "id": "cosmetics-head-19-04",
-      "name": "MAINTENANCE CAP (BACKWARDS) (Color 04 Yellow)",
+      "name": "Maintenance Cap (Backwards) 4",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -1633,7 +1633,7 @@
     },
     {
       "id": "cosmetics-head-19-05",
-      "name": "MAINTENANCE CAP (BACKWARDS) (Color 05 Light Green)",
+      "name": "Maintenance Cap (Backwards) 5",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -1644,7 +1644,7 @@
     },
     {
       "id": "cosmetics-head-19-06",
-      "name": "MAINTENANCE CAP (BACKWARDS) (Color 06 Black)",
+      "name": "Maintenance Cap (Backwards) 6",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -1655,7 +1655,7 @@
     },
     {
       "id": "cosmetics-head-19-07",
-      "name": "MAINTENANCE CAP (BACKWARDS) (Color 07 Light Blue)",
+      "name": "Maintenance Cap (Backwards) 7",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -1666,7 +1666,7 @@
     },
     {
       "id": "cosmetics-head-19-08",
-      "name": "MAINTENANCE CAP (BACKWARDS) (Color 08 Crimson)",
+      "name": "Maintenance Cap (Backwards) 8",
       "cost": {
         "credits": 200,
         "yellow": 0,
@@ -1677,7 +1677,7 @@
     },
     {
       "id": "cosmetics-head-20-01",
-      "name": "Cowboy Hat (Color 01 White)",
+      "name": "Cowboy Hat 1",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -1688,7 +1688,7 @@
     },
     {
       "id": "cosmetics-head-20-02",
-      "name": "Cowboy Hat (Color 02 Black)",
+      "name": "Cowboy Hat 2",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -1699,7 +1699,7 @@
     },
     {
       "id": "cosmetics-head-20-03",
-      "name": "Cowboy Hat (Color 03 Silver)",
+      "name": "Cowboy Hat 3",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -1710,7 +1710,7 @@
     },
     {
       "id": "cosmetics-head-20-04",
-      "name": "Cowboy Hat (Color 04 Yellow)",
+      "name": "Cowboy Hat 4",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -1721,7 +1721,7 @@
     },
     {
       "id": "cosmetics-head-20-05",
-      "name": "Cowboy Hat (Color 05 Light Green)",
+      "name": "Cowboy Hat 5",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -1732,7 +1732,7 @@
     },
     {
       "id": "cosmetics-head-20-06",
-      "name": "Cowboy Hat (Color 06 Black)",
+      "name": "Cowboy Hat 6",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -1743,7 +1743,7 @@
     },
     {
       "id": "cosmetics-head-20-07",
-      "name": "Cowboy Hat (Color 07 Light Blue)",
+      "name": "Cowboy Hat 7",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "cosmetics-head-20-08",
-      "name": "Cowboy Hat (Color 08 Crimson)",
+      "name": "Cowboy Hat 8",
       "cost": {
         "credits": 4500,
         "yellow": 0,
@@ -1765,7 +1765,7 @@
     },
     {
       "id": "cosmetics-head-21-01",
-      "name": "Beret (Color 01 White)",
+      "name": "Beret 1",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -1776,7 +1776,7 @@
     },
     {
       "id": "cosmetics-head-21-02",
-      "name": "Beret (Color 02 Black)",
+      "name": "Beret 2",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -1787,7 +1787,7 @@
     },
     {
       "id": "cosmetics-head-21-03",
-      "name": "Beret (Color 03 Silver)",
+      "name": "Beret 3",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -1798,7 +1798,7 @@
     },
     {
       "id": "cosmetics-head-21-04",
-      "name": "Beret (Color 04 Yellow)",
+      "name": "Beret 4",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -1809,7 +1809,7 @@
     },
     {
       "id": "cosmetics-head-21-05",
-      "name": "Beret (Color 05 Light Green)",
+      "name": "Beret 5",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -1820,7 +1820,7 @@
     },
     {
       "id": "cosmetics-head-21-06",
-      "name": "Beret (Color 06 Black)",
+      "name": "Beret 6",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -1831,7 +1831,7 @@
     },
     {
       "id": "cosmetics-head-21-07",
-      "name": "Beret (Color 07 Light Blue)",
+      "name": "Beret 7",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -1842,7 +1842,7 @@
     },
     {
       "id": "cosmetics-head-21-08",
-      "name": "Beret (Color 08 Crimson)",
+      "name": "Beret 8",
       "cost": {
         "credits": 2000,
         "yellow": 0,
@@ -1853,95 +1853,95 @@
     },
     {
       "id": "cosmetics-head-22-01",
-      "name": "Headband (Color 01 White)",
+      "name": "Headband 1",
       "cost": {
         "credits": 5000,
         "yellow": 0,
         "red": 0,
         "blue": 0
       },
-      "unlock": "M4 (HARDEST)"
+      "unlock": "M3 (HARDEST)"
     },
     {
       "id": "cosmetics-head-22-02",
-      "name": "Headband (Color 02 Black)",
+      "name": "Headband 2",
       "cost": {
         "credits": 5000,
         "yellow": 0,
         "red": 0,
         "blue": 0
       },
-      "unlock": "M4 (HARDEST)"
+      "unlock": "M3 (HARDEST)"
     },
     {
       "id": "cosmetics-head-22-03",
-      "name": "Headband (Color 03 Silver)",
+      "name": "Headband 3",
       "cost": {
         "credits": 5000,
         "yellow": 0,
         "red": 0,
         "blue": 0
       },
-      "unlock": "M4 (HARDEST)"
+      "unlock": "M3 (HARDEST)"
     },
     {
       "id": "cosmetics-head-22-04",
-      "name": "Headband (Color 04 Yellow)",
+      "name": "Headband 4",
       "cost": {
         "credits": 5000,
         "yellow": 0,
         "red": 0,
         "blue": 0
       },
-      "unlock": "M4 (HARDEST)"
+      "unlock": "M3 (HARDEST)"
     },
     {
       "id": "cosmetics-head-22-05",
-      "name": "Headband (Color 05 Light Green)",
+      "name": "Headband 5",
       "cost": {
         "credits": 5000,
         "yellow": 0,
         "red": 0,
         "blue": 0
       },
-      "unlock": "M4 (HARDEST)"
+      "unlock": "M3 (HARDEST)"
     },
     {
       "id": "cosmetics-head-22-06",
-      "name": "Headband (Color 06 Black)",
+      "name": "Headband 6",
       "cost": {
         "credits": 5000,
         "yellow": 0,
         "red": 0,
         "blue": 0
       },
-      "unlock": "M4 (HARDEST)"
+      "unlock": "M3 (HARDEST)"
     },
     {
       "id": "cosmetics-head-22-07",
-      "name": "Headband (Color 07 Light Blue)",
+      "name": "Headband 7",
       "cost": {
         "credits": 5000,
         "yellow": 0,
         "red": 0,
         "blue": 0
       },
-      "unlock": "M4 (HARDEST)"
+      "unlock": "M3 (HARDEST)"
     },
     {
       "id": "cosmetics-head-22-08",
-      "name": "Headband (Color 08 Crimson)",
+      "name": "Headband 8",
       "cost": {
         "credits": 5000,
         "yellow": 0,
         "red": 0,
         "blue": 0
       },
-      "unlock": "M4 (HARDEST)"
+      "unlock": "M3 (HARDEST)"
     },
     {
       "id": "cosmetics-head-23-01",
-      "name": "NINJA HEADWEAR (Color 01 White)",
+      "name": "Ninja Headwear 1",
       "cost": {
         "credits": 7500,
         "yellow": 0,
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "cosmetics-head-23-02",
-      "name": "NINJA HEADWEAR (Color 02 Black)",
+      "name": "Ninja Headwear 2",
       "cost": {
         "credits": 7500,
         "yellow": 0,
@@ -1963,7 +1963,7 @@
     },
     {
       "id": "cosmetics-head-23-03",
-      "name": "NINJA HEADWEAR (Color 03 Silver)",
+      "name": "Ninja Headwear 3",
       "cost": {
         "credits": 7500,
         "yellow": 0,
@@ -1974,7 +1974,7 @@
     },
     {
       "id": "cosmetics-head-23-04",
-      "name": "NINJA HEADWEAR (Color 04 Yellow)",
+      "name": "Ninja Headwear 4",
       "cost": {
         "credits": 7500,
         "yellow": 0,
@@ -1985,7 +1985,7 @@
     },
     {
       "id": "cosmetics-head-23-05",
-      "name": "NINJA HEADWEAR (Color 05 Light Green)",
+      "name": "Ninja Headwear 5",
       "cost": {
         "credits": 7500,
         "yellow": 0,
@@ -1996,7 +1996,7 @@
     },
     {
       "id": "cosmetics-head-23-06",
-      "name": "NINJA HEADWEAR (Color 06 Black)",
+      "name": "Ninja Headwear 6",
       "cost": {
         "credits": 7500,
         "yellow": 0,
@@ -2007,7 +2007,7 @@
     },
     {
       "id": "cosmetics-head-23-07",
-      "name": "NINJA HEADWEAR (Color 07 Light Blue)",
+      "name": "Ninja Headwear 7",
       "cost": {
         "credits": 7500,
         "yellow": 0,
@@ -2018,7 +2018,7 @@
     },
     {
       "id": "cosmetics-head-23-08",
-      "name": "NINJA HEADWEAR (Color 08 Crimson)",
+      "name": "Ninja Headwear 8",
       "cost": {
         "credits": 7500,
         "yellow": 0,
@@ -2029,7 +2029,7 @@
     },
     {
       "id": "cosmetics-head-24-01",
-      "name": "Cat Ears (Color 01 White)",
+      "name": "Cat Ears 1",
       "cost": {
         "credits": 5500,
         "yellow": 0,
@@ -2040,7 +2040,7 @@
     },
     {
       "id": "cosmetics-head-24-02",
-      "name": "Cat Ears (Color 02 Black)",
+      "name": "Cat Ears 2",
       "cost": {
         "credits": 5500,
         "yellow": 0,
@@ -2051,7 +2051,7 @@
     },
     {
       "id": "cosmetics-head-24-03",
-      "name": "Cat Ears (Color 03 Silver)",
+      "name": "Cat Ears 3",
       "cost": {
         "credits": 5500,
         "yellow": 0,
@@ -2062,7 +2062,7 @@
     },
     {
       "id": "cosmetics-head-24-04",
-      "name": "Cat Ears (Color 04 Yellow)",
+      "name": "Cat Ears 4",
       "cost": {
         "credits": 5500,
         "yellow": 0,
@@ -2073,7 +2073,7 @@
     },
     {
       "id": "cosmetics-head-24-05",
-      "name": "Cat Ears (Color 05 Light Green)",
+      "name": "Cat Ears 5",
       "cost": {
         "credits": 5500,
         "yellow": 0,
@@ -2084,7 +2084,7 @@
     },
     {
       "id": "cosmetics-head-24-06",
-      "name": "Cat Ears (Color 06 Black)",
+      "name": "Cat Ears 6",
       "cost": {
         "credits": 5500,
         "yellow": 0,
@@ -2095,7 +2095,7 @@
     },
     {
       "id": "cosmetics-head-24-07",
-      "name": "Cat Ears (Color 07 Light Blue)",
+      "name": "Cat Ears 7",
       "cost": {
         "credits": 5500,
         "yellow": 0,
@@ -2106,7 +2106,7 @@
     },
     {
       "id": "cosmetics-head-24-08",
-      "name": "Cat Ears (Color 08 Crimson)",
+      "name": "Cat Ears 8",
       "cost": {
         "credits": 5500,
         "yellow": 0,
@@ -2117,7 +2117,7 @@
     },
     {
       "id": "cosmetics-head-25-01",
-      "name": "ANTHEAD (Color 01 White)",
+      "name": "Anthead 1",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -2128,7 +2128,7 @@
     },
     {
       "id": "cosmetics-head-25-02",
-      "name": "ANTHEAD (Color 02 Black)",
+      "name": "Anthead 2",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -2139,7 +2139,7 @@
     },
     {
       "id": "cosmetics-head-25-03",
-      "name": "ANTHEAD (Color 03 Silver)",
+      "name": "Anthead 3",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "cosmetics-head-25-04",
-      "name": "ANTHEAD (Color 04 Yellow)",
+      "name": "Anthead 4",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -2161,7 +2161,7 @@
     },
     {
       "id": "cosmetics-head-25-05",
-      "name": "ANTHEAD (Color 05 Light Green)",
+      "name": "Anthead 5",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -2172,7 +2172,7 @@
     },
     {
       "id": "cosmetics-head-25-06",
-      "name": "ANTHEAD (Color 06 Black)",
+      "name": "Anthead 6",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -2183,7 +2183,7 @@
     },
     {
       "id": "cosmetics-head-25-07",
-      "name": "ANTHEAD (Color 07 Light Blue)",
+      "name": "Anthead 7",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -2194,7 +2194,7 @@
     },
     {
       "id": "cosmetics-head-25-08",
-      "name": "ANTHEAD (Color 08 Crimson)",
+      "name": "Anthead 8",
       "cost": {
         "credits": 9500,
         "yellow": 0,
@@ -2205,7 +2205,7 @@
     },
     {
       "id": "cosmetics-head-26-01",
-      "name": "Antennae (Color 01 White)",
+      "name": "Antennae 1",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -2216,7 +2216,7 @@
     },
     {
       "id": "cosmetics-head-26-02",
-      "name": "Antennae (Color 02 Black)",
+      "name": "Antennae 2",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -2227,7 +2227,7 @@
     },
     {
       "id": "cosmetics-head-26-03",
-      "name": "Antennae (Color 03 Silver)",
+      "name": "Antennae 3",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -2238,7 +2238,7 @@
     },
     {
       "id": "cosmetics-head-26-04",
-      "name": "Antennae (Color 04 Yellow)",
+      "name": "Antennae 4",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -2249,7 +2249,7 @@
     },
     {
       "id": "cosmetics-head-26-05",
-      "name": "Antennae (Color 05 Light Green)",
+      "name": "Antennae 5",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -2260,7 +2260,7 @@
     },
     {
       "id": "cosmetics-head-26-06",
-      "name": "Antennae (Color 06 Black)",
+      "name": "Antennae 6",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -2271,7 +2271,7 @@
     },
     {
       "id": "cosmetics-head-26-07",
-      "name": "Antennae (Color 07 Light Blue)",
+      "name": "Antennae 7",
       "cost": {
         "credits": 6500,
         "yellow": 0,
@@ -2282,7 +2282,7 @@
     },
     {
       "id": "cosmetics-head-26-08",
-      "name": "Antennae (Color 08 Crimson)",
+      "name": "Antennae 8",
       "cost": {
         "credits": 6500,
         "yellow": 0,
