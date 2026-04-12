@@ -5,35 +5,35 @@
   "items": [
     {
       "id": "energythrower-01",
-      "name": "BL-Catalaunum",
+      "name": "BL-Catalaunica",
       "cost": { "credits": 2500, "yellow": 0, "red": 25, "blue": 0 },
       "rank": "E",
       "unlock": "Collect 1 M.I.A. Drone"
     },
     {
       "id": "energythrower-02",
-      "name": "BL-Catalaunum Modified",
+      "name": "BL-Catalaunica Rev",
       "cost": { "credits": 8000, "yellow": 0, "red": 100, "blue": 0 },
       "rank": "D",
       "unlock": "Collect 15 M.I.A. Drones"
     },
     {
       "id": "energythrower-03",
-      "name": "BL-Catalaunum Oracle",
+      "name": "BL-Catalaunica Oracle",
       "cost": { "credits": 48000, "yellow": 0, "red": 1200, "blue": 0 },
       "rank": "C",
       "unlock": "M44 (NORMAL)"
     },
     {
       "id": "energythrower-04",
-      "name": "BL-Catalaunum DA",
+      "name": "BL-Catalaunica DA",
       "cost": { "credits": 220000, "yellow": 0, "red": 3600, "blue": 0 },
       "rank": "B",
       "unlock": "M40 (HARD)"
     },
     {
       "id": "energythrower-05",
-      "name": "BL-Catalaunum Triumph",
+      "name": "BL-Catalaunica Triumph",
       "cost": { "credits": 560000, "yellow": 0, "red": 6000, "blue": 0 },
       "rank": "A",
       "unlock": "M31 (HARDEST)"
@@ -89,7 +89,7 @@
     },
     {
       "id": "energythrower-13",
-      "name": "BL-Gaugamela Modified",
+      "name": "BL-Gaugamela Rev",
       "cost": { "credits": 8000, "yellow": 0, "red": 0, "blue": 100 },
       "rank": "D",
       "unlock": "Collect 19 M.I.A. Drones"
@@ -110,14 +110,14 @@
     },
     {
       "id": "energythrower-16",
-      "name": "BL-Poeni",
+      "name": "BL-Phoenicia",
       "cost": { "credits": 220000, "yellow": 1800, "red": 0, "blue": 1800 },
       "rank": "B",
       "unlock": "M39 (HARD)"
     },
     {
       "id": "energythrower-17",
-      "name": "BL-Poeni Triumph",
+      "name": "BL-Phoenicia Triumph",
       "cost": { "credits": 560000, "yellow": 3000, "red": 0, "blue": 3000 },
       "rank": "A",
       "unlock": "M36 (HARDEST)"
