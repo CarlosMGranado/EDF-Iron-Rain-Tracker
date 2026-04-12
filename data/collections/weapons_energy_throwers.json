@@ -48,7 +48,7 @@
     {
       "id": "energythrower-07",
       "name": "BL-Hastings Oracle",
-      "cost": { "credits": 590000, "yellow": 0, "red": 0, "blue": 6400 },
+      "cost": { "credits": 580000, "yellow": 0, "red": 0, "blue": 6400 },
       "rank": "A",
       "unlock": "M41 (HARDEST)"
     },
